@@ -1,0 +1,9 @@
+[MAP-INFO]
+
+map-location  = city
+
+initial-point = 1 102 79
+
+fixed-dayornight-mode = 1
+
+[END-MAP-INFO]

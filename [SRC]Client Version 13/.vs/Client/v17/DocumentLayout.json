@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91B364CE-2BE3-4681-B1E5-4A0908AA27F8}|Client.vcxproj|C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\classes\\XSocket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{91B364CE-2BE3-4681-B1E5-4A0908AA27F8}|Client.vcxproj|solutionrelative:classes\\XSocket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "XSocket.cpp",
+              "DocumentMoniker": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\classes\\XSocket.cpp",
+              "RelativeDocumentMoniker": "classes\\XSocket.cpp",
+              "ToolTip": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\classes\\XSocket.cpp",
+              "RelativeToolTip": "classes\\XSocket.cpp",
+              "ViewState": "AQIAALgCAAAAAAAAAAAAAGcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-04T15:46:17.764Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

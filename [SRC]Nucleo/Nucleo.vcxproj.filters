@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Header\Account.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Client.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Game.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GlobalDef.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\MainLog.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Map.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\MapServer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Msg.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\NetMessages.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\StrTok.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\XSocket.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Wmain.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="General\GlobalDef.h" />
+    <ClInclude Include="Source\cApplicationStartup.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{b5d93fe6-103a-46fa-98f5-329810e86796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{952b9e49-688b-44a9-9f7c-3b4115719f84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{df310291-44cb-4b09-a394-629919255193}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Account.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Client.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainLog.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MapServer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Msg.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StrTok.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\XSocket.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Wmain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\cApplicationStartup.cpp" />
+  </ItemGroup>
+</Project>

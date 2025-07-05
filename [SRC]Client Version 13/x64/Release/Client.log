@@ -1,0 +1,4 @@
+﻿  Wmain.cpp
+classes\Wmain.cpp(160): warning C4313: 'sprintf'  : '%d' in format string conflicts with argument 1 of type 'HINSTANCE'
+classes\Wmain.cpp(211): error C2664: 'MMRESULT timeSetEvent(UINT,UINT,LPTIMECALLBACK,DWORD_PTR,UINT)' : cannot convert argument 3 from 'void (__cdecl *)(UINT,UINT,DWORD,DWORD,DWORD)' to 'LPTIMECALLBACK'
+          None of the functions with this name in scope match the target type

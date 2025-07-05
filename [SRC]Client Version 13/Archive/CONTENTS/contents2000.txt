@@ -1,0 +1,77 @@
+<
+- SHORTCUTS 
+<
+Control + C ----> "Criticals x gold"
+Control + E ----> "Enchanting"
+Control + G ----> "Ek list"
+Control + Q ----> "Quest Panel"
+Control + P ----> "Control Panel"
+Control + B ----> "Bar Mode"
+Control + Z ----> "Transparent interfase"
+Control + N ----> "Fps & Timer"
+F12/Control + x-> "Sistem Menu"
+<
+- EVENTS SCHEDULER
+<
+-[Lunes]
+Quest x2 - 01:00
+Summon Event - 10:00
+Deathmatch - 16:00
+Capture the flag (CTF) - 19:00
+Rush - 20:00
+Deathmatch - 21:00
+WorldWar 1 (WW1) - 22:00
+<
+-[Martes]
+Quest x2 - 03:00
+Summon Event - 12:00
+Deathmatch - 16:00
+Quest x2 - 18:00
+Deathmatch - 19:00
+Tower Defense (TD) - 21:00
+<
+-[Miercoles]
+Quest x2 - 02:00
+Summon Event - 14:00
+Quest x2 - 15:00
+Capture the flag (CTF) - 17:00
+Rush - 18:00
+Crusade - 21:00
+Deathmatch - 23:00
+<
+-[Jueves]
+Quest x2 - 00:30
+Summon Event - 16:00
+Deathmatch - 17:00
+Tower Defense (TD) - 18:00
+Deathmatch - 19:00
+City Vs City (CVC) - 20:00
+<
+-[Viernes]
+Quest x2 - 03:00
+Summon Event - 12:00
+Quest x2 - 14:00
+Capture the flag (CTF) - 16:00
+Rush - 18:00
+Crusade - 20:00
+Deathmatch - 22:00
+Abaddon (Apertura de mapa) - 23:00
+<
+-[Sabado]
+Quest x2 - 02:30
+Summon Event - 14:00
+Rush - 16:00
+Crusade - 20:00
+Deathmatch - 18:00
+WorldWar 2 (WW2) - 22:00
+Quest x2 - 23:00
+<
+-[Domingo]
+Quest x2 - 01:30
+Summon Event - 12:00
+Capture the flag (CTF) - 14:00
+Hell of Death (HoD) - 16:00
+Deathmatch - 18:00
+Quest x2 - 19:00
+Crusade - 20:00
+City Vs City (CVC) - 22:30

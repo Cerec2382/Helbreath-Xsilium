@@ -1,0 +1,54 @@
+﻿Build started 14/07/2020 02:06:45 a.m..
+     1>Project "C:\[SRC]Client Version 9\CxImage\CxImage.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Debug\CxImage.lastbuildstate".
+       InitializeBuildStatus:
+         Touching ".\Debug\CxImage.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\CL.exe /c /I..\jpeg /I..\png /I..\zlib /I..\mng /I..\tiff /I..\j2k /I..\jasper\include /ZI /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D JAS_WIN_MSVC_BUILD /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt tif_xfile.cpp ximabmp.cpp ximadsp.cpp ximaenc.cpp ximaexif.cpp xImage.cpp ximagif.cpp ximahist.cpp ximaico.cpp ximainfo.cpp ximaint.cpp ximaj2k.cpp ximajas.cpp ximajbg.cpp ximajpg.cpp ximalpha.cpp ximalyr.cpp ximamng.cpp ximapal.cpp ximapcx.cpp ximapng.cpp ximasel.cpp ximatga.cpp ximath.cpp ximatif.cpp ximatran.cpp ximawbmp.cpp ximawmf.cpp ximawnd.cpp xmemfile.cpp
+         xmemfile.cpp
+         ximawnd.cpp
+         ximawmf.cpp
+         ximawbmp.cpp
+         ximatran.cpp
+     1>c:\[src]client version 9\cximage\ximatran.cpp(185): error C2666: 'div' : 2 overloads have similar conversions
+                 c:\program files (x86)\microsoft visual studio 9.0\vc\include\stdlib.h(480): could be 'ldiv_t div(long,long)'
+                 c:\program files (x86)\microsoft visual studio 9.0\vc\include\stdlib.h(446): or       'div_t div(int,int)'
+                 while trying to match the argument list '(long, int)'
+     1>c:\[src]client version 9\cximage\ximatran.cpp(303): error C2666: 'div' : 2 overloads have similar conversions
+                 c:\program files (x86)\microsoft visual studio 9.0\vc\include\stdlib.h(480): could be 'ldiv_t div(long,long)'
+                 c:\program files (x86)\microsoft visual studio 9.0\vc\include\stdlib.h(446): or       'div_t div(int,int)'
+                 while trying to match the argument list '(long, int)'
+         ximatif.cpp
+         ximath.cpp
+         ximatga.cpp
+         ximasel.cpp
+         ximapng.cpp
+         ximapcx.cpp
+         ximapal.cpp
+         ximamng.cpp
+         ximalyr.cpp
+         ximalpha.cpp
+         ximajpg.cpp
+         ximajbg.cpp
+         ximajas.cpp
+         ximaj2k.cpp
+         ximaint.cpp
+         Generating Code...
+         Compiling...
+         ximainfo.cpp
+         ximaico.cpp
+         ximahist.cpp
+         ximagif.cpp
+         xImage.cpp
+         ximaexif.cpp
+         ximaenc.cpp
+         ximadsp.cpp
+         ximabmp.cpp
+         tif_xfile.cpp
+         Generating Code...
+     1>Done Building Project "C:\[SRC]Client Version 9\CxImage\CxImage.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:18.24

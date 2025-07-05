@@ -1,0 +1,41 @@
+﻿Build started 05/07/2025 11:04:00 a. m..
+     1>Project "C:\Users\irwin\Documents\CursedV1 (Arg Version)\[SRC]Client Version 13\Client.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Archive/Helbreath Cursed.exe" /INCREMENTAL:NO /NOLOGO search.lib ACHEV.LIB wsock32.lib DINPUT.LIB DSOUND.LIB DXGUID.LIB ddraw.lib IMM32.LIB winmm.lib Cint.lib cximage/release/cximage.lib jpeg/release/Jpeg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:MSVCRTD /NODEFAULTLIB:LIBC /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Archive\Helbreath Cursed.pdb" /SUBSYSTEM:WINDOWS,"5.01" /LTCG /TLBID:1 /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Archive\Helbreath Cursed.lib" /MACHINE:X86 /SAFESEH:NO /FORCE:UNRESOLVED .\Debug\resource.res
+         .\Release/BuildItem.obj
+         .\Release/CharInfo.obj
+         .\Release/Curse.obj
+         .\Release/Effect.obj
+         .\Release/Event.obj
+         .\Release/Game.obj
+         .\Release/GameMonitor.obj
+         .\Release/Helbreath.obj
+         .\Release/Item.obj
+         .\Release/ItemName.obj
+         .\Release/Magic.obj
+         .\Release/MapData.obj
+         .\Release/Misc.obj
+         .\Release/MouseInterface.obj
+         .\Release/Msg.obj
+         .\Release/Mydib.obj
+         .\Release/Skill.obj
+         .\Release/SoundBuffer.obj
+         .\Release/Sprite.obj
+         .\Release/StrTok.obj
+         .\Release/Tile.obj
+         .\Release/TileSpr.obj
+         .\Release/Wmain.obj
+         .\Release/XSocket.obj
+         .\Release/XSocketUDP.obj
+         .\Release/ClientUDP.obj
+         .\Release/YWSound.obj
+         .\Release/DXC_ddraw.obj
+         .\Release/DXC_dinput.obj
+         .\Release/DXC_dsound.obj
+         .\Release/Resolution.obj
+     1>LINK : fatal error LNK1104: cannot open file 'Archive/Helbreath Cursed.exe'
+     1>Done Building Project "C:\Users\irwin\Documents\CursedV1 (Arg Version)\[SRC]Client Version 13\Client.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.08

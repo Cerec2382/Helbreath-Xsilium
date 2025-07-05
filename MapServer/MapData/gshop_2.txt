@@ -1,0 +1,54 @@
+[MAP-INFO]
+
+map-location  = elvine
+initial-point = 1  51 41
+initial-point = 2  61 44
+initial-point = 3  46 41
+initial-point = 4  52 44
+initial-point = 5  61 45
+initial-point = 6  47 41
+initial-point = 7  50 44
+initial-point = 8  61 43
+initial-point = 9  47 42
+
+//-Teleportation-Set----SX-----SY-----DestMapName---------DX-----DY----Dir---;
+teleport-loc       =    49     36     elvine              228    153   4
+teleport-loc       =    50     36     elvine              228    153   4
+teleport-loc       =    49     37     elvine              228    153   4
+teleport-loc       =    50     37     elvine              228    153   4
+teleport-loc       =    51     37     elvine              228    153   4
+teleport-loc       =    58     34     EBarracks		   82	 103   4
+teleport-loc       =    59     34     EBarracks		   81 	 103   4
+
+//-WayPoint-Set---------Num-----X-----Y----;
+waypoint          =     1      63    40
+waypoint          =     2      63    40
+waypoint          =     3      63    40
+waypoint          =     4      63    40
+waypoint          =     5      63    40
+waypoint          =     6      63    40
+waypoint          =     7      63    40
+waypoint          =     8      63    40
+waypoint          =     9      63    40
+waypoint          =     10     63    40
+waypoint          =     11      65    41
+waypoint          =     12      65    41
+waypoint          =     13      65    41
+waypoint          =     14      65    41
+waypoint          =     15      65    41
+waypoint          =     16      65    41
+waypoint          =     17      65    41
+waypoint          =     18      65    41
+waypoint          =     19      65    41
+waypoint          =     20     	65    41
+
+//-NPC-setting--------Name---------------MoveType----WaypointIndex(10)-------NamePrefix-------;
+npc               =   ShopKeeper-W       2           1 2 3 4 5 6 7 8 9 10         1  
+npc               =   Kennedy            1           11 12 13 14 15 16 17 18 19 20         1 
+
+//-No-Attack-Area----------Num-----RECT-------------
+no-attack-area           = 1       -10 -10 -10 -10
+
+fixed-dayornight-mode = 1
+
+[END-MAP-INFO]

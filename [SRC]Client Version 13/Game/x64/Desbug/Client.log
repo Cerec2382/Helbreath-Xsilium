@@ -1,0 +1,5 @@
+﻿  Wmain.cpp
+D:\Helbreath Argentina v13 2024\[SRC]Client Version 13\classes\Wmain.cpp(160,37): warning C4311: 'conversión de tipo': truncamiento de puntero de 'HINSTANCE' a 'int'
+D:\Helbreath Argentina v13 2024\[SRC]Client Version 13\classes\Wmain.cpp(212,9): error C2664: 'MMRESULT timeSetEvent(UINT,UINT,LPTIMECALLBACK,DWORD_PTR,UINT)': el argumento 3 no puede convertirse de 'void (__cdecl *)(UINT,UINT,DWORD,DWORD,DWORD)' a 'LPTIMECALLBACK'
+D:\Helbreath Argentina v13 2024\[SRC]Client Version 13\classes\Wmain.cpp(294,9): warning C4311: 'conversión de tipo': truncamiento de puntero de 'HINSTANCE' a 'UINT'
+D:\Helbreath Argentina v13 2024\[SRC]Client Version 13\classes\Wmain.cpp(308,26): warning C4312: 'conversión de tipo': conversión de 'UINT' a 'HINSTANCE' de mayor tamaño

@@ -1,0 +1,10 @@
+[Account Info]
+account-name     = GM
+account-password = Polopolo2
+account-Email    = gm@srvclick.com
+account-Quiz = gm
+account-Answer = gm2
+account-change-password = 2025 7 4
+
+[CHARACTERS]
+account-character-SEB  = GameMaster

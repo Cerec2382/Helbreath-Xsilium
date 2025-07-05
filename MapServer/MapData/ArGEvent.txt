@@ -1,0 +1,61 @@
+[MAP-INFO]
+
+map-location  = ArGEvent
+initial-point = 1 30 29 //sotano
+initial-point = 2 31 28 //sotano
+
+initial-point = 3 30 58 //shopchico
+initial-point = 4 31 57 //shopchico
+
+initial-point = 5 61 33 //arena azul
+initial-point = 6 61 34 //arena azul
+
+initial-point = 7 57 61 //bazar
+initial-point = 8 57 62 //bazar
+
+initial-point = 9 91 33 //argmagic
+initial-point = 10 94 33 //argmagic
+
+type          = 1
+
+//-Teleportation-Set----SX-----SY-----DestMapName---------DX-----DY----Dir---;
+//shop a arena
+teleport-loc       =    24     56     ArGEvent		  54     30    4  
+teleport-loc       =    24     57     ArGEvent		  55     30    4
+
+//shop a sotano
+teleport-loc       =    36     55     ArGEvent		  36     25    7  
+teleport-loc       =    37     55     ArGEvent		  36     26    7
+
+//sotano a shop
+teleport-loc       =    37     25     ArGEvent		  36     54    8  
+teleport-loc       =    37     26     ArGEvent		  37     54    8
+
+//arena a shop 
+teleport-loc       =    54     29     ArGEvent		  25     56    3 
+teleport-loc       =    54     28     ArGEvent		  25     57    3 
+
+//arena a argmagic
+teleport-loc       =    58     27     ArGEvent		  96	 36    8
+teleport-loc       =    59     27     ArGEvent		  96	 35    8
+teleport-loc       =    60     27     ArGEvent		  97	 35    8
+
+//argmagic a arena
+teleport-loc       =    97     37     ArGEvent		  58	 28    4 
+teleport-loc       =    98     37     ArGEvent		  59     28    4
+teleport-loc       =    98     36     ArGEvent		  60     28    4
+
+//arena a MapaLoco
+teleport-loc       =    65     27     ArGEvent		  53     60    4 
+teleport-loc       =    65     26     ArGEvent		  54     59    4 
+
+//MapaLoco a Arena
+teleport-loc       =    53     59     ArGEvent		  64     28    6 
+teleport-loc       =    53     58     ArGEvent		  65     28    6 
+
+
+maximum-object		= 300
+
+fixed-dayornight-mode = 1
+
+[END-MAP-INFO]

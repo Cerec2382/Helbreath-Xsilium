@@ -1,0 +1,60 @@
+[MAP-INFO]
+
+map-location = procella
+initial-point = 1  133 23
+initial-point = 2  132 23
+initial-point = 3  131 23
+initial-point = 4  134 23
+initial-point = 5  133 24
+initial-point = 6  133 25
+initial-point = 7  133 26
+CitizenLimit		= 1
+
+//-WayPoint-Set---------Num-----X-----Y----;
+waypoint          =     0       49    58
+waypoint          =     1       117   35
+waypoint          =     2       241   45
+waypoint          =     3       75    117
+waypoint          =     4       185   80
+waypoint          =     5       265   178
+waypoint          =     6       163   159
+waypoint          =     7       43    250
+waypoint          =     8       149   249
+waypoint          =     9       239   243
+
+
+//------------------------Num-Type-waypoints--------------Mob-MobNum
+spot-mob-generator	= 1   1    53 35 82 46            93  15 //Ice-Worm	
+spot-mob-generator	= 2   1    73 148 84 161          94  15 //Fire-Worm	
+spot-mob-generator	= 3   1    41 63 67 90            95  15 //Blue-Demon	
+spot-mob-generator	= 4   1    46 105 57 147          96  15 //Red-Demon
+spot-mob-generator	= 5   1    44 178 74 212          122  10 //Goblin //Wood-Golem	
+spot-mob-generator	= 6   1    132 167 154 215        98  30 //Ice-Lizard
+spot-mob-generator	= 7   1    156 95 174 125         99  20 //Butcher
+spot-mob-generator	= 8   1    191 156 202 185	  101	20 //Fire-Snoob
+spot-mob-generator	= 9   1    128 91 147 101         124	10 //Danny //Satan
+spot-mob-generator	= 10  1    86 81 104 114          103	10 //Giant-Spider
+spot-mob-generator	= 11  1    175 57 202 79          104	20 //Diablo
+spot-mob-generator	= 12  1    196 103 217 125        105	10 //Phamton
+spot-mob-generator	= 13  1    94 136 117 169         106	20 //Yeti
+spot-mob-generator	= 14  1    47 32 212 209          100	40 //Snoob
+spot-mob-generator	= 15  1    102 57 124 79          107	5 //GrandEttin
+spot-mob-generator	= 16  1    144 136 165 148        55	10 //Gagoyle
+spot-mob-generator	= 17  1    141 53 163 75          74	15 //Giant-Crayfish
+spot-mob-generator	= 18  1    100 191 112 212         31	20 //Demons
+spot-mob-generator	= 19  1    199 195 216 216        30	10 //Liche
+spot-mob-generator	= 20  1    196 27 225 54          53	20 //Dark-Elf
+spot-mob-generator	= 21  1    126 21 144 26          26	1 //Guard-Neutral
+spot-mob-generator	= 22  1    102 57 124 79          107	5 //GrandEttin
+spot-mob-generator	= 23  1    203 134 218 151        107	6 //GrandEttin
+spot-mob-generator	= 24  1    203 134 218 151         107	6 //GrandEttin
+spot-mob-generator	= 25  1    126 21 144 26          127	1 //Guard-Neutral
+spot-mob-generator	= 26  1    126 21 144 26          130	1 //Guard-Neutral
+spot-mob-generator	= 27  1    126 21 144 26          133	1 //Guard-Neutral
+spot-mob-generator	= 28  1    44 178 74 212          123  10 //GMGoblin	
+
+//fixed-dayornight-mode = 1
+
+maximum-object		= 700
+
+[END-MAP-INFO]
