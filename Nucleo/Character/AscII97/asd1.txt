@@ -1,6 +1,6 @@
 [FILE-DATE]
 
-file-saved-date: 2025 7 4 15 14
+file-saved-date: 2025 7 5 16 29
 
 [NAME-ACCOUNT]
 
@@ -47,7 +47,7 @@ character-CHARISMA = 195
 
 character-HP       = 1452
 character-MP       = 1252
-character-SP       = 510
+character-SP       = 554
 sex-status       = 2
 skin-status      = 1
 hairstyle-status = 4
@@ -66,7 +66,7 @@ timeleft-force-recall  = 0
 timeleft-firm-staminar = 0
 dead-penalty-time = 0
 penalty-block-date = 0 0 0
-special-ability-time = 909
+special-ability-time = 894
 
 
 [POINTS]

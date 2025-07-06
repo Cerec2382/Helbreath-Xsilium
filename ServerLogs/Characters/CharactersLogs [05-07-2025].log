@@ -53,3 +53,25 @@
 11:10:22	<1> Loggin: GameMaster - IP: 192.168.8.5 - In Map: middleland - Coord X: 436 / Coord Y: 227
 11:10:52	Admin Order: Summon(WereWolf)-(50)
 11:34:56	<1> Disconnect: GameMaster - IP: 192.168.8.5
+15:21:22	<1> Loggin: Test - IP: 192.168.8.5 - In Map: default - Coord X: 134 / Coord Y: 40
+15:28:21	<2> Loggin: GameMaster - IP: 192.168.8.5 - In Map: middleland - Coord X: 449 / Coord Y: 220
+15:55:35	Admin Order: Summon(HellAbaddon)-(1)
+15:56:13	<2> Force disconnect account: CharName(GameMaster) AccntName(GM) Count(5)
+15:56:13	<2> Disconnect: GameMaster - IP: 192.168.8.5
+15:56:14	<2> Loggin: GameMaster - IP: 192.168.8.5 - In Map: gshop_2 - Coord X: 53 / Coord Y: 40
+15:56:29	Admin Order: Summon(HellAbaddon)-(1)
+16:05:08	<1> Disconnect: Test - IP: 192.168.8.5
+16:07:07	Admin Order: Summon(Test)-(1)
+16:09:32	Admin Order: Summon(te)-(1)
+16:17:44	<2> Disconnect: GameMaster - IP: 192.168.8.5
+16:17:55	<1> Loggin: GameMaster - IP: 192.168.8.5 - In Map: middleland - Coord X: 395 / Coord Y: 270
+16:23:36	Admin Order: Summon(Demon)-(1)
+16:23:47	Admin Order: Summon(Demon)-(1)
+16:23:54	Admin Order: Summon(Abaddon)-(1)
+16:26:35	Admin Order: Summon(Rabbit)-(1)
+16:27:10	<1> Disconnect: GameMaster - IP: 192.168.8.5
+16:29:34	<1> Loggin: asd1 - IP: 192.168.8.5 - In Map: Extreme - Coord X: 75 / Coord Y: 73
+16:29:48	<1> Disconnect: asd1 - IP: 192.168.8.5
+16:30:44	<1> Loggin: GameMaster - IP: 192.168.8.5 - In Map: Extreme - Coord X: 75 / Coord Y: 73
+16:30:52	Admin Order: Summon(Abaddon)-(1)
+16:32:48	<1> Disconnect: GameMaster - IP: 192.168.8.5

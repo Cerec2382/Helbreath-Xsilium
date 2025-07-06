@@ -1,6 +1,42 @@
-﻿Build started 05/07/2025 11:04:00 a. m..
-     1>Project "C:\Users\irwin\Documents\CursedV1 (Arg Version)\[SRC]Client Version 13\Client.vcxproj" on node 2 (Build target(s)).
-     1>Link:
+﻿Build started 06/07/2025 09:25:21 a. m..
+     1>Project "C:\Users\irwin\Documents\CursedV1 (Arg Version)\[SRC]Client Version 13\Client.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Ob1 /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt classes\BuildItem.cpp classes\CharInfo.cpp classes\Curse.cpp classes\Effect.cpp classes\Event.cpp classes\Game.cpp classes\GameMonitor.cpp classes\Helbreath.cpp classes\Item.cpp classes\ItemName.cpp classes\Magic.cpp classes\MapData.cpp classes\Misc.cpp classes\MouseInterface.cpp classes\Msg.cpp classes\Mydib.cpp classes\Skill.cpp classes\SoundBuffer.cpp classes\Sprite.cpp classes\StrTok.cpp classes\Tile.cpp classes\TileSpr.cpp classes\Wmain.cpp classes\XSocket.cpp classes\XSocketUDP.cpp ClientUDP.cpp Library\YWSound.cpp Motor\DXC_ddraw.cpp Motor\DXC_dinput.cpp Motor\DXC_dsound.cpp Resolution\Resolution.cpp
+         BuildItem.cpp
+         CharInfo.cpp
+         Curse.cpp
+         Effect.cpp
+         Event.cpp
+         Game.cpp
+         GameMonitor.cpp
+         Helbreath.cpp
+         Item.cpp
+         ItemName.cpp
+         Magic.cpp
+         MapData.cpp
+         Misc.cpp
+         MouseInterface.cpp
+         Msg.cpp
+         Mydib.cpp
+         Skill.cpp
+         SoundBuffer.cpp
+         Sprite.cpp
+         StrTok.cpp
+         Compiling...
+         Tile.cpp
+         TileSpr.cpp
+         Wmain.cpp
+         XSocket.cpp
+         XSocketUDP.cpp
+         ClientUDP.cpp
+         YWSound.cpp
+         DXC_ddraw.cpp
+         DXC_dinput.cpp
+         DXC_dsound.cpp
+         Resolution.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /l"0x0809" /nologo /fo".\Debug\resource.res" Ressources\resource.rc 
+       Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Archive/Helbreath Cursed.exe" /INCREMENTAL:NO /NOLOGO search.lib ACHEV.LIB wsock32.lib DINPUT.LIB DSOUND.LIB DXGUID.LIB ddraw.lib IMM32.LIB winmm.lib Cint.lib cximage/release/cximage.lib jpeg/release/Jpeg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:MSVCRTD /NODEFAULTLIB:LIBC /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Archive\Helbreath Cursed.pdb" /SUBSYSTEM:WINDOWS,"5.01" /LTCG /TLBID:1 /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Archive\Helbreath Cursed.lib" /MACHINE:X86 /SAFESEH:NO /FORCE:UNRESOLVED .\Debug\resource.res
          .\Release/BuildItem.obj
          .\Release/CharInfo.obj
@@ -33,9 +69,13 @@
          .\Release/DXC_dinput.obj
          .\Release/DXC_dsound.obj
          .\Release/Resolution.obj
-     1>LINK : fatal error LNK1104: cannot open file 'Archive/Helbreath Cursed.exe'
-     1>Done Building Project "C:\Users\irwin\Documents\CursedV1 (Arg Version)\[SRC]Client Version 13\Client.vcxproj" (Build target(s)) -- FAILED.
+     1>Jpeg.lib(Jdapimin.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+            Creating library .\Archive\Helbreath Cursed.lib and object .\Archive\Helbreath Cursed.exp
+         Generating code
+         Finished generating code
+         Client.vcxproj -> C:\Users\irwin\Documents\CursedV1 (Arg Version)\[SRC]Client Version 13\.\Archive\Helbreath Cursed.exe
+     1>Done Building Project "C:\Users\irwin\Documents\CursedV1 (Arg Version)\[SRC]Client Version 13\Client.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.08
+Time Elapsed 00:00:11.47

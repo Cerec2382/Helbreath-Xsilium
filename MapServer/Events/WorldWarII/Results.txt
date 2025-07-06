@@ -1,4 +1,4 @@
 Aresden-Win = 0
 Elvine-Win = 0
-Draw = 6
+Draw = 7
 Last-Win = 0

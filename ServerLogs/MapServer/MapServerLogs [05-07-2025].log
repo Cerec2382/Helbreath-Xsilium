@@ -1198,3 +1198,303 @@
 11:09:55	Reading Map info file : WorldMap.txt
 11:09:55	Reading Map info file : evento13.txt
 11:09:55	Reading Map info file : evento14.txt
+15:20:57	(!) Reading Rank settings...
+15:20:57	(!) Reading QuestList settings data...
+15:20:57	(!) Reading trade ek data...
+15:20:57	(!) Reading trade contrib data...
+15:20:57	(!) Reading trade coin data...
+15:20:57	(!) Reading trade majestics data...
+15:20:57	INITIALIZING GAME SERVER...
+15:20:57	Reading configuration file...
+15:20:57	Adding maps
+15:21:01	Reading TeleportList.cfg...
+15:21:01	TELEPORT-LIST(Total:77) configuration - success!
+15:21:01	Reading configuration file...
+15:21:01	Reading configuration file...
+15:21:01	Reading NOTICEMENT configuration file...
+15:21:01	Noticement Data Size: 1586
+15:21:01	Reading ITEM configuration file...
+15:21:01	ITEM(Total:4986) configuration - success!
+15:21:01	Reading ITEM configuration file...
+15:21:01	ITEM(Total:3761) configuration - success!
+15:21:01	Reading ITEM configuration file...
+15:21:01	ITEM(Total:3055) configuration - success!
+15:21:01	Reading MAGIC configuration file...
+15:21:01	MAGIC(Total:99) configuration - success!
+15:21:01	Reading PORTION configuration file...
+15:21:01	POTION(Total:19) configuration - success!
+15:21:01	CRAFTING(Total:25) configuration - success!
+15:21:01	Reading BUILD-ITEM configuration file...
+15:21:01	BuildItem(Total:45) configuration - success!
+15:21:01	Reading SKILL configuration file...
+15:21:01	SKILL(Total:23) configuration - success!
+15:21:01	Reading QUEST configuration file...
+15:21:01	QUEST(Total:40) configuration - success!
+15:21:01	Reading NPC configuration file...
+15:21:01	NPC(Total:165) configuration - success!
+15:21:01	Reading IP Banned List file...
+15:21:01	Reading Map info file : gshop_1.txt
+15:21:01	Reading Map info file : cityhall_1.txt
+15:21:01	Reading Map info file : bsmith_1.txt
+15:21:01	Reading Map info file : wrhus_1.txt
+15:21:01	Reading Map info file : wzdtwr_1.txt
+15:21:01	Reading Map info file : arejail.txt
+15:21:01	Reading Map info file : arewrhus.txt
+15:21:01	Reading Map info file : aresden.txt
+15:21:01	Reading Map info file : areuni.txt
+15:21:01	Reading Map info file : gshop_2.txt
+15:21:01	Reading Map info file : cityhall_2.txt
+15:21:01	Reading Map info file : wrhus_2.txt
+15:21:01	Reading Map info file : wzdtwr_2.txt
+15:21:01	Reading Map info file : bsmith_2.txt
+15:21:01	Reading Map info file : elvjail.txt
+15:21:01	Reading Map info file : elvwrhus.txt
+15:21:01	Reading Map info file : elvine.txt
+15:21:01	Reading Map info file : elvuni.txt
+15:21:01	Reading Map info file : BtField.txt
+15:21:01	Reading Map info file : Extreme.txt
+15:21:01	Reading Map info file : ArGEvent.txt
+15:21:01	Reading Map info file : bisle.txt
+15:21:01	Reading Map info file : VipMap1.txt
+15:21:01	Reading Map info file : masacre.txt
+15:21:01	Reading Map info file : MapaVip.txt
+15:21:01	Reading Map info file : procella.txt
+15:21:01	Reading Map info file : middleland.txt
+15:21:01	Reading Map info file : Whouse.txt
+15:21:01	Reading Map info file : icebound.txt
+15:21:01	Reading Map info file : middled1n.txt
+15:21:01	Reading Map info file : 2ndmiddle.txt
+15:21:01	Reading Map info file : abaddon.txt
+15:21:01	Reading Map info file : default.txt
+15:21:01	Reading Map info file : fightzone1.txt
+15:21:01	Reading Map info file : fightzone2.txt
+15:21:01	Reading Map info file : fightzone3.txt
+15:21:01	Reading Map info file : fightzone4.txt
+15:21:01	Reading Map info file : fightzone5.txt
+15:21:01	Reading Map info file : fightzone6.txt
+15:21:01	Reading Map info file : fightzone7.txt
+15:21:01	Reading Map info file : fightzone8.txt
+15:21:01	Reading Map info file : fightzone9.txt
+15:21:01	Reading Map info file : ESAresden.txt
+15:21:01	Reading Map info file : ESAssasain.txt
+15:21:01	Reading Map info file : ESElvine.txt
+15:21:01	Reading Map info file : avaevent.txt
+15:21:01	Reading Map info file : EventDk.txt
+15:21:01	Reading Map info file : Counter.txt
+15:21:01	Reading Map info file : NewEvent.txt
+15:21:01	Reading Map info file : TowerMap.txt
+15:21:01	Reading Map info file : EventMap.txt
+15:21:01	Reading Map info file : market.txt
+15:21:01	Reading Map info file : towerofh.txt
+15:21:01	Reading Map info file : FightMap.txt
+15:21:01	Reading Map info file : huntzone1.txt
+15:21:01	Reading Map info file : huntzone2.txt
+15:21:01	Reading Map info file : huntzone3.txt
+15:21:01	Reading Map info file : huntzone4.txt
+15:21:01	Reading Map info file : middled1x.txt
+15:21:01	Reading Map info file : MBarracks.txt
+15:21:01	Reading Map info file : resurr1.txt
+15:21:01	Reading Map info file : resurr2.txt
+15:21:01	Reading Map info file : WorldMap.txt
+15:21:01	Reading Map info file : evento13.txt
+15:21:01	Reading Map info file : evento14.txt
+16:27:49	(!) Reading Rank settings...
+16:27:49	(!) Reading QuestList settings data...
+16:27:49	(!) Reading trade ek data...
+16:27:49	(!) Reading trade contrib data...
+16:27:49	(!) Reading trade coin data...
+16:27:49	(!) Reading trade majestics data...
+16:27:49	INITIALIZING GAME SERVER...
+16:27:49	Reading configuration file...
+16:27:49	Adding maps
+16:27:52	Reading TeleportList.cfg...
+16:27:52	TELEPORT-LIST(Total:77) configuration - success!
+16:27:52	Reading configuration file...
+16:27:52	Reading configuration file...
+16:27:52	Reading NOTICEMENT configuration file...
+16:27:52	Noticement Data Size: 1586
+16:27:52	Reading ITEM configuration file...
+16:27:52	ITEM(Total:4986) configuration - success!
+16:27:52	Reading ITEM configuration file...
+16:27:52	ITEM(Total:3761) configuration - success!
+16:27:52	Reading ITEM configuration file...
+16:27:52	ITEM(Total:3055) configuration - success!
+16:27:52	Reading MAGIC configuration file...
+16:27:52	MAGIC(Total:99) configuration - success!
+16:27:52	Reading PORTION configuration file...
+16:27:52	POTION(Total:19) configuration - success!
+16:27:52	CRAFTING(Total:25) configuration - success!
+16:27:52	Reading BUILD-ITEM configuration file...
+16:27:52	BuildItem(Total:45) configuration - success!
+16:27:52	Reading SKILL configuration file...
+16:27:52	SKILL(Total:23) configuration - success!
+16:27:52	Reading QUEST configuration file...
+16:27:52	QUEST(Total:40) configuration - success!
+16:27:52	Reading NPC configuration file...
+16:27:52	NPC(Total:165) configuration - success!
+16:27:52	Reading IP Banned List file...
+16:27:52	Reading Map info file : gshop_1.txt
+16:27:52	Reading Map info file : cityhall_1.txt
+16:27:52	Reading Map info file : bsmith_1.txt
+16:27:52	Reading Map info file : wrhus_1.txt
+16:27:52	Reading Map info file : wzdtwr_1.txt
+16:27:52	Reading Map info file : arejail.txt
+16:27:52	Reading Map info file : arewrhus.txt
+16:27:52	Reading Map info file : aresden.txt
+16:27:52	Reading Map info file : areuni.txt
+16:27:52	Reading Map info file : gshop_2.txt
+16:27:52	Reading Map info file : cityhall_2.txt
+16:27:52	Reading Map info file : wrhus_2.txt
+16:27:52	Reading Map info file : wzdtwr_2.txt
+16:27:52	Reading Map info file : bsmith_2.txt
+16:27:52	Reading Map info file : elvjail.txt
+16:27:52	Reading Map info file : elvwrhus.txt
+16:27:52	Reading Map info file : elvine.txt
+16:27:52	Reading Map info file : elvuni.txt
+16:27:52	Reading Map info file : BtField.txt
+16:27:52	Reading Map info file : Extreme.txt
+16:27:52	Reading Map info file : ArGEvent.txt
+16:27:52	Reading Map info file : bisle.txt
+16:27:52	Reading Map info file : VipMap1.txt
+16:27:52	Reading Map info file : masacre.txt
+16:27:52	Reading Map info file : MapaVip.txt
+16:27:52	Reading Map info file : procella.txt
+16:27:52	Reading Map info file : middleland.txt
+16:27:52	Reading Map info file : Whouse.txt
+16:27:52	Reading Map info file : icebound.txt
+16:27:52	Reading Map info file : middled1n.txt
+16:27:52	Reading Map info file : 2ndmiddle.txt
+16:27:52	Reading Map info file : abaddon.txt
+16:27:52	Reading Map info file : default.txt
+16:27:52	Reading Map info file : fightzone1.txt
+16:27:52	Reading Map info file : fightzone2.txt
+16:27:52	Reading Map info file : fightzone3.txt
+16:27:52	Reading Map info file : fightzone4.txt
+16:27:52	Reading Map info file : fightzone5.txt
+16:27:52	Reading Map info file : fightzone6.txt
+16:27:52	Reading Map info file : fightzone7.txt
+16:27:52	Reading Map info file : fightzone8.txt
+16:27:52	Reading Map info file : fightzone9.txt
+16:27:52	Reading Map info file : ESAresden.txt
+16:27:52	Reading Map info file : ESAssasain.txt
+16:27:52	Reading Map info file : ESElvine.txt
+16:27:52	Reading Map info file : avaevent.txt
+16:27:52	Reading Map info file : EventDk.txt
+16:27:52	Reading Map info file : Counter.txt
+16:27:52	Reading Map info file : NewEvent.txt
+16:27:52	Reading Map info file : TowerMap.txt
+16:27:52	Reading Map info file : EventMap.txt
+16:27:52	Reading Map info file : market.txt
+16:27:52	Reading Map info file : towerofh.txt
+16:27:52	Reading Map info file : FightMap.txt
+16:27:52	Reading Map info file : huntzone1.txt
+16:27:52	Reading Map info file : huntzone2.txt
+16:27:52	Reading Map info file : huntzone3.txt
+16:27:52	Reading Map info file : huntzone4.txt
+16:27:52	Reading Map info file : middled1x.txt
+16:27:52	Reading Map info file : MBarracks.txt
+16:27:52	Reading Map info file : resurr1.txt
+16:27:52	Reading Map info file : resurr2.txt
+16:27:52	Reading Map info file : WorldMap.txt
+16:27:52	Reading Map info file : evento13.txt
+16:27:52	Reading Map info file : evento14.txt
+16:29:18	(!) Reading Rank settings...
+16:29:18	(!) Reading QuestList settings data...
+16:29:18	(!) Reading trade ek data...
+16:29:18	(!) Reading trade contrib data...
+16:29:18	(!) Reading trade coin data...
+16:29:18	(!) Reading trade majestics data...
+16:29:18	INITIALIZING GAME SERVER...
+16:29:18	Reading configuration file...
+16:29:18	Adding maps
+16:29:21	Reading TeleportList.cfg...
+16:29:21	TELEPORT-LIST(Total:77) configuration - success!
+16:29:21	Reading configuration file...
+16:29:21	Reading configuration file...
+16:29:21	Reading NOTICEMENT configuration file...
+16:29:21	Noticement Data Size: 1586
+16:29:21	Reading ITEM configuration file...
+16:29:21	ITEM(Total:4986) configuration - success!
+16:29:21	Reading ITEM configuration file...
+16:29:21	ITEM(Total:3761) configuration - success!
+16:29:21	Reading ITEM configuration file...
+16:29:21	ITEM(Total:3055) configuration - success!
+16:29:21	Reading MAGIC configuration file...
+16:29:21	MAGIC(Total:99) configuration - success!
+16:29:21	Reading PORTION configuration file...
+16:29:21	POTION(Total:19) configuration - success!
+16:29:21	CRAFTING(Total:25) configuration - success!
+16:29:21	Reading BUILD-ITEM configuration file...
+16:29:21	BuildItem(Total:45) configuration - success!
+16:29:21	Reading SKILL configuration file...
+16:29:21	SKILL(Total:23) configuration - success!
+16:29:21	Reading QUEST configuration file...
+16:29:21	QUEST(Total:40) configuration - success!
+16:29:21	Reading NPC configuration file...
+16:29:21	NPC(Total:165) configuration - success!
+16:29:21	Reading IP Banned List file...
+16:29:21	Reading Map info file : gshop_1.txt
+16:29:21	Reading Map info file : cityhall_1.txt
+16:29:21	Reading Map info file : bsmith_1.txt
+16:29:21	Reading Map info file : wrhus_1.txt
+16:29:21	Reading Map info file : wzdtwr_1.txt
+16:29:21	Reading Map info file : arejail.txt
+16:29:21	Reading Map info file : arewrhus.txt
+16:29:21	Reading Map info file : aresden.txt
+16:29:21	Reading Map info file : areuni.txt
+16:29:21	Reading Map info file : gshop_2.txt
+16:29:21	Reading Map info file : cityhall_2.txt
+16:29:21	Reading Map info file : wrhus_2.txt
+16:29:21	Reading Map info file : wzdtwr_2.txt
+16:29:21	Reading Map info file : bsmith_2.txt
+16:29:21	Reading Map info file : elvjail.txt
+16:29:21	Reading Map info file : elvwrhus.txt
+16:29:21	Reading Map info file : elvine.txt
+16:29:21	Reading Map info file : elvuni.txt
+16:29:21	Reading Map info file : BtField.txt
+16:29:21	Reading Map info file : Extreme.txt
+16:29:21	Reading Map info file : ArGEvent.txt
+16:29:21	Reading Map info file : bisle.txt
+16:29:21	Reading Map info file : VipMap1.txt
+16:29:21	Reading Map info file : masacre.txt
+16:29:21	Reading Map info file : MapaVip.txt
+16:29:21	Reading Map info file : procella.txt
+16:29:21	Reading Map info file : middleland.txt
+16:29:21	Reading Map info file : Whouse.txt
+16:29:21	Reading Map info file : icebound.txt
+16:29:21	Reading Map info file : middled1n.txt
+16:29:21	Reading Map info file : 2ndmiddle.txt
+16:29:21	Reading Map info file : abaddon.txt
+16:29:21	Reading Map info file : default.txt
+16:29:21	Reading Map info file : fightzone1.txt
+16:29:21	Reading Map info file : fightzone2.txt
+16:29:21	Reading Map info file : fightzone3.txt
+16:29:21	Reading Map info file : fightzone4.txt
+16:29:21	Reading Map info file : fightzone5.txt
+16:29:21	Reading Map info file : fightzone6.txt
+16:29:21	Reading Map info file : fightzone7.txt
+16:29:21	Reading Map info file : fightzone8.txt
+16:29:21	Reading Map info file : fightzone9.txt
+16:29:21	Reading Map info file : ESAresden.txt
+16:29:21	Reading Map info file : ESAssasain.txt
+16:29:21	Reading Map info file : ESElvine.txt
+16:29:21	Reading Map info file : avaevent.txt
+16:29:21	Reading Map info file : EventDk.txt
+16:29:21	Reading Map info file : Counter.txt
+16:29:21	Reading Map info file : NewEvent.txt
+16:29:21	Reading Map info file : TowerMap.txt
+16:29:21	Reading Map info file : EventMap.txt
+16:29:21	Reading Map info file : market.txt
+16:29:21	Reading Map info file : towerofh.txt
+16:29:21	Reading Map info file : FightMap.txt
+16:29:21	Reading Map info file : huntzone1.txt
+16:29:21	Reading Map info file : huntzone2.txt
+16:29:21	Reading Map info file : huntzone3.txt
+16:29:21	Reading Map info file : huntzone4.txt
+16:29:21	Reading Map info file : middled1x.txt
+16:29:21	Reading Map info file : MBarracks.txt
+16:29:21	Reading Map info file : resurr1.txt
+16:29:21	Reading Map info file : resurr2.txt
+16:29:21	Reading Map info file : WorldMap.txt
+16:29:21	Reading Map info file : evento13.txt
+16:29:21	Reading Map info file : evento14.txt

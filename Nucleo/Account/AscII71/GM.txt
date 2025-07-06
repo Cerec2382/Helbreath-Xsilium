@@ -1,6 +1,6 @@
 [Account Info]
 account-name     = GM
-account-password = Polopolo2
+account-password = asd
 account-Email    = gm@srvclick.com
 account-Quiz = gm
 account-Answer = gm2

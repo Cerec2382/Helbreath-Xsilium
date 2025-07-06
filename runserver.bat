@@ -1,15 +1,28 @@
 @echo off
-:: Cambia al directorio del primer programa
-cd /d "CursedV1 (Arg Version)\Nucleo"
-start "Nucleo" "Nucleo.exe"
+set "BASE_DIR=%~dp0"
 
-:: Cambia al directorio del segundo programa
-cd /d "CursedV1 (Arg Version)\MapServer"
-start "MapServer" "MapServer.exe"
+echo BASE_DIR: "%BASE_DIR%"
+echo.
 
-:: Cambia al directorio del tercer programa
-cd /d "CursedV1 (Arg Version)\MapServer"
-start "ICMPServer" "ICMPServer.exe"
+:: Primer programa
+echo Cambiando a: "%BASE_DIR%Nucleo"
+cd /d "%BASE_DIR%Nucleo"
+echo Ejecutando: Nucleo.exe
+start "" "Nucleo.exe"
+echo.
 
-:: Fin del archivo BAT
-:: exit
+:: Segundo programa
+echo Cambiando a: "%BASE_DIR%MapServer"
+cd /d "%BASE_DIR%MapServer"
+echo Ejecutando: MapServer.exe
+start "" "MapServer.exe"
+echo.
+
+:: Tercer programa
+echo Cambiando a: "%BASE_DIR%MapServer"
+cd /d "%BASE_DIR%MapServer"
+echo Ejecutando: ICMPServer.exe
+start "" "ICMPServer.exe"
+echo.
+
+pause

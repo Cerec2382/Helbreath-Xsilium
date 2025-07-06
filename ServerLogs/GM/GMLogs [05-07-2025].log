@@ -272,3 +272,400 @@
 10:55:26	GM Chat(GameMaster):"/clearnpc"
 11:10:24	GM Chat(GameMaster):"/qwepo"
 11:10:52	GM Chat(GameMaster):"/summon WereWolf 50"
+15:28:25	GM Chat(GameMaster):"/qwepo"
+15:28:27	GM Chat(GameMaster):"/goto Test"
+15:28:37	GM Chat(GameMaster):"/ci PowerBarbarianHammer"
+15:28:49	GM Chat(GameMaster):"/tp cityhall_2"
+15:28:49	GM Order(GameMaster): teleport MapName(cityhall_2)
+15:28:54	GM Chat(GameMaster):"/tradecontrib"
+15:29:06	GM Chat(GameMaster):"/ci PowerHammer"
+15:29:08	GM Chat(GameMaster):"/tradecontrib"
+15:29:16	GM Chat(GameMaster):"/ci PowerBarbarian"
+15:29:16	GM Order(GameMaster): Create ItemName(PowerBarbarian)
+15:29:20	GM Chat(GameMaster):"/goto Test"
+15:35:32	GM Chat(GameMaster):"/addcoins Test 1000000000"
+15:55:35	GM Chat(GameMaster):"/summon HellAbaddon"
+15:55:35	GM Order(GameMaster): Summon NPC(HellAbaddon)-Count(1)
+15:56:20	GM Chat(GameMaster):"/summon HellAbbaddon"
+15:56:24	GM Chat(GameMaster):"/summon HellAbaddon"
+15:56:26	GM Chat(GameMaster):"/qwepo"
+15:56:29	GM Chat(GameMaster):"/summon HellAbaddon"
+15:56:29	GM Order(GameMaster): Summon NPC(HellAbaddon)-Count(1)
+15:56:31	GM Chat(GameMaster):"/clearnpc"
+16:01:49	GM Chat(GameMaster):"/tp eventGarden"
+16:01:52	GM Chat(GameMaster):"/tp EventGarden"
+16:02:40	GM Chat(GameMaster):"/tp EventMap"
+16:02:40	GM Order(GameMaster): teleport MapName(EventMap)
+16:03:32	GM Chat(GameMaster):"/startabaddon"
+16:03:38	GM Chat(GameMaster):"/goto cityhall_2"
+16:03:43	GM Chat(GameMaster):"/tp cityhall_2"
+16:03:43	GM Order(GameMaster): teleport MapName(cityhall_2)
+16:03:49	GM Chat(GameMaster):"/clearnpc"
+16:03:55	GM Chat(GameMaster):"/tp abaddon 64 117"
+16:03:55	GM Order(GameMaster): teleport MapName(abaddon)(64 117)
+16:04:03	GM Chat(GameMaster):"/startabaddon"
+16:04:07	GM Chat(GameMaster):"/endbaddon"
+16:04:09	GM Chat(GameMaster):"/endabaddon"
+16:04:11	GM Chat(GameMaster):"/startabaddon"
+16:04:16	GM Chat(GameMaster):"/tp elvine 150 133"
+16:04:16	GM Order(GameMaster): teleport MapName(elvine)(150 133)
+16:04:23	GM Chat(GameMaster):"/startabaddon"
+16:04:31	GM Chat(GameMaster):"/startabaddon"
+16:04:33	GM Chat(GameMaster):"/startcrusade"
+16:04:35	GM Chat(GameMaster):"/endcrusade"
+16:04:37	GM Chat(GameMaster):"/startabaddon"
+16:04:43	GM Chat(GameMaster):"/goto cityhall_2"
+16:04:47	GM Chat(GameMaster):"/tp cityhall_2"
+16:04:47	GM Order(GameMaster): teleport MapName(cityhall_2)
+16:04:53	GM Chat(GameMaster):"/startabaddon"
+16:04:55	GM Chat(GameMaster):"/startAbaddon"
+16:04:57	GM Chat(GameMaster):"/startabaddon"
+16:05:31	GM Chat(GameMaster):"/start worldofwar2"
+16:05:49	GM Chat(GameMaster):"/startworld2"
+16:06:03	GM Chat(GameMaster):"/tphere"
+16:06:16	GM Chat(GameMaster):"/tpdm Test"
+16:06:21	GM Chat(GameMaster):"/tp Test"
+16:06:28	GM Chat(GameMaster):"/event"
+16:07:07	GM Chat(GameMaster):"/summon Test"
+16:07:07	GM Order(GameMaster): Summon NPC(Test)-Count(1)
+16:07:24	GM Chat(GameMaster):"/summonall"
+16:07:45	GM Chat(GameMaster):"/endworld2"
+16:08:05	GM Chat(GameMaster):"/event"
+16:08:23	GM Chat(GameMaster):"/portal"
+16:08:26	GM Chat(GameMaster):"/portal EventMap"
+16:08:33	GM Chat(GameMaster):"/portal EventMap"
+16:08:41	GM Chat(GameMaster):"/tp EventMap"
+16:08:41	GM Order(GameMaster): teleport MapName(EventMap)
+16:08:43	GM Chat(GameMaster):"/portal"
+16:08:51	GM Chat(GameMaster):"/happyhour"
+16:08:54	GM Chat(GameMaster):"/happyday"
+16:08:57	GM Chat(GameMaster):"/qwepo"
+16:09:02	GM Chat(GameMaster):"/startabaddon"
+16:09:05	GM Chat(GameMaster):"/endabaddon"
+16:09:32	GM Chat(GameMaster):"/summon te"
+16:09:32	GM Order(GameMaster): Summon NPC(te)-Count(1)
+16:09:41	GM Chat(GameMaster):"/summonevent"
+16:09:46	GM Chat(GameMaster):"/tp city"
+16:09:46	GM Order(GameMaster): teleport MapName(city)
+16:09:50	GM Chat(GameMaster):"/goto cityhall_2"
+16:09:54	GM Chat(GameMaster):"/tp cityhall_2"
+16:09:54	GM Order(GameMaster): teleport MapName(cityhall_2)
+16:10:00	GM Chat(GameMaster):"/clearnpc"
+16:10:12	GM Chat(GameMaster):"/clearnpc"
+16:10:23	GM Chat(GameMaster):"/clearnpc"
+16:10:34	GM Chat(GameMaster):"/clearnpc"
+16:10:44	GM Chat(GameMaster):"/clearnpc"
+16:10:55	GM Chat(GameMaster):"/clearnpc"
+16:11:14	GM Chat(GameMaster):"/clearnpc"
+16:11:40	GM Chat(GameMaster):"/clearnpc"
+16:12:16	GM Chat(GameMaster):"/endsummon"
+16:12:20	GM Chat(GameMaster):"/reloadssummon"
+16:12:23	GM Chat(GameMaster):"/reloadsummon"
+16:12:26	GM Chat(GameMaster):"/endsummonevent"
+16:12:35	GM Chat(GameMaster):"/startabaddon"
+16:12:37	GM Chat(GameMaster):"/"
+16:12:40	GM Chat(GameMaster):"/contarnpcs"
+16:12:55	GM Chat(GameMaster):"/createassasin "
+16:13:01	GM Chat(GameMaster):"/createassasain Test"
+16:13:15	GM Chat(GameMaster):"/openmasacre"
+16:13:17	GM Chat(GameMaster):"/goto cv"
+16:13:19	GM Chat(GameMaster):"/tp cityhall_2"
+16:13:19	GM Order(GameMaster): teleport MapName(cityhall_2)
+16:13:28	GM Chat(GameMaster):"/closemasacre"
+16:13:34	GM Chat(GameMaster):"/opentower"
+16:13:38	GM Chat(GameMaster):"/tp cityhall_2"
+16:13:38	GM Order(GameMaster): teleport MapName(cityhall_2)
+16:13:45	GM Chat(GameMaster):"/portales"
+16:13:47	GM Chat(GameMaster):"/portal"
+16:15:27	GM Chat(GameMaster):"/OnQuestx2"
+16:15:43	GM Chat(GameMaster):"/OffQuestx2"
+16:15:47	GM Chat(GameMaster):"/OnQuestx3"
+16:15:55	GM Chat(GameMaster):"/EventosOn"
+16:16:01	GM Chat(GameMaster):"/EventosOff"
+16:16:07	GM Chat(GameMaster):"/EventosOFF"
+16:16:15	GM Chat(GameMaster):"/EventosON"
+16:16:39	GM Chat(GameMaster):"/reloadantihack"
+16:16:54	GM Chat(GameMaster):"/openalleks"
+16:16:59	GM Chat(GameMaster):"/startabaddon"
+16:17:05	GM Chat(GameMaster):"/openmarket"
+16:17:10	GM Chat(GameMaster):"/goto cityhall_2"
+16:17:14	GM Chat(GameMaster):"/tp cityhall _2"
+16:17:18	GM Chat(GameMaster):"/tp cityhall_2"
+16:17:18	GM Order(GameMaster): teleport MapName(cityhall_2)
+16:18:00	GM Chat(GameMaster):"/qweop"
+16:18:02	GM Chat(GameMaster):"/qwepo"
+16:19:37	GM Chat(GameMaster):"/qwepo"
+16:19:40	GM Chat(GameMaster):"/happyday"
+16:19:42	GM Chat(GameMaster):"/happyhour"
+16:20:28	GM Chat(GameMaster):"/realonlines"
+16:20:37	GM Chat(GameMaster):"/user+"
+16:20:41	GM Chat(GameMaster):"/realonlines"
+16:20:51	GM Chat(GameMaster):"/user+"
+16:20:52	GM Chat(GameMaster):"/user+"
+16:20:55	GM Chat(GameMaster):"/user+"
+16:20:57	GM Chat(GameMaster):"/user+"
+16:21:00	GM Chat(GameMaster):"/realonlines"
+16:21:13	GM Chat(GameMaster):"/realonline"
+16:21:31	GM Chat(GameMaster):"/user-"
+16:21:32	GM Chat(GameMaster):"/user-"
+16:21:33	GM Chat(GameMaster):"/user-"
+16:21:35	GM Chat(GameMaster):"/user-"
+16:21:37	GM Chat(GameMaster):"/user-"
+16:21:40	GM Chat(GameMaster):"/user-"
+16:22:12	GM Chat(GameMaster):"/status"
+16:22:14	GM Chat(GameMaster):"/status"
+16:22:17	GM Chat(GameMaster):"/sharap"
+16:22:21	GM Chat(GameMaster):"/qwepo"
+16:22:23	GM Chat(GameMaster):"/sharap"
+16:22:25	GM Chat(GameMaster):"/status"
+16:22:27	GM Chat(GameMaster):"/status GM"
+16:22:29	GM Chat(GameMaster):"/status GameMaster"
+16:22:40	GM Chat(GameMaster):"/kill  GameMaster"
+16:22:44	GM Chat(GameMaster):"/revive GameMaster"
+16:22:54	GM Chat(GameMaster):"/closeass"
+16:22:58	GM Chat(GameMaster):"/closeass"
+16:23:16	GM Chat(GameMaster):"/sacar"
+16:23:36	GM Chat(GameMaster):"/summon Demon"
+16:23:36	GM Order(GameMaster): Summon NPC(Demon)-Count(1)
+16:23:47	GM Chat(GameMaster):"/summon Demon"
+16:23:47	GM Order(GameMaster): Summon NPC(Demon)-Count(1)
+16:23:54	GM Chat(GameMaster):"/summon Abaddon"
+16:23:54	GM Order(GameMaster): Summon NPC(Abaddon)-Count(1)
+16:24:46	GM Chat(GameMaster):"/fi"
+16:24:49	GM Chat(GameMaster):"/fi GameMaster"
+16:25:06	GM Chat(GameMaster):"/createitem Rank+1"
+16:25:10	GM Chat(GameMaster):"/ci Rank+1"
+16:25:18	GM Chat(GameMaster):"/monstercount"
+16:25:27	GM Chat(GameMaster):"/clearnpc"
+16:25:30	GM Chat(GameMaster):"/clearnpc"
+16:25:32	GM Chat(GameMaster):"/monstercount"
+16:26:17	GM Chat(GameMaster):"/setmsg hola"
+16:26:20	GM Chat(GameMaster):"/setmsg"
+16:26:23	GM Chat(GameMaster):"/setmsg Hola"
+16:26:24	GM Chat(GameMaster):"/weather"
+16:26:35	GM Chat(GameMaster):"/summon Rabbit"
+16:26:35	GM Order(GameMaster): Summon NPC(Rabbit)-Count(1)
+16:26:39	GM Chat(GameMaster):"/weather"
+16:29:40	GM Chat(asd1):"/dc"
+16:30:48	GM Chat(GameMaster):"/qwepo"
+16:30:52	GM Chat(GameMaster):"/summon Abaddon"
+16:30:52	GM Order(GameMaster): Summon NPC(Abaddon)-Count(1)
+16:31:31	GM Chat(GameMaster):"/addrep GameMaster 1000"
+16:31:38	GM Chat(GameMaster):"/addrep GameMaster 2000"
+16:31:45	GM Chat(GameMaster):"/addrep GameMaster 2000"
+16:31:51	GM Chat(GameMaster):"/addrep GameMaster 10000"
+16:32:08	GM Chat(GameMaster):"/startabaddon"
+16:32:11	GM Chat(GameMaster):"/goto ci"
+16:32:13	GM Chat(GameMaster):"/tp cityhall_2"
+16:32:13	GM Order(GameMaster): teleport MapName(cityhall_2)
+16:32:19	GM Chat(GameMaster):"/tp abaddon 51 34"
+16:32:19	GM Order(GameMaster): teleport MapName(abaddon)(51 34)
+16:32:24	GM Chat(GameMaster):"/tp abaddon 48 25"
+16:32:24	GM Order(GameMaster): teleport MapName(abaddon)(48 25)
+16:32:24	GM Chat(GameMaster):"/tp abaddon 40 48"
+16:32:24	GM Order(GameMaster): teleport MapName(abaddon)(40 48)
+16:32:25	GM Chat(GameMaster):"/tp abaddon 87 85"
+16:32:25	GM Order(GameMaster): teleport MapName(abaddon)(87 85)
+16:32:29	GM Chat(GameMaster):"/tp abaddon 39 148"
+16:32:29	GM Order(GameMaster): teleport MapName(abaddon)(39 148)
+16:32:36	GM Chat(GameMaster):"/tp abaddon 21 157"
+16:32:36	GM Order(GameMaster): teleport MapName(abaddon)(21 157)
+16:32:37	GM Chat(GameMaster):"/tp abaddon 37 173"
+16:32:37	GM Order(GameMaster): teleport MapName(abaddon)(37 173)
+16:32:37	GM Chat(GameMaster):"/tp abaddon 42 170"
+16:32:37	GM Order(GameMaster): teleport MapName(abaddon)(42 170)
+16:32:38	GM Chat(GameMaster):"/tp abaddon 82 179"
+16:32:38	GM Order(GameMaster): teleport MapName(abaddon)(82 179)
+16:32:38	GM Chat(GameMaster):"/tp abaddon 48 145"
+16:32:38	GM Order(GameMaster): teleport MapName(abaddon)(48 145)
+16:32:39	GM Chat(GameMaster):"/tp abaddon 32 142"
+16:32:39	GM Order(GameMaster): teleport MapName(abaddon)(32 142)
+16:33:04	GM Chat(GameMaster):"/qwepo"
+16:33:06	GM Chat(GameMaster):"/tp elvine 150 131"
+16:33:06	GM Order(GameMaster): teleport MapName(elvine)(150 131)
+16:33:13	GM Chat(GameMaster):"/tp abaddon 103 123"
+16:33:13	GM Order(GameMaster): teleport MapName(abaddon)(103 123)
+16:33:14	GM Chat(GameMaster):"/tp abaddon 87 126"
+16:33:14	GM Order(GameMaster): teleport MapName(abaddon)(87 126)
+16:33:31	GM Chat(GameMaster):"/tp abaddon 29 164"
+16:33:31	GM Order(GameMaster): teleport MapName(abaddon)(29 164)
+16:33:38	GM Chat(GameMaster):"/tp abaddon 31 142"
+16:33:38	GM Order(GameMaster): teleport MapName(abaddon)(31 142)
+16:33:38	GM Chat(GameMaster):"/tp abaddon 31 129"
+16:33:38	GM Order(GameMaster): teleport MapName(abaddon)(31 129)
+16:33:53	GM Chat(GameMaster):"/tp abaddon 32 87"
+16:33:53	GM Order(GameMaster): teleport MapName(abaddon)(32 87)
+16:33:57	GM Chat(GameMaster):"/tp abaddon 34 46"
+16:33:57	GM Order(GameMaster): teleport MapName(abaddon)(34 46)
+16:34:07	GM Chat(GameMaster):"/tp abaddon 31 29"
+16:34:07	GM Order(GameMaster): teleport MapName(abaddon)(31 29)
+16:34:20	GM Chat(GameMaster):"/tp abaddon 106 31"
+16:34:20	GM Order(GameMaster): teleport MapName(abaddon)(106 31)
+16:34:41	GM Chat(GameMaster):"/tp abaddon 139 45"
+16:34:41	GM Order(GameMaster): teleport MapName(abaddon)(139 45)
+16:34:44	GM Chat(GameMaster):"/tp abaddon 145 59"
+16:34:44	GM Order(GameMaster): teleport MapName(abaddon)(145 59)
+16:35:29	GM Chat(GameMaster):"/tp abaddon 100 145"
+16:35:29	GM Order(GameMaster): teleport MapName(abaddon)(100 145)
+16:35:54	GM Chat(GameMaster):"/tp abaddon 65 178"
+16:35:54	GM Order(GameMaster): teleport MapName(abaddon)(65 178)
+16:36:00	GM Chat(GameMaster):"/tp abaddon 112 159"
+16:36:00	GM Order(GameMaster): teleport MapName(abaddon)(112 159)
+16:36:01	GM Chat(GameMaster):"/tp abaddon 107 171"
+16:36:01	GM Order(GameMaster): teleport MapName(abaddon)(107 171)
+16:36:02	GM Chat(GameMaster):"/tp abaddon 150 154"
+16:36:02	GM Order(GameMaster): teleport MapName(abaddon)(150 154)
+16:36:03	GM Chat(GameMaster):"/tp abaddon 164 176"
+16:36:03	GM Order(GameMaster): teleport MapName(abaddon)(164 176)
+16:36:07	GM Chat(GameMaster):"/tp abaddon 128 128"
+16:36:07	GM Order(GameMaster): teleport MapName(abaddon)(128 128)
+16:36:08	GM Chat(GameMaster):"/tp abaddon 118 107"
+16:36:08	GM Order(GameMaster): teleport MapName(abaddon)(118 107)
+16:37:16	GM Chat(GameMaster):"/tp abaddon 62 114"
+16:37:16	GM Order(GameMaster): teleport MapName(abaddon)(62 114)
+16:37:36	GM Chat(GameMaster):"/tp abaddon 109 154"
+16:37:36	GM Order(GameMaster): teleport MapName(abaddon)(109 154)
+16:37:37	GM Chat(GameMaster):"/tp abaddon 32 139"
+16:37:37	GM Order(GameMaster): teleport MapName(abaddon)(32 139)
+16:37:38	GM Chat(GameMaster):"/tp abaddon 37 165"
+16:37:38	GM Order(GameMaster): teleport MapName(abaddon)(37 165)
+16:37:39	GM Chat(GameMaster):"/tp abaddon 35 125"
+16:37:39	GM Order(GameMaster): teleport MapName(abaddon)(35 125)
+16:37:40	GM Chat(GameMaster):"/tp abaddon 29 135"
+16:37:40	GM Order(GameMaster): teleport MapName(abaddon)(29 135)
+16:37:40	GM Chat(GameMaster):"/tp abaddon 31 106"
+16:37:40	GM Order(GameMaster): teleport MapName(abaddon)(31 106)
+16:37:41	GM Chat(GameMaster):"/tp abaddon 26 87"
+16:37:41	GM Order(GameMaster): teleport MapName(abaddon)(26 87)
+16:37:42	GM Chat(GameMaster):"/tp abaddon 21 101"
+16:37:42	GM Order(GameMaster): teleport MapName(abaddon)(21 101)
+16:37:43	GM Chat(GameMaster):"/tp abaddon 28 107"
+16:37:43	GM Order(GameMaster): teleport MapName(abaddon)(28 107)
+16:37:54	GM Chat(GameMaster):"/tp abaddon 50 79"
+16:37:54	GM Order(GameMaster): teleport MapName(abaddon)(50 79)
+16:38:36	GM Chat(GameMaster):"/tp abaddon 109 65"
+16:38:36	GM Order(GameMaster): teleport MapName(abaddon)(109 65)
+16:38:41	GM Chat(GameMaster):"/tp abaddon 118 28"
+16:38:41	GM Order(GameMaster): teleport MapName(abaddon)(118 28)
+16:38:50	GM Chat(GameMaster):"/tp abaddon 132 23"
+16:38:50	GM Order(GameMaster): teleport MapName(abaddon)(132 23)
+16:38:51	GM Chat(GameMaster):"/tp abaddon 128 39"
+16:38:51	GM Order(GameMaster): teleport MapName(abaddon)(128 39)
+16:38:53	GM Chat(GameMaster):"/tp abaddon 109 29"
+16:38:53	GM Order(GameMaster): teleport MapName(abaddon)(109 29)
+16:38:54	GM Chat(GameMaster):"/tp abaddon 109 20"
+16:38:54	GM Order(GameMaster): teleport MapName(abaddon)(109 20)
+16:38:54	GM Chat(GameMaster):"/tp abaddon 96 26"
+16:38:54	GM Order(GameMaster): teleport MapName(abaddon)(96 26)
+16:38:57	GM Chat(GameMaster):"/tp abaddon 34 23"
+16:38:57	GM Order(GameMaster): teleport MapName(abaddon)(34 23)
+16:38:57	GM Chat(GameMaster):"/tp abaddon 51 43"
+16:38:57	GM Order(GameMaster): teleport MapName(abaddon)(51 43)
+16:38:58	GM Chat(GameMaster):"/tp abaddon 78 37"
+16:38:58	GM Order(GameMaster): teleport MapName(abaddon)(78 37)
+16:38:59	GM Chat(GameMaster):"/tp abaddon 81 51"
+16:38:59	GM Order(GameMaster): teleport MapName(abaddon)(81 51)
+16:38:59	GM Chat(GameMaster):"/tp abaddon 75 56"
+16:38:59	GM Order(GameMaster): teleport MapName(abaddon)(75 56)
+16:39:00	GM Chat(GameMaster):"/tp abaddon 42 62"
+16:39:00	GM Order(GameMaster): teleport MapName(abaddon)(42 62)
+16:39:00	GM Chat(GameMaster):"/tp abaddon 34 68"
+16:39:00	GM Order(GameMaster): teleport MapName(abaddon)(34 68)
+16:39:05	GM Chat(GameMaster):"/tp abaddon 20 70"
+16:39:05	GM Order(GameMaster): teleport MapName(abaddon)(20 70)
+16:39:11	GM Chat(GameMaster):"/restnpcs"
+16:39:13	GM Chat(GameMaster):"/restnpc"
+16:40:32	GM Chat(GameMaster):"/monstercount"
+16:40:33	GM Chat(GameMaster):"/tp abaddon 51 150"
+16:40:33	GM Order(GameMaster): teleport MapName(abaddon)(51 150)
+16:40:36	GM Chat(GameMaster):"/tp abaddon 109 175"
+16:40:36	GM Order(GameMaster): teleport MapName(abaddon)(109 175)
+16:40:37	GM Chat(GameMaster):"/tp abaddon 90 173"
+16:40:37	GM Order(GameMaster): teleport MapName(abaddon)(90 173)
+16:40:37	GM Chat(GameMaster):"/tp abaddon 100 159"
+16:40:37	GM Order(GameMaster): teleport MapName(abaddon)(100 159)
+16:40:40	GM Chat(GameMaster):"/monstercount"
+16:40:44	GM Chat(GameMaster):"/monstercount"
+16:40:48	GM Chat(GameMaster):"/tp abaddon 125 146"
+16:40:48	GM Order(GameMaster): teleport MapName(abaddon)(125 146)
+16:40:48	GM Chat(GameMaster):"/tp abaddon 82 142"
+16:40:48	GM Order(GameMaster): teleport MapName(abaddon)(82 142)
+16:40:49	GM Chat(GameMaster):"/tp abaddon 89 131"
+16:40:49	GM Order(GameMaster): teleport MapName(abaddon)(89 131)
+16:40:49	GM Chat(GameMaster):"/tp abaddon 93 114"
+16:40:49	GM Order(GameMaster): teleport MapName(abaddon)(93 114)
+16:40:50	GM Chat(GameMaster):"/tp abaddon 115 112"
+16:40:50	GM Order(GameMaster): teleport MapName(abaddon)(115 112)
+16:40:51	GM Chat(GameMaster):"/tp abaddon 132 112"
+16:40:51	GM Order(GameMaster): teleport MapName(abaddon)(132 112)
+16:41:06	GM Chat(GameMaster):"/monstercount"
+16:41:19	GM Chat(GameMaster):"/monstercount"
+16:41:31	GM Chat(GameMaster):"/tp abaddon 153 128"
+16:41:31	GM Order(GameMaster): teleport MapName(abaddon)(153 128)
+16:41:32	GM Chat(GameMaster):"/tp abaddon 154 143"
+16:41:32	GM Order(GameMaster): teleport MapName(abaddon)(154 143)
+16:41:32	GM Chat(GameMaster):"/tp abaddon 167 160"
+16:41:32	GM Order(GameMaster): teleport MapName(abaddon)(167 160)
+16:41:36	GM Chat(GameMaster):"/tp abaddon 126 175"
+16:41:36	GM Order(GameMaster): teleport MapName(abaddon)(126 175)
+16:41:39	GM Chat(GameMaster):"/tp abaddon 31 167"
+16:41:39	GM Order(GameMaster): teleport MapName(abaddon)(31 167)
+16:41:40	GM Chat(GameMaster):"/tp abaddon 28 168"
+16:41:40	GM Order(GameMaster): teleport MapName(abaddon)(28 168)
+16:41:41	GM Chat(GameMaster):"/tp abaddon 21 137"
+16:41:41	GM Order(GameMaster): teleport MapName(abaddon)(21 137)
+16:41:42	GM Chat(GameMaster):"/tp abaddon 21 115"
+16:41:42	GM Order(GameMaster): teleport MapName(abaddon)(21 115)
+16:41:42	GM Chat(GameMaster):"/tp abaddon 21 100"
+16:41:42	GM Order(GameMaster): teleport MapName(abaddon)(21 100)
+16:41:43	GM Chat(GameMaster):"/tp abaddon 21 85"
+16:41:43	GM Order(GameMaster): teleport MapName(abaddon)(21 85)
+16:41:46	GM Chat(GameMaster):"/tp abaddon 28 68"
+16:41:46	GM Order(GameMaster): teleport MapName(abaddon)(28 68)
+16:41:46	GM Chat(GameMaster):"/tp abaddon 39 56"
+16:41:46	GM Order(GameMaster): teleport MapName(abaddon)(39 56)
+16:41:47	GM Chat(GameMaster):"/tp abaddon 53 42"
+16:41:47	GM Order(GameMaster): teleport MapName(abaddon)(53 42)
+16:41:50	GM Chat(GameMaster):"/monstercount"
+16:41:53	GM Chat(GameMaster):"/tp abaddon 46 26"
+16:41:53	GM Order(GameMaster): teleport MapName(abaddon)(46 26)
+16:41:54	GM Chat(GameMaster):"/tp abaddon 118 28"
+16:41:54	GM Order(GameMaster): teleport MapName(abaddon)(118 28)
+16:41:55	GM Chat(GameMaster):"/tp abaddon 101 28"
+16:41:55	GM Order(GameMaster): teleport MapName(abaddon)(101 28)
+16:41:56	GM Chat(GameMaster):"/tp abaddon 139 23"
+16:41:56	GM Order(GameMaster): teleport MapName(abaddon)(139 23)
+16:41:57	GM Chat(GameMaster):"/tp abaddon 146 23"
+16:41:57	GM Order(GameMaster): teleport MapName(abaddon)(146 23)
+16:41:57	GM Chat(GameMaster):"/tp abaddon 156 23"
+16:41:57	GM Order(GameMaster): teleport MapName(abaddon)(156 23)
+16:41:58	GM Chat(GameMaster):"/tp abaddon 162 23"
+16:41:58	GM Order(GameMaster): teleport MapName(abaddon)(162 23)
+16:41:59	GM Chat(GameMaster):"/tp abaddon 162 29"
+16:41:59	GM Order(GameMaster): teleport MapName(abaddon)(162 29)
+16:41:59	GM Chat(GameMaster):"/tp abaddon 128 25"
+16:41:59	GM Order(GameMaster): teleport MapName(abaddon)(128 25)
+16:42:00	GM Chat(GameMaster):"/tp abaddon 148 31"
+16:42:00	GM Order(GameMaster): teleport MapName(abaddon)(148 31)
+16:42:00	GM Chat(GameMaster):"/tp abaddon 154 34"
+16:42:00	GM Order(GameMaster): teleport MapName(abaddon)(154 34)
+16:42:01	GM Chat(GameMaster):"/tp abaddon 164 46"
+16:42:01	GM Order(GameMaster): teleport MapName(abaddon)(164 46)
+16:42:06	GM Chat(GameMaster):"/tp abaddon 145 57"
+16:42:06	GM Order(GameMaster): teleport MapName(abaddon)(145 57)
+16:42:10	GM Chat(GameMaster):"/tp abaddon 137 56"
+16:42:10	GM Order(GameMaster): teleport MapName(abaddon)(137 56)
+16:42:15	GM Chat(GameMaster):"/monstercount"
+16:42:17	GM Chat(GameMaster):"/tp abaddon 142 70"
+16:42:17	GM Order(GameMaster): teleport MapName(abaddon)(142 70)
+16:42:18	GM Chat(GameMaster):"/tp abaddon 154 70"
+16:42:18	GM Order(GameMaster): teleport MapName(abaddon)(154 70)
+16:42:19	GM Chat(GameMaster):"/tp abaddon 164 73"
+16:42:19	GM Order(GameMaster): teleport MapName(abaddon)(164 73)
+16:42:19	GM Chat(GameMaster):"/tp abaddon 162 90"
+16:42:19	GM Order(GameMaster): teleport MapName(abaddon)(162 90)
+16:42:23	GM Chat(GameMaster):"/monstercount"
+16:42:32	GM Chat(GameMaster):"/monstercount"
+16:42:39	GM Chat(GameMaster):"/monstercount"
+16:42:48	GM Chat(GameMaster):"/monstercount"
+16:42:51	GM Chat(GameMaster):"/tp abaddon 126 93"
