@@ -6,6 +6,6 @@
 *.log
 *.idb
 *.pdb
-/Nucleo/Account/
-/Nucleo/Character/
-/ServerLogs/
+**/Nucleo/Account/
+**/Nucleo/Character/
+**/ServerLogs/
