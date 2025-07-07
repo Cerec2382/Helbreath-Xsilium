@@ -14,7 +14,7 @@ Agradecimiento especial a los desarrolladores originales y a la comunidad que ha
 
 ## 🧱 Sistema de Drop Habilitado
 
-Todos los drops están habilitados con probabilidades configuradas con una tabla detallada, que define la probabilidad de multiplicadores de bonus como MR o PA/MA:
+Todos los drops están habilitados con probabilidades configuradas con una tabla detallada, que define la probabilidad de multiplicadores de bonus como MR/DR o PA/MA, etc:
 
 | Bonus aplicado (% MR / PA-MA) | Probabilidad (%) |
 |-------------------------------|------------------|
@@ -39,9 +39,11 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 ## 🎁 Ítems y Drops Especiales
 
 - Drop de Demon **Demon Slayer**: habilitado.
-- Drop de Unicorns **Kloness items**: habilitado (Kloness Blade, Axe, Armor, etc.).
+- Drop de Ettin **Gigant Battle Hammer**: habilitado.
+- Drop de Centaurs **LightBlade**: habilitado.
+- Drop de Unicorns **Kloness items**: habilitado (Kloness Blade, Axe, etc.).
 - Drop de Abaddon **The Devastator**: habilitado.
-- Drop especial de **Abaddon**: habilitado.
+- Drop especial de **Abaddon**: habilitado (Kloness Blade, Axe, Demon Slayer, Manuales, etc ).
 
 ---
 
