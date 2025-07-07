@@ -1,13 +1,13 @@
 [FILE-DATE]
 
-file-saved-date: 2025 7 7 11 40
+file-saved-date: 2025 7 7 11 44
 
 [NAME-ACCOUNT]
 
 character-name     = GameMaster
 account-name       = GM
 Hour-Play = 9
-Min-Play = 55
+Min-Play = 59
 
 CheckProcess = OFF
 
@@ -23,8 +23,8 @@ character-guild-rank = -1
 [MAP-DATA]
 
 character-loc-map = cityhall_2
-character-loc-x   = 52
-character-loc-y   = 48
+character-loc-x   = 56
+character-loc-y   = 45
 
 locked-map-name = NONE
 locked-map-time = 0
@@ -78,7 +78,7 @@ character-EK-TotalCount = 0
 character-PK-Count = 0
 character-FK-Count = 0
 character-contribution = 10051
-gizon-item-upgade-left = 8344
+gizon-item-upgade-left = 8346
 super-attack-left = 5000
 Coins = 109706
 
@@ -102,7 +102,7 @@ stated-reward-type     = 0
 
 [ACHIVEMENTS]
 
-Total-Mobs-Killed = 793036
+Total-Mobs-Killed = 793037
 Total-Death = 1
 Total-Client-Killed = 0
 Total-Quest-Completed = 0
@@ -193,7 +193,7 @@ character-back-level = 0
 
 character-item = Gold                 1883009 0 0 0 0 0 0 0 0 600 0 170 57
 character-item = ROP                  1 2 30756 704 164954865 0 0 0 0 300 0 26 50
-character-item = LaloXelStorm         1 2 8556 704 165021518 11 0 0 0 2531 0 95 54
+character-item = LaloXelStorm         1 2 8556 704 165021518 11 0 0 0 2525 0 95 54
 character-item = PoweraHeroHelm(W)    1 2 15708 704 165212208 15 0 0 0 8000 0 41 24
 character-item = PoweraHeroArmor(W)   1 2 11827 704 165224911 15 0 0 0 8000 0 40 30
 character-item = PoweraHeroHauberk(W) 1 2 25704 704 165237498 15 0 0 0 8000 0 40 30
@@ -219,7 +219,7 @@ character-item = LagiShield           1 2 26770 707 11323110 0 0 0 0 800 1281715
 //------------------012345678901234567890123456789012345678901234567890
 magic-mastery     = 1110000000111110000011011111101111111110111111110011011011001011111100011110110011100000001100011010
 skill-mastery     = 100 100 100 0 100 100 100 100 100 100 100 100 100 100 100 0 0 0 0 0 0 100 0 20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-skill-SSN     = 0 0 0 0 0 0 0 0 18934780 0 0 0 0 0 220400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+skill-SSN     = 0 0 0 0 0 0 0 0 19287120 0 0 0 0 0 220400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 
 Achivements     = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 
