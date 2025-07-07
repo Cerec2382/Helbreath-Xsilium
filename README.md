@@ -1,6 +1,6 @@
 # Helbreath Xsilium
 
-**Helbreath Xsilium** es un servidor privado del clásico juego Helbreath, basado en el código fuente de **Helbreath Cursed** desarrollado por *Heaton*, y también en elementos de **Helbreath Argentina**.
+**Helbreath Xsilium** es un servidor privado del clásico juego Helbreath, basado en el código fuente de **Helbreath Cursed** y **Helbreath Argentina**.
 
 ## ✨ Créditos y agradecimientos
 
