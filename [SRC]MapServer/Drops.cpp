@@ -46,6 +46,10 @@ int CMapServer::RollByProbabilityTable(const int* chances, int size) {
 		acc += chances[i];
 		if (roll <= acc){
 			
+			if (i + 1 >= 5){
+				std::cout << "Multiplicador: " << (i + 1) << std::endl;
+			}
+
 			return i + 1; // retorna el multiplicador (1-based)
 		}
 	}
@@ -63,36 +67,6 @@ inline void SetDropDifficulty(float f) { g_fDropDifficulty = f; }
 // 1.0 = pesos originales; <1.0 reduce probabilidades de multiplicadores; >1.0 las aumenta
 static float g_fWeightMultiplier = 1.0f;
 inline void SetWeightMultiplier(float f) { g_fWeightMultiplier = f; }
-
-
-
-
-
-
-/*
-int CMapServer::RollByWeights(const int* weights, int size) {
-	std::vector<int> adj;
-	adj.reserve(size);
-	int total = 0;
-	for (int i = 0; i < size; ++i) {
-		int baseW = g_HittingProbWeights[i];  
-		int w = static_cast<int>(baseW * g_fWeightMultiplier + 0.5f);
-		if (w < 1) w = 1;
-		adj.push_back(w);
-		total += w;
-	}
-	int roll = iDice(1, total);
-	int acumulado = 0;
-	for (int i = 0; i < size; ++i) {
-		acumulado += adj[i];
-		if (roll <= acumulado)
-			return i + 1;
-	}
-	
-	return size;
-}
-*/
-
 
 
 void CMapServer::NpcDeadItemGenerator(int iNpcH, short sAttackerH, char cAttackerType)
@@ -379,7 +353,7 @@ void CMapServer::NpcDeadItemGenerator(int iNpcH, short sAttackerH, char cAttacke
 						break;
 
 					case 115: //Hellbutcher
-					case 116: //HellTroll
+					case 116: //HellTrollde
 						iGenLevel = 20;
 						break;
 
@@ -800,11 +774,149 @@ void CMapServer::NpcDeadItemGenerator(int iNpcH, short sAttackerH, char cAttacke
 					//Calculo de % de items - LaloRamos - PrimerDropLalo - primer drop
 					//(Stat principal de armas y su color)
 					if (pItem->m_sItemEffectType == DEF_ITEMEFFECTTYPE_ATTACK) {
-						
+						//cambio orden y porcentaje 
+						iResult = iDice(1, 80);
+						if ((iResult >= 1) && (iResult <= 9)) {
+							dwType = 6; //Light
+							cColor = 2;
+						}
+						else if ((iResult >= 10) && (iResult <= 19)) {
+							dwType = 8; //Strong
+							cColor = 3;
+						}
+						else if ((iResult >= 20) && (iResult <= 29)) {
+							dwType = 1; //Critical
+							cColor = 5;
+						}
+						else if ((iResult >= 30) && (iResult <= 39)) {
+							dwType = 5; //Agile
+							cColor = 1;
+						}
+						else if ((iResult >= 40) && (iResult <= 49)) {
+							dwType = 3; //Right
+							cColor = 7;
+						}
+						else if ((iResult >= 50) && (iResult <= 59)) {
+							dwType = 2; //Poison
+							cColor = 4;
+						}
+						else if ((iResult >= 60) && (iResult <= 69)) {
+							dwType = 7; //Sharp
+							cColor = 6;
+						}
+						else if ((iResult >= 70) && (iResult <= 80)) {
+							dwType = 9; //Ancient
+							cColor = 8;
+						}
+
+
+						pItem->m_cItemColor = cColor;
+
+						//Calculo de % de items - LaloRamos
+						//(Poison Damage)
+						iResult = iDice(1, 2600);
+						if ((iResult >= 1) && (iResult < 1000))			dwValue = 1;
+						else if ((iResult >= 1000) && (iResult < 1500))  dwValue = 2;
+						else if ((iResult >= 1500) && (iResult < 1900))  dwValue = 3;
+						else if ((iResult >= 1900) && (iResult < 2300))  dwValue = 4;
+						else if ((iResult >= 2300) && (iResult < 2600))  dwValue = 5;
+						//else if ((iResult >= 2600) && (iResult < 2700))  dwValue = 6;
+						else dwValue = 3;
+
+						switch (dwType) {
+						case 1: if (dwValue <= 5) dwValue = 5; break;
+						case 2: if (dwValue <= 4) dwValue = 4; break;
+						case 6: if (dwValue <= 4) dwValue = 4; break;
+						case 8: if (dwValue <= 2) dwValue = 2; break;
+						}
+						if ((iGenLevel <= 2) && (dwValue > 7)) dwValue = 7;
+
+						pItem->m_dwAttribute = NULL;
+						dwType = dwType << 20;
+						dwValue = dwValue << 16;
+						pItem->m_dwAttribute = pItem->m_dwAttribute | dwType | dwValue;
+
+						if (iDice(1, 10000) >= 3000) {
+							iResult = iDice(1, 1200);
+							if ((iResult >= 1) && (iResult <= 299))          dwType = 2; //HP
+							else if ((iResult >= 300) && (iResult <= 599))  dwType = 10; //CAD
+							else if ((iResult >= 600) && (iResult <= 899))  dwType = 12; //GOLD 
+							else if ((iResult >= 900) && (iResult <= 1200)) dwType = 11; //EXP
+
+							//Calculo de % de items - LaloRamos
+							//(Hitting Probability, Armas)
+
+							int dwValue = RollByProbabilityTable(kMultiplierProbabilities, 15);
+
+							switch (dwType) {
+							case 2: /*if (dwValue <= 3) dwValue = 3;*/ break;
+							case 10: /*if (dwValue > 7) dwValue = 7;*/ break;
+							case 11:
+								dwValue = 2;
+								//	if (dwValue <= 2) dwValue = 2; 
+								//	if (dwValue >= 10) dwValue = 10;
+								break;
+							case 12:
+								dwValue = 5;
+								//	if (dwValue <= 5) dwValue = 5;
+								//	if (dwValue >= 10) dwValue = 10;
+								break;
+							}
+							if ((iGenLevel <= 2) && (dwValue > 7)) dwValue = 7;
+
+							dwType = dwType << 12;
+							dwValue = dwValue << 8;
+
+							pItem->m_dwAttribute = pItem->m_dwAttribute | dwType | dwValue;
+						}
 					}
 
 					else if (pItem->m_sItemEffectType == DEF_ITEMEFFECTTYPE_ATTACK_MANASAVE) {
-						
+						dwType = 10;
+						cColor = 5;
+
+						pItem->m_cItemColor = cColor;
+
+						//Calculo de % de items - LaloRamos
+						//(Magic Casting Probability , Wands)
+						int dwValue = RollByProbabilityTable(kMultiplierProbabilities, 15);
+						if ((iGenLevel <= 2) && (dwValue > 7)) dwValue = 7;
+						pItem->m_dwAttribute = NULL;
+						dwType = dwType << 20;
+						dwValue = dwValue << 16;
+						pItem->m_dwAttribute = pItem->m_dwAttribute | dwType | dwValue;
+
+						if (iDice(1, 10000) >= 3000) {
+							iResult = iDice(1, 1200);
+							if ((iResult >= 1) && (iResult <= 299))          dwType = 2;
+							else if ((iResult >= 300) && (iResult <= 599))  dwType = 10;
+							else if ((iResult >= 600) && (iResult <= 899))  dwType = 12;
+							else if ((iResult >= 900) && (iResult <= 1200)) dwType = 11;
+
+							//Calculo de % de items - LaloRamos
+							//(Hitting Probability , Wands)
+							// Para alcanzar hasta dwValue = 15 (15 * 7 = 105%)
+
+							int dwValue = RollByProbabilityTable(kMultiplierProbabilities, 15);
+							if ((iGenLevel <= 2) && (dwValue > 7)) dwValue = 7;
+							switch (dwType) {
+							case 2: if (dwValue <= 3) dwValue = 3; break;
+							case 10: if (dwValue > 7) dwValue = 7; break;
+							case 11:
+								dwValue = 2;
+								//	if (dwValue <= 2) dwValue = 2;
+								//	if (dwValue >= 10) dwValue = 10;
+								break;
+							case 12:
+								dwValue = 5;
+								//	if (dwValue <= 5) dwValue = 5;
+								//	if (dwValue >= 10) dwValue = 10;
+								break;
+							}
+							dwType = dwType << 12;
+							dwValue = dwValue << 8;
+							pItem->m_dwAttribute = pItem->m_dwAttribute | dwType | dwValue;
+						}
 					}
 					else if (pItem->m_sItemEffectType == DEF_ITEMEFFECTTYPE_DEFENSE) {
 						char  cTxt[200], cTemp1[120];
@@ -870,12 +982,14 @@ void CMapServer::NpcDeadItemGenerator(int iNpcH, short sAttackerH, char cAttacke
 							}
 							//if ((iGenLevel <= 2) && (dwValue > 7)) dwValue = 7;
 
-							
+							/*
 
 							if (dwValue >= 5){
 								wsprintf(cTxt, "Atributo: %i", dwValue);
 								CharacterLogList(cTxt);
 							}
+
+							*/
 
 
 							dwType = dwType << 12;
