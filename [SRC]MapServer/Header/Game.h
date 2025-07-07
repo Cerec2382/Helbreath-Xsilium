@@ -558,7 +558,10 @@ public:
 	void SetMagicProtectionFlag(short sOwnerH, char cOwnerType, BOOL bStatus);
 	BOOL bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbability, int iMin, int iMax, 
 				short sBaseX, short sBaseY, int iItemSpreadType, int iSpreadRange,
-				int		*iItemIDs, POINT *BasePos, int *iNumItem); // v2.23 14/03/06 20:50
+				int		*iItemIDs, POINT *BasePos, int *iNumItem, int *iItemCounts = nullptr); // v2.23 14/03/06 20:50 //drops mejorados
+
+	void AddCoinDrop(int *iItemIDs, int *iItemCounts, int *iNum, int coinType, int minAmt, int maxAmt);
+
 	int  iSetSide(int iClientH); // 2002-11-15 Client의 side, onTown, onShop 정보를 설정
 	void RequestHuntmode(int iClientH); // 2002-11-14 사냥꾼 모드 추가
 	void SetNoHunterMode(int iClientH,BOOL bSendMSG = FALSE); 	// v2.20 2002-12-31 민간인 모드 레벨 제한 과 이동지역 제한 추가 

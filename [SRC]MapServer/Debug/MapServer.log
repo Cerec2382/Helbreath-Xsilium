@@ -1,4 +1,4 @@
-﻿Build started 07/07/2025 12:16:32 p. m..
+﻿Build started 07/07/2025 03:19:23 p. m..
      1>Project "C:\Users\irwin\Documents\CursedV1 (Arg Version)\[SRC]MapServer\MapServer.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
      1>ClCompile:

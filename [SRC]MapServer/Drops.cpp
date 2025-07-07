@@ -1054,6 +1054,11 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 		int k;
 		short sAttackerH;
 
+		int iItemCounts[10];
+		memset(iItemCounts, 0, sizeof(iItemCounts));
+
+
+
 
 		if (m_pNpcList[iNpcH] == NULL) return;
 
@@ -1380,10 +1385,7 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 				}
 				break;
 			case 33://WereWolf
-
-				iItemID = COIN_MEDIUM; break;
-
-
+				
 				switch (iDice(1, 15)) {
 				case 1: if (iDice(1, 30) == 3) iItemID = 551; break;		// "WerewolfTail"
 				case 2: if (iDice(1, 25) == 3) iItemID = 548; break;		// "WerewolfHeart"
@@ -1400,7 +1402,12 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 				case 13: if (iDice(1, 25000) == 8539) iItemID = 3243; break;	// "MerienChainMailM"
 				case 14: if (iDice(1, 25000) == 8539) iItemID = 3244; break;	// "MerienChainMailW"
 				
-				case 15: if (iDice(1, 20) >= 10) iItemID = 3245; break;	// "COIN_MEDIUM"
+				case 15: 
+					if (iDice(1, 200) == 1 && Drop == TRUE) { // 0.5% de probabilidad que salga coins
+						//Drop de Coins
+						bGetMultipleItemNamesWhenDeleteNpc(m_pNpcList[iNpcH]->m_sType, iItemprobability, 6, 1, m_pNpcList[iNpcH]->m_sX, m_pNpcList[iNpcH]->m_sY, DEF_ITEMSPREAD_FIXED, 65, iItemIDs, ItemPositions, &iNumItem, iItemCounts);
+					}
+				break;	
 
 				default: break;
 				}
@@ -1829,6 +1836,8 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 				for (int j = 0; j < iNumItem; j++) {
 					if (pItem == NULL) pItem = new class CItem;
 
+						
+
 
 					//pItem = new class CItem;
 					if (iItemIDs[j] == CONTRIB_MEDIUM)
@@ -1848,11 +1857,18 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 						iItemIDs[j] = 3055;
 					}
 					
+
+
 					
 
 					if (_bInitItemAttr(pItem, iItemIDs[j]) != FALSE &&
 						m_pMapList[m_pNpcList[iNpcH]->m_cMapIndex]->bGetIsMoveAllowedTile((short)ItemPositions[j].x, (short)ItemPositions[j].y) != FALSE)
 					{
+
+
+
+
+
 
 						if (iItemIDs[j] == 3052) //contrib
 						{
@@ -1866,10 +1882,18 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 						{
 							pItem->m_dwCount = RollDice(5, 20);
 						}
-						else if (iItemIDs[j] == 3053) //coin
+						if (iItemIDs[j] == 3053) // coin
 						{
-							pItem->m_dwCount = RollDice(2, 7);
+							if (iItemCounts != nullptr && j < 10 && iItemCounts[j] > 0 && iItemCounts[j] < 1000) {
+								pItem->m_dwCount = iItemCounts[j];
+							}
+							else {
+								DWORD fallback = RollDice(2, 7);
+								pItem->m_dwCount = fallback;
+							}
 						}
+
+
 						else
 						{
 							if (iItemIDs[j] == 90) pItem->m_dwCount = iDice(10, 15000);
@@ -1986,16 +2010,37 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 }
 
 
+void CMapServer::AddCoinDrop(int *iItemIDs, int *iItemCounts, int *iNum, int coinType, int minAmt, int maxAmt)
+{
+	if (*iNum >= 10) return;
+
+	iItemIDs[*iNum] = coinType;
+
+	if (iItemCounts){
+		iItemCounts[*iNum] = RollDice(minAmt, maxAmt);
+		
+	}
+
+	(*iNum)++;
+}
+
+
+
+
 BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbability, int iMin, int iMax, short sBaseX, short sBaseY,
-	int iItemSpreadType, int iSpreadRange, int *iItemIDs, POINT *BasePos, int *iNumItem)
+	int iItemSpreadType, int iSpreadRange, int *iItemIDs, POINT *BasePos, int *iNumItem, int *iItemCounts)
+
 {
 #ifdef DEF_DEBUG
 	try {
 #endif
+
+
 		int		iProb = 100;
 		float	fProb, fProbA, fProbB, fProbC;
 		int		iItemID;
 		int		iNum = 0;
+		bool bCustomDrop = false;
 
 		for (int i = 0; i < iMax; i++) {
 			if (i > iMin) iProb = iProbability;
@@ -2012,6 +2057,10 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 			iItemID = 0;
 
 			switch (sNpcType) {
+			case 33: // WereWolf
+				AddCoinDrop(iItemIDs, iItemCounts, &iNum, COIN_MEDIUM, 1, 5);
+				bCustomDrop = true;
+				break;
 			case 66: // Wyvern
 				switch (iDice(1, 200)) {
 				case 1: iItemID = 642; break;	// "KnecklaceOfIcePro"
@@ -2105,7 +2154,6 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 					break;
 				}
 				break;
-
 			case 128: // BlackWyvern
 				switch (iDice(1, 100)) {
 					/*	case 1: iItemID = 850; break;		//	"KlonessAxe
@@ -2140,7 +2188,6 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 					break;
 				}
 				break;
-
 			case 120: // HellAbaddon
 				switch (iDice(1, 100)) {
 				case 1: iItemID = COIN_MEDIUM; break;//20k
@@ -2160,7 +2207,6 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 				break;
 
 				/*	Item = 3107	Coins(+1000) - Item = 3108	Coins(+5000) - Item = 3114	Coins(+10000)*/
-
 			case 81: // Abaddon
 				switch (iDice(1, 1000)) {
 				case 1: // 0.1% chance - Legendario
@@ -2196,7 +2242,18 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 						   }
 				}
 					break;
+
+
+
+
 				}
+
+
+
+
+
+
+
 				//FIXED
 				if (iItemID == 0) {
 					switch (iDice(1, 3)) {
@@ -2209,13 +2266,33 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 			}
 
 
-			// Gold 
-			if (iItemID == 0) iItemID = 90; // Gold
-			if (iItemID != 0) {
-				// item id
-				iItemIDs[iNum] = iItemID;
+			if (bCustomDrop) {
+				switch (iItemSpreadType) {
+				case DEF_ITEMSPREAD_RANDOM:
+					BasePos[iNum - 1].x = sBaseX + iSpreadRange - iDice(1, iSpreadRange * 2);
+					BasePos[iNum - 1].y = sBaseY + iSpreadRange - iDice(1, iSpreadRange * 2);
+					break;
+				case DEF_ITEMSPREAD_FIXED:
+					BasePos[iNum - 1].x = sBaseX + ITEMSPREAD_FIEXD_COORD[iNum - 1][0];
+					BasePos[iNum - 1].y = sBaseY + ITEMSPREAD_FIEXD_COORD[iNum - 1][1];
+					break;
+				}
 
-				// item position
+				*iNumItem = iNum;   
+				return TRUE; 
+			}
+
+
+			// Gold 
+			//if (iItemID == 0) iItemID = 90; // Gold
+			if (iItemID == 0 && iNum == 0) {
+				iItemID = 90;
+			}
+
+			if (iItemID != 0 || iNum != 0) {
+
+				if (iItemID != 0) iItemIDs[iNum] = iItemID;
+
 				switch (iItemSpreadType) {
 				case DEF_ITEMSPREAD_RANDOM:
 					BasePos[iNum].x = sBaseX + iSpreadRange - iDice(1, iSpreadRange * 2);
@@ -2229,15 +2306,21 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 				}
 				iNum++;
 			}
-		} // for
+			else {
+			}
 
+		} // for
 		*iNumItem = iNum;
+
+
 #ifdef DEF_DEBUG
 	}
 	catch (...) {
 		ErrorList("Crash Evitado en: bGetMultipleItemNamesWhenDeleteNpc");
 	}
 #endif
+
+
 	return TRUE;
 }
 bool CMapServer::bCheckClientMoveFrequency(int client, BOOL running)
