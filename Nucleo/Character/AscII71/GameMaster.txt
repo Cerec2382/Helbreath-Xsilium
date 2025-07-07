@@ -1,13 +1,13 @@
 [FILE-DATE]
 
-file-saved-date: 2025 7 7 11 37
+file-saved-date: 2025 7 7 11 40
 
 [NAME-ACCOUNT]
 
 character-name     = GameMaster
 account-name       = GM
 Hour-Play = 9
-Min-Play = 51
+Min-Play = 55
 
 CheckProcess = OFF
 
@@ -47,7 +47,7 @@ character-CHARISMA = 195
 
 character-HP       = 1452
 character-MP       = 1252
-character-SP       = 1150
+character-SP       = 1152
 sex-status       = 2
 skin-status      = 2
 hairstyle-status = 2

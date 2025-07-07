@@ -3,3 +3,9 @@
 *.suo
 *.user
 *.VC.db
+*.log
+*.idb
+*.pdb
+/Nucleo/Account/
+/Nucleo/Character/
+/ServerLogs/
