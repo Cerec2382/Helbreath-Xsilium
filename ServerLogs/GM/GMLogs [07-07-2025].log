@@ -1,0 +1,118 @@
+09:28:28	GM Chat(GameMaster):"/qweop"
+09:28:30	GM Chat(GameMaster):"/qwepo"
+09:28:35	GM Chat(GameMaster):"/summon WereWolf 50"
+09:28:35	GM Order(GameMaster): Summon NPC(WereWolf)-Count(50)
+09:28:36	GM Chat(GameMaster):"/clearnpc"
+09:29:57	GM Chat(GameMaster):"/summon WereWolf 150"
+09:35:00	GM Chat(GameMaster):"/QWEOP"
+09:35:02	GM Chat(GameMaster):"/qwepo"
+09:35:06	GM Chat(GameMaster):"/summon WereWolf 150"
+09:35:06	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+09:35:08	GM Chat(GameMaster):"/clearnpc"
+09:35:55	GM Chat(GameMaster):"/summon WereWolf 150"
+09:49:01	GM Chat(GameMaster):"/qwepo"
+09:49:04	GM Chat(GameMaster):"/summon WereWolf"
+09:49:04	GM Order(GameMaster): Summon NPC(WereWolf)-Count(1)
+09:49:05	GM Chat(GameMaster):"/clearnpc"
+09:49:16	GM Chat(GameMaster):"/clearnpc"
+09:53:28	GM Chat(GameMaster):"/clearnpc"
+09:53:30	GM Chat(GameMaster):"/qwepo"
+09:53:31	GM Chat(GameMaster):"/clearnpc"
+09:55:01	GM Chat(GameMaster):"/summon WereWolf 150"
+10:38:35	GM Chat(GameMaster):"/qwepo"
+10:38:40	GM Chat(GameMaster):"/summon WereWolf 150"
+10:38:40	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+10:38:42	GM Chat(GameMaster):"/clearnpc"
+10:39:03	GM Chat(GameMaster):"/summon WereWolf 150"
+10:47:05	GM Chat(GameMaster):"/qwepo"
+10:47:07	GM Chat(GameMaster):"/clear"
+10:47:10	GM Chat(GameMaster):"/clearnpc"
+10:47:19	GM Chat(GameMaster):"/summon WereWolf 150"
+10:47:19	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+10:47:20	GM Chat(GameMaster):"/clearnpc"
+10:47:43	GM Chat(GameMaster):"/getcrits"
+10:51:24	GM Chat(GameMaster):"/qwepo"
+10:51:33	GM Chat(GameMaster):"/summon WereWolf 150"
+10:51:33	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+10:51:34	GM Chat(GameMaster):"/clearnpc"
+10:51:57	GM Chat(GameMaster):"/summon WereWolf 150"
+10:53:10	GM Chat(GameMaster):"/qwepo"
+10:53:13	GM Chat(GameMaster):"/summon WereWolf 150"
+10:53:13	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+10:53:14	GM Chat(GameMaster):"/clearnpc"
+10:53:46	GM Chat(GameMaster):"/qwepo"
+10:53:50	GM Chat(GameMaster):"/clearnpc"
+10:53:51	GM Chat(GameMaster):"/clearnpc"
+10:53:56	GM Chat(GameMaster):"/clearnpc"
+10:55:11	GM Chat(GameMaster):"/qwepo"
+10:55:15	GM Chat(GameMaster):"/clearnpc"
+10:55:20	GM Chat(GameMaster):"/summon WereWolf 150"
+10:55:20	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+10:55:21	GM Chat(GameMaster):"/clearnpc"
+10:57:37	GM Chat(GameMaster):"/qwepo"
+10:57:38	GM Chat(GameMaster):"/clearnpc"
+10:57:44	GM Chat(GameMaster):"/summon WereWolf 150"
+10:57:44	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+10:57:45	GM Chat(GameMaster):"/clearnpc"
+10:58:15	GM Chat(GameMaster):"/summon WereWolf 150"
+10:58:15	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+10:58:16	GM Chat(GameMaster):"/clearnpc"
+10:58:39	GM Chat(GameMaster):"/summon WereWolf 150"
+10:58:39	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+10:58:42	GM Chat(GameMaster):"/summon WereWolf 150"
+10:58:42	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+10:58:45	GM Chat(GameMaster):"/summon WereWolf 150"
+10:58:45	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+10:58:49	GM Chat(GameMaster):"/summon WereWolf 150"
+10:58:49	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+10:58:50	GM Chat(GameMaster):"/clearnpc"
+11:02:13	GM Chat(GameMaster):"/qwepo"
+11:04:44	GM Chat(GameMaster):"/qwepo"
+11:06:24	GM Chat(GameMaster):"/qwepo"
+11:06:27	GM Chat(GameMaster):"/summon WereWolf 150"
+11:10:26	GM Chat(GameMaster):"/clearnpc"
+11:10:31	GM Chat(GameMaster):"/qwepo"
+11:10:32	GM Chat(GameMaster):"/clearnpc"
+11:13:08	GM Chat(GameMaster):"/clearnpc"
+11:17:24	GM Chat(GameMaster):"/clearnpc"
+11:17:27	GM Chat(GameMaster):"/summon WereWolf"
+11:17:30	GM Chat(GameMaster):"/qwepo"
+11:17:33	GM Chat(GameMaster):"/summon WereWolf 150"
+11:17:33	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+11:17:37	GM Chat(GameMaster):"/clearnpc"
+11:18:16	GM Chat(GameMaster):"/tp middleland"
+11:18:16	GM Order(GameMaster): teleport MapName(middleland)
+11:18:21	GM Chat(GameMaster):"/tp middleland 372 221"
+11:18:21	GM Order(GameMaster): teleport MapName(middleland)(372 221)
+11:18:24	GM Chat(GameMaster):"/tp middleland 413 212"
+11:18:24	GM Order(GameMaster): teleport MapName(middleland)(413 212)
+11:19:10	GM Chat(GameMaster):"/tp EventGarden"
+11:19:13	GM Chat(GameMaster):"/tp Garden"
+11:19:38	GM Chat(GameMaster):"/tp avaevent"
+11:19:44	GM Chat(GameMaster):"/tp avaevent"
+11:19:47	GM Chat(GameMaster):"/tp market"
+11:19:49	GM Chat(GameMaster):"/qwepo"
+11:19:52	GM Chat(GameMaster):"/tp avaevent"
+11:19:52	GM Order(GameMaster): teleport MapName(avaevent)
+11:20:06	GM Chat(GameMaster):"/tp Counter"
+11:20:06	GM Order(GameMaster): teleport MapName(Counter)
+11:20:14	GM Chat(GameMaster):"/tp NewEvent"
+11:20:14	GM Order(GameMaster): teleport MapName(NewEvent)
+11:20:33	GM Chat(GameMaster):"/tp EventMap"
+11:20:33	GM Order(GameMaster): teleport MapName(EventMap)
+11:20:38	GM Chat(GameMaster):"/tp market"
+11:20:38	GM Order(GameMaster): teleport MapName(market)
+11:21:15	GM Chat(GameMaster):"/tp wzdwr_1"
+11:21:21	GM Chat(GameMaster):"/tp wzdtwr_1"
+11:21:21	GM Order(GameMaster): teleport MapName(wzdtwr_1)
+11:21:27	GM Chat(GameMaster):"/tp areuni"
+11:21:27	GM Order(GameMaster): teleport MapName(areuni)
+11:21:33	GM Chat(GameMaster):"/tp areuni 137 176"
+11:21:33	GM Order(GameMaster): teleport MapName(areuni)(137 176)
+11:21:45	GM Chat(GameMaster):"/clearnpc"
+11:23:05	GM Chat(GameMaster):"/qwepo"
+11:23:06	GM Chat(GameMaster):"/clearnpc"
+11:23:20	GM Chat(GameMaster):"/clearnpc"
+11:23:34	GM Chat(GameMaster):"/clearnpc"
+11:23:43	GM Chat(GameMaster):"/clearnpc"
+11:23:47	GM Chat(GameMaster):"/clearnpc"

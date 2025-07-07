@@ -266,7 +266,7 @@ static char * strcpy_secure(char * s1, const char * s2) {
 class CMapServer  
 {
 public:
-	int RollByWeights(const int* weights, int size);
+	int RollByProbabilityTable(const int* chances, int size);
 	//inline void SetMultiplierWeight(int idx, int w);
 
 	void ScaleMultiplierWeight(int idx, float f);
