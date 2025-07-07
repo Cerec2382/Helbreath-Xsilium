@@ -17,7 +17,6 @@ int ITEMSPREAD_FIEXD_COORD[25][2] = { { 0, 0 }, { 1, 0 }, { 1, 1 }, { 0, 1 }, { 
 #define COIN_BIG 99909
 
 //Sistema de drop mejorado.
-//Aleatoriedad por pesos
 static const int kNumMultipliers = 15;
 static const int kMultiplierProbabilities[15] = {
 	12800, // x1 ( 7% / 3%)  → 40.00%
@@ -40,7 +39,7 @@ static const int kMultiplierProbabilities[15] = {
 
 
 int CMapServer::RollByProbabilityTable(const int* chances, int size) {
-	int roll = iDice(1, 30000); // valor entre 1 y 100000
+	int roll = iDice(1, 30000); // valor entre 1 y 30000
 	int acc = 0;
 	for (int i = 0; i < size; ++i) {
 		acc += chances[i];
@@ -53,7 +52,7 @@ int CMapServer::RollByProbabilityTable(const int* chances, int size) {
 			return i + 1; // retorna el multiplicador (1-based)
 		}
 	}
-	return 14; // fallback: si no cae en ninguno, devuelve x1
+	return 1; // fallback: si no cae en ninguno, devuelve x1
 }
 
 
