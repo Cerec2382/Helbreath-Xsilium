@@ -43040,7 +43040,7 @@ void CMapServer::AdminOrder_Summon(int iClientH, char *pData, DWORD dwMsgSize)
 		else iNum = 1;
 
 		if (iNum <= 0)  iNum = 1;
-		if (iNum >= 50)  iNum = 50;
+		if (iNum >= 150)  iNum = 150;
 
 		cSA = 0;
 		pX = m_pClientList[iClientH]->m_sX;

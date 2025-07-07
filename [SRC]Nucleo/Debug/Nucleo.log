@@ -1,9 +1,9 @@
-﻿Build started 06/07/2025 09:25:21 a. m..
-     1>Project "C:\Users\irwin\Documents\CursedV1 (Arg Version)\[SRC]Nucleo\Nucleo.vcxproj" on node 2 (Build target(s)).
+﻿Build started 06/07/2025 01:39:29 p. m..
+     1>Project "C:\Users\irwin\Documents\CursedV1 (Arg Version)\[SRC]Nucleo\Nucleo.vcxproj" on node 3 (Build target(s)).
      1>Link:
          Nucleo.vcxproj -> C:\Users\irwin\Documents\CursedV1 (Arg Version)\[SRC]Nucleo\..\Nucleo\Nucleo.exe
      1>Done Building Project "C:\Users\irwin\Documents\CursedV1 (Arg Version)\[SRC]Nucleo\Nucleo.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.32
+Time Elapsed 00:00:00.02

@@ -267,6 +267,12 @@ class CMapServer
 {
 public:
 	int RollByWeights(const int* weights, int size);
+	//inline void SetMultiplierWeight(int idx, int w);
+
+	void ScaleMultiplierWeight(int idx, float f);
+	void SetMultiplierWeight(int idx, int w);
+
+
 	void updateEntitySync(int owner, short owner_type, short command);
 	void response_ping(int client);
 	void SaveAllCharacters();

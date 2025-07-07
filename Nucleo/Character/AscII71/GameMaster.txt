@@ -1,13 +1,13 @@
 [FILE-DATE]
 
-file-saved-date: 2025 7 5 17 17
+file-saved-date: 2025 7 6 14 23
 
 [NAME-ACCOUNT]
 
 character-name     = GameMaster
 account-name       = GM
-Hour-Play = 6
-Min-Play = 59
+Hour-Play = 9
+Min-Play = 0
 
 CheckProcess = OFF
 
@@ -22,9 +22,9 @@ character-guild-rank = -1
 
 [MAP-DATA]
 
-character-loc-map = gshop_2
-character-loc-x   = -1
-character-loc-y   = -1
+character-loc-map = Extreme
+character-loc-x   = 76
+character-loc-y   = 83
 
 locked-map-name = NONE
 locked-map-time = 0
@@ -32,7 +32,7 @@ locked-map-time = 0
 
 [STATS]
 
-character-EXP      = 207626688
+character-EXP      = 203484288
 character-LEVEL    = 376
 character-LU_Pool  = 3
 character-STR      = 200
@@ -72,13 +72,13 @@ special-ability-time = 0
 [POINTS]
 
 Assasain-Count = 0
-character-RATING   = 2000
+character-RATING   = -2000
 character-EK-Count = 777271
 character-EK-TotalCount = 0
 character-PK-Count = 0
 character-FK-Count = 0
 character-contribution = 4765
-gizon-item-upgade-left = 8309
+gizon-item-upgade-left = 8324
 super-attack-left = 5000
 Coins = 109706
 
@@ -102,7 +102,7 @@ stated-reward-type     = 0
 
 [ACHIVEMENTS]
 
-Total-Mobs-Killed = 338229
+Total-Mobs-Killed = 507602
 Total-Death = 1
 Total-Client-Killed = 0
 Total-Quest-Completed = 0
@@ -133,7 +133,7 @@ ip-muerte = appr1
 
 
 appr1 = 610
-appr2 = -3856
+appr2 = 240
 appr3 = -5641
 appr4 = 2308
 appr-color = -1325400305
@@ -154,14 +154,14 @@ character-rank-addmag = 0
 
 [ENCHANTING]
 
-character-shard-light = 0
+character-shard-light = 30
 character-shard-strong = 0
 character-fragment-hp = 0
 character-fragment-dr = 0
 character-fragment-hprec = 0
 character-fragment-sprec = 0
 character-fragment-mprec = 0
-character-fragment-mr = 0
+character-fragment-mr = 10
 character-fragment-pa = 0
 character-fragment-ma = 0
 character-fragment-exp = 0
@@ -191,9 +191,9 @@ character-back-level = 0
 
 [ITEMLIST]
 
-character-item = Gold                 853207 0 0 0 0 0 0 0 0 600 0 170 57
+character-item = Gold                 1465220 0 0 0 0 0 0 0 0 600 0 170 57
 character-item = ROP                  1 2 30756 704 164954865 0 0 0 0 300 0 26 50
-character-item = LaloXelStorm         1 2 8556 704 165021518 11 0 0 0 2831 0 95 54
+character-item = LaloXelStorm         1 2 8556 704 165021518 11 0 0 0 2737 0 95 54
 character-item = PoweraHeroHelm(W)    1 2 15708 704 165212208 15 0 0 0 8000 0 41 24
 character-item = PoweraHeroArmor(W)   1 2 11827 704 165224911 15 0 0 0 8000 0 40 30
 character-item = PoweraHeroHauberk(W) 1 2 25704 704 165237498 15 0 0 0 8000 0 40 30
@@ -206,6 +206,7 @@ character-item = DemonSlayer          1 2 4920 705 83302706 9 0 0 0 5000 0 130 2
 character-item = DemonSlayer          1 2 4696 705 83420374 9 0 0 0 5000 0 121 23
 character-item = DemonSlayer          1 2 7342 705 83419468 9 0 0 0 4993 0 105 18
 character-item = DemonSlayer          1 2 4696 705 83420374 9 0 0 0 5000 0 130 20
+character-item = ContribBall          3461 2 27236 706 124338675 6 0 0 0 3 0 40 30
 
 
 
@@ -215,7 +216,7 @@ character-item = DemonSlayer          1 2 4696 705 83420374 9 0 0 0 5000 0 130 2
 //------------------012345678901234567890123456789012345678901234567890
 magic-mastery     = 1110000000111110000011011111101111111110111111110011011011001011111100011110110011100000001100011010
 skill-mastery     = 100 100 100 0 100 100 100 100 100 100 100 100 100 100 100 0 0 0 0 0 0 100 0 20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-skill-SSN     = 0 0 0 0 0 0 0 0 18521740 0 0 0 0 0 220400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+skill-SSN     = 0 0 0 0 0 0 0 0 18654640 0 0 0 0 0 220400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 
 Achivements     = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 
