@@ -64,6 +64,8 @@ inline void SetDropDifficulty(float f) { g_fDropDifficulty = f; }
 // Modificador de pesos global (solo para multiplicadores)
 //----------------------------------------------------------------------------- 
 // 1.0 = pesos originales; <1.0 reduce probabilidades de multiplicadores; >1.0 las aumenta
+
+//Actualmente en desarrollo, por ahora no funciona. ¿Será que se habilita esta función? mmm
 static float g_fWeightMultiplier = 1.0f;
 inline void SetWeightMultiplier(float f) { g_fWeightMultiplier = f; }
 
@@ -1378,7 +1380,11 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 				}
 				break;
 			case 33://WereWolf
-				switch (iDice(1, 14)) {
+
+				iItemID = COIN_MEDIUM; break;
+
+
+				switch (iDice(1, 15)) {
 				case 1: if (iDice(1, 30) == 3) iItemID = 551; break;		// "WerewolfTail"
 				case 2: if (iDice(1, 25) == 3) iItemID = 548; break;		// "WerewolfHeart"
 				case 3: if (iDice(1, 25) == 3) iItemID = 550; break;		// "WerewolfMeat"
@@ -1393,6 +1399,9 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 				case 12: if (iDice(1, 25000) == 8539) iItemID = 622; break;		// "MerienPlateMailM"
 				case 13: if (iDice(1, 25000) == 8539) iItemID = 3243; break;	// "MerienChainMailM"
 				case 14: if (iDice(1, 25000) == 8539) iItemID = 3244; break;	// "MerienChainMailW"
+				
+				case 15: if (iDice(1, 20) >= 10) iItemID = 3245; break;	// "COIN_MEDIUM"
+
 				default: break;
 				}
 				break;

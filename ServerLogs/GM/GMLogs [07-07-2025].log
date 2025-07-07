@@ -132,3 +132,46 @@
 11:36:33	GM Chat(GameMaster):"/tradeek"
 11:36:39	GM Chat(GameMaster):"/tradecoin"
 11:43:42	GM Chat(GameMaster):"/summon Abaddon"
+12:01:05	GM Chat(GameMaster):"/qwepo"
+12:01:08	GM Chat(GameMaster):"/summon WereWolf 150"
+12:01:08	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+12:01:11	GM Chat(GameMaster):"/summon WereWolf150"
+12:01:11	GM Order(GameMaster): Summon NPC(WereWolf150)-Count(1)
+12:01:14	GM Chat(GameMaster):"/summon WereWolf 150"
+12:01:14	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+12:01:18	GM Chat(GameMaster):"/summon WereWolf 150"
+12:01:18	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+12:01:21	GM Chat(GameMaster):"/clearnpc"
+12:01:58	GM Chat(GameMaster):"/qwepo"
+12:02:01	GM Chat(GameMaster):"/summon WereWolf 150"
+12:02:01	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+12:02:04	GM Chat(GameMaster):"/summon WereWolf 150"
+12:02:04	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+12:02:07	GM Chat(GameMaster):"/summon WereWolf 150"
+12:02:07	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+12:02:09	GM Chat(GameMaster):"/clearnpc"
+12:02:40	GM Chat(GameMaster):"/summon WereWolf 150"
+12:03:59	GM Chat(GameMaster):"/qwepo"
+12:06:02	GM Chat(GameMaster):"/qwepo"
+12:06:06	GM Chat(GameMaster):"/summon WereWolf"
+12:06:06	GM Order(GameMaster): Summon NPC(WereWolf)-Count(1)
+12:06:10	GM Chat(GameMaster):"/summon WereWolf 150"
+12:06:10	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+12:06:11	GM Chat(GameMaster):"/clearnpc"
+12:06:45	GM Chat(GameMaster):"/summon WereWolf 150"
+12:06:46	GM Chat(GameMaster):"/qwepo"
+12:06:49	GM Chat(GameMaster):"/summon WereWolf 150"
+12:07:57	GM Chat(GameMaster):"/qwepo"
+12:09:03	GM Chat(GameMaster):"/qwepo"
+12:09:06	GM Chat(GameMaster):"/summon WereWolf 150"
+12:09:06	GM Order(GameMaster): Summon NPC(WereWolf)-Count(150)
+12:09:07	GM Chat(GameMaster):"/clearnpc"
+12:09:34	GM Chat(GameMaster):"/qwepo"
+12:14:09	GM Chat(GameMaster):"/qwepo"
+12:14:12	GM Chat(GameMaster):"/summon WereWolf 20"
+12:14:12	GM Order(GameMaster): Summon NPC(WereWolf)-Count(20)
+12:14:38	GM Chat(GameMaster):"/summon HellAbaddon"
+12:14:38	GM Order(GameMaster): Summon NPC(HellAbaddon)-Count(1)
+12:15:00	GM Chat(GameMaster):"/ci Bow"
+12:16:48	GM Chat(GameMaster):"/qwepo"
+12:16:52	GM Chat(GameMaster):"/summon WereWolf 20"

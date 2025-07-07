@@ -15171,3 +15171,24 @@
 11:24:35	Atributo: 5
 11:24:35	Atributo: 5
 11:24:35	Atributo: 5
+12:01:03	<1> Loggin: GameMaster - IP: 192.168.8.5 - In Map: Whouse - Coord X: 48 / Coord Y: 40
+12:01:08	Admin Order: Summon(WereWolf)-(150)
+12:01:11	Admin Order: Summon(WereWolf150)-(1)
+12:01:14	Admin Order: Summon(WereWolf)-(150)
+12:01:18	Admin Order: Summon(WereWolf)-(150)
+12:01:39	<1> Force disconnect account: CharName(GameMaster) AccntName(GM) Count(5)
+12:05:59	<1> Loggin: GameMaster - IP: 192.168.8.5 - In Map: Whouse - Coord X: 52 / Coord Y: 48
+12:06:06	Admin Order: Summon(WereWolf)-(1)
+12:06:10	Admin Order: Summon(WereWolf)-(150)
+12:06:25	<1> Force disconnect account: CharName(GameMaster) AccntName(GM) Count(5)
+12:06:25	<1> Disconnect: GameMaster - IP: 192.168.8.5
+12:06:33	<1> Disconnect: GameMaster - IP: 192.168.8.5
+12:07:54	<1> Loggin: GameMaster - IP: 192.168.8.5 - In Map: Whouse - Coord X: 45 / Coord Y: 52
+12:08:00	Admin Order: Summon(WereWolf)-(150)
+12:08:11	<1> Force disconnect account: CharName(GameMaster) AccntName(GM) Count(5)
+12:09:00	<1> Loggin: GameMaster - IP: 192.168.8.5 - In Map: Whouse - Coord X: 45 / Coord Y: 52
+12:09:06	Admin Order: Summon(WereWolf)-(150)
+12:09:16	<1> Force disconnect account: CharName(GameMaster) AccntName(GM) Count(5)
+12:09:16	<1> Disconnect: GameMaster - IP: 192.168.8.5
+12:09:16	<1> Loggin: GameMaster - IP: 192.168.8.5 - In Map: Whouse - Coord X: 45 / Coord Y: 52
+12:14:06	<1> Loggin: GameMaster - IP: 192.168.8.5 - In Map: Extreme - Coord X: 55 / Coord Y: 78
