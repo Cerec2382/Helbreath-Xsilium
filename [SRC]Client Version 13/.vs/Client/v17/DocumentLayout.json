@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{91B364CE-2BE3-4681-B1E5-4A0908AA27F8}|Client.vcxproj|C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\classes\\Sprite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{91B364CE-2BE3-4681-B1E5-4A0908AA27F8}|Client.vcxproj|solutionrelative:classes\\Sprite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B364CE-2BE3-4681-B1E5-4A0908AA27F8}|Client.vcxproj|C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\classes\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{91B364CE-2BE3-4681-B1E5-4A0908AA27F8}|Client.vcxproj|solutionrelative:classes\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{91B364CE-2BE3-4681-B1E5-4A0908AA27F8}|Client.vcxproj|C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\classes\\XSocket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{91B364CE-2BE3-4681-B1E5-4A0908AA27F8}|Client.vcxproj|solutionrelative:classes\\XSocket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -14,21 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sprite.cpp",
+              "DocumentMoniker": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\classes\\Sprite.cpp",
+              "RelativeDocumentMoniker": "classes\\Sprite.cpp",
+              "ToolTip": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\classes\\Sprite.cpp",
+              "RelativeToolTip": "classes\\Sprite.cpp",
+              "ViewState": "AQIAABYAAAAAAAAAAAAuwC8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-08T02:13:13.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\classes\\Game.cpp",
+              "RelativeDocumentMoniker": "classes\\Game.cpp",
+              "ToolTip": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\classes\\Game.cpp",
+              "RelativeToolTip": "classes\\Game.cpp",
+              "ViewState": "AQIAAGnXAAAAAAAAAAAwwIfXAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-08T02:11:22.038Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "XSocket.cpp",
               "DocumentMoniker": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\classes\\XSocket.cpp",
               "RelativeDocumentMoniker": "classes\\XSocket.cpp",
               "ToolTip": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\classes\\XSocket.cpp",
               "RelativeToolTip": "classes\\XSocket.cpp",
-              "ViewState": "AQIAAGcCAAAAAAAAAAAAALoCAAABAAAA",
+              "ViewState": "AQIAAGoCAAAAAAAAAAAQwHoCAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-04T15:46:17.764Z",
               "EditorCaption": ""

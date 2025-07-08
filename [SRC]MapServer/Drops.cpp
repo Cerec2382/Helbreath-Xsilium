@@ -4,17 +4,21 @@ extern char G_cTxt[512];
 int ITEMSPREAD_FIEXD_COORD[25][2] = { { 0, 0 }, { 1, 0 }, { 1, 1 }, { 0, 1 }, { -1, 1 }, { -1, 0 }, { -1, -1 }, { 0, -1 }, { 1, -1 }, { 2, -1 }, { 2, 0 },
 { 2, 1 }, { 2, 2 }, { 1, 2 }, { 0, 2 }, { -1, 2 }, { -2, 2 }, { -2, 1 }, { -2, 0 }, { -2, -1 }, { -2, -2 }, { -1, -2 }, { 0, -2 }, { 1, -2 }, { 2, -2 } };
 
+#define COIN_SMALL 99907
 #define CONTRIB_SMALL 99901
 #define MAJ_SMALL 99902
 #define REP_SMALL 99903
 
+#define COIN_MEDIUM 99908
 #define CONTRIB_MEDIUM 99904
 #define MAJ_MEDIUM 99905
 #define REP_MEDIUM 99906
 
-#define COIN_SMALL 99907
-#define COIN_MEDIUM 99908
+
+#define MAJ_BIG 99912
+#define CONTRIB_BIG 99910
 #define COIN_BIG 99909
+#define REP_BIG 99911
 
 //Sistema de drop mejorado.
 static const int kNumMultipliers = 15;
@@ -1055,6 +1059,9 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 		int k;
 		short sAttackerH;
 
+		int coinMin, coinMax = -1;
+		int itemType = 0;
+
 		int iItemCounts[10];
 		memset(iItemCounts, 0, sizeof(iItemCounts));
 
@@ -1354,9 +1361,7 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 				}
 				break;
 			case 31://Demons
-				iItemID = COIN_MEDIUM;
-				break;
-
+			
 				switch (iDice(1, 10)) {
 				case 1: if (iDice(1, 15) == 3) iItemID = 541; break;		// "DemonHeart"
 				case 2:	if (iDice(1, 5) == 3) iItemID = 542; break;			// "DemonMeat"
@@ -1373,9 +1378,7 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 				}
 				break;
 			case 32: //Unicorn
-
-				iItemID = COIN_MEDIUM;
-				break;
+			
 				switch (iDice(1, 11)) {
 				case 1: if (iDice(1, 40) == 3) iItemID = 544; break;		// "UnicornHeart"
 				case 2: if (iDice(1, 25) == 3) iItemID = 545; break;		// "UnicornHorn"	
@@ -1800,14 +1803,6 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 
 			case 33://WereWolf
 
-				
-				if (Drop == TRUE) {
-					bGetMultipleItemNamesWhenDeleteNpc(m_pNpcList[iNpcH]->m_sType, iItemprobability,
-						6, 12, m_pNpcList[iNpcH]->m_sX, m_pNpcList[iNpcH]->m_sY, DEF_ITEMSPREAD_FIXED, 65,
-						iItemIDs, ItemPositions, &iNumItem);
-				}
-
-				break;
 
 				switch (iDice(1, 15)) {
 				case 1: if (iDice(1, 30) == 3) iItemID = 551; break;		// "WerewolfTail"
@@ -1857,84 +1852,126 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 					if (pItem == NULL) pItem = new class CItem;
 
 
-		
+				
+					//std::cout << "Item sin procesar: " << COIN_BIG << " Item Recibido " << iItemIDs[j] << std::endl;
 					//pItem = new class CItem;
-					if (iItemIDs[j] == CONTRIB_MEDIUM)
-					{
-						iItemIDs[j] = 3052;
-					}
-					else if (iItemIDs[j] == COIN_MEDIUM)
-					{
-						iItemIDs[j] = 3053;
-					}
-					else if (iItemIDs[j] == REP_MEDIUM)
-					{
-						iItemIDs[j] = 3054;
-					}
-					else if (iItemIDs[j] == MAJ_MEDIUM)
-					{
-						iItemIDs[j] = 3055;
-					}
+
 					
-					else if (iItemIDs[j] == COIN_BIG)
+					itemType = iItemIDs[j];
+
+
+
+					switch (iItemIDs[j])
 					{
-						iItemIDs[j] = 13055;
+					
+						case COIN_SMALL:
+						case COIN_MEDIUM:
+						case COIN_BIG:
+							iItemIDs[j] = 3053;
+						break;
+
+						case CONTRIB_SMALL:
+						case CONTRIB_MEDIUM:
+						case CONTRIB_BIG:
+							iItemIDs[j] = 3052;
+							break;
+
+						case REP_SMALL:
+						case REP_MEDIUM:
+						case REP_BIG:
+							iItemIDs[j] = 3054;
+							break;
+
+						case MAJ_MEDIUM:
+							iItemIDs[j] = 3055;
+							break;
+
+
+						default:
+							iItemIDs[j] = 90;
+						break;
 					}
 
+					
+
+					//std::cout << "Item procesado " << iItemIDs[j] << " ItemType: " << coinType << std::endl;
 					
 
 					if (_bInitItemAttr(pItem, iItemIDs[j]) != FALSE &&
 						m_pMapList[m_pNpcList[iNpcH]->m_cMapIndex]->bGetIsMoveAllowedTile((short)ItemPositions[j].x, (short)ItemPositions[j].y) != FALSE)
 					{
 
+					//	std::cout << "Item recibo despues de procesar: " << iItemIDs[j] << std::endl;
 
 
-						if (iItemIDs[j] == 13055) //contrib
-						{
-							std::cout << "Drop coin big" << std::endl;
 
-							iItemIDs[j] = 3053;
-							pItem->m_dwCount = RollDice(3000, 10000);
+
+
+						switch (iItemIDs[j]) {
+							case 3053: // Item 3053 ==  Coin
+								switch (itemType)
+								{
+									case COIN_SMALL:
+										pItem->m_dwCount = RollDice(1, 3);
+									break;
+									case COIN_MEDIUM:
+										pItem->m_dwCount = RollDice(5, 10);
+										break;
+									case COIN_BIG:
+										pItem->m_dwCount = RollDice(20, 40);
+										break;
+									default:
+										pItem->m_dwCount = RollDice(coinMin, coinMax);
+									break;
+								}
+								iItemIDs[j] = 3053;
+							break;
+
+							case 3052: // Item 3052 ==  Contrib
+								switch (itemType)
+								{
+								case CONTRIB_SMALL:
+									pItem->m_dwCount = RollDice(200, 1000);
+									break;
+								case CONTRIB_MEDIUM:
+									pItem->m_dwCount = RollDice(5000, 50000);
+									break;
+								case CONTRIB_BIG:
+									pItem->m_dwCount = RollDice(50000, 100000);
+									break;
+								default:
+									pItem->m_dwCount = RollDice(coinMin, coinMax);
+									break;
+								}
+								iItemIDs[j] = 3052;
+								break;
+
+
+							case 3055: // Item 3055 ==  Majestic
+								switch (itemType)
+								{
+								case MAJ_SMALL:
+									pItem->m_dwCount = RollDice(5, 100);
+									break;
+								case MAJ_MEDIUM:
+									pItem->m_dwCount = RollDice(100, 500);
+									break;
+								case MAJ_BIG:
+									pItem->m_dwCount = RollDice(1000, 5000);
+									break;
+								default:
+									pItem->m_dwCount = RollDice(coinMin, coinMax);
+									break;
+								}
+								iItemIDs[j] = 3052;
+								break;
+							default:
+								if (iItemIDs[j] == 90) pItem->m_dwCount = iDice(10, 15000);
+								else pItem->m_dwCount = dwCount;
+							break;
+
 						}
 
-
-
-						if (iItemIDs[j] == 3052) //contrib
-						{
-							pItem->m_dwCount = RollDice(3000, 10000);
-						} 
-						else if (iItemIDs[j] == 3055) //maj
-						{
-							pItem->m_dwCount = RollDice(300, 500);
-						}
-						else if (iItemIDs[j] == 3054) //rep
-						{
-							pItem->m_dwCount = RollDice(5, 20);
-						}
-						if (iItemIDs[j] == 3053) // coin
-						{
-
-							pItem->m_dwCount = RollDice(5, 20);
-							std::cout << "idice: " << pItem->m_dwCount << std::endl;
-							/*
-							if (iItemCounts != nullptr && j < 10 && iItemCounts[j] > 0 && iItemCounts[j] < 1000) {
-								pItem->m_dwCount = iItemCounts[j];
-							}
-							else {
-								DWORD fallback = RollDice(2, 7);
-								pItem->m_dwCount = fallback;
-							}
-
-							*/
-						}
-
-
-						else
-						{
-							if (iItemIDs[j] == 90) pItem->m_dwCount = iDice(10, 15000);
-							else pItem->m_dwCount = dwCount;
-						}
-								
 
 						pItem->m_sTouchEffectType = DEF_ITET_ID;
 						pItem->m_sTouchEffectValue1 = iDice(1, 100000);
@@ -2045,21 +2082,6 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 }
 
 
-void CMapServer::AddCoinDrop(int *iItemIDs, int *iItemCounts, int *iNum, int coinType, int minAmt, int maxAmt)
-{
-	if (*iNum >= 10) return;
-
-	iItemIDs[*iNum] = coinType;
-
-	if (iItemCounts){
-		iItemCounts[*iNum] = RollDice(minAmt, maxAmt);
-		
-	}
-
-	(*iNum)++;
-}
-
-
 
 
 BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbability, int iMin, int iMax, short sBaseX, short sBaseY,
@@ -2093,14 +2115,8 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 
 			switch (sNpcType) {
 			case 33: // WereWolf
-
-				iItemID = COIN_BIG;
-
-				//AddCoinDrop(iItemIDs, iItemCounts, &iNum, COIN_MEDIUM, 1, 5);
-				//bCustomDrop = true;
-					//iItemID = COIN_MEDIUM;
-
-				break;
+				iItemID = COIN_SMALL;
+			break;
 			case 66: // Wyvern
 				switch (iDice(1, 200)) {
 				case 1: iItemID = 642; break;	// "KnecklaceOfIcePro"
@@ -2329,7 +2345,7 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 				iItemID = 90;
 			}
 
-			std::cout << "iItemID: " << iItemID << " iNum: " << iNum << std::endl;
+			//std::cout << "iItemID: " << iItemID << " iNum: " << iNum << std::endl;
 
 			if (iItemID != 0 || iNum != 0) {
 
