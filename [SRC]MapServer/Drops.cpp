@@ -1888,7 +1888,7 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 
 
 						default:
-							iItemIDs[j] = 90;
+							//iItemIDs[j] = 90;
 						break;
 					}
 
@@ -1966,6 +1966,7 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 								iItemIDs[j] = 3052;
 								break;
 							default:
+								std::cout << "Se esta remplazando el valor, valor recibido: " << iItemIDs[j] << std::endl;
 								if (iItemIDs[j] == 90) pItem->m_dwCount = iDice(10, 15000);
 								else pItem->m_dwCount = dwCount;
 							break;
@@ -2275,25 +2276,32 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 				default:
 				{
 						   int roll = iDice(1, 1000);
-						   if (roll <= 130) { // 12.9% chance - Raro
+						   if (roll <= 10) { // 12.9% chance - Raro
 							   switch (iDice(1, 5)) {
-							   case 1: iItemID = 849; break; //KlonessBlade
-							   case 2: iItemID = 850; break; //KlonessAxe
-							   case 3: iItemID = 863; break; //KlonessWand(MS.30)
-							   case 4: iItemID = 864; break; //KlonessWand(MS.10)
-							   case 5: iItemID = 851; break; //KlonessEsterk
+									case 1: iItemID = 849; break; //KlonessBlade
+									case 2: iItemID = 850; break; //KlonessAxe
+									case 3: iItemID = 863; break; //KlonessWand(MS.30)
+									case 4: iItemID = 864; break; //KlonessWand(MS.10)
+									case 5: iItemID = 851; break; //KlonessEsterk
+
 							   }
+						   }
+						   else if (roll > 300 && roll < 500) {
+							   iItemID = 616; // DemonSlayer
+						   }
+						   else if (roll > 10 && roll < 300){
+							   iItemID = COIN_MEDIUM;
 						   }
 						   else { // Común
 							   switch (iDice(1, 8)) {
-							   case 1: iItemID = 3108; break; //Coins(+5000)
-							   case 2: iItemID = 3107; break; //Coins(+1000)
+							   case 1: iItemID = COIN_SMALL; break; //Coins(+5000)
+							   case 2: iItemID = COIN_SMALL; break; //Coins(+1000)
 							   case 3: iItemID = 3109; break; //RepPotion(+1000)
-							   case 4: iItemID = 3114; break; //Coins(+10000)
+							   case 4: iItemID = COIN_SMALL; break; //Coins(+10000)
 							   case 5: iItemID = 3081; break; //ContribBall(+100000)
 							   case 6: iItemID = 3090; break; //TintaMagicaRoja
 							   case 7: iItemID = 3089; break; //TintaMagica
-							   case 8: iItemID = 3245; break; //Coins(+20000)
+							   case 8: iItemID = COIN_SMALL; break; //Coins(+20000)
 							   }
 						   }
 				}
