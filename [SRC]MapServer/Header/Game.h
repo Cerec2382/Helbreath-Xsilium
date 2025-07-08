@@ -544,6 +544,19 @@ public:
 	void AdminOrder_banjail(int iClientH, char * pData, DWORD dwMsgSize);
     void AdminOrder_ban(int iClientH, char * pData, DWORD dwMsgSize);
 	
+
+	//2025
+
+	void GenerateRandomCoinDrops(int *iItemIDs, int *iItemCounts, int &iNum,
+		int coinType, int minAmt, int maxAmt,
+		int stacks, int sBaseX, int sBaseY,
+		int iItemSpreadType, int iSpreadRange,
+		POINT *BasePos);
+
+
+
+
+
 	void RequestResurrectPlayer(int iClientH, BOOL bResurrect);
 	void SetIllusionMovementFlag(short sOwnerH, char cOwnerType, BOOL bStatus);
 	void SetIllusionFlag(short sOwnerH, char cOwnerType, BOOL bStatus);

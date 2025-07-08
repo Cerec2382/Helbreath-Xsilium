@@ -70,6 +70,7 @@ static float g_fWeightMultiplier = 1.0f;
 inline void SetWeightMultiplier(float f) { g_fWeightMultiplier = f; }
 
 
+
 void CMapServer::NpcDeadItemGenerator(int iNpcH, short sAttackerH, char cAttackerType)
 {
 #ifdef DEF_DEBUG
@@ -1353,6 +1354,9 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 				}
 				break;
 			case 31://Demons
+				iItemID = COIN_MEDIUM;
+				break;
+
 				switch (iDice(1, 10)) {
 				case 1: if (iDice(1, 15) == 3) iItemID = 541; break;		// "DemonHeart"
 				case 2:	if (iDice(1, 5) == 3) iItemID = 542; break;			// "DemonMeat"
@@ -1369,6 +1373,9 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 				}
 				break;
 			case 32: //Unicorn
+
+				iItemID = COIN_MEDIUM;
+				break;
 				switch (iDice(1, 11)) {
 				case 1: if (iDice(1, 40) == 3) iItemID = 544; break;		// "UnicornHeart"
 				case 2: if (iDice(1, 25) == 3) iItemID = 545; break;		// "UnicornHorn"	
@@ -1384,34 +1391,7 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 				default: break;
 				}
 				break;
-			case 33://WereWolf
-				
-				switch (iDice(1, 15)) {
-				case 1: if (iDice(1, 30) == 3) iItemID = 551; break;		// "WerewolfTail"
-				case 2: if (iDice(1, 25) == 3) iItemID = 548; break;		// "WerewolfHeart"
-				case 3: if (iDice(1, 25) == 3) iItemID = 550; break;		// "WerewolfMeat"
-				case 4: if (iDice(1, 35) == 3) iItemID = 553; break;		// "WerewolfLeather"
-				case 5: if (iDice(1, 25) == 3) iItemID = 552; break;		// "WerewolfTeeth"
-				case 6: if (iDice(1, 25) == 3) iItemID = 554; break;		// "WerewolfClaw"
-				case 7: if (iDice(1, 35) == 3) iItemID = 549; break;		// "WerewolfNail"
-				case 8: if (iDice(1, 1000) == 50) iItemID = 656; break;		// "StoneOfXelima"
-				case 9: if (iDice(1, 1000) == 50) iItemID = 657; break;		// "StoneOfMerien"
-				case 10: if (iDice(1, 1000) == 50) iItemID = 650; break;		// "ZemstoneofSacrifice"
-				case 11: if (iDice(1, 25000) == 8539) iItemID = 621; break;		// "MerienPlateMailW"
-				case 12: if (iDice(1, 25000) == 8539) iItemID = 622; break;		// "MerienPlateMailM"
-				case 13: if (iDice(1, 25000) == 8539) iItemID = 3243; break;	// "MerienChainMailM"
-				case 14: if (iDice(1, 25000) == 8539) iItemID = 3244; break;	// "MerienChainMailW"
-				
-				case 15: 
-					if (iDice(1, 200) == 1 && Drop == TRUE) { // 0.5% de probabilidad que salga coins
-						//Drop de Coins
-						bGetMultipleItemNamesWhenDeleteNpc(m_pNpcList[iNpcH]->m_sType, iItemprobability, 6, 1, m_pNpcList[iNpcH]->m_sX, m_pNpcList[iNpcH]->m_sY, DEF_ITEMSPREAD_FIXED, 65, iItemIDs, ItemPositions, &iNumItem, iItemCounts);
-					}
-				break;	
-
-				default: break;
-				}
-				break;
+			
 			case 48: // Stalker
 				switch (iDice(1, 5)) {
 				case 1: if (iDice(1, 1000) == 10) iItemID = 656; break;		// "StoneOfXelima"
@@ -1816,6 +1796,47 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 						iItemIDs, ItemPositions, &iNumItem);
 				}
 				break;
+
+
+			case 33://WereWolf
+
+				
+				if (Drop == TRUE) {
+					bGetMultipleItemNamesWhenDeleteNpc(m_pNpcList[iNpcH]->m_sType, iItemprobability,
+						6, 12, m_pNpcList[iNpcH]->m_sX, m_pNpcList[iNpcH]->m_sY, DEF_ITEMSPREAD_FIXED, 65,
+						iItemIDs, ItemPositions, &iNumItem);
+				}
+
+				break;
+
+				switch (iDice(1, 15)) {
+				case 1: if (iDice(1, 30) == 3) iItemID = 551; break;		// "WerewolfTail"
+				case 2: if (iDice(1, 25) == 3) iItemID = 548; break;		// "WerewolfHeart"
+				case 3: if (iDice(1, 25) == 3) iItemID = 550; break;		// "WerewolfMeat"
+				case 4: if (iDice(1, 35) == 3) iItemID = 553; break;		// "WerewolfLeather"
+				case 5: if (iDice(1, 25) == 3) iItemID = 552; break;		// "WerewolfTeeth"
+				case 6: if (iDice(1, 25) == 3) iItemID = 554; break;		// "WerewolfClaw"
+				case 7: if (iDice(1, 35) == 3) iItemID = 549; break;		// "WerewolfNail"
+				case 8: if (iDice(1, 1000) == 50) iItemID = 656; break;		// "StoneOfXelima"
+				case 9: if (iDice(1, 1000) == 50) iItemID = 657; break;		// "StoneOfMerien"
+				case 10: if (iDice(1, 1000) == 50) iItemID = 650; break;		// "ZemstoneofSacrifice"
+				case 11: if (iDice(1, 25000) == 8539) iItemID = 621; break;		// "MerienPlateMailW"
+				case 12: if (iDice(1, 25000) == 8539) iItemID = 622; break;		// "MerienPlateMailM"
+				case 13: if (iDice(1, 25000) == 8539) iItemID = 3243; break;	// "MerienChainMailM"
+				case 14: if (iDice(1, 25000) == 8539) iItemID = 3244; break;	// "MerienChainMailW"
+
+				case 15:
+					if (iDice(1, 200) == 1 && Drop == TRUE) { // 0.5% de probabilidad que salga un coin
+						//Drop de Coins
+						bGetMultipleItemNamesWhenDeleteNpc(m_pNpcList[iNpcH]->m_sType, iItemprobability, 6, 1, m_pNpcList[iNpcH]->m_sX, m_pNpcList[iNpcH]->m_sY, DEF_ITEMSPREAD_FIXED, 65, iItemIDs, ItemPositions, &iNumItem, iItemCounts);
+					}
+					break;
+
+				default: break;
+				}
+				break;
+
+
 			}
 
 			dwCount = 1;
@@ -1829,16 +1850,14 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 					break;
 				}
 			}
-
 			if (iNumItem > 0) {
 				GetLocalTime(&SysTime);
 				wsprintf(cTemp, "%d%02d%", SysTime.wMonth, SysTime.wDay);
 				for (int j = 0; j < iNumItem; j++) {
 					if (pItem == NULL) pItem = new class CItem;
 
-						
 
-
+		
 					//pItem = new class CItem;
 					if (iItemIDs[j] == CONTRIB_MEDIUM)
 					{
@@ -1857,7 +1876,10 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 						iItemIDs[j] = 3055;
 					}
 					
-
+					else if (iItemIDs[j] == COIN_BIG)
+					{
+						iItemIDs[j] = 13055;
+					}
 
 					
 
@@ -1867,6 +1889,13 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 
 
 
+						if (iItemIDs[j] == 13055) //contrib
+						{
+							std::cout << "Drop coin big" << std::endl;
+
+							iItemIDs[j] = 3053;
+							pItem->m_dwCount = RollDice(3000, 10000);
+						}
 
 
 
@@ -1884,6 +1913,10 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 						}
 						if (iItemIDs[j] == 3053) // coin
 						{
+
+							pItem->m_dwCount = RollDice(5, 20);
+							std::cout << "idice: " << pItem->m_dwCount << std::endl;
+							/*
 							if (iItemCounts != nullptr && j < 10 && iItemCounts[j] > 0 && iItemCounts[j] < 1000) {
 								pItem->m_dwCount = iItemCounts[j];
 							}
@@ -1891,6 +1924,8 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 								DWORD fallback = RollDice(2, 7);
 								pItem->m_dwCount = fallback;
 							}
+
+							*/
 						}
 
 
@@ -2058,8 +2093,13 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 
 			switch (sNpcType) {
 			case 33: // WereWolf
-				AddCoinDrop(iItemIDs, iItemCounts, &iNum, COIN_MEDIUM, 1, 5);
-				bCustomDrop = true;
+
+				iItemID = COIN_BIG;
+
+				//AddCoinDrop(iItemIDs, iItemCounts, &iNum, COIN_MEDIUM, 1, 5);
+				//bCustomDrop = true;
+					//iItemID = COIN_MEDIUM;
+
 				break;
 			case 66: // Wyvern
 				switch (iDice(1, 200)) {
@@ -2288,6 +2328,8 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 			if (iItemID == 0 && iNum == 0) {
 				iItemID = 90;
 			}
+
+			std::cout << "iItemID: " << iItemID << " iNum: " << iNum << std::endl;
 
 			if (iItemID != 0 || iNum != 0) {
 

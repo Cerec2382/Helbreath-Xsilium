@@ -5,6 +5,8 @@
 *.VC.db
 *.log
 *.idb
+*.opendb
+*.vsidx
 *.pdb
 **/Nucleo/Account/
 **/Nucleo/Character/
