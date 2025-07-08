@@ -50,8 +50,6 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 
 # Abaddon DROP
 
-
-
 ---
 
 
@@ -68,14 +66,45 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | Coin Medium (5 a 10)                  | 99908 | 8.90%            | Poco común  |
 | Demon Slayer                  | 616   | 5.00%            | Poco común  |
 | Coin Small (1 a 3)      | 99907 | ~10.64%      | Común       |
-| RepPotion (+1000)             | 3109  | ~10.64%          | Común       |
+| RepPotion (+100)             | 3087  | ~10.64%          | Común       |
 | ContribBall (+100000)         | 3081  | ~10.64%          | Común       |
 | Tinta Mágica Roja             | 3090  | ~10.64%          | Común       |
 | Tinta Mágica Azul             | 3089  | ~10.64%          | Común       |
 
-> 📝 Nota: Los ítems comunes comparten una probabilidad total del 85.1%, distribuida uniformemente entre 8 ítems.
+---
+
+
+# HellAbaddon DROP
 
 ---
+
+## 🗃️ Tabla de Drops
+
+| Ítem                          | ID    | Probabilidad (%) | Tipo        |
+|-------------------------------|-------|------------------|-------------|
+| BlackZWand (MS.32)            | 3116  | 0.033%           | Legendario  |
+| BlackDevastator               | 4913  | 0.033%           | Legendario  |
+| StripIceHammer                | 4969  | 0.033%           | Legendario  |
+| AresElfBow                    | 4959  | 0.1857%          | Raro        |
+| ElvinElfBow                   | 4960  | 0.1857%          | Raro        |
+| MerienShield                  | 620   | 0.1857%          | Raro        |
+| NeckPowerXelima               | 4968  | 0.1857%          | Raro        |
+| NeckPower (MS.30)             | 4966  | 0.1857%          | Raro        |
+| ResurWand (MS.30)             | 865   | 0.1857%          | Raro        |
+| ResurWand (MS.10)             | 866   | 0.1857%          | Raro        |
+| Coin Big                      | 99909 | 8.90%            | Poco común  |
+| Demon Slayer                  | 616   | 5.00%            | Poco común  |
+| NeckPowerXelima               | 4968  | ~10.625%         | Común       |
+| NeckPower (MS.30)             | 4966  | ~10.625%         | Común       |
+| RepPotion (+1000)            | 3109  | ~10.625%         | Común       |
+| Ring of Power (War)           | 4964  | ~10.625%         | Común       |
+| Ring of Power (Mage)          | 4965  | ~10.625%         | Común       |
+| Coin Medium (5 a 10)  | 99908 | ~21.25% (suma)   | Común       |
+
+
+---
+
+
 
 
 ## ⚙️ Requisitos para compilar

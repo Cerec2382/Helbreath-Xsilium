@@ -2246,22 +2246,61 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 				}
 				break;
 			case 120: // HellAbaddon
-				switch (iDice(1, 100)) {
-				case 1: iItemID = COIN_MEDIUM; break;//20k
-				case 2: iItemID = COIN_MEDIUM; break;//10k
-				default:
-					switch (iDice(1, 6))
-					{
-					case 1: iItemID = COIN_MEDIUM; break;
-					case 2: iItemID = COIN_MEDIUM; break;
-					case 3: iItemID = COIN_MEDIUM; break;
-					case 4: iItemID = COIN_MEDIUM; break;
-					case 5: iItemID = COIN_MEDIUM; break;
-					case 6: iItemID = COIN_MEDIUM; break;
+				switch (iDice(1, 1000)) {
+				case 1: // 0.1% chance - Legendario
+					switch (iDice(1, 3)) {
+					case 1: iItemID = 3116; break; // BlackZWand(MS.32)
+					case 2: iItemID = 4913; break;   // BlackDevastator
+					case 3: iItemID = 4969; break;  // StripIceHammer
 					}
 					break;
+				default:
+				{
+					int roll = iDice(1, 1000);
+					if (roll <= 10) { // 12.9% chance - Raro
+						switch (iDice(1, 5)) {
+						case 1: iItemID = 4959; break; //AresElfBow
+						case 2: iItemID = 4960; break; //ElvinElfBow
+						case 3: iItemID = 620; break; //MerienShield
+						case 4: iItemID = 4968; break; //NeckPowerXelima
+						case 5: iItemID = 4966; break; //NeckPower(MS.30)
+						case 6: iItemID = 865; break; //ResurWand(MS.30
+						case 7: iItemID = 866; break; //ResurWand(MS.10)
+						}
+					}
+					else if (roll > 10 && roll < 100) {
+
+						iItemID = COIN_BIG;
+
+					}
+					else if (roll > 100 && roll < 150) {
+						iItemID = 616; // DemonSlayer
+					}
+					else { // Común
+						switch (iDice(1, 8)) {
+						case 1: iItemID = 4968; break; //NeckPowerXelima
+						case 2: iItemID = 4966; break; //NeckPower(MS.30)
+						case 3: iItemID = 3109; break; //RepPotion(+1000)
+						case 4: iItemID = 4964; break; //RingofPowerWar
+						case 6: iItemID = 4965; break; //RingofPowerMage
+						case 7: iItemID = COIN_MEDIUM; break; //COIN_MEDIUM (5 a 10)
+						case 8: iItemID = COIN_MEDIUM; break; //COIN_MEDIUM (5 a 10)
+						}
+					}
 				}
 				break;
+
+				}
+				//FIXED
+				if (iItemID == 0) {
+					switch (iDice(1, 3)) {
+					case 1: iItemID = 650; break; // ZemstoneOfSacrifice
+					case 2: iItemID = 656; break; // StoneOfXelima
+					case 3: iItemID = 657; break; // StoneOfMerien
+					}
+				}
+				break;
+
 
 				/*	Item = 3107	Coins(+1000) - Item = 3108	Coins(+5000) - Item = 3114	Coins(+10000)*/
 			case 81: // Abaddon
@@ -2297,7 +2336,7 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 							   switch (iDice(1, 8)) {
 							   case 1: iItemID = COIN_SMALL; break; //Coins(+5000)
 							   case 2: iItemID = COIN_SMALL; break; //Coins(+1000)
-							   case 3: iItemID = 3109; break; //RepPotion(+1000)
+							   case 3: iItemID = 3087; break; //RepPotion(+100)
 							   case 4: iItemID = COIN_SMALL; break; //Coins(+10000)
 							   case 5: iItemID = 3081; break; //ContribBall(+100000)
 							   case 6: iItemID = 3090; break; //TintaMagicaRoja
