@@ -88,8 +88,6 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | AresElfBow                    | 4959  | 0.1857%          | Raro        |
 | ElvinElfBow                   | 4960  | 0.1857%          | Raro        |
 | MerienShield                  | 620   | 0.1857%          | Raro        |
-| NeckPowerXelima               | 4968  | 0.1857%          | Raro        |
-| NeckPower (MS.30)             | 4966  | 0.1857%          | Raro        |
 | ResurWand (MS.30)             | 865   | 0.1857%          | Raro        |
 | ResurWand (MS.10)             | 866   | 0.1857%          | Raro        |
 | Coin Big                      | 99909 | 8.90%            | Poco común  |

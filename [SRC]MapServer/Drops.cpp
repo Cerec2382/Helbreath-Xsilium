@@ -2262,10 +2262,8 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 						case 1: iItemID = 4959; break; //AresElfBow
 						case 2: iItemID = 4960; break; //ElvinElfBow
 						case 3: iItemID = 620; break; //MerienShield
-						case 4: iItemID = 4968; break; //NeckPowerXelima
-						case 5: iItemID = 4966; break; //NeckPower(MS.30)
-						case 6: iItemID = 865; break; //ResurWand(MS.30
-						case 7: iItemID = 866; break; //ResurWand(MS.10)
+						case 4: iItemID = 865; break; //ResurWand(MS.30
+						case 5: iItemID = 866; break; //ResurWand(MS.10)
 						}
 					}
 					else if (roll > 10 && roll < 100) {
