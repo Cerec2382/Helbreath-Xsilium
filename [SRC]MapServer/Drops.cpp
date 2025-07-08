@@ -2275,14 +2275,14 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 						iItemID = 616; // DemonSlayer
 					}
 					else { // Común
-						switch (iDice(1, 8)) {
+						switch (iDice(1, 7)) {
 						case 1: iItemID = 4968; break; //NeckPowerXelima
 						case 2: iItemID = 4966; break; //NeckPower(MS.30)
 						case 3: iItemID = 3109; break; //RepPotion(+1000)
 						case 4: iItemID = 4964; break; //RingofPowerWar
-						case 6: iItemID = 4965; break; //RingofPowerMage
+						case 5: iItemID = 4965; break; //RingofPowerMage
+						case 6: iItemID = COIN_MEDIUM; break; //COIN_MEDIUM (5 a 10)
 						case 7: iItemID = COIN_MEDIUM; break; //COIN_MEDIUM (5 a 10)
-						case 8: iItemID = COIN_MEDIUM; break; //COIN_MEDIUM (5 a 10)
 						}
 					}
 				}
