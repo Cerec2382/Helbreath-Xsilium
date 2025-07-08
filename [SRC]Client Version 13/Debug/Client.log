@@ -1,4 +1,36 @@
-﻿Jpeg.lib(Jdapimin.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+﻿  BuildItem.cpp
+  CharInfo.cpp
+  Curse.cpp
+  Effect.cpp
+  Event.cpp
+  Game.cpp
+  GameMonitor.cpp
+  Helbreath.cpp
+  Item.cpp
+  ItemName.cpp
+  Magic.cpp
+  MapData.cpp
+  Misc.cpp
+  MouseInterface.cpp
+  Msg.cpp
+  Mydib.cpp
+  Skill.cpp
+  SoundBuffer.cpp
+  Sprite.cpp
+  StrTok.cpp
+  Compiling...
+  Tile.cpp
+  TileSpr.cpp
+  Wmain.cpp
+  XSocket.cpp
+  XSocketUDP.cpp
+  ClientUDP.cpp
+  YWSound.cpp
+  DXC_ddraw.cpp
+  DXC_dinput.cpp
+  DXC_dsound.cpp
+  Resolution.cpp
+Jpeg.lib(Jdapimin.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
      Creating library .\Archive\Helbreath Xsilium.lib and object .\Archive\Helbreath Xsilium.exp
   Generating code
   Finished generating code

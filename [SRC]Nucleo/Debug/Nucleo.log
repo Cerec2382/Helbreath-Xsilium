@@ -1,22 +1,15 @@
-﻿Build started 07/07/2025 05:36:17 p. m..
-     1>Project "C:\Users\irwin\Documents\CursedV1 (Arg Version)\[SRC]Nucleo\Nucleo.vcxproj" on node 3 (Build target(s)).
-     1>Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Nucleo\Nucleo.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib WINMM.lib WS2_32.lib WSOCK32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug/Nucleo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\Nucleo\Nucleo.lib" /MACHINE:X86 /SAFESEH .\Debug/Account.obj
-         .\Debug/cApplicationStartup.obj
-         .\Debug/Client.obj
-         .\Debug/Game.obj
-         .\Debug/main.obj
-         .\Debug/MainLog.obj
-         .\Debug/Map.obj
-         .\Debug/MapServer.obj
-         .\Debug/Msg.obj
-         .\Debug/Wmain.obj
-         .\Debug/StrTok.obj
-         .\Debug/XSocket.obj
-     1>Account.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
-         Nucleo.vcxproj -> C:\Users\irwin\Documents\CursedV1 (Arg Version)\[SRC]Nucleo\..\Nucleo\Nucleo.exe
-     1>Done Building Project "C:\Users\irwin\Documents\CursedV1 (Arg Version)\[SRC]Nucleo\Nucleo.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.74
+﻿  Account.cpp
+  cApplicationStartup.cpp
+  Client.cpp
+  Game.cpp
+  main.cpp
+  MainLog.cpp
+  Map.cpp
+  MapServer.cpp
+  Msg.cpp
+  Wmain.cpp
+  StrTok.cpp
+  XSocket.cpp
+  Generating Code...
+Account.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+  Nucleo.vcxproj -> C:\Users\irwin\Documents\CursedV1 (Arg Version)\[SRC]Nucleo\..\Nucleo\Nucleo.exe
