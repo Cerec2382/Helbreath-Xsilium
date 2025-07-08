@@ -1,13 +1,13 @@
 [FILE-DATE]
 
-file-saved-date: 2025 7 5 16 5
+file-saved-date: 2025 7 8 14 55
 
 [NAME-ACCOUNT]
 
 character-name     = Test
 account-name       = asd
-Hour-Play = 0
-Min-Play = 44
+Hour-Play = 1
+Min-Play = 32
 
 CheckProcess = OFF
 
@@ -22,9 +22,9 @@ character-guild-rank = -1
 
 [MAP-DATA]
 
-character-loc-map = Extreme
-character-loc-x   = 75
-character-loc-y   = 73
+character-loc-map = elvine
+character-loc-x   = 158
+character-loc-y   = 57
 
 locked-map-name = NONE
 locked-map-time = 0
@@ -32,7 +32,7 @@ locked-map-time = 0
 
 [STATS]
 
-character-EXP      = 204895488
+character-EXP      = 206000688
 character-LEVEL    = 200
 character-LU_Pool  = 3
 character-STR      = 200
@@ -53,7 +53,7 @@ skin-status      = 3
 hairstyle-status = 7
 haircolor-status = 8
 underwear-status = 6
-hunger-status    = 59
+hunger-status    = 57
 admin-user-level = 0
 party-id = 0
 
@@ -62,7 +62,7 @@ party-id = 0
 
 timeleft-shutup  = 0
 timeleft-rating  = 0
-timeleft-force-recall  = 64
+timeleft-force-recall  = 0
 timeleft-firm-staminar = 0
 dead-penalty-time = 0
 penalty-block-date = 0 0 0
@@ -77,9 +77,9 @@ character-EK-Count = 0
 character-EK-TotalCount = 0
 character-PK-Count = 0
 character-FK-Count = 0
-character-contribution = 0
-gizon-item-upgade-left = 24
-super-attack-left = 4562
+character-contribution = 12448
+gizon-item-upgade-left = 94
+super-attack-left = 3919
 Coins = 9952
 
 
@@ -102,7 +102,7 @@ stated-reward-type     = 0
 
 [ACHIVEMENTS]
 
-Total-Mobs-Killed = 373
+Total-Mobs-Killed = 895
 Total-Death = 0
 Total-Client-Killed = 0
 Total-Quest-Completed = 0
@@ -133,10 +133,10 @@ ip-muerte = appr1
 
 
 appr1 = 1926
-appr2 = 512
+appr2 = 576
 appr3 = 17506
 appr4 = 0
-appr-color = 1879048192
+appr-color = 0
 appr-color2 = 3158787
 
 [RANK-SYSTEM]
@@ -191,23 +191,38 @@ character-back-level = 0
 
 [ITEMLIST]
 
-character-item = BarrackSword         1 0 0 0 0 0 0 0 0 500 0 0 -4
-character-item = ZemstoneofSacrifice  1 0 0 0 0 0 0 0 0 3 0 163 -10
+character-item = ContribBall          4389 2 15470 708 143732119 6 0 0 0 3 0 40 30
+character-item = ZemstoneofSacrifice  12 0 0 0 0 0 0 0 0 3 0 163 -10
 character-item = RedCandy             1 0 0 0 0 0 0 0 0 300 0 22 -1
 character-item = BlueCandy            1 0 0 0 0 0 0 0 0 300 0 50 -1
 character-item = GreenCandy           1 0 0 0 0 0 0 0 0 300 0 78 0
 character-item = RingoftheAbaddon     1 0 0 0 0 0 0 0 0 300 0 40 30
 character-item = NecklaceOfXelima     1 0 0 0 0 5 0 0 0 300 0 40 30
-character-item = Gold                 390850 0 0 0 0 0 0 0 0 600 0 170 57
-character-item = MagicWand(MS0)       1 0 0 0 0 0 0 0 0 1200 0 105 -4
+character-item = Gold                 579210 0 0 0 0 0 0 0 0 600 0 170 57
+character-item = MagicWand(MS0)       1 0 0 0 0 0 0 0 0 1196 0 105 -4
 character-item = WhitePlateMail(M)    1 0 0 0 0 18 0 0 0 15000 0 40 30
 character-item = WhiteLeggings(M)     1 0 0 0 0 18 0 0 0 15000 0 40 30
 character-item = WhiteWingsHelm(M)    1 0 0 0 0 18 0 0 0 15000 0 40 30
 character-item = WhiteMageHauberk(M)  1 0 0 0 0 18 0 0 0 15000 0 2 43
-character-item = ContribBall          530 2 12101 705 154324308 6 0 0 0 3 0 40 30
-character-item = PowerBarbarian       1 2 14259 705 15291621 7 0 0 0 4295 0 11 78
+character-item = PowerGreenPotion     1 2 30083 708 143945780 0 0 0 0 1 0 40 30
+character-item = PowerBarbarian       1 2 14259 705 15291621 7 0 0 0 4059 0 11 78
+character-item = RedPotion            1 2 9522 708 143942987 0 0 0 0 1 0 40 30
+character-item = LagiShield           1 2 27517 708 144021281 0 0 0 0 800 6356992 40 30
 
 
+character-bank-item = LagiShield           1 2 1307 708 125950113 0 0 0 0 800 11826432 0
+character-bank-item = PickAxe              1 2 19428 708 14090513 0 0 0 0 1000 0 0
+character-bank-item = Crystal              18 0 0 0 0 0 0 0 0 1 0 0
+character-bank-item = GoldNugget           2 0 0 0 0 0 0 0 0 1 0 0
+character-bank-item = Ruby                 18 0 0 0 0 0 0 0 0 1 0 0
+character-bank-item = SilverNugget         6 0 0 0 0 0 0 0 0 1 0 0
+character-bank-item = IronOre              6 0 0 0 0 0 0 0 0 1 0 0
+character-bank-item = BlondeStone          1 0 0 0 0 0 0 0 0 1 0 0
+character-bank-item = RubyWare             1 2 2592 708 141726747 0 300 67 0 1 1 0
+character-bank-item = RubyWare             1 2 4776 708 141609678 0 300 100 0 1 1 0
+character-bank-item = Coal                 20 0 0 0 0 0 0 0 0 1 0 0
+character-bank-item = Emerald              20 0 0 0 0 0 0 0 0 1 0 0
+character-bank-item = CraftingVessel       1 2 16079 708 14155473 0 0 0 0 300 0 0
 
 
 [MAGIC-SKILL-MASTERY]
@@ -215,13 +230,13 @@ character-item = PowerBarbarian       1 2 14259 705 15291621 7 0 0 0 4295 0 11 7
 //------------------012345678901234567890123456789012345678901234567890
 magic-mastery     = 0010000000001000000000000010000011000000000000000000000000000000000000000000000000000000000000000000
 skill-mastery     = 100 100 74 100 100 100 100 100 100 100 100 100 74 100 100 0 0 0 0 50 0 100 0 20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-skill-SSN     = 0 0 0 0 0 0 0 4140 14740 0 0 0 0 0 267240 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+skill-SSN     = 0 0 0 0 0 0 0 4140 14740 0 0 0 0 0 1007080 0 0 0 0 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 
 Achivements     = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 
 [ITEM-EQUIP-STATUS]
 
-item-equip-status = 00000110011110100000000000000000000000000000000000
+item-equip-status = 00000110111110000000000000000000000000000000000000
 item-position-x = 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 
 item-position-y = 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 
 

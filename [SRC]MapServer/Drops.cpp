@@ -1966,7 +1966,7 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 								iItemIDs[j] = 3052;
 								break;
 							default:
-								std::cout << "Se esta remplazando el valor, valor recibido: " << iItemIDs[j] << std::endl;
+								
 								if (iItemIDs[j] == 90) pItem->m_dwCount = iDice(10, 15000);
 								else pItem->m_dwCount = dwCount;
 							break;
@@ -2327,7 +2327,7 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 							   iItemID = COIN_MEDIUM; 
 							   
 						   }
-						   else if (roll > 100 && roll < 150){
+						   else if (roll > 100 && roll < 105){
 							   iItemID = 616; // DemonSlayer
 						   }
 						   else { // Común

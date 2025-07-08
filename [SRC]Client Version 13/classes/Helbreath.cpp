@@ -3979,7 +3979,7 @@ void CGame::click_charquests(short msX, short msY)
 
 				if (selectedoption == 0)
 				{
-					AddEventList("Por favor no seas estupido y selecciona una opcion. Gracias.");
+					AddEventList("Por selecciona una opcion. Gracias.");
 					PlaySound('E', 14, 5);
 					return;
 				}
