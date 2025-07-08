@@ -2283,14 +2283,15 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 									case 3: iItemID = 863; break; //KlonessWand(MS.30)
 									case 4: iItemID = 864; break; //KlonessWand(MS.10)
 									case 5: iItemID = 851; break; //KlonessEsterk
-
 							   }
 						   }
-						   else if (roll > 300 && roll < 500) {
-							   iItemID = 616; // DemonSlayer
+						   else if (roll > 10 && roll < 100) {
+							  
+							   iItemID = COIN_MEDIUM; 
+							   
 						   }
-						   else if (roll > 10 && roll < 300){
-							   iItemID = COIN_MEDIUM;
+						   else if (roll > 100 && roll < 150){
+							   iItemID = 616; // DemonSlayer
 						   }
 						   else { // Común
 							   switch (iDice(1, 8)) {
@@ -2307,17 +2308,7 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 				}
 					break;
 
-
-
-
-				}
-
-
-
-
-
-
-
+			}
 				//FIXED
 				if (iItemID == 0) {
 					switch (iDice(1, 3)) {

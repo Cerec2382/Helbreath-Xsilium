@@ -47,6 +47,37 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 
 ---
 
+
+# Abaddon DROP
+
+
+
+---
+
+
+| Ítem                           | ID    | Probabilidad (%) | Tipo        |
+|--------------------------------|-------|------------------|-------------|
+| BerserkWand (MS.30)           | 861   | 0.033%           | Legendario  |
+| The_Devastator                    | 846   | 0.033%       | Legendario  |
+| StormBringer                  | 845   | 0.033%           | Legendario  |
+| KlonessBlade                  | 849   | 0.20%            | Raro        |
+| KlonessAxe                    | 850   | 0.20%            | Raro        |
+| KlonessWand (MS.30)           | 863   | 0.20%            | Raro        |
+| KlonessWand (MS.10)           | 864   | 0.20%            | Raro        |
+| KlonessEsterk                 | 851   | 0.20%            | Raro        |
+| Coin Medium (5 a 10)                  | 99908 | 8.90%            | Poco común  |
+| Demon Slayer                  | 616   | 5.00%            | Poco común  |
+| Coin Small (1 a 3)      | 99907 | ~10.64%      | Común       |
+| RepPotion (+1000)             | 3109  | ~10.64%          | Común       |
+| ContribBall (+100000)         | 3081  | ~10.64%          | Común       |
+| Tinta Mágica Roja             | 3090  | ~10.64%          | Común       |
+| Tinta Mágica Azul             | 3089  | ~10.64%          | Común       |
+
+> 📝 Nota: Los ítems comunes comparten una probabilidad total del 85.1%, distribuida uniformemente entre 8 ítems.
+
+---
+
+
 ## ⚙️ Requisitos para compilar
 
 Visual Studio 2013
