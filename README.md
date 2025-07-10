@@ -108,6 +108,38 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 ---
 
 
+# GhostAba DROP
+
+---
+
+## 🗃️ Tabla de Drops
+
+| Ítem                           | ID    | Probabilidad (%) | Tipo        |
+|--------------------------------|-------|------------------|-------------|
+| KlonessBlade                  | 849   | 0.0005%          | Legendario  |
+| KlonessAxe                    | 850   | 0.0005%          | Legendario  |
+| KlonessWand (MS.30)           | 863   | 0.0005%          | Legendario  |
+| ResurWand (MS.10)             | 866   | ~0.0328%         | Legendario  |
+| I.M.CManual                   | 857   | ~0.0328%         | Legendario  |
+| PowerBarbarian                | 3083  | 0.25%            | Raro        |
+| PowerRapier                   | 3084  | 0.25%            | Raro        |
+| Coins (+20)                   | 3102  | 0.25%            | Raro        |
+| RepPotion (+1000)            | 3109  | 0.25%            | Raro        |
+| NeckPowerMerien               | 4967  | ~1.00%           | Poco común  |
+| NeckPowerXelima               | 4968  | ~1.00%           | Poco común  |
+| NeckPower (MS.30)             | 4966  | ~1.00%           | Poco común  |
+| NecklaceOfXelima              | 860   | ~15.00%          | Común       |
+| XelimaRapier                  | 612   | ~15.00%          | Común       |
+| XelimaAxe                     | 611   | ~15.00%          | Común       |
+| SwordofIceElemental           | 614   | ~15.00%          | Común       |
+| Coins (1–3)                   | COIN_SMALL | ~15.00%    | Común       |
+| NecklaceOfMerien              | 858   | ~15.00%          | Común       |
+
+
+
+
+---
+
 
 
 ## ⚙️ Requisitos para compilar
