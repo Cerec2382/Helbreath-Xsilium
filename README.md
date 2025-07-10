@@ -180,7 +180,7 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | BloodyShoWaveManual          | 382  | ~0.0001%         | Legendario  |
 | IceStormManual               | 380  | ~0.00003%        | Legendario  |
 | InibitionCastingManual       | 857  | ~0.00003%        | Legendario  |
---
+---
 
 # Slime DROP
 | Ítem | ID | Probabilidad (%) | Tipo |
@@ -189,7 +189,7 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | ZemstoneofSacrifice | 650 | ~0.2083% | Raro |
 | StoneOfXelima | 656 | ~0.2083% | Raro |
 | StoneOfMerien | 657 | ~0.2083% | Raro |
---
+---
 
 # Skeleton DROP
 | Ítem | ID | Probabilidad (%) | Tipo |
@@ -200,7 +200,7 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | StoneOfXelima | 656 | ~0.8333% | Raro |
 | StoneOfMerien | 657 | ~0.8333% | Raro |
 | EmeraldRing | 650 | ~0.0333% | Raro |
---
+---
 
 # StoneGolem DROP
 | Ítem | ID | Probabilidad (%) | Tipo |
@@ -211,8 +211,7 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | StoneOfMerien | 657 | ~0.8333% | Raro |
 | NecklaceOfStoneGolem | 647 | ~0.3333% | Legendario |
 | NecklaceOfMerien | 858 | ~0.1852% | Legendario |
---
-
+---
 # Cyclops DROP
 | Ítem | ID | Probabilidad (%) | Tipo |
 |------|----|------------------|------|
@@ -228,8 +227,7 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | Neck(MS10) | 308 | ~0.2778% | Raro |
 | Neck(RM10) | 300 | ~0.2778% | Raro |
 | Neck(DF10) | 311 | ~0.2778% | Raro |
---
-
+---
 # Orco DROP
 | Ítem | ID | Probabilidad (%) | Tipo |
 |------|----|------------------|------|
@@ -247,8 +245,7 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | StoneOfXelima | 656 | ~0.3195% | Raro |
 | StoneOfMerien | 657 | ~0.1779% | Raro |
 | NecklaceOfFireProtection | 638 | ~0.7143% | Legendario |
---
-
+---
 # Ant DROP
 | Ítem | ID | Probabilidad (%) | Tipo |
 |------|----|------------------|------|
@@ -257,8 +254,7 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | ZemstoneofSacrifice | 650 | ~1.0000% | Raro |
 | StoneOfXelima | 656 | ~1.0000% | Raro |
 | StoneOfMerien | 657 | ~1.0000% | Raro |
---
-
+---
 # Scorpion DROP
 | Ítem | ID | Probabilidad (%) | Tipo |
 |------|----|------------------|------|
@@ -273,8 +269,7 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | RingOfWizard | 634 | ~0.0909% | Raro |
 | SaphireRing | 336 | ~0.0909% | Raro |
 | PlatiniumRing | 333 | ~2.6364% | Raro |
---
-
+---
 # Zombie DROP
 | Ítem | ID | Probabilidad (%) | Tipo |
 |------|----|------------------|------|
@@ -284,8 +279,7 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | RepPotion(+3) | 3015 | ~0.6250% | Raro |
 | NecklaceofMedusa | 641 | ~0.0010% | Legendario |
 | SwordofMedusa | 613 | ~0.0010% | Legendario |
---
-
+---
 # Snake DROP
 | Ítem | ID | Probabilidad (%) | Tipo |
 |------|----|------------------|------|
@@ -297,8 +291,49 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | StoneOfXelima | 656 | ~0.6250% | Raro |
 | StoneOfMerien | 657 | ~0.6250% | Raro |
 | NecklaceOfSufferent | 640 | ~0.1250% | Legendario |
+---
+
+# ClayGolem DROP
+| Ítem | ID | Probabilidad (%) | Tipo |
+|------|----|------------------|------|
+| LumpOfClay | 205 | ~0.8333% | Poco común |
+| ZemstoneofSacrifice | 650 | ~1.2500% | Raro |
+| StoneOfXelima | 656 | ~1.2500% | Raro |
+| StoneOfMerien | 657 | ~1.2500% | Raro |
+| NecklaceOfMerien | 858 | ~1.1667% | Legendario |
 --
 
+# Hellbound DROP
+| Ítem | ID | Probabilidad (%) | Tipo |
+|------|----|------------------|------|
+| HelhoundHeart | 199 | ~0.2500% | Poco común |
+| HelhoundLeather | 200 | ~0.3333% | Poco común |
+| HelhoundTail | 201 | ~0.3333% | Poco común |
+| HelhoundTeeth | 202 | ~0.3333% | Poco común |
+| HelhoundClaw | 203 | ~0.3333% | Poco común |
+| HelhoundTounge | 204 | ~0.2000% | Poco común |
+| RepPotion(+1) | REP_SMALL | ~0.0600% | Raro |
+| ZemstoneofSacrifice | 650 | ~0.5000% | Raro |
+| StoneOfXelima | 656 | ~0.5000% | Raro |
+| StoneOfMerien | 657 | ~0.5000% | Raro |
+--
+
+# Troll DROP
+| Ítem | ID | Probabilidad (%) | Tipo |
+|------|----|------------------|------|
+| TrollHeart | 222 | ~0.2381% | Poco común |
+| TrollMeat | 223 | ~0.3623% | Poco común |
+| TrollLeather | 224 | ~0.3333% | Poco común |
+| TrollClaw | 225 | ~0.3086% | Poco común |
+| RepPotion(+1) | REP_SMALL | ~0.0500% | Raro |
+| LuckyGoldRing | 334 | ~0.4167% | Raro |
+| RubyRing | 337 | ~0.4167% | Raro |
+| SaphireRing | 336 | ~0.4167% | Raro |
+| PlatinumRing | 333 | ~0.4167% | Raro |
+| ZemstoneofSacrifice | 650 | ~0.4167% | Raro |
+| StoneOfXelima | 656 | ~0.4167% | Raro |
+| StoneOfMerien | 657 | ~0.4167% | Raro |
+---
 
 
 ## ⚙️ Requisitos para compilar
