@@ -47,6 +47,7 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 
 ---
 
+## 🗃️ Tabla de Drops
 
 # Abaddon DROP
 
@@ -78,9 +79,6 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 # HellAbaddon DROP
 
 ---
-
-## 🗃️ Tabla de Drops
-
 | Ítem                           | ID    | Probabilidad (%) | Tipo        |
 |--------------------------------|-------|------------------|-------------|
 | BlackZWand (MS.32)            | 3116  | 0.0005%          | Legendario  |
@@ -110,7 +108,6 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 
 # GhostAba DROP
 ---
-## 🗃️ Tabla de Drops
 | Ítem                           | ID    | Probabilidad (%) | Tipo        |
 |--------------------------------|-------|------------------|-------------|
 | KlonessBlade                  | 849   | 0.0005%          | Legendario  |
@@ -136,7 +133,6 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 
 # Unicorn DROP
 ---
-## 🗃️ Tabla de Drops
 | Ítem                      | ID   | Probabilidad (%) | Tipo        |
 |---------------------------|------|------------------|-------------|
 | UnicornHeart              | 544  | ~0.227%          | Poco común  |
@@ -154,7 +150,6 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 
 # Demon DROP
 ---
-## 🗃️ Tabla de Drops
 | Ítem                      | ID   | Probabilidad (%) | Tipo        |
 |---------------------------|------|------------------|-------------|
 | DemonHeart                | 541  | ~0.666%          | Poco común  |
