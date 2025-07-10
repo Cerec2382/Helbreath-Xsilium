@@ -55,21 +55,22 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 
 | Ítem                           | ID    | Probabilidad (%) | Tipo        |
 |--------------------------------|-------|------------------|-------------|
-| BerserkWand (MS.30)           | 861   | 0.033%           | Legendario  |
-| The_Devastator                    | 846   | 0.033%       | Legendario  |
-| StormBringer                  | 845   | 0.033%           | Legendario  |
-| KlonessBlade                  | 849   | 0.20%            | Raro        |
+| BerserkWand (MS.30)           | 861   | 0.0005%          | Legendario  |
+| The_Devastator                | 846   | 0.0005%          | Legendario  |
+| StormBringer                  | 845   | 0.0005%          | Legendario  |
+| KlonessBlade                  | 849   | 0.249%           | Raro        |
 | KlonessAxe                    | 850   | 0.20%            | Raro        |
-| KlonessWand (MS.30)           | 863   | 0.20%            | Raro        |
+| KlonessWand (MS.30)           | 863   | 0.249%           | Raro         |
 | KlonessWand (MS.10)           | 864   | 0.20%            | Raro        |
 | KlonessEsterk                 | 851   | 0.20%            | Raro        |
-| Coin Medium (5 a 10)                  | 99908 | 8.90%            | Poco común  |
-| Demon Slayer                  | 616   | 5.00%            | Poco común  |
-| Coin Small (1 a 3)      | 99907 | ~10.64%      | Común       |
-| RepPotion (+100)             | 3087  | ~10.64%          | Común       |
-| ContribBall (+100000)         | 3081  | ~10.64%          | Común       |
-| Tinta Mágica Roja             | 3090  | ~10.64%          | Común       |
-| Tinta Mágica Azul             | 3089  | ~10.64%          | Común       |
+| Demon Slayer                  | 616   | 0.50%            | Raro         |
+| Coin Medium (5 a 10)          | 99908 | 8.90%            | Poco común  |
+| Coin Small (1 a 3)            | 99907 | ~11.19%          | Común       |
+| RepPotion (+100)             | 3087  | ~11.19%          | Común       |
+| ContribBall (+100000)         | 3081  | ~11.19%          | Común       |
+| Tinta Mágica Roja             | 3090  | ~11.19%          | Común       |
+| Tinta Mágica Azul             | 3089  | ~11.19%          | Común       |
+
 
 ---
 
@@ -80,24 +81,28 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 
 ## 🗃️ Tabla de Drops
 
-| Ítem                          | ID    | Probabilidad (%) | Tipo        |
-|-------------------------------|-------|------------------|-------------|
-| BlackZWand (MS.32)            | 3116  | 0.033%           | Legendario  |
-| BlackDevastator               | 4913  | 0.033%           | Legendario  |
-| StripIceHammer                | 4969  | 0.033%           | Legendario  |
-| AresElfBow                    | 4959  | 0.1857%          | Raro        |
-| ElvinElfBow                   | 4960  | 0.1857%          | Raro        |
-| MerienShield                  | 620   | 0.1857%          | Raro        |
-| ResurWand (MS.30)             | 865   | 0.1857%          | Raro        |
-| ResurWand (MS.10)             | 866   | 0.1857%          | Raro        |
-| Coin Big                      | 99909 | 8.90%            | Poco común  |
+| Ítem                           | ID    | Probabilidad (%) | Tipo        |
+|--------------------------------|-------|------------------|-------------|
+| BlackZWand (MS.32)            | 3116  | 0.0005%          | Legendario  |
+| BlackDevastator               | 4913  | 0.0005%          | Legendario  |
+| StripIceHammer                | 4969  | 0.0005%          | Legendario  |
+| Giant Battle Hammer           | 762   | ~0.0328%         | Legendario  |
+| LightingBlade                 | 848   | ~0.0328%         | Legendario  |
+| BerserkWand (MS.30)           | 861   | ~0.0328%         | Legendario  |
+| AresElfBow                    | 4959  | 0.20%            | Raro        |
+| ElvinElfBow                   | 4960  | 0.20%            | Raro        |
+| MerienShield                  | 620   | 0.20%            | Raro        |
+| ResurWand (MS.30)             | 865   | 0.20%            | Raro        |
+| ResurWand (MS.10)             | 866   | 0.20%            | Raro        |
+| Coin Big (10 a 20)            | 99909 | 8.90%            | Poco común  |
 | Demon Slayer                  | 616   | 5.00%            | Poco común  |
-| NeckPowerXelima               | 4968  | ~10.625%         | Común       |
-| NeckPower (MS.30)             | 4966  | ~10.625%         | Común       |
-| RepPotion (+1000)            | 3109  | ~10.625%         | Común       |
-| Ring of Power (War)           | 4964  | ~10.625%         | Común       |
-| Ring of Power (Mage)          | 4965  | ~10.625%         | Común       |
-| Coin Medium (5 a 10)  | 99908 | ~21.25% (suma)   | Común       |
+| NeckPowerXelima               | 4968  | ~12.14%          | Común       |
+| NeckPower (MS.30)             | 4966  | ~12.14%          | Común       |
+| RepPotion (+1000)             | 3109  | ~12.14%          | Común       |
+| RingofPowerWar                | 4964  | ~12.14%          | Común       |
+| RingofPowerMage               | 4965  | ~12.14%          | Común       |
+| Coin Medium (5 a 10)          | 99908 | ~24.28%          | Común       |
+
 
 
 ---

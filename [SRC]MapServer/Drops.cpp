@@ -2248,10 +2248,28 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 			case 120: // HellAbaddon
 				switch (iDice(1, 1000)) {
 				case 1: // 0.1% chance - Legendario
-					switch (iDice(1, 3)) {
+					switch (iDice(1, 200)) {
 					case 1: iItemID = 3116; break; // BlackZWand(MS.32)
 					case 2: iItemID = 4913; break;   // BlackDevastator
 					case 3: iItemID = 4969; break;  // StripIceHammer
+
+					default:
+						switch (iDice(1, 3))
+						{
+						case 1:
+							iItemID = 762; // Giant Battle Hammer
+							break;
+						case 2:
+							iItemID = 848; // LightingBlade
+							break;
+
+						case 3:
+							iItemID = 861; // BerserkWand(MS.30)
+						break;
+						}
+
+					break;
+					
 					}
 					break;
 				default:
@@ -2304,10 +2322,24 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 			case 81: // Abaddon
 				switch (iDice(1, 1000)) {
 				case 1: // 0.1% chance - Legendario
-					switch (iDice(1, 3)) {
+					switch (iDice(1, 200)) {
 					case 1: iItemID = 861; break; // BerserkWand(MS.30)
 					case 2: iItemID = 846; break;   // Devas
 					case 3: iItemID = 845; break;  // StormBringer
+
+					default: 
+						
+						switch (iDice(1,2))
+						{
+						case 1:
+							iItemID = 849;
+							break;
+						case 2:
+							iItemID = 863;
+							break;
+						}
+						
+						break; 
 					}
 					break;
 				default:

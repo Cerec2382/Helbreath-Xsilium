@@ -11,3 +11,4 @@
 **/Nucleo/Account/
 **/Nucleo/Character/
 **/ServerLogs/
+*.ipch
