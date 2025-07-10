@@ -1372,7 +1372,7 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 				case 7: if (iDice(1, 1000) == 50) iItemID = 650; break;		// "ZemstoneofSacrifice"
 				case 8: if (iDice(1, 500) == 10) iItemID = 633; break;		// "RingofDemonpower"
 				case 9: if (iDice(1, 5000) == 100) iItemID = 382; break;		// "BloodyShoWaveManual"
-				case 10: if (iDice(1, 300) == 1) iItemID = 616; break;
+				case 10: if (iDice(1, 5000) == 1) iItemID = 616; break; //Demon Slayer
 
 				default: break;
 				}

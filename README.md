@@ -109,11 +109,8 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 
 
 # GhostAba DROP
-
 ---
-
 ## 🗃️ Tabla de Drops
-
 | Ítem                           | ID    | Probabilidad (%) | Tipo        |
 |--------------------------------|-------|------------------|-------------|
 | KlonessBlade                  | 849   | 0.0005%          | Legendario  |
@@ -129,17 +126,48 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | NeckPowerXelima               | 4968  | ~1.00%           | Poco común  |
 | NeckPower (MS.30)             | 4966  | ~1.00%           | Poco común  |
 | NecklaceOfXelima              | 860   | ~15.00%          | Común       |
+| NecklaceOfMerien              | 858   | ~15.00%          | Común       |
 | XelimaRapier                  | 612   | ~15.00%          | Común       |
 | XelimaAxe                     | 611   | ~15.00%          | Común       |
 | SwordofIceElemental           | 614   | ~15.00%          | Común       |
 | Coins (1–3)                   | COIN_SMALL | ~15.00%    | Común       |
-| NecklaceOfMerien              | 858   | ~15.00%          | Común       |
-
-
-
-
 ---
 
+
+# Unicorn DROP
+---
+## 🗃️ Tabla de Drops
+| Ítem                      | ID   | Probabilidad (%) | Tipo        |
+|---------------------------|------|------------------|-------------|
+| UnicornHeart              | 544  | ~0.227%          | Poco común  |
+| UnicornHorn               | 545  | ~0.364%          | Poco común  |
+| UnicornMeat               | 546  | ~0.909%          | Poco común  |
+| UnicornLeather            | 547  | ~0.606%          | Poco común  |
+| StoneOfXelima             | 656  | ~0.455%          | Poco común  |
+| StoneOfMerien             | 657  | ~0.182%          | Poco común  |
+| ZemstoneofSacrifice       | 650  | ~0.182%          | Poco común  |
+| KlonessEsterk             | 851  | ~0.0091%         | Raro        |
+| KlonessWand (MS.10)       | 864  | ~0.0045%         | Legendario  |
+| KlonessBlade              | 849  | ~0.0045%         | Legendario  |
+| KlonessAxe                | 850  | ~0.0045%         | Legendario  |
+---
+
+# Demon DROP
+---
+## 🗃️ Tabla de Drops
+| Ítem                      | ID   | Probabilidad (%) | Tipo        |
+|---------------------------|------|------------------|-------------|
+| DemonHeart                | 541  | ~0.666%          | Poco común  |
+| DemonMeat                 | 542  | ~2.000%          | Poco común  |
+| DemonLeather              | 543  | ~1.000%          | Poco común  |
+| DemonEye                  | 540  | ~0.666%          | Poco común  |
+| StoneOfXelima             | 656  | ~0.0100%         | Raro        |
+| StoneOfMerien             | 657  | ~0.0100%         | Raro        |
+| ZemstoneofSacrifice       | 650  | ~0.0100%         | Raro        |
+| RingofDemonpower          | 633  | ~0.0200%         | Raro        |
+| BloodyShoWaveManual       | 382  | ~0.0002%         | Legendario  |
+| DemonSlayer               | 616  | ~0.0002%         | Legendario  |
+---
 
 
 ## ⚙️ Requisitos para compilar
