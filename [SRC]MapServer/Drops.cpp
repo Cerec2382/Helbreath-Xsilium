@@ -1355,8 +1355,8 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 				case 8: if (iDice(1, 6000) == 250) iItemID = 291; break;		// "MagicWand(MS30-LLF)"
 				case 9:	if (iDice(1, 8000) == 300) iItemID = 381; break;		// "MassFireStrikeManual"
 				case 10: if (iDice(1, 10000) == 100) iItemID = 382; break;		// "BloodyShoWaveManual"
-				case 11: if (iDice(1, 25000) == 1) iItemID = 380; break;	// IceStormManual (~1 cada 300k)
-				case 12: if (iDice(1, 25000) == 1) iItemID = 857; break;	// InibitionCastingManual (~1 cada 300k)
+				case 11: if (iDice(1, 25000) == 1) iItemID = 380; break;	// IceStormManual 
+				case 12: if (iDice(1, 25000) == 1) iItemID = 857; break;	// InibitionCastingManual
 				default: break;
 				}
 				break;

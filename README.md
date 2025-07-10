@@ -165,6 +165,142 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 ---
 
 
+# Liche DROP
+| Ítem                         | ID   | Probabilidad (%) | Tipo        |
+|------------------------------|------|------------------|-------------|
+| StoneOfXelima                | 656  | ~0.0083%         | Raro        |
+| StoneOfMerien                | 657  | ~0.0083%         | Raro        |
+| ZemstoneofSacrifice          | 650  | ~0.0083%         | Raro        |
+| MagicWand (MSHIELD)          | 259  | ~0.0028%         | Raro        |
+| RingOfGrandMage              | 636  | ~0.0500%         | Raro        |
+| RingOfArcMage                | 734  | ~0.0006%         | Legendario  |
+| NecklaceOfLiche              | 648  | ~0.0003%         | Legendario  |
+| MagicWand (MS30-LLF)         | 291  | ~0.0003%         | Legendario  |
+| MassFireStrikeManual         | 381  | ~0.0003%         | Legendario  |
+| BloodyShoWaveManual          | 382  | ~0.0001%         | Legendario  |
+| IceStormManual               | 380  | ~0.00003%        | Legendario  |
+| InibitionCastingManual       | 857  | ~0.00003%        | Legendario  |
+--
+
+# Slime DROP
+| Ítem | ID | Probabilidad (%) | Tipo |
+|------|----|------------------|------|
+| SlimeJelly | 220 | ~13.6364% | Poco común |
+| ZemstoneofSacrifice | 650 | ~0.2083% | Raro |
+| StoneOfXelima | 656 | ~0.2083% | Raro |
+| StoneOfMerien | 657 | ~0.2083% | Raro |
+--
+
+# Skeleton DROP
+| Ítem | ID | Probabilidad (%) | Tipo |
+|------|----|------------------|------|
+| SkeletonBones | 219 | ~0.8333% | Poco común |
+| RubyRing | 650 | ~0.8333% | Poco común |
+| ZemstoneofSacrifice | 650 | ~0.8333% | Raro |
+| StoneOfXelima | 656 | ~0.8333% | Raro |
+| StoneOfMerien | 657 | ~0.8333% | Raro |
+| EmeraldRing | 650 | ~0.0333% | Raro |
+--
+
+# StoneGolem DROP
+| Ítem | ID | Probabilidad (%) | Tipo |
+|------|----|------------------|------|
+| StoneGolemPiece | 221 | ~0.5556% | Poco común |
+| ZemstoneofSacrifice | 650 | ~0.8333% | Raro |
+| StoneOfXelima | 656 | ~0.8333% | Raro |
+| StoneOfMerien | 657 | ~0.8333% | Raro |
+| NecklaceOfStoneGolem | 647 | ~0.3333% | Legendario |
+| NecklaceOfMerien | 858 | ~0.1852% | Legendario |
+--
+
+# Cyclops DROP
+| Ítem | ID | Probabilidad (%) | Tipo |
+|------|----|------------------|------|
+| CyclopsEye | 194 | ~0.2778% | Poco común |
+| CyclopsHandEdge | 195 | ~0.2083% | Poco común |
+| CyclopsHeart | 196 | ~0.2778% | Poco común |
+| CyclopsMeat | 197 | ~0.4167% | Poco común |
+| CyclopsLeather | 198 | ~0.2083% | Poco común |
+| RepPotion(+1) | REP_SMALL | ~0.0500% | Raro |
+| ZemstoneofSacrifice | 650 | ~0.4167% | Raro |
+| StoneOfXelima | 656 | ~0.4167% | Raro |
+| StoneOfMerien | 657 | ~0.1389% | Raro |
+| Neck(MS10) | 308 | ~0.2778% | Raro |
+| Neck(RM10) | 300 | ~0.2778% | Raro |
+| Neck(DF10) | 311 | ~0.2778% | Raro |
+--
+
+# Orco DROP
+| Ítem | ID | Probabilidad (%) | Tipo |
+|------|----|------------------|------|
+| OrcMeat | 206 | ~0.6494% | Poco común |
+| OrcLeather | 207 | ~0.3571% | Poco común |
+| OrcTeeth | 208 | ~0.3401% | Poco común |
+| SaphireRing | 336 | ~0.7143% | Raro |
+| PlatiniumRing | 333 | ~1.1905% | Raro |
+| LuckyGoldRing | 334 | ~1.6667% | Raro |
+| RubyRing | 337 | ~2.1429% | Raro |
+| EmeraldRing | 335 | ~0.0429% | Raro |
+| RingOfWizard | 634 | ~4.2857% | Raro |
+| RingOfMage | 635 | ~0.8929% | Raro |
+| ZemstoneofSacrifice | 650 | ~0.2487% | Raro |
+| StoneOfXelima | 656 | ~0.3195% | Raro |
+| StoneOfMerien | 657 | ~0.1779% | Raro |
+| NecklaceOfFireProtection | 638 | ~0.7143% | Legendario |
+--
+
+# Ant DROP
+| Ítem | ID | Probabilidad (%) | Tipo |
+|------|----|------------------|------|
+| AntLeg | 192 | ~2.2222% | Poco común |
+| AntFeeler | 193 | ~2.0000% | Poco común |
+| ZemstoneofSacrifice | 650 | ~1.0000% | Raro |
+| StoneOfXelima | 656 | ~1.0000% | Raro |
+| StoneOfMerien | 657 | ~1.0000% | Raro |
+--
+
+# Scorpion DROP
+| Ítem | ID | Probabilidad (%) | Tipo |
+|------|----|------------------|------|
+| ScorpionPincers | 215 | ~0.2273% | Poco común |
+| ScorpionMeat | 216 | ~0.4545% | Poco común |
+| ScorpionSting | 217 | ~0.2273% | Poco común |
+| ScorpionSkin | 218 | ~0.2273% | Poco común |
+| RepPotion(+1) | 3015 | ~0.0600% | Raro |
+| ZemstoneofSacrifice | 650 | ~0.4545% | Raro |
+| StoneOfXelima | 656 | ~0.4545% | Raro |
+| StoneOfMerien | 657 | ~0.4545% | Raro |
+| RingOfWizard | 634 | ~0.0909% | Raro |
+| SaphireRing | 336 | ~0.0909% | Raro |
+| PlatiniumRing | 333 | ~2.6364% | Raro |
+--
+
+# Zombie DROP
+| Ítem | ID | Probabilidad (%) | Tipo |
+|------|----|------------------|------|
+| ZemstoneofSacrifice | 650 | ~0.5000% | Raro |
+| StoneOfXelima | 656 | ~0.5000% | Raro |
+| StoneOfMerien | 657 | ~0.5000% | Raro |
+| RepPotion(+3) | 3015 | ~0.6250% | Raro |
+| NecklaceofMedusa | 641 | ~0.0010% | Legendario |
+| SwordofMedusa | 613 | ~0.0010% | Legendario |
+--
+
+# Snake DROP
+| Ítem | ID | Probabilidad (%) | Tipo |
+|------|----|------------------|------|
+| SnakeMeat | 188 | ~0.8333% | Poco común |
+| SnakeSkin | 189 | ~0.7813% | Poco común |
+| SnakeTeeth | 190 | ~0.7813% | Poco común |
+| SnakeTounge | 191 | ~0.7353% | Poco común |
+| ZemstoneofSacrifice | 650 | ~0.6250% | Raro |
+| StoneOfXelima | 656 | ~0.6250% | Raro |
+| StoneOfMerien | 657 | ~0.6250% | Raro |
+| NecklaceOfSufferent | 640 | ~0.1250% | Legendario |
+--
+
+
+
 ## ⚙️ Requisitos para compilar
 
 Visual Studio 2013
