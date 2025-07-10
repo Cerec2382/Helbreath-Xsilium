@@ -4753,8 +4753,8 @@ void CMapServer::InitPlayerData(int iClientH, char * pData, DWORD dwSize)
 			}
 		}
 
-		/*m_pClientList[iClientH]->m_iMaxRankExp = c_rank->m_iMaxrankexp[m_pClientList[iClientH]->m_sRankLevel];
-		notify_rankexp(iClientH);*/
+		m_pClientList[iClientH]->m_iMaxRankExp = c_rank->m_iMaxrankexp[m_pClientList[iClientH]->m_sRankLevel];
+		notify_rankexp(iClientH);
 
 		NotifyRankData(iClientH);
 		NotifyCInsert(iClientH);
@@ -26717,8 +26717,8 @@ void CMapServer::rank_operation(int iClientH)
 	auto player = m_pClientList[iClientH];
 	if (!player) return;
 
-//	if ((player->m_sRankLevel >= 20) && ((memcmp(m_pMapList[player->m_cMapIndex]->m_cName, "areuni", 6) == 0) ||
-//		(memcmp(m_pMapList[player->m_cMapIndex]->m_cName, "VipMap1", 7) == 0))) return;
+	if ((player->m_sRankLevel >= 20) && ((memcmp(m_pMapList[player->m_cMapIndex]->m_cName, "areuni", 6) == 0) ||
+		(memcmp(m_pMapList[player->m_cMapIndex]->m_cName, "VipMap1", 7) == 0))) return;
 
 	player->m_iRankExp++;
 	
@@ -26789,8 +26789,8 @@ BOOL CMapServer::bCheckLevelUp(int iClientH) // Sobrepaso de lvl fix.
 				SendNotifyMsg(NULL, iClientH, CLIENT_NOTIFY_EXP, NULL, NULL, NULL, NULL);
 				m_pClientList[iClientH]->m_iGizonItemUpgradeLeft++;
 				
-				/*//rank system hbarg
-				rank_operation(iClientH);*/
+				//rank system hbarg
+				rank_operation(iClientH);
 
 				if (m_pClientList[iClientH]->m_iGizonItemUpgradeLeft > DEF_MAXGIZONPOINT) m_pClientList[iClientH]->m_iGizonItemUpgradeLeft = DEF_MAXGIZONPOINT; // adamas
 				SendNotifyMsg(NULL, iClientH, CLIENT_NOTIFY_GIZONITEMUPGRADELEFT, NULL, NULL, NULL, NULL);

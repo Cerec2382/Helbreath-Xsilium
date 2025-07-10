@@ -1,6 +1,6 @@
  MapServer
 
- Timestamp is 686d8938 (Tue Jul 08 15:10:16 2025)
+ Timestamp is 686eb846 (Wed Jul 09 12:43:18 2025)
 
  Preferred load address is 00400000
 
@@ -49,9 +49,9 @@
   Address         Publics by Value              Rva+Base       Lib:Object
 
  0000:00000000       ___guard_fids_table        00000000     <absolute>
- 0000:00000000       __except_list              00000000     <absolute>
- 0000:00000000       ___guard_flags             00000000     <absolute>
  0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_flags             00000000     <absolute>
+ 0000:00000000       __except_list              00000000     <absolute>
  0000:000004f5       ___safe_se_handler_count   000004f5     <absolute>
  0000:00000000       ___ImageBase               00400000     <linker-defined>
  0001:00009790       ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 0040a790 f i cApplicationStartup.obj
@@ -154,28 +154,28 @@
  0001:0000b8e0       ??8error_condition@std@@QBE_NABV01@@Z 0040c8e0 f i cApplicationStartup.obj
  0001:0000b960       ??Bid@locale@std@@QAEIXZ   0040c960 f i cApplicationStartup.obj
  0001:0000b9d0       ??Bsentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QBE_NXZ 0040c9d0 f i cApplicationStartup.obj
- 0001:0000b9f0       ??_E?$ctype@D@std@@MAEPAXI@Z 0040c9f0 f i cApplicationStartup.obj
  0001:0000b9f0       ??_G?$ctype@D@std@@MAEPAXI@Z 0040c9f0 f i cApplicationStartup.obj
- 0001:0000ba40       ??_G_Facet_base@std@@UAEPAXI@Z 0040ca40 f i cApplicationStartup.obj
+ 0001:0000b9f0       ??_E?$ctype@D@std@@MAEPAXI@Z 0040c9f0 f i cApplicationStartup.obj
  0001:0000ba40       ??_E_Facet_base@std@@UAEPAXI@Z 0040ca40 f i cApplicationStartup.obj
- 0001:0000ba90       ??_G_Generic_error_category@std@@UAEPAXI@Z 0040ca90 f i cApplicationStartup.obj
+ 0001:0000ba40       ??_G_Facet_base@std@@UAEPAXI@Z 0040ca40 f i cApplicationStartup.obj
  0001:0000ba90       ??_E_Generic_error_category@std@@UAEPAXI@Z 0040ca90 f i cApplicationStartup.obj
+ 0001:0000ba90       ??_G_Generic_error_category@std@@UAEPAXI@Z 0040ca90 f i cApplicationStartup.obj
  0001:0000bae0       ??_E_Iostream_error_category@std@@UAEPAXI@Z 0040cae0 f i cApplicationStartup.obj
  0001:0000bae0       ??_G_Iostream_error_category@std@@UAEPAXI@Z 0040cae0 f i cApplicationStartup.obj
- 0001:0000bb30       ??_G_System_error@std@@UAEPAXI@Z 0040cb30 f i cApplicationStartup.obj
  0001:0000bb30       ??_E_System_error@std@@UAEPAXI@Z 0040cb30 f i cApplicationStartup.obj
+ 0001:0000bb30       ??_G_System_error@std@@UAEPAXI@Z 0040cb30 f i cApplicationStartup.obj
  0001:0000bb80       ??_E_System_error_category@std@@UAEPAXI@Z 0040cb80 f i cApplicationStartup.obj
  0001:0000bb80       ??_G_System_error_category@std@@UAEPAXI@Z 0040cb80 f i cApplicationStartup.obj
- 0001:0000bbd0       ??_Gctype_base@std@@UAEPAXI@Z 0040cbd0 f i cApplicationStartup.obj
  0001:0000bbd0       ??_Ectype_base@std@@UAEPAXI@Z 0040cbd0 f i cApplicationStartup.obj
- 0001:0000bc20       ??_Gerror_category@std@@UAEPAXI@Z 0040cc20 f i cApplicationStartup.obj
+ 0001:0000bbd0       ??_Gctype_base@std@@UAEPAXI@Z 0040cbd0 f i cApplicationStartup.obj
  0001:0000bc20       ??_Eerror_category@std@@UAEPAXI@Z 0040cc20 f i cApplicationStartup.obj
+ 0001:0000bc20       ??_Gerror_category@std@@UAEPAXI@Z 0040cc20 f i cApplicationStartup.obj
  0001:0000bc70       ??_Gfacet@locale@std@@MAEPAXI@Z 0040cc70 f i cApplicationStartup.obj
  0001:0000bc70       ??_Efacet@locale@std@@MAEPAXI@Z 0040cc70 f i cApplicationStartup.obj
- 0001:0000bcc0       ??_Efailure@ios_base@std@@UAEPAXI@Z 0040ccc0 f i cApplicationStartup.obj
  0001:0000bcc0       ??_Gfailure@ios_base@std@@UAEPAXI@Z 0040ccc0 f i cApplicationStartup.obj
- 0001:0000bd10       ??_Gruntime_error@std@@UAEPAXI@Z 0040cd10 f i cApplicationStartup.obj
+ 0001:0000bcc0       ??_Efailure@ios_base@std@@UAEPAXI@Z 0040ccc0 f i cApplicationStartup.obj
  0001:0000bd10       ??_Eruntime_error@std@@UAEPAXI@Z 0040cd10 f i cApplicationStartup.obj
+ 0001:0000bd10       ??_Gruntime_error@std@@UAEPAXI@Z 0040cd10 f i cApplicationStartup.obj
  0001:0000bd60       ??_Esystem_error@std@@UAEPAXI@Z 0040cd60 f i cApplicationStartup.obj
  0001:0000bd60       ??_Gsystem_error@std@@UAEPAXI@Z 0040cd60 f i cApplicationStartup.obj
  0001:0000bdb0       ?BackgroundWindowProcess@@YGJPAUHWND__@@IIJ@Z 0040cdb0 f   cApplicationStartup.obj
@@ -341,9 +341,10 @@
  0001:00011aa0       ??E?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@QAEAAV01@XZ 00412aa0 f i Drops.obj
  0001:00011ac0       ??_E?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MAEPAXI@Z 00412ac0 f i Drops.obj
  0001:00011ac0       ??_G?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MAEPAXI@Z 00412ac0 f i Drops.obj
- 0001:00011b10       ??_E?$numpunct@D@std@@MAEPAXI@Z 00412b10 f i Drops.obj
  0001:00011b10       ??_G?$numpunct@D@std@@MAEPAXI@Z 00412b10 f i Drops.obj
+ 0001:00011b10       ??_E?$numpunct@D@std@@MAEPAXI@Z 00412b10 f i Drops.obj
  0001:00011b60       ?DeleteNpc@CMapServer@@QAEXHHH@Z 00412b60 f   Drops.obj
+ 0001:00016850       ?rank_operation@CMapServer@@QAEXH@Z 00417850 f   MapServer.obj
  0001:00017b90       ?NpcDeadItemGenerator@CMapServer@@QAEXHFD@Z 00418b90 f   Drops.obj
  0001:0001ae30       ?RollByProbabilityTable@CMapServer@@QAEHPBHH@Z 0041be30 f   Drops.obj
  0001:0001af00       ?_Change_alloc@?$_String_alloc@$0A@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEXABU?$_Wrap_alloc@V?$allocator@D@std@@@2@@Z 0041bf00 f i Drops.obj
@@ -396,8 +397,8 @@
  0001:0001ee90       _main                      0041fe90 f   main.obj
  0001:0001f040       ??0CBuildItem@@QAE@XZ      00420040 f   BuildItem.obj
  0001:0001f140       ??1CBuildItem@@UAE@XZ      00420140 f   BuildItem.obj
- 0001:0001f170       ??_GCBuildItem@@UAEPAXI@Z  00420170 f i BuildItem.obj
  0001:0001f170       ??_ECBuildItem@@UAEPAXI@Z  00420170 f i BuildItem.obj
+ 0001:0001f170       ??_GCBuildItem@@UAEPAXI@Z  00420170 f i BuildItem.obj
  0001:0001f1c0       ??$?0V<lambda_d6f1c9119fbc315a7d806e1c05d81231>@@$$$V@?$_Bind@$0A@XV<lambda_d6f1c9119fbc315a7d806e1c05d81231>@@$$$V@std@@QAE@$$QAV<lambda_d6f1c9119fbc315a7d806e1c05d81231>@@@Z 004201c0 f i Client.obj
  0001:0001f210       ??$?0V<lambda_d6f1c9119fbc315a7d806e1c05d81231>@@$$$V@thread@std@@QAE@$$QAV<lambda_d6f1c9119fbc315a7d806e1c05d81231>@@@Z 00420210 f i Client.obj
  0001:0001f270       ??$?0V?$_Bind@$0A@XV<lambda_d6f1c9119fbc315a7d806e1c05d81231>@@$$$V@std@@@?$_LaunchPad@V?$_Bind@$0A@XV<lambda_d6f1c9119fbc315a7d806e1c05d81231>@@$$$V@std@@@std@@QAE@$$QAV?$_Bind@$0A@XV<lambda_d6f1c9119fbc315a7d806e1c05d81231>@@$$$V@1@@Z 00420270 f i Client.obj
@@ -571,14 +572,14 @@
  0001:000248d0       ??_D?$basic_istream@DU?$char_traits@D@std@@@std@@QAEXXZ 004258d0 f i Client.obj
  0001:00024903       ??_E?$basic_ifstream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@A@AEPAXI@Z 00425903 f i Client.obj
  0001:0002490d       ??_E?$basic_istream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@A@AEPAXI@Z 0042590d f i Client.obj
- 0001:00024920       ??_G?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425920 f i Client.obj
  0001:00024920       ??_E?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425920 f i Client.obj
- 0001:00024970       ??_G?$basic_ifstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425970 f i Client.obj
+ 0001:00024920       ??_G?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425920 f i Client.obj
  0001:00024970       ??_E?$basic_ifstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425970 f i Client.obj
- 0001:000249c0       ??_E?$basic_ios@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 004259c0 f i Client.obj
+ 0001:00024970       ??_G?$basic_ifstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425970 f i Client.obj
  0001:000249c0       ??_G?$basic_ios@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 004259c0 f i Client.obj
- 0001:00024a10       ??_E?$basic_istream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425a10 f i Client.obj
+ 0001:000249c0       ??_E?$basic_ios@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 004259c0 f i Client.obj
  0001:00024a10       ??_G?$basic_istream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425a10 f i Client.obj
+ 0001:00024a10       ??_E?$basic_istream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425a10 f i Client.obj
  0001:00024a60       ??_E?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425a60 f i Client.obj
  0001:00024a60       ??_G?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425a60 f i Client.obj
  0001:00024ab0       ??_G?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEPAXI@Z 00425ab0 f i Client.obj
@@ -586,8 +587,8 @@
  0001:00024b00       ??_E?$codecvt@DDH@std@@MAEPAXI@Z 00425b00 f i Client.obj
  0001:00024b50       ??_GCClient@@UAEPAXI@Z     00425b50 f i Client.obj
  0001:00024b50       ??_ECClient@@UAEPAXI@Z     00425b50 f i Client.obj
- 0001:00024ba0       ??_Ecodecvt_base@std@@UAEPAXI@Z 00425ba0 f i Client.obj
  0001:00024ba0       ??_Gcodecvt_base@std@@UAEPAXI@Z 00425ba0 f i Client.obj
+ 0001:00024ba0       ??_Ecodecvt_base@std@@UAEPAXI@Z 00425ba0 f i Client.obj
  0001:00024bf0       ??_Gios_base@std@@UAEPAXI@Z 00425bf0 f i Client.obj
  0001:00024bf0       ??_Eios_base@std@@UAEPAXI@Z 00425bf0 f i Client.obj
  0001:00024c40       ??_Glocale@std@@QAEPAXI@Z  00425c40 f i Client.obj
@@ -959,8 +960,8 @@
  0001:00034cf0       ??_D?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ 00435cf0 f i Event.obj
  0001:00034d23       ??_E?$basic_ofstream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@A@AEPAXI@Z 00435d23 f i Event.obj
  0001:00034d2d       ??_E?$basic_ostream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@A@AEPAXI@Z 00435d2d f i Event.obj
- 0001:00034d40       ??_E?$basic_ofstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00435d40 f i Event.obj
  0001:00034d40       ??_G?$basic_ofstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00435d40 f i Event.obj
+ 0001:00034d40       ??_E?$basic_ofstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00435d40 f i Event.obj
  0001:00034d90       ??_E?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00435d90 f i Event.obj
  0001:00034d90       ??_G?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00435d90 f i Event.obj
  0001:00034de0       ??_GEvent@@UAEPAXI@Z       00435de0 f i Event.obj
@@ -974,8 +975,8 @@
  0001:00035450       ?Toggle@Handler@Event@@QAEXW4EventID@@@Z 00436450 f   Event.obj
  0001:000354b0       ??0CFish@@QAE@DFFFPAVCItem@@H@Z 004364b0 f   Fish.obj
  0001:00035550       ??1CFish@@UAE@XZ           00436550 f   Fish.obj
- 0001:000355c0       ??_GCFish@@UAEPAXI@Z       004365c0 f i Fish.obj
  0001:000355c0       ??_ECFish@@UAEPAXI@Z       004365c0 f i Fish.obj
+ 0001:000355c0       ??_GCFish@@UAEPAXI@Z       004365c0 f i Fish.obj
  0001:00035610       ??$?0AAV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBFH@std@@@std@@@std@@@std@@_NX@?$pair@V?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBFH@std@@@std@@@std@@@std@@_N@std@@QAE@AAV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBFH@std@@@std@@@std@@@1@$$QA_N@Z 00436610 f i MapServer.obj
  0001:000356b0       ??$?0ABF$$$V@?$pair@$$CBFH@std@@QAE@Upiecewise_construct_t@1@V?$tuple@ABF@1@V?$tuple@$$$V@1@@Z 004366b0 f i MapServer.obj
  0001:00035700       ??$?0ABF@?$_Tuple_val@ABF@std@@QAE@ABF@Z 00436700 f i MapServer.obj
@@ -1997,7 +1998,6 @@
  0001:00194980       ?push_back@?$vector@Ust_objects@CMapServer@@V?$allocator@Ust_objects@CMapServer@@@std@@@std@@QAEXABUst_objects@CMapServer@@@Z 00595980 f i MapServer.obj
  0001:00194ae0       ?put@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AAVios_base@2@DK@Z 00595ae0 f i MapServer.obj
  0001:00194b30       ?r_flooritem@CMapServer@@QAEXHPAD@Z 00595b30 f   MapServer.obj
- 0001:00194f70       ?rank_operation@CMapServer@@QAEXH@Z 00595f70 f   MapServer.obj
  0001:00195090       ?requestRebirth@CMapServer@@QAEXH@Z 00596090 f   MapServer.obj
  0001:001957a0       ?response_ping@CMapServer@@QAEXH@Z 005967a0 f   MapServer.obj
  0001:00195840       ?restoreExp@CMapServer@@QAEXH@Z 00596840 f   MapServer.obj
@@ -2031,8 +2031,8 @@
  0001:00197950       ??_GCGuildsMan@@UAEPAXI@Z  00598950 f i GuildsMan.obj
  0001:001979a0       ??0CItem@@QAE@XZ           005989a0 f   Item.obj
  0001:00197b40       ??1CItem@@UAE@XZ           00598b40 f   Item.obj
- 0001:00197b70       ??_ECItem@@UAEPAXI@Z       00598b70 f i Item.obj
  0001:00197b70       ??_GCItem@@UAEPAXI@Z       00598b70 f i Item.obj
+ 0001:00197b70       ??_ECItem@@UAEPAXI@Z       00598b70 f i Item.obj
  0001:00197bc0       ?GetBagPositionX@CItem@@QAEFXZ 00598bc0 f   Item.obj
  0001:00197bf0       ?GetBagPositionY@CItem@@QAEFXZ 00598bf0 f   Item.obj
  0001:00197c20       ?GetBankPosition@CItem@@QAEFXZ 00598c20 f   Item.obj
@@ -2044,8 +2044,8 @@
  0001:00198870       ?SetBankPosition@CItem@@QAEXF@Z 00599870 f   Item.obj
  0001:001988a0       ??0CMagic@@QAE@XZ          005998a0 f   Magic.obj
  0001:001988f0       ??1CMagic@@UAE@XZ          005998f0 f   Magic.obj
- 0001:00198920       ??_ECMagic@@UAEPAXI@Z      00599920 f i Magic.obj
  0001:00198920       ??_GCMagic@@UAEPAXI@Z      00599920 f i Magic.obj
+ 0001:00198920       ??_ECMagic@@UAEPAXI@Z      00599920 f i Magic.obj
  0001:00198970       ??0CMap@@QAE@PAVCMapServer@@@Z 00599970 f   Map.obj
  0001:00199490       ??1CMap@@UAE@XZ            0059a490 f   Map.obj
  0001:001996b0       ??_ECTile@@UAEPAXI@Z       0059a6b0 f i Map.obj
@@ -2096,8 +2096,8 @@
  0001:0019c590       ?pGetItem@CMap@@QAEPAVCItem@@FFPAF0PAD@Z 0059d590 f   Map.obj
  0001:0019c750       ??0CMineral@@QAE@DDHHH@Z   0059d750 f   Mineral.obj
  0001:0019c7c0       ??1CMineral@@UAE@XZ        0059d7c0 f   Mineral.obj
- 0001:0019c7f0       ??_GCMineral@@UAEPAXI@Z    0059d7f0 f i Mineral.obj
  0001:0019c7f0       ??_ECMineral@@UAEPAXI@Z    0059d7f0 f i Mineral.obj
+ 0001:0019c7f0       ??_GCMineral@@UAEPAXI@Z    0059d7f0 f i Mineral.obj
  0001:0019c840       ??0CMisc@@QAE@XZ           0059d840 f   Misc.obj
  0001:0019c870       ??1CMisc@@UAE@XZ           0059d870 f   Misc.obj
  0001:0019c8a0       ??_GCMisc@@UAEPAXI@Z       0059d8a0 f i Misc.obj
@@ -2135,8 +2135,8 @@
  0001:0019e410       ??1?$_Vector_val@U?$_Simple_types@VCNpcItem@@@std@@@std@@QAE@XZ 0059f410 f i Npc.obj
  0001:0019e440       ??1?$vector@VCNpcItem@@V?$allocator@VCNpcItem@@@std@@@std@@QAE@XZ 0059f440 f i Npc.obj
  0001:0019e470       ??1CNpc@@UAE@XZ            0059f470 f   Npc.obj
- 0001:0019e4b0       ??_ECNpc@@UAEPAXI@Z        0059f4b0 f i Npc.obj
  0001:0019e4b0       ??_GCNpc@@UAEPAXI@Z        0059f4b0 f i Npc.obj
+ 0001:0019e4b0       ??_ECNpc@@UAEPAXI@Z        0059f4b0 f i Npc.obj
  0001:0019e500       ?_Alloc_proxy@?$_Vector_alloc@$0A@U?$_Vec_base_types@VCNpcItem@@V?$allocator@VCNpcItem@@@std@@@std@@@std@@QAEXXZ 0059f500 f i Npc.obj
  0001:0019e560       ?_Destroy@?$vector@VCNpcItem@@V?$allocator@VCNpcItem@@@std@@@std@@IAEXPAVCNpcItem@@0@Z 0059f560 f i Npc.obj
  0001:0019e5b0       ?_Free_proxy@?$_Vector_alloc@$0A@U?$_Vec_base_types@VCNpcItem@@V?$allocator@VCNpcItem@@@std@@@std@@@std@@QAEXXZ 0059f5b0 f i Npc.obj
@@ -2146,12 +2146,12 @@
  0001:0019e720       ?deallocate@?$allocator@VCNpcItem@@@std@@QAEXPAVCNpcItem@@I@Z 0059f720 f i Npc.obj
  0001:0019e750       ??0COccupyFlag@@QAE@HHDHH@Z 0059f750 f   OccupyFlag.obj
  0001:0019e7c0       ??1COccupyFlag@@UAE@XZ     0059f7c0 f   OccupyFlag.obj
- 0001:0019e7f0       ??_ECOccupyFlag@@UAEPAXI@Z 0059f7f0 f i OccupyFlag.obj
  0001:0019e7f0       ??_GCOccupyFlag@@UAEPAXI@Z 0059f7f0 f i OccupyFlag.obj
+ 0001:0019e7f0       ??_ECOccupyFlag@@UAEPAXI@Z 0059f7f0 f i OccupyFlag.obj
  0001:0019e840       ??0PartyManager@@QAE@XZ    0059f840 f   PartyManager.obj
  0001:0019e870       ??1PartyManager@@UAE@XZ    0059f870 f   PartyManager.obj
- 0001:0019e8a0       ??_EPartyManager@@UAEPAXI@Z 0059f8a0 f i PartyManager.obj
  0001:0019e8a0       ??_GPartyManager@@UAEPAXI@Z 0059f8a0 f i PartyManager.obj
+ 0001:0019e8a0       ??_EPartyManager@@UAEPAXI@Z 0059f8a0 f i PartyManager.obj
  0001:0019e8f0       ?CheckMemberActivity@PartyManager@@QAEXXZ 0059f8f0 f   PartyManager.obj
  0001:0019e940       ?ClearParty@PartyManager@@QAEXXZ 0059f940 f   PartyManager.obj
  0001:0019e9a0       ?GameServerDown@PartyManager@@QAEXH@Z 0059f9a0 f   PartyManager.obj
@@ -2168,8 +2168,8 @@
  0001:0019efa0       ??_ECPortion@@UAEPAXI@Z    0059ffa0 f i Potion.obj
  0001:0019eff0       ??0CQuest@@QAE@XZ          0059fff0 f   Quest.obj
  0001:0019f020       ??1CQuest@@UAE@XZ          005a0020 f   Quest.obj
- 0001:0019f050       ??_ECQuest@@UAEPAXI@Z      005a0050 f i Quest.obj
  0001:0019f050       ??_GCQuest@@UAEPAXI@Z      005a0050 f i Quest.obj
+ 0001:0019f050       ??_ECQuest@@UAEPAXI@Z      005a0050 f i Quest.obj
  0001:0019f1e0       ??$_Allocate@Ust_quest@@@std@@YAPAUst_quest@@IPAU1@@Z 005a01e0 f i QuestList.obj
  0001:0019f240       ??$_Debug_pointer@Ust_quest@@@std@@YAXPAUst_quest@@PB_WI@Z 005a0240 f i QuestList.obj
  0001:0019f280       ??$_Debug_range2@PAUst_quest@@@std@@YAXPAUst_quest@@0PB_WIUrandom_access_iterator_tag@0@@Z 005a0280 f i QuestList.obj
@@ -8255,68 +8255,68 @@
  0002:00004554       ??_C@_0CD@MFFEMBGK@Can?8t?5teleport?0?5event?5is?5disable@ 006f7554     Event.obj
  0002:00004580       ??_C@_0BM@DPGDLNFL@Can?8t?5teleport?5on?5this?5map?$CB?$AA@ 006f7580     Event.obj
  0002:000045a8       ??_7CFish@@6B@             006f75a8     Fish.obj
- 0002:000045b0       ?value@?$_GcdX@$0DLJKMKAA@$0JIJGIA@@std@@2_JB 006f75b0     MapServer.obj
- 0002:000045c0       ?value@?$_Gcd@$0DLJKMKAA@$0JIJGIA@@std@@2_JB 006f75c0     MapServer.obj
- 0002:000045d0       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f75d0     MapServer.obj
- 0002:000045e0       ?value@?$_Safe_multX@$00$0GE@$00@std@@2_JB 006f75e0     MapServer.obj
- 0002:000045f0       ?value@?$_Safe_mult@$00$0GE@@std@@2_JB 006f75f0     MapServer.obj
- 0002:00004600       ?_N2@?$_Ratio_divide@U?$ratio@$00$00@std@@U?$ratio@$00$0DLJKMKAA@@2@@std@@2_JB 006f7600     MapServer.obj
- 0002:00004610       ?_D2@?$_Ratio_divide@U?$ratio@$00$00@std@@U?$ratio@$00$0DLJKMKAA@@2@@std@@2_JB 006f7610     MapServer.obj
- 0002:00004620       ?_N1@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7620     MapServer.obj
- 0002:00004630       ?_D1@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7630     MapServer.obj
- 0002:00004640       ?_N2@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7640     MapServer.obj
- 0002:00004650       ?_D2@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7650     MapServer.obj
- 0002:00004660       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7660     MapServer.obj
- 0002:00004670       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7670     MapServer.obj
- 0002:00004680       ?value@?$_Safe_multX@$00$0DLJKMKAA@$00@std@@2_JB 006f7680     MapServer.obj
+ 0002:000045b0       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f75b0     MapServer.obj
+ 0002:000045c0       ?value@?$_GcdX@$0DLJKMKAA@$0JIJGIA@@std@@2_JB 006f75c0     MapServer.obj
+ 0002:000045d0       ?value@?$_Gcd@$0DLJKMKAA@$0JIJGIA@@std@@2_JB 006f75d0     MapServer.obj
+ 0002:000045e0       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f75e0     MapServer.obj
+ 0002:000045f0       ?value@?$_Safe_multX@$00$0GE@$00@std@@2_JB 006f75f0     MapServer.obj
+ 0002:00004600       ?value@?$_Safe_mult@$00$0GE@@std@@2_JB 006f7600     MapServer.obj
+ 0002:00004610       ?_N2@?$_Ratio_divide@U?$ratio@$00$00@std@@U?$ratio@$00$0DLJKMKAA@@2@@std@@2_JB 006f7610     MapServer.obj
+ 0002:00004620       ?_D2@?$_Ratio_divide@U?$ratio@$00$00@std@@U?$ratio@$00$0DLJKMKAA@@2@@std@@2_JB 006f7620     MapServer.obj
+ 0002:00004630       ?_N1@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7630     MapServer.obj
+ 0002:00004640       ?_D1@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7640     MapServer.obj
+ 0002:00004650       ?_N2@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7650     MapServer.obj
+ 0002:00004660       ?_D2@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7660     MapServer.obj
+ 0002:00004670       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7670     MapServer.obj
+ 0002:00004680       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7680     MapServer.obj
  0002:00004689       ?value@?$_Is_duration@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@@chrono@std@@2_NB 006f7689     MapServer.obj
- 0002:00004690       ?value@?$_Safe_mult@$00$0DLJKMKAA@@std@@2_JB 006f7690     MapServer.obj
+ 0002:00004690       ?value@?$_Safe_multX@$00$0DLJKMKAA@$00@std@@2_JB 006f7690     MapServer.obj
  0002:00004699       ?value@?$_Is_ratio@U?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@2_NB 006f7699     MapServer.obj
  0002:0000469a       ?value@?$_Is_duration@V?$duration@_JU?$ratio@$00$00@std@@@chrono@std@@@chrono@std@@2_NB 006f769a     MapServer.obj
- 0002:000046a0       ?_N2@?$_Ratio_divide@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f76a0     MapServer.obj
- 0002:000046b0       ?_D2@?$_Ratio_divide@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f76b0     MapServer.obj
- 0002:000046c0       ?_N1@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f76c0     MapServer.obj
- 0002:000046d0       ?_D1@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f76d0     MapServer.obj
- 0002:000046e0       ?_N2@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f76e0     MapServer.obj
- 0002:000046f0       ?_D2@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f76f0     MapServer.obj
- 0002:00004700       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f7700     MapServer.obj
- 0002:00004710       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f7710     MapServer.obj
- 0002:00004720       ?_Gx@?$_Lcm@$00$00@std@@2_JB 006f7720     MapServer.obj
- 0002:00004730       ?value@?$_Lcm@$00$00@std@@2_JB 006f7730     MapServer.obj
- 0002:00004740       ?value@?$_Safe_multX@$0DLJKMKAA@$00$00@std@@2_JB 006f7740     MapServer.obj
- 0002:00004750       ?value@?$_Safe_mult@$0DLJKMKAA@$00@std@@2_JB 006f7750     MapServer.obj
+ 0002:000046a0       ?value@?$_Safe_mult@$00$0DLJKMKAA@@std@@2_JB 006f76a0     MapServer.obj
+ 0002:000046b0       ?_N2@?$_Ratio_divide@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f76b0     MapServer.obj
+ 0002:000046c0       ?_D2@?$_Ratio_divide@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f76c0     MapServer.obj
+ 0002:000046d0       ?_N1@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f76d0     MapServer.obj
+ 0002:000046e0       ?_D1@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f76e0     MapServer.obj
+ 0002:000046f0       ?_N2@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f76f0     MapServer.obj
+ 0002:00004700       ?_D2@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f7700     MapServer.obj
+ 0002:00004710       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f7710     MapServer.obj
+ 0002:00004720       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f7720     MapServer.obj
+ 0002:00004730       ?_Gx@?$_Lcm@$00$00@std@@2_JB 006f7730     MapServer.obj
+ 0002:00004740       ?value@?$_Lcm@$00$00@std@@2_JB 006f7740     MapServer.obj
+ 0002:00004750       ?value@?$_Safe_multX@$0DLJKMKAA@$00$00@std@@2_JB 006f7750     MapServer.obj
  0002:00004759       ?value@?$_Always_false@_J@std@@2_NB 006f7759     MapServer.obj
- 0002:00004760       ?_N2@?$_Ratio_divide@U?$ratio@$00$0DLJKMKAA@@std@@U12@@std@@2_JB 006f7760     MapServer.obj
- 0002:00004770       ?_D2@?$_Ratio_divide@U?$ratio@$00$0DLJKMKAA@@std@@U12@@std@@2_JB 006f7770     MapServer.obj
- 0002:00004780       ?_N1@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7780     MapServer.obj
- 0002:00004790       ?_D1@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7790     MapServer.obj
- 0002:000047a0       ?_N2@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f77a0     MapServer.obj
- 0002:000047b0       ?_D2@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f77b0     MapServer.obj
- 0002:000047c0       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f77c0     MapServer.obj
- 0002:000047d0       ?value@?$_GcdX@$0DLJKMKAA@$0A@@std@@2_JB 006f77d0     MapServer.obj
- 0002:000047e0       ?value@?$_GcdX@$0DLJKMKAA@$0DLJKMKAA@@std@@2_JB 006f77e0     MapServer.obj
- 0002:000047f0       ?value@?$_Gcd@$0DLJKMKAA@$0DLJKMKAA@@std@@2_JB 006f77f0     MapServer.obj
- 0002:00004800       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7800     MapServer.obj
+ 0002:00004760       ?value@?$_Safe_mult@$0DLJKMKAA@$00@std@@2_JB 006f7760     MapServer.obj
+ 0002:00004770       ?_N2@?$_Ratio_divide@U?$ratio@$00$0DLJKMKAA@@std@@U12@@std@@2_JB 006f7770     MapServer.obj
+ 0002:00004780       ?_D2@?$_Ratio_divide@U?$ratio@$00$0DLJKMKAA@@std@@U12@@std@@2_JB 006f7780     MapServer.obj
+ 0002:00004790       ?_N1@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7790     MapServer.obj
+ 0002:000047a0       ?_D1@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f77a0     MapServer.obj
+ 0002:000047b0       ?_N2@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f77b0     MapServer.obj
+ 0002:000047c0       ?_D2@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f77c0     MapServer.obj
+ 0002:000047d0       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f77d0     MapServer.obj
+ 0002:000047e0       ?value@?$_GcdX@$0DLJKMKAA@$0A@@std@@2_JB 006f77e0     MapServer.obj
+ 0002:000047f0       ?value@?$_GcdX@$0DLJKMKAA@$0DLJKMKAA@@std@@2_JB 006f77f0     MapServer.obj
+ 0002:00004800       ?value@?$_Gcd@$0DLJKMKAA@$0DLJKMKAA@@std@@2_JB 006f7800     MapServer.obj
  0002:00004809       ?value@?$_Is_ratio@U?$ratio@$00$00@std@@@chrono@std@@2_NB 006f7809     MapServer.obj
- 0002:00004810       ?_N2@?$_Ratio_divide@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7810     MapServer.obj
- 0002:00004820       ?_D2@?$_Ratio_divide@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7820     MapServer.obj
- 0002:00004830       ?_N2@?$_Ratio_divide@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$00$0DLJKMKAA@@2@@std@@2_JB 006f7830     MapServer.obj
- 0002:00004840       ?_D2@?$_Ratio_divide@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$00$0DLJKMKAA@@2@@std@@2_JB 006f7840     MapServer.obj
- 0002:00004850       ?_N1@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7850     MapServer.obj
- 0002:00004860       ?_D1@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7860     MapServer.obj
- 0002:00004870       ?_N2@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7870     MapServer.obj
- 0002:00004880       ?_D2@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7880     MapServer.obj
- 0002:00004890       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7890     MapServer.obj
- 0002:000048a0       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f78a0     MapServer.obj
- 0002:000048b0       ?_N1@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f78b0     MapServer.obj
- 0002:000048c0       ?_D1@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f78c0     MapServer.obj
- 0002:000048d0       ?value@?$_Gcd@$0DLJKMKAA@$00@std@@2_JB 006f78d0     MapServer.obj
- 0002:000048e0       ?num@?$ratio@$0DLJKMKAA@$00@std@@2_JB 006f78e0     MapServer.obj
- 0002:000048f0       ?den@?$ratio@$0DLJKMKAA@$00@std@@2_JB 006f78f0     MapServer.obj
+ 0002:00004810       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7810     MapServer.obj
+ 0002:00004820       ?_N2@?$_Ratio_divide@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7820     MapServer.obj
+ 0002:00004830       ?_D2@?$_Ratio_divide@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7830     MapServer.obj
+ 0002:00004840       ?_N2@?$_Ratio_divide@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$00$0DLJKMKAA@@2@@std@@2_JB 006f7840     MapServer.obj
+ 0002:00004850       ?_D2@?$_Ratio_divide@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$00$0DLJKMKAA@@2@@std@@2_JB 006f7850     MapServer.obj
+ 0002:00004860       ?_N1@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7860     MapServer.obj
+ 0002:00004870       ?_D1@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7870     MapServer.obj
+ 0002:00004880       ?_N2@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7880     MapServer.obj
+ 0002:00004890       ?_D2@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7890     MapServer.obj
+ 0002:000048a0       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f78a0     MapServer.obj
+ 0002:000048b0       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f78b0     MapServer.obj
+ 0002:000048c0       ?_N1@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f78c0     MapServer.obj
+ 0002:000048d0       ?_D1@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f78d0     MapServer.obj
+ 0002:000048e0       ?value@?$_Gcd@$0DLJKMKAA@$00@std@@2_JB 006f78e0     MapServer.obj
+ 0002:000048f0       ?num@?$ratio@$0DLJKMKAA@$00@std@@2_JB 006f78f0     MapServer.obj
  0002:000048fc       ?_Mysize@?$tuple@ABF@std@@2IB 006f78fc     MapServer.obj
- 0002:00004900       ?_N2@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7900     MapServer.obj
- 0002:00004910       ?_D2@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7910     MapServer.obj
- 0002:00004920       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7920     MapServer.obj
+ 0002:00004900       ?den@?$ratio@$0DLJKMKAA@$00@std@@2_JB 006f7900     MapServer.obj
+ 0002:00004910       ?_N2@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7910     MapServer.obj
+ 0002:00004920       ?_D2@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7920     MapServer.obj
  0002:0000492c       ??_C@_03FKNCMABI@?$CFlu?$AA@ 006f792c     MapServer.obj
  0002:00004930       ??_C@_05OINFJHGD@?$CFI64u?$AA@ 006f7930     MapServer.obj
  0002:0000493c       ??_7CMapServer@@6B@        006f793c     MapServer.obj

@@ -22411,7 +22411,7 @@ void CGame::InitDataResponseHandler(char * pData)
 	//LaloRamos nuevos mensajes al entrar al mapa
 	if (strcmp(m_cMapMessage, "Beginner Zone") == 0)
 	{
-		SetTopMsg("Bienvenidos a Helbreath Cursed", 5);
+		SetTopMsg("Bienvenidos a Helbreath Xsilium", 5);
 	}
 
 	/*if (strcmp(m_cMapMessage, "Mortal Combat") == 0)
@@ -41430,9 +41430,19 @@ void CGame::DrawObjectName(short sX, short sY, char * pName, int iStatus, int Ob
 
 	if (DecriptInt(m_iLevel) < m_iPlayerMaxLevel) return;
 
-	short rank = get_object_rank(ObjectID);
+	//short rank = get_object_rank(ObjectID);
 	char crank[100];
 	ZeroMemory(crank, sizeof(crank));
+
+	int rank = -1;
+	if (string(pName) == m_cPlayerName) {
+		rank = m_sRankLevel;
+	}
+	else {
+		rank = get_object_rank(ObjectID);
+	}
+
+
 
 	//if (memcmp(m_cCurLocation, "evento13", 8) != 0)
 	//if ((memcmp(m_cCurLocation, "evento13", 8) != 0) || (memcmp(m_cCurLocation, "evento14", 8) != 0))
@@ -41441,97 +41451,97 @@ void CGame::DrawObjectName(short sX, short sY, char * pName, int iStatus, int Ob
 		switch (rank)
 		{
 		case 0:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 1:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 2:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 3:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 4:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 5:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 6:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 7:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 8:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 9:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 10:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 11:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 12:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 13:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 14:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 15:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 16:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 17:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 18:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 19:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 20:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 21:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 22:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 23:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 24:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 25:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 26:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 27:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 28:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 29:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 		case 30:
-			strcpy(crank, "Cursed");
+			strcpy(crank, "Xsilium");
 			break;
 
 		default: break;
@@ -41681,10 +41691,15 @@ void CGame::DrawObjectName(short sX, short sY, char * pName, int iStatus, int Ob
 
 	//if (rank != -1) PutString2(sX, sY + 4 + 14 + 14 + iAddY, crank, 179, 158, 21);
 	//if (rank != -1) PutString2(sX, sY + 14 + 14 + iAddY, crank, 179, 158, 21);
-
-	/*if (string(pName) == m_cPlayerName && m_sRankLevel != 30)//20
+	/*
+	if (string(pName) == m_cPlayerName && m_sRankLevel != 30)//20
 	{
 		PutAlignedString(sX, sX + 101, sY + 4 + 14 + 14 + 14 + iAddY, "Rank Exp", 180, 180, 180);
+
+		if (m_iMaxRankExp <= 0) m_iMaxRankExp = 1;
+		if (m_iRankExp <= 0) m_iRankExp = 1;
+
+
 		int iPorc = (m_iRankExp * 200) / m_iMaxRankExp;
 
 		m_DDraw.DrawShadowBox(sX, sY + 4 + 14 + 14 + 14 + 12 + iAddY + 4, sX + 101, sY + 4 + 14 + 14 + 14 + 12 + iAddY + 4 + 15);
@@ -41709,7 +41724,7 @@ void CGame::DrawObjectName(short sX, short sY, char * pName, int iStatus, int Ob
 			m_DDraw.PutPixel(sX + 1 + (i / 2), sY + 4 + 14 + 14 + 14 + 12 + iAddY + 4 + 15, 0, 0, 0);
 		}
 
-		string sporc/ * = "Next Rank: "* /;
+		string sporc = "Next Rank: ";
 		sporc.append(to_string(m_iRankExp));
 		sporc.append("/");
 		sporc.append(to_string(m_iMaxRankExp));
@@ -41744,15 +41759,17 @@ void CGame::DrawObjectName(short sX, short sY, char * pName, int iStatus, int Ob
 			m_DDraw.PutPixel(sX + 1 + (i / 2), sY + 4 + 14 + 14 + 14 + 12 + iAddY + 4 + 15, 0, 0, 0);
 		}
 
-		string sporc/ * = "Next Rank: "* /;
+		string sporc = "Next Rank: ";
 		sporc.append(to_string(m_iRankExp));
-		/ *sporc.append("/");
-		sporc.append(to_string(m_iMaxRankExp));* /
+		sporc.append("/");
+		sporc.append(to_string(m_iMaxRankExp));
 
-		PutAlignedString(sX, sX + 101, sY + 4 + 14 + 14 + 14 + 12 + iAddY + 4, (char*)sporc.c_str(), 255, 255, 255);*/
+		PutAlignedString(sX, sX + 101, sY + 4 + 14 + 14 + 14 + 12 + iAddY + 4, (char*)sporc.c_str(), 255, 255, 255);
 		//PutString2(sX + 2, sY + 4 + 14 + 14 + 14 + iAddY + 4, (char*)sporc.c_str(), 255, 255, 255);
-	//}
+	}
 
+
+	*/
 
 #ifdef _DEBUGS
 	wsprintf(cTxt2, "Status: 0x%.8X ", iStatus);

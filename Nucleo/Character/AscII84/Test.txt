@@ -1,13 +1,13 @@
 [FILE-DATE]
 
-file-saved-date: 2025 7 8 14 55
+file-saved-date: 2025 7 10 11 1
 
 [NAME-ACCOUNT]
 
 character-name     = Test
 account-name       = asd
-Hour-Play = 1
-Min-Play = 32
+Hour-Play = 2
+Min-Play = 17
 
 CheckProcess = OFF
 
@@ -22,9 +22,9 @@ character-guild-rank = -1
 
 [MAP-DATA]
 
-character-loc-map = elvine
-character-loc-x   = 158
-character-loc-y   = 57
+character-loc-map = cityhall_2
+character-loc-x   = 57
+character-loc-y   = 43
 
 locked-map-name = NONE
 locked-map-time = 0
@@ -32,28 +32,28 @@ locked-map-time = 0
 
 [STATS]
 
-character-EXP      = 206000688
+character-EXP      = 203484288
 character-LEVEL    = 200
 character-LU_Pool  = 3
 character-STR      = 200
-character-INT      = 37
-character-VIT      = 170
+character-INT      = 45
+character-VIT      = 200
 character-DEX      = 200
-character-MAG      = 50
+character-MAG      = 15
 character-CHARISMA = 10
 
 
 [STATUS]
 
-character-HP       = 1010
-character-MP       = 518
+character-HP       = 1100
+character-MP       = 452
 character-SP       = 800
 sex-status       = 1
 skin-status      = 3
 hairstyle-status = 7
 haircolor-status = 8
 underwear-status = 6
-hunger-status    = 57
+hunger-status    = 60
 admin-user-level = 0
 party-id = 0
 
@@ -77,9 +77,9 @@ character-EK-Count = 0
 character-EK-TotalCount = 0
 character-PK-Count = 0
 character-FK-Count = 0
-character-contribution = 12448
-gizon-item-upgade-left = 94
-super-attack-left = 3919
+character-contribution = 16837
+gizon-item-upgade-left = 95
+super-attack-left = 4625
 Coins = 9952
 
 
@@ -102,7 +102,7 @@ stated-reward-type     = 0
 
 [ACHIVEMENTS]
 
-Total-Mobs-Killed = 895
+Total-Mobs-Killed = 1226
 Total-Death = 0
 Total-Client-Killed = 0
 Total-Quest-Completed = 0
@@ -134,16 +134,16 @@ ip-muerte = appr1
 
 appr1 = 1926
 appr2 = 576
-appr3 = 17506
-appr4 = 0
+appr3 = 0
+appr4 = 8192
 appr-color = 0
-appr-color2 = 3158787
+appr-color2 = 0
 
 [RANK-SYSTEM]
 
 character-rank-level = 0
 character-rank-points = 0
-character-rank-exp = 0
+character-rank-exp = 1
 
 character-rank-addstr = 0
 character-rank-addvit = 0
@@ -175,39 +175,37 @@ character-no-drop = 0
 
 [REBIRTH]
 
-character-rebirth-level = 0
+character-rebirth-level = 1
 character-rebirth-status = 0
 character-rebirth-enabled = 0
 character-back-rebirth-level = 0
-character-back-exp = 0
-character-back-stats-point = 0
-character-back-str = 0
-character-back-vit = 0
-character-back-int = 0
-character-back-dex = 0
-character-back-chr = 0
-character-back-mag = 0
-character-back-level = 0
+character-back-exp = 206000688
+character-back-stats-point = 3
+character-back-str = 200
+character-back-vit = 170
+character-back-int = 37
+character-back-dex = 200
+character-back-chr = 10
+character-back-mag = 50
+character-back-level = 200
 
 [ITEMLIST]
 
-character-item = ContribBall          4389 2 15470 708 143732119 6 0 0 0 3 0 40 30
-character-item = ZemstoneofSacrifice  12 0 0 0 0 0 0 0 0 3 0 163 -10
-character-item = RedCandy             1 0 0 0 0 0 0 0 0 300 0 22 -1
+character-item = LaloXelStorm         1 2 6049 709 124725197 11 0 0 0 2670 0 88 85
+character-item = ZemstoneofSacrifice  12 0 0 0 0 0 0 0 0 3 0 163 -3
+character-item = LongBoots            1 2 19387 709 125444497 0 0 0 0 300 8619008 40 30
 character-item = BlueCandy            1 0 0 0 0 0 0 0 0 300 0 50 -1
 character-item = GreenCandy           1 0 0 0 0 0 0 0 0 300 0 78 0
 character-item = RingoftheAbaddon     1 0 0 0 0 0 0 0 0 300 0 40 30
 character-item = NecklaceOfXelima     1 0 0 0 0 5 0 0 0 300 0 40 30
-character-item = Gold                 579210 0 0 0 0 0 0 0 0 600 0 170 57
-character-item = MagicWand(MS0)       1 0 0 0 0 0 0 0 0 1196 0 105 -4
-character-item = WhitePlateMail(M)    1 0 0 0 0 18 0 0 0 15000 0 40 30
-character-item = WhiteLeggings(M)     1 0 0 0 0 18 0 0 0 15000 0 40 30
-character-item = WhiteWingsHelm(M)    1 0 0 0 0 18 0 0 0 15000 0 40 30
-character-item = WhiteMageHauberk(M)  1 0 0 0 0 18 0 0 0 15000 0 2 43
-character-item = PowerGreenPotion     1 2 30083 708 143945780 0 0 0 0 1 0 40 30
-character-item = PowerBarbarian       1 2 14259 705 15291621 7 0 0 0 4059 0 11 78
-character-item = RedPotion            1 2 9522 708 143942987 0 0 0 0 1 0 40 30
-character-item = LagiShield           1 2 27517 708 144021281 0 0 0 0 800 6356992 40 30
+character-item = Gold                 600314 0 0 0 0 0 0 0 0 600 0 170 57
+character-item = MagicWand(MS0)       1 0 0 0 0 0 0 0 0 1196 0 105 -3
+character-item = WhitePlateMail(M)    1 0 0 0 0 18 0 0 0 15000 0 63 72
+character-item = WhiteLeggings(M)     1 0 0 0 0 18 0 0 0 15000 0 79 95
+character-item = WhiteWingsHelm(M)    1 0 0 0 0 18 0 0 0 15000 0 71 90
+character-item = WhiteMageHauberk(M)  1 0 0 0 0 18 0 0 0 15000 0 65 92
+character-item = ZemstoneofSacrifice  1 2 9258 709 125742537 0 0 0 0 3 0 163 -3
+character-item = PowerBarbarian       1 2 14259 705 15291621 7 0 0 0 4059 0 11 86
 
 
 character-bank-item = LagiShield           1 2 1307 708 125950113 0 0 0 0 800 11826432 0
@@ -229,14 +227,14 @@ character-bank-item = CraftingVessel       1 2 16079 708 14155473 0 0 0 0 300 0 
 
 //------------------012345678901234567890123456789012345678901234567890
 magic-mastery     = 0010000000001000000000000010000011000000000000000000000000000000000000000000000000000000000000000000
-skill-mastery     = 100 100 74 100 100 100 100 100 100 100 100 100 74 100 100 0 0 0 0 50 0 100 0 20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-skill-SSN     = 0 0 0 0 0 0 0 4140 14740 0 0 0 0 0 1007080 0 0 0 0 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+skill-mastery     = 100 100 90 100 30 100 100 100 100 100 100 100 90 100 100 0 0 0 0 50 0 30 0 20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+skill-SSN     = 0 0 0 0 0 0 0 4140 43040 0 0 0 0 0 1007080 0 0 0 0 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 
 Achivements     = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 
 [ITEM-EQUIP-STATUS]
 
-item-equip-status = 00000110111110000000000000000000000000000000000000
+item-equip-status = 00100110100000000000000000000000000000000000000000
 item-position-x = 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 
 item-position-y = 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 
 

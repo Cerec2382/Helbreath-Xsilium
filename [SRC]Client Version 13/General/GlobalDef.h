@@ -2,12 +2,14 @@
 //#define DEF_TESTOFICIAL
 //#define DEF_LOCAL
 #define DEF_OFICIAL
+//$(TargetPath)
+//$(ProjectDir)
 
 #define DEF_SECURITY_LOGIN		834759873
 #define DEF_ANTI_HACKERS		872346823
 #define DEF_USING_LAUNCHER      0 // 1 -> ON // 0 -> OFF
 #ifdef DEF_OFICIAL
-#define DEF_SERVER_IP	 		"192.3.146.151" //"135.148.120.176" //"192.168.0.121"
+#define DEF_SERVER_IP	 		"192.168.8.5" //"135.148.120.176" //"192.168.0.121"
 #define DEF_SERVER_PORT			9735
 #define NAME_WORLDNAME1			"SEB"
 #define MSG_WORLDNAME1			"Helbreath Xsilium"
