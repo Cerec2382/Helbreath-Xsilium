@@ -160,8 +160,8 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | StoneOfMerien             | 657  | ~0.0100%         | Raro        |
 | ZemstoneofSacrifice       | 650  | ~0.0100%         | Raro        |
 | RingofDemonpower          | 633  | ~0.0200%         | Raro        |
-| BloodyShoWaveManual       | 382  | ~0.0002%         | Legendario  |
-| DemonSlayer               | 616  | ~0.0002%         | Legendario  |
+| BloodyShoWaveManual       | 382  | ~0.0045%         | Legendario  |
+| DemonSlayer               | 616  | ~0.0045%         | Legendario  |
 ---
 
 
