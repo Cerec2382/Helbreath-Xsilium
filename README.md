@@ -335,6 +335,80 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | StoneOfMerien | 657 | ~0.4167% | Raro |
 ---
 
+# Stalker DROP
+| Ítem               | ID   | Probabilidad (%) | Tipo    |
+|--------------------|------|------------------|---------|
+| StoneOfXelima      | 656  | ~0.2000%         | Raro    |
+| StoneOfMerien      | 657  | ~0.4000%         | Raro    |
+| RepPotion(+1)      | -    | ~1.0000%         | Común   |
+| ZemstoneofSacrifice| 650  | ~0.6000%         | Raro    |
+| GoldenAxeLLF       | 292  | ~0.4000%         | Raro    |
+
+---
+# Gagoyle DROP
+| Ítem                    | ID   | Probabilidad (%) | Tipo        |
+|-------------------------|------|------------------|-------------|
+| StoneOfXelima           | 656  | ~0.4545%         | Raro        |
+| StoneOfMerien           | 657  | ~0.4545%         | Raro        |
+| ZemstoneofSacrifice     | 650  | ~0.4545%         | Raro        |
+| RingOfXelima            | 630  | ~2.0000%         | Poco común  |
+| FireStrikeManual        | 381  | ~0.0909%         | Legendario  |
+| BloodyShockWaveManual   | 382  | ~0.0909%         | Legendario  |
+| Excalibur               | 20   | ~0.2200%         | Legendario  |
+| XelimaBlade             | 610  | ~0.4400%         | Legendario  |
+| NecklaceOfXelima        | 860  | ~0.0176%         | Legendario  |
+| XelimaRapier            | 612  | ~0.8800%         | Legendario  |
+| XelimaAxe               | 611  | ~0.3300%         | Legendario  |
+
+---
+# Dark-Elf DROP
+| Ítem               | ID   | Probabilidad (%) | Tipo    |
+|--------------------|------|------------------|---------|
+| StoneOfXelima      | 656  | ~0.2500%         | Raro    |
+| StoneOfMerien      | 657  | ~0.2500%         | Raro    |
+| ZemstoneofSacrifice| 650  | ~0.2500%         | Raro    |
+| DarkelfBow         | 618  | ~0.0108%         | Legendario  |
+
+---
+# Mountain Giant DROP
+| Ítem               | ID   | Probabilidad (%) | Tipo    |
+|--------------------|------|------------------|---------|
+| StoneOfXelima      | 656  | ~0.2000%         | Raro    |
+| StoneOfMerien      | 657  | ~0.4000%         | Raro    |
+| RepPotion(+1)      | -    | ~1.0000%         | Común   |
+| ZemstoneofSacrifice| 650  | ~0.6000%         | Raro    |
+| RubyRing           | 337  | ~0.6000%         | Poco común |
+
+---
+# Ettin DROP
+| Ítem               | ID   | Probabilidad (%) | Tipo        |
+|--------------------|------|------------------|-------------|
+| StoneOfXelima      | 656  | ~0.8333%         | Raro        |
+| StoneOfMerien      | 657  | ~0.8333%         | Raro        |
+| ZemstoneofSacrifice| 650  | ~0.8333%         | Raro        |
+| RepPotion(+1)      | -    | ~2.0000%         | Común       |
+| GiantBattleHammer  | 762  | ~0.0067%         | Legendario  |
+| BlackHammer        | 4905 | ~0.0040%         | Legendario  |
+
+---
+# Centaurus DROP
+| Ítem                   | ID   | Probabilidad (%) | Tipo    |
+|------------------------|------|------------------|---------|
+| ZemstoneOfSacrifice    | 650  | ~0.7500%         | Raro    |
+| StoneOfXelima          | 656  | ~0.7500%         | Raro    |
+| StoneOfMerien          | 657  | ~0.7500%         | Raro    |
+| LightningBlade         | 848  | ~0.0200%         | Legendario  |
+
+---
+# Rudolph DROP
+| Ítem               | ID   | Probabilidad (%) | Tipo    |
+|--------------------|------|------------------|---------|
+| ZemstoneOfSacrifice| 650  | ~1.0000%         | Raro    |
+| StoneOfXelima      | 656  | ~1.0000%         | Raro    |
+| StoneOfMerien      | 657  | ~1.0000%         | Raro    |
+
+
+
 
 ## ⚙️ Requisitos para compilar
 
