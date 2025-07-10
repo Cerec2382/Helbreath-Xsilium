@@ -62,7 +62,7 @@
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Helbreath Xsilium</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Helbreath Argentina</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Desbug|Win32'">Helbreath Cursed</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Desbug|Win32'">Helbreath Xsilium</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Desbug|x64'">Helbreath Argentina</TargetName>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Desbug|Win32'">.\Archive\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Desbug|Win32'">.\Debug\</IntDir>
@@ -148,7 +148,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Desbug|Win32'">
     <Link>
-      <OutputFile>Archive/Helbreath Cursed.exe</OutputFile>
+      <OutputFile>Archive/Helbreath Xsilium.exe</OutputFile>
       <SubSystem>Windows</SubSystem>
       <IgnoreSpecificDefaultLibraries>MSVCRTD;LIBC;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <AdditionalDependencies>Libs\search.lib;Libs\ACHEV.LIB;Libs\wsock32.lib;Libs\DINPUT.LIB;Libs\DSOUND.LIB;Libs\DXGUID.LIB;Libs\ddraw.lib;Libs\IMM32.LIB;Libs\winmm.lib;Libs\Cint.lib;Libs\cximage.lib;Libs\Jpeg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>

@@ -1,4 +1,4 @@
--HELBREATH CURSED V1
+-HELBREATH XSILIUM ALPHA
 <
 -*OFICIAL INTERNACIONAL*
 <
@@ -85,8 +85,8 @@ F12/Control + x-> "Sistem Menu"
 <
 -* PAGINAS OFICIALES *
 <
-www.hbcursed.com
+https://github.com/Cerec2382/Xsilium/
 <
 <
--* HELBREATH CURSED v1*
+-* HELBREATH XSILIUM *
 

@@ -41430,6 +41430,12 @@ void CGame::DrawObjectName(short sX, short sY, char * pName, int iStatus, int Ob
 
 	if (DecriptInt(m_iLevel) < m_iPlayerMaxLevel) return;
 
+		short rank = get_object_rank(ObjectID);
+		char crank[100];
+		ZeroMemory(crank, sizeof(crank));
+
+
+	/*
 	//short rank = get_object_rank(ObjectID);
 	char crank[100];
 	ZeroMemory(crank, sizeof(crank));
@@ -41441,6 +41447,8 @@ void CGame::DrawObjectName(short sX, short sY, char * pName, int iStatus, int Ob
 	else {
 		rank = get_object_rank(ObjectID);
 	}
+
+	*/
 
 
 

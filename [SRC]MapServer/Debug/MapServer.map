@@ -1,6 +1,6 @@
  MapServer
 
- Timestamp is 686eb846 (Wed Jul 09 12:43:18 2025)
+ Timestamp is 687001b8 (Thu Jul 10 12:08:56 2025)
 
  Preferred load address is 00400000
 
@@ -48,10 +48,10 @@
 
   Address         Publics by Value              Rva+Base       Lib:Object
 
- 0000:00000000       ___guard_fids_table        00000000     <absolute>
  0000:00000000       ___guard_fids_count        00000000     <absolute>
- 0000:00000000       ___guard_flags             00000000     <absolute>
  0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___guard_flags             00000000     <absolute>
  0000:000004f5       ___safe_se_handler_count   000004f5     <absolute>
  0000:00000000       ___ImageBase               00400000     <linker-defined>
  0001:00009790       ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 0040a790 f i cApplicationStartup.obj
@@ -154,28 +154,28 @@
  0001:0000b8e0       ??8error_condition@std@@QBE_NABV01@@Z 0040c8e0 f i cApplicationStartup.obj
  0001:0000b960       ??Bid@locale@std@@QAEIXZ   0040c960 f i cApplicationStartup.obj
  0001:0000b9d0       ??Bsentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QBE_NXZ 0040c9d0 f i cApplicationStartup.obj
- 0001:0000b9f0       ??_G?$ctype@D@std@@MAEPAXI@Z 0040c9f0 f i cApplicationStartup.obj
  0001:0000b9f0       ??_E?$ctype@D@std@@MAEPAXI@Z 0040c9f0 f i cApplicationStartup.obj
- 0001:0000ba40       ??_E_Facet_base@std@@UAEPAXI@Z 0040ca40 f i cApplicationStartup.obj
+ 0001:0000b9f0       ??_G?$ctype@D@std@@MAEPAXI@Z 0040c9f0 f i cApplicationStartup.obj
  0001:0000ba40       ??_G_Facet_base@std@@UAEPAXI@Z 0040ca40 f i cApplicationStartup.obj
- 0001:0000ba90       ??_E_Generic_error_category@std@@UAEPAXI@Z 0040ca90 f i cApplicationStartup.obj
+ 0001:0000ba40       ??_E_Facet_base@std@@UAEPAXI@Z 0040ca40 f i cApplicationStartup.obj
  0001:0000ba90       ??_G_Generic_error_category@std@@UAEPAXI@Z 0040ca90 f i cApplicationStartup.obj
+ 0001:0000ba90       ??_E_Generic_error_category@std@@UAEPAXI@Z 0040ca90 f i cApplicationStartup.obj
  0001:0000bae0       ??_E_Iostream_error_category@std@@UAEPAXI@Z 0040cae0 f i cApplicationStartup.obj
  0001:0000bae0       ??_G_Iostream_error_category@std@@UAEPAXI@Z 0040cae0 f i cApplicationStartup.obj
- 0001:0000bb30       ??_E_System_error@std@@UAEPAXI@Z 0040cb30 f i cApplicationStartup.obj
  0001:0000bb30       ??_G_System_error@std@@UAEPAXI@Z 0040cb30 f i cApplicationStartup.obj
- 0001:0000bb80       ??_E_System_error_category@std@@UAEPAXI@Z 0040cb80 f i cApplicationStartup.obj
+ 0001:0000bb30       ??_E_System_error@std@@UAEPAXI@Z 0040cb30 f i cApplicationStartup.obj
  0001:0000bb80       ??_G_System_error_category@std@@UAEPAXI@Z 0040cb80 f i cApplicationStartup.obj
+ 0001:0000bb80       ??_E_System_error_category@std@@UAEPAXI@Z 0040cb80 f i cApplicationStartup.obj
  0001:0000bbd0       ??_Ectype_base@std@@UAEPAXI@Z 0040cbd0 f i cApplicationStartup.obj
  0001:0000bbd0       ??_Gctype_base@std@@UAEPAXI@Z 0040cbd0 f i cApplicationStartup.obj
  0001:0000bc20       ??_Eerror_category@std@@UAEPAXI@Z 0040cc20 f i cApplicationStartup.obj
  0001:0000bc20       ??_Gerror_category@std@@UAEPAXI@Z 0040cc20 f i cApplicationStartup.obj
- 0001:0000bc70       ??_Gfacet@locale@std@@MAEPAXI@Z 0040cc70 f i cApplicationStartup.obj
  0001:0000bc70       ??_Efacet@locale@std@@MAEPAXI@Z 0040cc70 f i cApplicationStartup.obj
+ 0001:0000bc70       ??_Gfacet@locale@std@@MAEPAXI@Z 0040cc70 f i cApplicationStartup.obj
  0001:0000bcc0       ??_Gfailure@ios_base@std@@UAEPAXI@Z 0040ccc0 f i cApplicationStartup.obj
  0001:0000bcc0       ??_Efailure@ios_base@std@@UAEPAXI@Z 0040ccc0 f i cApplicationStartup.obj
- 0001:0000bd10       ??_Eruntime_error@std@@UAEPAXI@Z 0040cd10 f i cApplicationStartup.obj
  0001:0000bd10       ??_Gruntime_error@std@@UAEPAXI@Z 0040cd10 f i cApplicationStartup.obj
+ 0001:0000bd10       ??_Eruntime_error@std@@UAEPAXI@Z 0040cd10 f i cApplicationStartup.obj
  0001:0000bd60       ??_Esystem_error@std@@UAEPAXI@Z 0040cd60 f i cApplicationStartup.obj
  0001:0000bd60       ??_Gsystem_error@std@@UAEPAXI@Z 0040cd60 f i cApplicationStartup.obj
  0001:0000bdb0       ?BackgroundWindowProcess@@YGJPAUHWND__@@IIJ@Z 0040cdb0 f   cApplicationStartup.obj
@@ -341,9 +341,8 @@
  0001:00011aa0       ??E?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@QAEAAV01@XZ 00412aa0 f i Drops.obj
  0001:00011ac0       ??_E?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MAEPAXI@Z 00412ac0 f i Drops.obj
  0001:00011ac0       ??_G?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MAEPAXI@Z 00412ac0 f i Drops.obj
- 0001:00011b10       ??_G?$numpunct@D@std@@MAEPAXI@Z 00412b10 f i Drops.obj
  0001:00011b10       ??_E?$numpunct@D@std@@MAEPAXI@Z 00412b10 f i Drops.obj
- 0001:00011b60       ?DeleteNpc@CMapServer@@QAEXHHH@Z 00412b60 f   Drops.obj
+ 0001:00011b10       ??_G?$numpunct@D@std@@MAEPAXI@Z 00412b10 f i Drops.obj
  0001:00016850       ?rank_operation@CMapServer@@QAEXH@Z 00417850 f   MapServer.obj
  0001:00017b90       ?NpcDeadItemGenerator@CMapServer@@QAEXHFD@Z 00418b90 f   Drops.obj
  0001:0001ae30       ?RollByProbabilityTable@CMapServer@@QAEHPBHH@Z 0041be30 f   Drops.obj
@@ -572,12 +571,12 @@
  0001:000248d0       ??_D?$basic_istream@DU?$char_traits@D@std@@@std@@QAEXXZ 004258d0 f i Client.obj
  0001:00024903       ??_E?$basic_ifstream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@A@AEPAXI@Z 00425903 f i Client.obj
  0001:0002490d       ??_E?$basic_istream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@A@AEPAXI@Z 0042590d f i Client.obj
- 0001:00024920       ??_E?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425920 f i Client.obj
  0001:00024920       ??_G?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425920 f i Client.obj
- 0001:00024970       ??_E?$basic_ifstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425970 f i Client.obj
+ 0001:00024920       ??_E?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425920 f i Client.obj
  0001:00024970       ??_G?$basic_ifstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425970 f i Client.obj
- 0001:000249c0       ??_G?$basic_ios@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 004259c0 f i Client.obj
+ 0001:00024970       ??_E?$basic_ifstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425970 f i Client.obj
  0001:000249c0       ??_E?$basic_ios@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 004259c0 f i Client.obj
+ 0001:000249c0       ??_G?$basic_ios@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 004259c0 f i Client.obj
  0001:00024a10       ??_G?$basic_istream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425a10 f i Client.obj
  0001:00024a10       ??_E?$basic_istream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425a10 f i Client.obj
  0001:00024a60       ??_E?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00425a60 f i Client.obj
@@ -960,8 +959,8 @@
  0001:00034cf0       ??_D?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ 00435cf0 f i Event.obj
  0001:00034d23       ??_E?$basic_ofstream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@A@AEPAXI@Z 00435d23 f i Event.obj
  0001:00034d2d       ??_E?$basic_ostream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@A@AEPAXI@Z 00435d2d f i Event.obj
- 0001:00034d40       ??_G?$basic_ofstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00435d40 f i Event.obj
  0001:00034d40       ??_E?$basic_ofstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00435d40 f i Event.obj
+ 0001:00034d40       ??_G?$basic_ofstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00435d40 f i Event.obj
  0001:00034d90       ??_E?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00435d90 f i Event.obj
  0001:00034d90       ??_G?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00435d90 f i Event.obj
  0001:00034de0       ??_GEvent@@UAEPAXI@Z       00435de0 f i Event.obj
@@ -1212,8 +1211,8 @@
  0001:0003e0e0       ??R?$less@F@std@@QBE_NABF0@Z 0043f0e0 f i MapServer.obj
  0001:0003e130       ??Y?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@QAEAAV012@ABV012@@Z 0043f130 f i MapServer.obj
  0001:0003e170       ??Z?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@QAEAAV012@ABV012@@Z 0043f170 f i MapServer.obj
- 0001:0003e1b0       ??_ECMapServer@@UAEPAXI@Z  0043f1b0 f i MapServer.obj
  0001:0003e1b0       ??_GCMapServer@@UAEPAXI@Z  0043f1b0 f i MapServer.obj
+ 0001:0003e1b0       ??_ECMapServer@@UAEPAXI@Z  0043f1b0 f i MapServer.obj
  0001:0003e200       ?AbrirPortales@CMapServer@@QAEXF@Z 0043f200 f   MapServer.obj
  0001:00040a00       ?ActivateSpecialAbilityHandler@CMapServer@@QAEXH@Z 00441a00 f   MapServer.obj
  0001:00040d40       ?ActualizarContador@CMapServer@@QAEXXZ 00441d40 f   MapServer.obj
@@ -2031,8 +2030,8 @@
  0001:00197950       ??_GCGuildsMan@@UAEPAXI@Z  00598950 f i GuildsMan.obj
  0001:001979a0       ??0CItem@@QAE@XZ           005989a0 f   Item.obj
  0001:00197b40       ??1CItem@@UAE@XZ           00598b40 f   Item.obj
- 0001:00197b70       ??_GCItem@@UAEPAXI@Z       00598b70 f i Item.obj
  0001:00197b70       ??_ECItem@@UAEPAXI@Z       00598b70 f i Item.obj
+ 0001:00197b70       ??_GCItem@@UAEPAXI@Z       00598b70 f i Item.obj
  0001:00197bc0       ?GetBagPositionX@CItem@@QAEFXZ 00598bc0 f   Item.obj
  0001:00197bf0       ?GetBagPositionY@CItem@@QAEFXZ 00598bf0 f   Item.obj
  0001:00197c20       ?GetBankPosition@CItem@@QAEFXZ 00598c20 f   Item.obj
@@ -2100,8 +2099,8 @@
  0001:0019c7f0       ??_GCMineral@@UAEPAXI@Z    0059d7f0 f i Mineral.obj
  0001:0019c840       ??0CMisc@@QAE@XZ           0059d840 f   Misc.obj
  0001:0019c870       ??1CMisc@@UAE@XZ           0059d870 f   Misc.obj
- 0001:0019c8a0       ??_GCMisc@@UAEPAXI@Z       0059d8a0 f i Misc.obj
  0001:0019c8a0       ??_ECMisc@@UAEPAXI@Z       0059d8a0 f i Misc.obj
+ 0001:0019c8a0       ??_GCMisc@@UAEPAXI@Z       0059d8a0 f i Misc.obj
  0001:0019c8f0       ?GetDirPoint@CMisc@@QAEXDPAH0@Z 0059d8f0 f   Misc.obj
  0001:0019ca00       ?GetMyCursorPos@CMisc@@QAEXPAF0@Z 0059da00 f   Misc.obj
  0001:0019ca40       ?GetPoint2@CMisc@@QAEXHHHHPAH00H@Z 0059da40 f   Misc.obj
@@ -2135,8 +2134,8 @@
  0001:0019e410       ??1?$_Vector_val@U?$_Simple_types@VCNpcItem@@@std@@@std@@QAE@XZ 0059f410 f i Npc.obj
  0001:0019e440       ??1?$vector@VCNpcItem@@V?$allocator@VCNpcItem@@@std@@@std@@QAE@XZ 0059f440 f i Npc.obj
  0001:0019e470       ??1CNpc@@UAE@XZ            0059f470 f   Npc.obj
- 0001:0019e4b0       ??_GCNpc@@UAEPAXI@Z        0059f4b0 f i Npc.obj
  0001:0019e4b0       ??_ECNpc@@UAEPAXI@Z        0059f4b0 f i Npc.obj
+ 0001:0019e4b0       ??_GCNpc@@UAEPAXI@Z        0059f4b0 f i Npc.obj
  0001:0019e500       ?_Alloc_proxy@?$_Vector_alloc@$0A@U?$_Vec_base_types@VCNpcItem@@V?$allocator@VCNpcItem@@@std@@@std@@@std@@QAEXXZ 0059f500 f i Npc.obj
  0001:0019e560       ?_Destroy@?$vector@VCNpcItem@@V?$allocator@VCNpcItem@@@std@@@std@@IAEXPAVCNpcItem@@0@Z 0059f560 f i Npc.obj
  0001:0019e5b0       ?_Free_proxy@?$_Vector_alloc@$0A@U?$_Vec_base_types@VCNpcItem@@V?$allocator@VCNpcItem@@@std@@@std@@@std@@QAEXXZ 0059f5b0 f i Npc.obj
@@ -2168,8 +2167,8 @@
  0001:0019efa0       ??_ECPortion@@UAEPAXI@Z    0059ffa0 f i Potion.obj
  0001:0019eff0       ??0CQuest@@QAE@XZ          0059fff0 f   Quest.obj
  0001:0019f020       ??1CQuest@@UAE@XZ          005a0020 f   Quest.obj
- 0001:0019f050       ??_GCQuest@@UAEPAXI@Z      005a0050 f i Quest.obj
  0001:0019f050       ??_ECQuest@@UAEPAXI@Z      005a0050 f i Quest.obj
+ 0001:0019f050       ??_GCQuest@@UAEPAXI@Z      005a0050 f i Quest.obj
  0001:0019f1e0       ??$_Allocate@Ust_quest@@@std@@YAPAUst_quest@@IPAU1@@Z 005a01e0 f i QuestList.obj
  0001:0019f240       ??$_Debug_pointer@Ust_quest@@@std@@YAXPAUst_quest@@PB_WI@Z 005a0240 f i QuestList.obj
  0001:0019f280       ??$_Debug_range2@PAUst_quest@@@std@@YAXPAUst_quest@@0PB_WIUrandom_access_iterator_tag@0@@Z 005a0280 f i QuestList.obj
@@ -2266,8 +2265,8 @@
  0001:001a3770       ?update@CRank@@QAEXXZ      005a4770 f   Rank.obj
  0001:001a37b0       ??0CSkill@@QAE@XZ          005a47b0 f   Skill.obj
  0001:001a37f0       ??1CSkill@@UAE@XZ          005a47f0 f   Skill.obj
- 0001:001a3820       ??_ECSkill@@UAEPAXI@Z      005a4820 f i Skill.obj
  0001:001a3820       ??_GCSkill@@UAEPAXI@Z      005a4820 f i Skill.obj
+ 0001:001a3820       ??_ECSkill@@UAEPAXI@Z      005a4820 f i Skill.obj
  0001:001a3870       ??0CStrategicPoint@@QAE@XZ 005a4870 f   StrategicPoint.obj
  0001:001a38c0       ??1CStrategicPoint@@UAE@XZ 005a48c0 f   StrategicPoint.obj
  0001:001a38f0       ??_ECStrategicPoint@@UAEPAXI@Z 005a48f0 f i StrategicPoint.obj
@@ -2280,19 +2279,19 @@
  0001:001a3ad0       ?pGet@CStrTok@@QAEPADXZ    005a4ad0 f   StrTok.obj
  0001:001a3cf0       ??0CTeleport@@QAE@XZ       005a4cf0 f   Teleport.obj
  0001:001a3de0       ??1CTeleport@@UAE@XZ       005a4de0 f   Teleport.obj
- 0001:001a3e10       ??_GCTeleport@@UAEPAXI@Z   005a4e10 f i Teleport.obj
  0001:001a3e10       ??_ECTeleport@@UAEPAXI@Z   005a4e10 f i Teleport.obj
+ 0001:001a3e10       ??_GCTeleport@@UAEPAXI@Z   005a4e10 f i Teleport.obj
  0001:001a3e60       ??0CTeleportLoc@@QAE@XZ    005a4e60 f   TeleportLoc.obj
  0001:001a3f30       ??1CTeleportLoc@@UAE@XZ    005a4f30 f   TeleportLoc.obj
- 0001:001a3f60       ??_GCTeleportLoc@@UAEPAXI@Z 005a4f60 f i TeleportLoc.obj
  0001:001a3f60       ??_ECTeleportLoc@@UAEPAXI@Z 005a4f60 f i TeleportLoc.obj
+ 0001:001a3f60       ??_GCTeleportLoc@@UAEPAXI@Z 005a4f60 f i TeleportLoc.obj
  0001:001a3fb0       ??0CTile@@QAE@XZ           005a4fb0 f   Tile.obj
  0001:001a40d0       ??1CTile@@UAE@XZ           005a50d0 f   Tile.obj
  0001:001a4170       ??_GCTile@@UAEPAXI@Z       005a5170 f i Tile.obj
  0001:001a41c0       ??0XSocket@@QAE@PAUHWND__@@H@Z 005a51c0 f   XSocket.obj
  0001:001a42f0       ??1XSocket@@UAE@XZ         005a52f0 f   XSocket.obj
- 0001:001a43c0       ??_GXSocket@@UAEPAXI@Z     005a53c0 f i XSocket.obj
  0001:001a43c0       ??_EXSocket@@UAEPAXI@Z     005a53c0 f i XSocket.obj
+ 0001:001a43c0       ??_GXSocket@@UAEPAXI@Z     005a53c0 f i XSocket.obj
  0001:001a4410       ?_CloseConn@XSocket@@AAEXXZ 005a5410 f   XSocket.obj
  0001:001a44d0       ?_InitWinsock@@YAHXZ       005a54d0 f   XSocket.obj
  0001:001a4540       ?_TermWinsock@@YAXXZ       005a5540 f   XSocket.obj
@@ -2695,18 +2694,18 @@
  0001:001b0bc0       ??_Gbad_alloc@std@@UAEPAXI@Z 005b1bc0 f i libcpmtd:xthrow.obj
  0001:001b0bf0       ??_Ebad_function_call@std@@UAEPAXI@Z 005b1bf0 f i libcpmtd:xthrow.obj
  0001:001b0bf0       ??_Gbad_function_call@std@@UAEPAXI@Z 005b1bf0 f i libcpmtd:xthrow.obj
- 0001:001b0c20       ??_Ginvalid_argument@std@@UAEPAXI@Z 005b1c20 f i libcpmtd:xthrow.obj
  0001:001b0c20       ??_Einvalid_argument@std@@UAEPAXI@Z 005b1c20 f i libcpmtd:xthrow.obj
+ 0001:001b0c20       ??_Ginvalid_argument@std@@UAEPAXI@Z 005b1c20 f i libcpmtd:xthrow.obj
  0001:001b0c50       ??_Glength_error@std@@UAEPAXI@Z 005b1c50 f i libcpmtd:xthrow.obj
  0001:001b0c50       ??_Elength_error@std@@UAEPAXI@Z 005b1c50 f i libcpmtd:xthrow.obj
  0001:001b0c80       ??_Elogic_error@std@@UAEPAXI@Z 005b1c80 f i libcpmtd:xthrow.obj
  0001:001b0c80       ??_Glogic_error@std@@UAEPAXI@Z 005b1c80 f i libcpmtd:xthrow.obj
- 0001:001b0cb0       ??_Eout_of_range@std@@UAEPAXI@Z 005b1cb0 f i libcpmtd:xthrow.obj
  0001:001b0cb0       ??_Gout_of_range@std@@UAEPAXI@Z 005b1cb0 f i libcpmtd:xthrow.obj
+ 0001:001b0cb0       ??_Eout_of_range@std@@UAEPAXI@Z 005b1cb0 f i libcpmtd:xthrow.obj
  0001:001b0ce0       ??_Goverflow_error@std@@UAEPAXI@Z 005b1ce0 f i libcpmtd:xthrow.obj
  0001:001b0ce0       ??_Eoverflow_error@std@@UAEPAXI@Z 005b1ce0 f i libcpmtd:xthrow.obj
- 0001:001b0d10       ??_Gregex_error@std@@UAEPAXI@Z 005b1d10 f i libcpmtd:xthrow.obj
  0001:001b0d10       ??_Eregex_error@std@@UAEPAXI@Z 005b1d10 f i libcpmtd:xthrow.obj
+ 0001:001b0d10       ??_Gregex_error@std@@UAEPAXI@Z 005b1d10 f i libcpmtd:xthrow.obj
  0001:001b0d40       ?_Stringify@regex_error@std@@CAPBDW4error_type@regex_constants@2@@Z 005b1d40 f i libcpmtd:xthrow.obj
  0001:001b0e10       ?_Xbad_alloc@std@@YAXXZ    005b1e10 f   libcpmtd:xthrow.obj
  0001:001b0e30       ?_Xbad_function_call@std@@YAXXZ 005b1e30 f   libcpmtd:xthrow.obj
@@ -2732,8 +2731,8 @@
  0001:001b16b0       ??1_Locimp@locale@std@@MAE@XZ 005b26b0 f i libcpmtd:locale0.obj
  0001:001b16f0       ??4?$_Yarn@D@std@@QAEAAV01@PBD@Z 005b26f0 f i libcpmtd:locale0.obj
  0001:001b1790       ??_G_Fac_node@std@@QAEPAXI@Z 005b2790 f i libcpmtd:locale0.obj
- 0001:001b17c0       ??_G_Locimp@locale@std@@MAEPAXI@Z 005b27c0 f i libcpmtd:locale0.obj
  0001:001b17c0       ??_E_Locimp@locale@std@@MAEPAXI@Z 005b27c0 f i libcpmtd:locale0.obj
+ 0001:001b17c0       ??_G_Locimp@locale@std@@MAEPAXI@Z 005b27c0 f i libcpmtd:locale0.obj
  0001:001b17f0       ?_C_str@?$_Yarn@D@std@@QBEPBDXZ 005b27f0 f i libcpmtd:locale0.obj
  0001:001b1820       ?_Empty@?$_Yarn@D@std@@QBE_NXZ 005b2820 f i libcpmtd:locale0.obj
  0001:001b1850       ?_Facet_Register@std@@YAXPAV_Facet_base@1@@Z 005b2850 f   libcpmtd:locale0.obj
@@ -3199,42 +3198,42 @@
  0001:001bef00       ??Z?$_String_iterator@V?$_String_val@U?$_Simple_types@_W@std@@@std@@@std@@QAEAAV01@H@Z 005bff00 f i libcpmtd:wlocale.obj
  0001:001bef20       ??_G?$_Mpunct@G@std@@MAEPAXI@Z 005bff20 f i libcpmtd:wlocale.obj
  0001:001bef20       ??_E?$_Mpunct@G@std@@MAEPAXI@Z 005bff20 f i libcpmtd:wlocale.obj
- 0001:001bef50       ??_E?$_Mpunct@_W@std@@MAEPAXI@Z 005bff50 f i libcpmtd:wlocale.obj
  0001:001bef50       ??_G?$_Mpunct@_W@std@@MAEPAXI@Z 005bff50 f i libcpmtd:wlocale.obj
- 0001:001bef80       ??_G?$codecvt@GDH@std@@MAEPAXI@Z 005bff80 f i libcpmtd:wlocale.obj
+ 0001:001bef50       ??_E?$_Mpunct@_W@std@@MAEPAXI@Z 005bff50 f i libcpmtd:wlocale.obj
  0001:001bef80       ??_E?$codecvt@GDH@std@@MAEPAXI@Z 005bff80 f i libcpmtd:wlocale.obj
+ 0001:001bef80       ??_G?$codecvt@GDH@std@@MAEPAXI@Z 005bff80 f i libcpmtd:wlocale.obj
  0001:001befb0       ??_G?$codecvt@_WDH@std@@MAEPAXI@Z 005bffb0 f i libcpmtd:wlocale.obj
  0001:001befb0       ??_E?$codecvt@_WDH@std@@MAEPAXI@Z 005bffb0 f i libcpmtd:wlocale.obj
- 0001:001befe0       ??_G?$collate@G@std@@MAEPAXI@Z 005bffe0 f i libcpmtd:wlocale.obj
  0001:001befe0       ??_E?$collate@G@std@@MAEPAXI@Z 005bffe0 f i libcpmtd:wlocale.obj
- 0001:001bf010       ??_G?$collate@_W@std@@MAEPAXI@Z 005c0010 f i libcpmtd:wlocale.obj
+ 0001:001befe0       ??_G?$collate@G@std@@MAEPAXI@Z 005bffe0 f i libcpmtd:wlocale.obj
  0001:001bf010       ??_E?$collate@_W@std@@MAEPAXI@Z 005c0010 f i libcpmtd:wlocale.obj
- 0001:001bf040       ??_E?$ctype@G@std@@MAEPAXI@Z 005c0040 f i libcpmtd:wlocale.obj
+ 0001:001bf010       ??_G?$collate@_W@std@@MAEPAXI@Z 005c0010 f i libcpmtd:wlocale.obj
  0001:001bf040       ??_G?$ctype@G@std@@MAEPAXI@Z 005c0040 f i libcpmtd:wlocale.obj
+ 0001:001bf040       ??_E?$ctype@G@std@@MAEPAXI@Z 005c0040 f i libcpmtd:wlocale.obj
  0001:001bf070       ??_G?$ctype@_W@std@@MAEPAXI@Z 005c0070 f i libcpmtd:wlocale.obj
  0001:001bf070       ??_E?$ctype@_W@std@@MAEPAXI@Z 005c0070 f i libcpmtd:wlocale.obj
- 0001:001bf0a0       ??_E?$messages@G@std@@MAEPAXI@Z 005c00a0 f i libcpmtd:wlocale.obj
  0001:001bf0a0       ??_G?$messages@G@std@@MAEPAXI@Z 005c00a0 f i libcpmtd:wlocale.obj
- 0001:001bf0d0       ??_G?$messages@_W@std@@MAEPAXI@Z 005c00d0 f i libcpmtd:wlocale.obj
+ 0001:001bf0a0       ??_E?$messages@G@std@@MAEPAXI@Z 005c00a0 f i libcpmtd:wlocale.obj
  0001:001bf0d0       ??_E?$messages@_W@std@@MAEPAXI@Z 005c00d0 f i libcpmtd:wlocale.obj
+ 0001:001bf0d0       ??_G?$messages@_W@std@@MAEPAXI@Z 005c00d0 f i libcpmtd:wlocale.obj
  0001:001bf100       ??_G?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MAEPAXI@Z 005c0100 f i libcpmtd:wlocale.obj
  0001:001bf100       ??_E?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MAEPAXI@Z 005c0100 f i libcpmtd:wlocale.obj
- 0001:001bf130       ??_G?$money_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@MAEPAXI@Z 005c0130 f i libcpmtd:wlocale.obj
  0001:001bf130       ??_E?$money_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@MAEPAXI@Z 005c0130 f i libcpmtd:wlocale.obj
+ 0001:001bf130       ??_G?$money_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@MAEPAXI@Z 005c0130 f i libcpmtd:wlocale.obj
  0001:001bf160       ??_G?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MAEPAXI@Z 005c0160 f i libcpmtd:wlocale.obj
  0001:001bf160       ??_E?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MAEPAXI@Z 005c0160 f i libcpmtd:wlocale.obj
- 0001:001bf190       ??_E?$money_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@MAEPAXI@Z 005c0190 f i libcpmtd:wlocale.obj
  0001:001bf190       ??_G?$money_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@MAEPAXI@Z 005c0190 f i libcpmtd:wlocale.obj
- 0001:001bf1c0       ??_E?$moneypunct@G$00@std@@MAEPAXI@Z 005c01c0 f i libcpmtd:wlocale.obj
+ 0001:001bf190       ??_E?$money_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@MAEPAXI@Z 005c0190 f i libcpmtd:wlocale.obj
  0001:001bf1c0       ??_G?$moneypunct@G$00@std@@MAEPAXI@Z 005c01c0 f i libcpmtd:wlocale.obj
+ 0001:001bf1c0       ??_E?$moneypunct@G$00@std@@MAEPAXI@Z 005c01c0 f i libcpmtd:wlocale.obj
  0001:001bf1f0       ??_G?$moneypunct@G$0A@@std@@MAEPAXI@Z 005c01f0 f i libcpmtd:wlocale.obj
  0001:001bf1f0       ??_E?$moneypunct@G$0A@@std@@MAEPAXI@Z 005c01f0 f i libcpmtd:wlocale.obj
- 0001:001bf220       ??_E?$moneypunct@_W$00@std@@MAEPAXI@Z 005c0220 f i libcpmtd:wlocale.obj
  0001:001bf220       ??_G?$moneypunct@_W$00@std@@MAEPAXI@Z 005c0220 f i libcpmtd:wlocale.obj
+ 0001:001bf220       ??_E?$moneypunct@_W$00@std@@MAEPAXI@Z 005c0220 f i libcpmtd:wlocale.obj
  0001:001bf250       ??_E?$moneypunct@_W$0A@@std@@MAEPAXI@Z 005c0250 f i libcpmtd:wlocale.obj
  0001:001bf250       ??_G?$moneypunct@_W$0A@@std@@MAEPAXI@Z 005c0250 f i libcpmtd:wlocale.obj
- 0001:001bf280       ??_G?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MAEPAXI@Z 005c0280 f i libcpmtd:wlocale.obj
  0001:001bf280       ??_E?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MAEPAXI@Z 005c0280 f i libcpmtd:wlocale.obj
+ 0001:001bf280       ??_G?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MAEPAXI@Z 005c0280 f i libcpmtd:wlocale.obj
  0001:001bf2b0       ??_G?$num_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@MAEPAXI@Z 005c02b0 f i libcpmtd:wlocale.obj
  0001:001bf2b0       ??_E?$num_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@MAEPAXI@Z 005c02b0 f i libcpmtd:wlocale.obj
  0001:001bf2e0       ??_G?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MAEPAXI@Z 005c02e0 f i libcpmtd:wlocale.obj
@@ -3243,20 +3242,20 @@
  0001:001bf310       ??_G?$num_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@MAEPAXI@Z 005c0310 f i libcpmtd:wlocale.obj
  0001:001bf340       ??_G?$numpunct@G@std@@MAEPAXI@Z 005c0340 f i libcpmtd:wlocale.obj
  0001:001bf340       ??_E?$numpunct@G@std@@MAEPAXI@Z 005c0340 f i libcpmtd:wlocale.obj
- 0001:001bf370       ??_E?$numpunct@_W@std@@MAEPAXI@Z 005c0370 f i libcpmtd:wlocale.obj
  0001:001bf370       ??_G?$numpunct@_W@std@@MAEPAXI@Z 005c0370 f i libcpmtd:wlocale.obj
+ 0001:001bf370       ??_E?$numpunct@_W@std@@MAEPAXI@Z 005c0370 f i libcpmtd:wlocale.obj
  0001:001bf3a0       ??_E?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MAEPAXI@Z 005c03a0 f i libcpmtd:wlocale.obj
  0001:001bf3a0       ??_G?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MAEPAXI@Z 005c03a0 f i libcpmtd:wlocale.obj
- 0001:001bf3d0       ??_E?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@MAEPAXI@Z 005c03d0 f i libcpmtd:wlocale.obj
  0001:001bf3d0       ??_G?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@MAEPAXI@Z 005c03d0 f i libcpmtd:wlocale.obj
- 0001:001bf400       ??_G?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MAEPAXI@Z 005c0400 f i libcpmtd:wlocale.obj
+ 0001:001bf3d0       ??_E?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@MAEPAXI@Z 005c03d0 f i libcpmtd:wlocale.obj
  0001:001bf400       ??_E?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MAEPAXI@Z 005c0400 f i libcpmtd:wlocale.obj
- 0001:001bf430       ??_E?$time_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@MAEPAXI@Z 005c0430 f i libcpmtd:wlocale.obj
+ 0001:001bf400       ??_G?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MAEPAXI@Z 005c0400 f i libcpmtd:wlocale.obj
  0001:001bf430       ??_G?$time_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@MAEPAXI@Z 005c0430 f i libcpmtd:wlocale.obj
- 0001:001bf460       ??_Gmessages_base@std@@UAEPAXI@Z 005c0460 f i libcpmtd:wlocale.obj
+ 0001:001bf430       ??_E?$time_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@MAEPAXI@Z 005c0430 f i libcpmtd:wlocale.obj
  0001:001bf460       ??_Emessages_base@std@@UAEPAXI@Z 005c0460 f i libcpmtd:wlocale.obj
- 0001:001bf490       ??_Emoney_base@std@@UAEPAXI@Z 005c0490 f i libcpmtd:wlocale.obj
+ 0001:001bf460       ??_Gmessages_base@std@@UAEPAXI@Z 005c0460 f i libcpmtd:wlocale.obj
  0001:001bf490       ??_Gmoney_base@std@@UAEPAXI@Z 005c0490 f i libcpmtd:wlocale.obj
+ 0001:001bf490       ??_Emoney_base@std@@UAEPAXI@Z 005c0490 f i libcpmtd:wlocale.obj
  0001:001bf4c0       ??_Etime_base@std@@UAEPAXI@Z 005c04c0 f i libcpmtd:wlocale.obj
  0001:001bf4c0       ??_Gtime_base@std@@UAEPAXI@Z 005c04c0 f i libcpmtd:wlocale.obj
  0001:001bf4f0       ?_Alloc_proxy@?$_String_alloc@$0A@U?$_String_base_types@GV?$allocator@G@std@@@std@@@std@@QAEXXZ 005c04f0 f i libcpmtd:wlocale.obj
@@ -3746,16 +3745,16 @@
  0001:001d9ba0       ??Y?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QAEAAV01@H@Z 005daba0 f i libcpmtd:xlocale.obj
  0001:001d9c90       ??Y?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QAEAAV01@H@Z 005dac90 f i libcpmtd:xlocale.obj
  0001:001d9cb0       ??Z?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QAEAAV01@H@Z 005dacb0 f i libcpmtd:xlocale.obj
- 0001:001d9cd0       ??_E?$_Mpunct@D@std@@MAEPAXI@Z 005dacd0 f i libcpmtd:xlocale.obj
  0001:001d9cd0       ??_G?$_Mpunct@D@std@@MAEPAXI@Z 005dacd0 f i libcpmtd:xlocale.obj
- 0001:001d9d00       ??_E?$collate@D@std@@MAEPAXI@Z 005dad00 f i libcpmtd:xlocale.obj
+ 0001:001d9cd0       ??_E?$_Mpunct@D@std@@MAEPAXI@Z 005dacd0 f i libcpmtd:xlocale.obj
  0001:001d9d00       ??_G?$collate@D@std@@MAEPAXI@Z 005dad00 f i libcpmtd:xlocale.obj
+ 0001:001d9d00       ??_E?$collate@D@std@@MAEPAXI@Z 005dad00 f i libcpmtd:xlocale.obj
  0001:001d9d30       ??_G?$messages@D@std@@MAEPAXI@Z 005dad30 f i libcpmtd:xlocale.obj
  0001:001d9d30       ??_E?$messages@D@std@@MAEPAXI@Z 005dad30 f i libcpmtd:xlocale.obj
  0001:001d9d60       ??_G?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MAEPAXI@Z 005dad60 f i libcpmtd:xlocale.obj
  0001:001d9d60       ??_E?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MAEPAXI@Z 005dad60 f i libcpmtd:xlocale.obj
- 0001:001d9d90       ??_G?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MAEPAXI@Z 005dad90 f i libcpmtd:xlocale.obj
  0001:001d9d90       ??_E?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MAEPAXI@Z 005dad90 f i libcpmtd:xlocale.obj
+ 0001:001d9d90       ??_G?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MAEPAXI@Z 005dad90 f i libcpmtd:xlocale.obj
  0001:001d9dc0       ??_G?$moneypunct@D$00@std@@MAEPAXI@Z 005dadc0 f i libcpmtd:xlocale.obj
  0001:001d9dc0       ??_E?$moneypunct@D$00@std@@MAEPAXI@Z 005dadc0 f i libcpmtd:xlocale.obj
  0001:001d9df0       ??_G?$moneypunct@D$0A@@std@@MAEPAXI@Z 005dadf0 f i libcpmtd:xlocale.obj
@@ -3968,14 +3967,14 @@
  0001:001e8da0       ??1bad_typeid@std@@UAE@XZ  005e9da0 f   LIBCMTD:stdexcpt.obj
  0001:001e8dc0       ??1exception@std@@UAE@XZ   005e9dc0 f   LIBCMTD:stdexcpt.obj
  0001:001e8de0       ??4exception@std@@QAEAAV01@ABV01@@Z 005e9de0 f   LIBCMTD:stdexcpt.obj
- 0001:001e8e30       ??_E__non_rtti_object@std@@UAEPAXI@Z 005e9e30 f i LIBCMTD:stdexcpt.obj
  0001:001e8e30       ??_G__non_rtti_object@std@@UAEPAXI@Z 005e9e30 f i LIBCMTD:stdexcpt.obj
+ 0001:001e8e30       ??_E__non_rtti_object@std@@UAEPAXI@Z 005e9e30 f i LIBCMTD:stdexcpt.obj
  0001:001e8e60       ??_Gbad_cast@std@@UAEPAXI@Z 005e9e60 f i LIBCMTD:stdexcpt.obj
  0001:001e8e60       ??_Ebad_cast@std@@UAEPAXI@Z 005e9e60 f i LIBCMTD:stdexcpt.obj
  0001:001e8e90       ??_Gbad_typeid@std@@UAEPAXI@Z 005e9e90 f i LIBCMTD:stdexcpt.obj
  0001:001e8e90       ??_Ebad_typeid@std@@UAEPAXI@Z 005e9e90 f i LIBCMTD:stdexcpt.obj
- 0001:001e8ec0       ??_Eexception@std@@UAEPAXI@Z 005e9ec0 f i LIBCMTD:stdexcpt.obj
  0001:001e8ec0       ??_Gexception@std@@UAEPAXI@Z 005e9ec0 f i LIBCMTD:stdexcpt.obj
+ 0001:001e8ec0       ??_Eexception@std@@UAEPAXI@Z 005e9ec0 f i LIBCMTD:stdexcpt.obj
  0001:001e8ef0       ?_Copy_str@exception@std@@AAEXPBD@Z 005e9ef0 f   LIBCMTD:stdexcpt.obj
  0001:001e8f50       ?_Tidy@exception@std@@AAEXXZ 005e9f50 f   LIBCMTD:stdexcpt.obj
  0001:001e8f90       ?what@exception@std@@UBEPBDXZ 005e9f90 f   LIBCMTD:stdexcpt.obj
@@ -4062,8 +4061,8 @@
  0001:001ed2f0       ??4type_info@@AAEAAV0@ABV0@@Z 005ee2f0 f   LIBCMTD:typinfo.obj
  0001:001ed300       ??8type_info@@QBE_NABV0@@Z 005ee300 f   LIBCMTD:typinfo.obj
  0001:001ed340       ??9type_info@@QBE_NABV0@@Z 005ee340 f   LIBCMTD:typinfo.obj
- 0001:001ed380       ??_Gtype_info@@UAEPAXI@Z   005ee380 f i LIBCMTD:typinfo.obj
  0001:001ed380       ??_Etype_info@@UAEPAXI@Z   005ee380 f i LIBCMTD:typinfo.obj
+ 0001:001ed380       ??_Gtype_info@@UAEPAXI@Z   005ee380 f i LIBCMTD:typinfo.obj
  0001:001ed3b0       ?_name_internal_method@type_info@@QBEPBDPAU__type_info_node@@@Z 005ee3b0 f   LIBCMTD:typinfo.obj
  0001:001ed3d0       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 005ee3d0 f   LIBCMTD:typinfo.obj
  0001:001ed3f0       ?before@type_info@@QBE_NABV1@@Z 005ee3f0 f   LIBCMTD:typinfo.obj
@@ -4189,8 +4188,8 @@
  0001:001f2490       __CrtSetReportHookW2       005f3490 f   LIBCMTD:dbgrptw.obj
  0001:001f27e0       ___crtMessageWindowW       005f37e0 f   LIBCMTD:dbgrptw.obj
  0001:001f2c90       __invoke_watson_if_error   005f3c90 f i LIBCMTD:dbgrptw.obj
- 0001:001f2cc0       __chkstk                   005f3cc0 f   LIBCMTD:chkstk.obj
  0001:001f2cc0       __alloca_probe             005f3cc0 f   LIBCMTD:chkstk.obj
+ 0001:001f2cc0       __chkstk                   005f3cc0 f   LIBCMTD:chkstk.obj
  0001:001f2cf0       ??_L@YGXPAXIHP6EX0@Z1@Z    005f3cf0 f   LIBCMTD:ehvecctr.obj
  0001:001f2da0       ??_M@YGXPAXIHP6EX0@Z@Z     005f3da0 f   LIBCMTD:ehvecdtr.obj
  0001:001f2e80       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 005f3e80 f   LIBCMTD:ehvecdtr.obj
@@ -4254,10 +4253,10 @@
  0001:001f54e0       ??1TimerObj@?6??wait@Concurrency@@YAXI@Z@UAE@XZ 005f64e0 f i LIBCMTD:Timer.obj
  0001:001f5500       ??1_Timer@details@Concurrency@@MAE@XZ 005f6500 f   LIBCMTD:Timer.obj
  0001:001f55f0       ??_EGlobalCore@details@Concurrency@@QAEPAXI@Z 005f65f0 f i LIBCMTD:Timer.obj
- 0001:001f5660       ??_GTimerObj@?6??wait@Concurrency@@YAXI@Z@UAEPAXI@Z 005f6660 f i LIBCMTD:Timer.obj
  0001:001f5660       ??_ETimerObj@?6??wait@Concurrency@@YAXI@Z@UAEPAXI@Z 005f6660 f i LIBCMTD:Timer.obj
- 0001:001f5690       ??_G_Timer@details@Concurrency@@MAEPAXI@Z 005f6690 f i LIBCMTD:Timer.obj
+ 0001:001f5660       ??_GTimerObj@?6??wait@Concurrency@@YAXI@Z@UAEPAXI@Z 005f6660 f i LIBCMTD:Timer.obj
  0001:001f5690       ??_E_Timer@details@Concurrency@@MAEPAXI@Z 005f6690 f i LIBCMTD:Timer.obj
+ 0001:001f5690       ??_G_Timer@details@Concurrency@@MAEPAXI@Z 005f6690 f i LIBCMTD:Timer.obj
  0001:001f56c0       ??_H@YGXPAXIHP6EPAX0@Z@Z   005f66c0 f i LIBCMTD:Timer.obj
  0001:001f56f0       ?FireTimer@_TimerStub@details@Concurrency@@SGXPAU_TP_CALLBACK_INSTANCE@@PAXPAU_TP_TIMER@@@Z 005f66f0 f i LIBCMTD:Timer.obj
  0001:001f5710       ?FireTimerXP@_TimerStub@details@Concurrency@@SGXPAXE@Z 005f6710 f i LIBCMTD:Timer.obj
@@ -4268,8 +4267,8 @@
  0001:001f59a0       ??0_Scheduler@details@Concurrency@@QAE@PAVScheduler@2@@Z 005f69a0 f i LIBCMTD:CurrentScheduler.obj
  0001:001f59c0       ??0scheduler_not_attached@Concurrency@@QAE@ABV01@@Z 005f69c0 f i LIBCMTD:CurrentScheduler.obj
  0001:001f59f0       ??1scheduler_not_attached@Concurrency@@UAE@XZ 005f69f0 f i LIBCMTD:CurrentScheduler.obj
- 0001:001f5ad0       ??_Gscheduler_not_attached@Concurrency@@UAEPAXI@Z 005f6ad0 f i LIBCMTD:CurrentScheduler.obj
  0001:001f5ad0       ??_Escheduler_not_attached@Concurrency@@UAEPAXI@Z 005f6ad0 f i LIBCMTD:CurrentScheduler.obj
+ 0001:001f5ad0       ??_Gscheduler_not_attached@Concurrency@@UAEPAXI@Z 005f6ad0 f i LIBCMTD:CurrentScheduler.obj
  0001:001f5b00       ?Create@CurrentScheduler@Concurrency@@SAXABVSchedulerPolicy@2@@Z 005f6b00 f   LIBCMTD:CurrentScheduler.obj
  0001:001f5b30       ?CreateScheduleGroup@CurrentScheduler@Concurrency@@SAPAVScheduleGroup@2@AAVlocation@2@@Z 005f6b30 f   LIBCMTD:CurrentScheduler.obj
  0001:001f5b60       ?CreateScheduleGroup@CurrentScheduler@Concurrency@@SAPAVScheduleGroup@2@XZ 005f6b60 f   LIBCMTD:CurrentScheduler.obj
@@ -4318,8 +4317,8 @@
  0001:001f69f0       ??0bad_exception@std@@QAE@ABV01@@Z 005f79f0 f i LIBCMTD:frame.obj
  0001:001f6a20       ??0bad_exception@std@@QAE@PBD@Z 005f7a20 f i LIBCMTD:frame.obj
  0001:001f6a50       ??1bad_exception@std@@UAE@XZ 005f7a50 f i LIBCMTD:frame.obj
- 0001:001f6a70       ??_Ebad_exception@std@@UAEPAXI@Z 005f7a70 f i LIBCMTD:frame.obj
  0001:001f6a70       ??_Gbad_exception@std@@UAEPAXI@Z 005f7a70 f i LIBCMTD:frame.obj
+ 0001:001f6a70       ??_Ebad_exception@std@@UAEPAXI@Z 005f7a70 f i LIBCMTD:frame.obj
  0001:001f7660       ?__uncaught_exception@@YA_NXZ 005f8660 f   LIBCMTD:frame.obj
  0001:001f7690       ?_is_exception_typeof@@YAHABVtype_info@@PAU_EXCEPTION_POINTERS@@@Z 005f8690 f   LIBCMTD:frame.obj
  0001:001f7770       __SetWinRTOutOfMemoryExceptionCallback 005f8770 f   LIBCMTD:frame.obj
@@ -4605,8 +4604,8 @@
  0001:00200530       ??1WaiterThreadPool@platform@details@Concurrency@@QAE@XZ 00601530 f i LIBCMTD:Platform.obj
  0001:00200590       ??1scheduler_resource_allocation_error@Concurrency@@UAE@XZ 00601590 f i LIBCMTD:Platform.obj
  0001:00200670       ??_GWaiterThreadPool@platform@details@Concurrency@@QAEPAXI@Z 00601670 f i LIBCMTD:Platform.obj
- 0001:002006a0       ??_Gscheduler_resource_allocation_error@Concurrency@@UAEPAXI@Z 006016a0 f i LIBCMTD:Platform.obj
  0001:002006a0       ??_Escheduler_resource_allocation_error@Concurrency@@UAEPAXI@Z 006016a0 f i LIBCMTD:Platform.obj
+ 0001:002006a0       ??_Gscheduler_resource_allocation_error@Concurrency@@UAEPAXI@Z 006016a0 f i LIBCMTD:Platform.obj
  0001:002006d0       ?CaptureCallstack@platform@details@Concurrency@@YAIPAPAXII@Z 006016d0 f   LIBCMTD:Platform.obj
  0001:00200700       ?GetCurrentThreadId@platform@details@Concurrency@@YAJXZ 00601700 f   LIBCMTD:Platform.obj
  0001:00200710       ?InitializeSystemFunctionPointers@platform@details@Concurrency@@YAXXZ 00601710 f   LIBCMTD:Platform.obj
@@ -4996,10 +4995,10 @@
  0001:00220b10       ??_EGlobalNode@details@Concurrency@@QAEPAXI@Z 00621b10 f i LIBCMTD:ResourceManager.obj
  0001:00220b80       ??_GAffinityRestriction@ResourceManager@details@Concurrency@@QAEPAXI@Z 00621b80 f i LIBCMTD:ResourceManager.obj
  0001:00220bb0       ??_GResourceManager@details@Concurrency@@AAEPAXI@Z 00621bb0 f i LIBCMTD:ResourceManager.obj
- 0001:00220be0       ??_Einvalid_operation@Concurrency@@UAEPAXI@Z 00621be0 f i LIBCMTD:ResourceManager.obj
  0001:00220be0       ??_Ginvalid_operation@Concurrency@@UAEPAXI@Z 00621be0 f i LIBCMTD:ResourceManager.obj
- 0001:00220c10       ??_Eunsupported_os@Concurrency@@UAEPAXI@Z 00621c10 f i LIBCMTD:ResourceManager.obj
+ 0001:00220be0       ??_Einvalid_operation@Concurrency@@UAEPAXI@Z 00621be0 f i LIBCMTD:ResourceManager.obj
  0001:00220c10       ??_Gunsupported_os@Concurrency@@UAEPAXI@Z 00621c10 f i LIBCMTD:ResourceManager.obj
+ 0001:00220c10       ??_Eunsupported_os@Concurrency@@UAEPAXI@Z 00621c10 f i LIBCMTD:ResourceManager.obj
  0001:00220c40       ??_V@YAXPAXV_ConcRTNewMoniker@@PBDH@Z 00621c40 f i LIBCMTD:ResourceManager.obj
  0001:00220c60       ?AddTail@?$List@VSchedulerProxy@details@Concurrency@@VCount@CollectionTypes@23@@details@Concurrency@@QAEXPAVSchedulerProxy@23@@Z 00621c60 f i LIBCMTD:ResourceManager.obj
  0001:00220d10       ?AdjustDynamicAllocation@ResourceManager@details@Concurrency@@AAEIIII@Z 00621d10 f   LIBCMTD:ResourceManager.obj
@@ -5247,44 +5246,44 @@
  0001:0022d500       ??1task_canceled@Concurrency@@UAE@XZ 0062e500 f i LIBCMTD:Exceptions.obj
  0001:0022d5e0       ??_G_Interruption_exception@details@Concurrency@@UAEPAXI@Z 0062e5e0 f i LIBCMTD:Exceptions.obj
  0001:0022d5e0       ??_E_Interruption_exception@details@Concurrency@@UAEPAXI@Z 0062e5e0 f i LIBCMTD:Exceptions.obj
- 0001:0022d610       ??_Gbad_target@Concurrency@@UAEPAXI@Z 0062e610 f i LIBCMTD:Exceptions.obj
  0001:0022d610       ??_Ebad_target@Concurrency@@UAEPAXI@Z 0062e610 f i LIBCMTD:Exceptions.obj
+ 0001:0022d610       ??_Gbad_target@Concurrency@@UAEPAXI@Z 0062e610 f i LIBCMTD:Exceptions.obj
  0001:0022d640       ??_Gcontext_self_unblock@Concurrency@@UAEPAXI@Z 0062e640 f i LIBCMTD:Exceptions.obj
  0001:0022d640       ??_Econtext_self_unblock@Concurrency@@UAEPAXI@Z 0062e640 f i LIBCMTD:Exceptions.obj
- 0001:0022d670       ??_Gcontext_unblock_unbalanced@Concurrency@@UAEPAXI@Z 0062e670 f i LIBCMTD:Exceptions.obj
  0001:0022d670       ??_Econtext_unblock_unbalanced@Concurrency@@UAEPAXI@Z 0062e670 f i LIBCMTD:Exceptions.obj
+ 0001:0022d670       ??_Gcontext_unblock_unbalanced@Concurrency@@UAEPAXI@Z 0062e670 f i LIBCMTD:Exceptions.obj
  0001:0022d6a0       ??_Gdefault_scheduler_exists@Concurrency@@UAEPAXI@Z 0062e6a0 f i LIBCMTD:Exceptions.obj
  0001:0022d6a0       ??_Edefault_scheduler_exists@Concurrency@@UAEPAXI@Z 0062e6a0 f i LIBCMTD:Exceptions.obj
  0001:0022d6d0       ??_Eimproper_scheduler_attach@Concurrency@@UAEPAXI@Z 0062e6d0 f i LIBCMTD:Exceptions.obj
  0001:0022d6d0       ??_Gimproper_scheduler_attach@Concurrency@@UAEPAXI@Z 0062e6d0 f i LIBCMTD:Exceptions.obj
- 0001:0022d700       ??_Eimproper_scheduler_detach@Concurrency@@UAEPAXI@Z 0062e700 f i LIBCMTD:Exceptions.obj
  0001:0022d700       ??_Gimproper_scheduler_detach@Concurrency@@UAEPAXI@Z 0062e700 f i LIBCMTD:Exceptions.obj
+ 0001:0022d700       ??_Eimproper_scheduler_detach@Concurrency@@UAEPAXI@Z 0062e700 f i LIBCMTD:Exceptions.obj
  0001:0022d730       ??_Gimproper_scheduler_reference@Concurrency@@UAEPAXI@Z 0062e730 f i LIBCMTD:Exceptions.obj
  0001:0022d730       ??_Eimproper_scheduler_reference@Concurrency@@UAEPAXI@Z 0062e730 f i LIBCMTD:Exceptions.obj
- 0001:0022d760       ??_Ginvalid_link_target@Concurrency@@UAEPAXI@Z 0062e760 f i LIBCMTD:Exceptions.obj
  0001:0022d760       ??_Einvalid_link_target@Concurrency@@UAEPAXI@Z 0062e760 f i LIBCMTD:Exceptions.obj
+ 0001:0022d760       ??_Ginvalid_link_target@Concurrency@@UAEPAXI@Z 0062e760 f i LIBCMTD:Exceptions.obj
  0001:0022d790       ??_Ginvalid_multiple_scheduling@Concurrency@@UAEPAXI@Z 0062e790 f i LIBCMTD:Exceptions.obj
  0001:0022d790       ??_Einvalid_multiple_scheduling@Concurrency@@UAEPAXI@Z 0062e790 f i LIBCMTD:Exceptions.obj
- 0001:0022d7c0       ??_Ginvalid_oversubscribe_operation@Concurrency@@UAEPAXI@Z 0062e7c0 f i LIBCMTD:Exceptions.obj
  0001:0022d7c0       ??_Einvalid_oversubscribe_operation@Concurrency@@UAEPAXI@Z 0062e7c0 f i LIBCMTD:Exceptions.obj
- 0001:0022d7f0       ??_Einvalid_scheduler_policy_key@Concurrency@@UAEPAXI@Z 0062e7f0 f i LIBCMTD:Exceptions.obj
+ 0001:0022d7c0       ??_Ginvalid_oversubscribe_operation@Concurrency@@UAEPAXI@Z 0062e7c0 f i LIBCMTD:Exceptions.obj
  0001:0022d7f0       ??_Ginvalid_scheduler_policy_key@Concurrency@@UAEPAXI@Z 0062e7f0 f i LIBCMTD:Exceptions.obj
+ 0001:0022d7f0       ??_Einvalid_scheduler_policy_key@Concurrency@@UAEPAXI@Z 0062e7f0 f i LIBCMTD:Exceptions.obj
  0001:0022d820       ??_Einvalid_scheduler_policy_thread_specification@Concurrency@@UAEPAXI@Z 0062e820 f i LIBCMTD:Exceptions.obj
  0001:0022d820       ??_Ginvalid_scheduler_policy_thread_specification@Concurrency@@UAEPAXI@Z 0062e820 f i LIBCMTD:Exceptions.obj
  0001:0022d850       ??_Ginvalid_scheduler_policy_value@Concurrency@@UAEPAXI@Z 0062e850 f i LIBCMTD:Exceptions.obj
  0001:0022d850       ??_Einvalid_scheduler_policy_value@Concurrency@@UAEPAXI@Z 0062e850 f i LIBCMTD:Exceptions.obj
- 0001:0022d880       ??_Gmessage_not_found@Concurrency@@UAEPAXI@Z 0062e880 f i LIBCMTD:Exceptions.obj
  0001:0022d880       ??_Emessage_not_found@Concurrency@@UAEPAXI@Z 0062e880 f i LIBCMTD:Exceptions.obj
+ 0001:0022d880       ??_Gmessage_not_found@Concurrency@@UAEPAXI@Z 0062e880 f i LIBCMTD:Exceptions.obj
  0001:0022d8b0       ??_Gmissing_wait@Concurrency@@UAEPAXI@Z 0062e8b0 f i LIBCMTD:Exceptions.obj
  0001:0022d8b0       ??_Emissing_wait@Concurrency@@UAEPAXI@Z 0062e8b0 f i LIBCMTD:Exceptions.obj
- 0001:0022d8e0       ??_Enested_scheduler_missing_detach@Concurrency@@UAEPAXI@Z 0062e8e0 f i LIBCMTD:Exceptions.obj
  0001:0022d8e0       ??_Gnested_scheduler_missing_detach@Concurrency@@UAEPAXI@Z 0062e8e0 f i LIBCMTD:Exceptions.obj
+ 0001:0022d8e0       ??_Enested_scheduler_missing_detach@Concurrency@@UAEPAXI@Z 0062e8e0 f i LIBCMTD:Exceptions.obj
  0001:0022d910       ??_Eoperation_timed_out@Concurrency@@UAEPAXI@Z 0062e910 f i LIBCMTD:Exceptions.obj
  0001:0022d910       ??_Goperation_timed_out@Concurrency@@UAEPAXI@Z 0062e910 f i LIBCMTD:Exceptions.obj
- 0001:0022d940       ??_Gscheduler_worker_creation_error@Concurrency@@UAEPAXI@Z 0062e940 f i LIBCMTD:Exceptions.obj
  0001:0022d940       ??_Escheduler_worker_creation_error@Concurrency@@UAEPAXI@Z 0062e940 f i LIBCMTD:Exceptions.obj
- 0001:0022d970       ??_Gtask_canceled@Concurrency@@UAEPAXI@Z 0062e970 f i LIBCMTD:Exceptions.obj
+ 0001:0022d940       ??_Gscheduler_worker_creation_error@Concurrency@@UAEPAXI@Z 0062e940 f i LIBCMTD:Exceptions.obj
  0001:0022d970       ??_Etask_canceled@Concurrency@@UAEPAXI@Z 0062e970 f i LIBCMTD:Exceptions.obj
+ 0001:0022d970       ??_Gtask_canceled@Concurrency@@UAEPAXI@Z 0062e970 f i LIBCMTD:Exceptions.obj
  0001:0022d9a0       ?get_error_code@scheduler_resource_allocation_error@Concurrency@@QBEJXZ 0062e9a0 f   LIBCMTD:Exceptions.obj
  0001:0022da60       ??$_InternalDeleteHelper@VExternalContextBase@details@Concurrency@@@details@Concurrency@@YAXPAVExternalContextBase@01@@Z 0062ea60 f i LIBCMTD:SchedulerBase.obj
  0001:0022daa0       ??$_InternalDeleteHelper@VExternalStatistics@details@Concurrency@@@details@Concurrency@@YAXPAVExternalStatistics@01@@Z 0062eaa0 f i LIBCMTD:SchedulerBase.obj
@@ -5361,30 +5360,30 @@
  0001:0022f490       ??A?$ListArray@VScheduleGroupSegmentBase@details@Concurrency@@@details@Concurrency@@QBEPAVScheduleGroupSegmentBase@12@H@Z 00630490 f i LIBCMTD:SchedulerBase.obj
  0001:0022f540       ??A?$ListArray@VVirtualProcessor@details@Concurrency@@@details@Concurrency@@QBEPAVVirtualProcessor@12@H@Z 00630540 f i LIBCMTD:SchedulerBase.obj
  0001:0022f6b0       ??_ENumaInformation@SchedulerBase@details@Concurrency@@QAEPAXI@Z 006306b0 f i LIBCMTD:SchedulerBase.obj
- 0001:0022f720       ??_ECacheLocalScheduleGroup@details@Concurrency@@UAEPAXI@Z 00630720 f i LIBCMTD:SchedulerBase.obj
  0001:0022f720       ??_GCacheLocalScheduleGroup@details@Concurrency@@UAEPAXI@Z 00630720 f i LIBCMTD:SchedulerBase.obj
+ 0001:0022f720       ??_ECacheLocalScheduleGroup@details@Concurrency@@UAEPAXI@Z 00630720 f i LIBCMTD:SchedulerBase.obj
  0001:0022f750       ??_GCacheLocalScheduleGroupSegment@details@Concurrency@@UAEPAXI@Z 00630750 f i LIBCMTD:SchedulerBase.obj
  0001:0022f750       ??_ECacheLocalScheduleGroupSegment@details@Concurrency@@UAEPAXI@Z 00630750 f i LIBCMTD:SchedulerBase.obj
  0001:0022f780       ??_GFairScheduleGroup@details@Concurrency@@UAEPAXI@Z 00630780 f i LIBCMTD:SchedulerBase.obj
  0001:0022f780       ??_EFairScheduleGroup@details@Concurrency@@UAEPAXI@Z 00630780 f i LIBCMTD:SchedulerBase.obj
  0001:0022f7b0       ??_EFairScheduleGroupSegment@details@Concurrency@@UAEPAXI@Z 006307b0 f i LIBCMTD:SchedulerBase.obj
  0001:0022f7b0       ??_GFairScheduleGroupSegment@details@Concurrency@@UAEPAXI@Z 006307b0 f i LIBCMTD:SchedulerBase.obj
- 0001:0022f7e0       ??_GRealizedChore@details@Concurrency@@UAEPAXI@Z 006307e0 f i LIBCMTD:SchedulerBase.obj
  0001:0022f7e0       ??_ERealizedChore@details@Concurrency@@UAEPAXI@Z 006307e0 f i LIBCMTD:SchedulerBase.obj
- 0001:0022f810       ??_GScheduleGroup@Concurrency@@MAEPAXI@Z 00630810 f i LIBCMTD:SchedulerBase.obj
+ 0001:0022f7e0       ??_GRealizedChore@details@Concurrency@@UAEPAXI@Z 006307e0 f i LIBCMTD:SchedulerBase.obj
  0001:0022f810       ??_EScheduleGroup@Concurrency@@MAEPAXI@Z 00630810 f i LIBCMTD:SchedulerBase.obj
+ 0001:0022f810       ??_GScheduleGroup@Concurrency@@MAEPAXI@Z 00630810 f i LIBCMTD:SchedulerBase.obj
  0001:0022f840       ??_EScheduleGroupBase@details@Concurrency@@UAEPAXI@Z 00630840 f i LIBCMTD:SchedulerBase.obj
  0001:0022f840       ??_GScheduleGroupBase@details@Concurrency@@UAEPAXI@Z 00630840 f i LIBCMTD:SchedulerBase.obj
  0001:0022f870       ??_EScheduler@Concurrency@@MAEPAXI@Z 00630870 f i LIBCMTD:SchedulerBase.obj
  0001:0022f870       ??_GScheduler@Concurrency@@MAEPAXI@Z 00630870 f i LIBCMTD:SchedulerBase.obj
- 0001:0022f8a0       ??_ESchedulerBase@details@Concurrency@@UAEPAXI@Z 006308a0 f i LIBCMTD:SchedulerBase.obj
  0001:0022f8a0       ??_GSchedulerBase@details@Concurrency@@UAEPAXI@Z 006308a0 f i LIBCMTD:SchedulerBase.obj
+ 0001:0022f8a0       ??_ESchedulerBase@details@Concurrency@@UAEPAXI@Z 006308a0 f i LIBCMTD:SchedulerBase.obj
  0001:0022f8d0       ??_GSchedulerPolicy@Concurrency@@QAEPAXI@Z 006308d0 f i LIBCMTD:SchedulerBase.obj
  0001:0022f900       ??_GSchedulingNode@details@Concurrency@@QAEPAXI@Z 00630900 f i LIBCMTD:SchedulerBase.obj
  0001:0022f930       ??_GSchedulingRing@details@Concurrency@@QAEPAXI@Z 00630930 f i LIBCMTD:SchedulerBase.obj
  0001:0022f960       ??_GSubAllocator@details@Concurrency@@QAEPAXI@Z 00630960 f i LIBCMTD:SchedulerBase.obj
- 0001:0022f990       ??_G_Chore@details@Concurrency@@MAEPAXI@Z 00630990 f i LIBCMTD:SchedulerBase.obj
  0001:0022f990       ??_E_Chore@details@Concurrency@@MAEPAXI@Z 00630990 f i LIBCMTD:SchedulerBase.obj
+ 0001:0022f990       ??_G_Chore@details@Concurrency@@MAEPAXI@Z 00630990 f i LIBCMTD:SchedulerBase.obj
  0001:0022f9c0       ?ASIZE@QuickBitSet@details@Concurrency@@IBEIXZ 006309c0 f i LIBCMTD:SchedulerBase.obj
  0001:0022f9e0       ?Acquire@?$SafeSQueue@VSafePointInvocation@details@Concurrency@@V_HyperNonReentrantLock@23@@details@Concurrency@@QBEXXZ 006309e0 f i LIBCMTD:SchedulerBase.obj
  0001:0022fa00       ?AcquireWrite@?$SafeRWList@UBoostedObject@details@Concurrency@@VNoCount@CollectionTypes@23@V_ReaderWriterLock@23@@details@Concurrency@@QBEXXZ 00630a00 f i LIBCMTD:SchedulerBase.obj
@@ -5741,8 +5740,8 @@
  0001:0023c7d0       ??0UMSThreadProxy@details@Concurrency@@QAE@PAUIThreadProxyFactory@12@PAXI@Z 0063d7d0 f   LIBCMTD:UMSThreadProxy.obj
  0001:0023cb70       ??0scheduler_worker_creation_error@Concurrency@@QAE@ABV01@@Z 0063db70 f i LIBCMTD:UMSThreadProxy.obj
  0001:0023cba0       ??1UMSThreadProxy@details@Concurrency@@UAE@XZ 0063dba0 f   LIBCMTD:UMSThreadProxy.obj
- 0001:0023cd50       ??_GUMSThreadProxy@details@Concurrency@@UAEPAXI@Z 0063dd50 f i LIBCMTD:UMSThreadProxy.obj
  0001:0023cd50       ??_EUMSThreadProxy@details@Concurrency@@UAEPAXI@Z 0063dd50 f i LIBCMTD:UMSThreadProxy.obj
+ 0001:0023cd50       ??_GUMSThreadProxy@details@Concurrency@@UAEPAXI@Z 0063dd50 f i LIBCMTD:UMSThreadProxy.obj
  0001:0023cd80       ?Cancel@UMSThreadProxy@details@Concurrency@@QAEXXZ 0063dd80 f   LIBCMTD:UMSThreadProxy.obj
  0001:0023cda0       ?Deactivate@UMSThreadProxy@details@Concurrency@@IAE_NXZ 0063dda0 f   LIBCMTD:UMSThreadProxy.obj
  0001:0023ce90       ?EnterCriticalRegion@UMSThreadProxy@details@Concurrency@@UAEHXZ 0063de90 f i LIBCMTD:UMSThreadProxy.obj
@@ -5875,8 +5874,8 @@
  0001:00241369       __abnormal_termination     00642369 f   LIBCMTD:exsup.obj
  0001:0024138c       __NLG_Notify1              0064238c f   LIBCMTD:exsup.obj
  0001:00241395       __NLG_Notify               00642395 f   LIBCMTD:exsup.obj
- 0001:002413ac       __NLG_Dispatch             006423ac     LIBCMTD:exsup.obj
  0001:002413ac       __NLG_Dispatch2            006423ac     LIBCMTD:exsup.obj
+ 0001:002413ac       __NLG_Dispatch             006423ac     LIBCMTD:exsup.obj
  0001:002413b4       __NLG_Call                 006423b4 f   LIBCMTD:exsup.obj
  0001:002413b6       __NLG_Return2              006423b6     LIBCMTD:exsup.obj
  0001:002413c0       __isatty                   006423c0 f   LIBCMTD:isatty.obj
@@ -6160,19 +6159,19 @@
  0001:0025d2e0       ??1_StructuredTaskCollection@details@Concurrency@@QAE@XZ 0065e2e0 f   LIBCMTD:TaskCollection.obj
  0001:0025d350       ??1_TaskCollection@details@Concurrency@@QAE@XZ 0065e350 f   LIBCMTD:TaskCollection.obj
  0001:0025d4d0       ??1exception_ptr@std@@QAE@XZ 0065e4d0 f i LIBCMTD:TaskCollection.obj
- 0001:0025d5b0       ??_G?$_MallocaArrayHolder@PAVevent@Concurrency@@@details@Concurrency@@UAEPAXI@Z 0065e5b0 f i LIBCMTD:TaskCollection.obj
  0001:0025d5b0       ??_E?$_MallocaArrayHolder@PAVevent@Concurrency@@@details@Concurrency@@UAEPAXI@Z 0065e5b0 f i LIBCMTD:TaskCollection.obj
- 0001:0025d5e0       ??_GCancellationTokenRegistration_TaskProc@details@Concurrency@@UAEPAXI@Z 0065e5e0 f i LIBCMTD:TaskCollection.obj
+ 0001:0025d5b0       ??_G?$_MallocaArrayHolder@PAVevent@Concurrency@@@details@Concurrency@@UAEPAXI@Z 0065e5b0 f i LIBCMTD:TaskCollection.obj
  0001:0025d5e0       ??_ECancellationTokenRegistration_TaskProc@details@Concurrency@@UAEPAXI@Z 0065e5e0 f i LIBCMTD:TaskCollection.obj
+ 0001:0025d5e0       ??_GCancellationTokenRegistration_TaskProc@details@Concurrency@@UAEPAXI@Z 0065e5e0 f i LIBCMTD:TaskCollection.obj
  0001:0025d610       ??_GTaskStack@details@Concurrency@@QAEPAXI@Z 0065e610 f i LIBCMTD:TaskCollection.obj
- 0001:0025d640       ??_E_AsyncTaskCollection@details@Concurrency@@UAEPAXI@Z 0065e640 f i LIBCMTD:TaskCollection.obj
  0001:0025d640       ??_G_AsyncTaskCollection@details@Concurrency@@UAEPAXI@Z 0065e640 f i LIBCMTD:TaskCollection.obj
- 0001:0025d670       ??_G_CancellationTokenRegistration@details@Concurrency@@MAEPAXI@Z 0065e670 f i LIBCMTD:TaskCollection.obj
+ 0001:0025d640       ??_E_AsyncTaskCollection@details@Concurrency@@UAEPAXI@Z 0065e640 f i LIBCMTD:TaskCollection.obj
  0001:0025d670       ??_E_CancellationTokenRegistration@details@Concurrency@@MAEPAXI@Z 0065e670 f i LIBCMTD:TaskCollection.obj
+ 0001:0025d670       ??_G_CancellationTokenRegistration@details@Concurrency@@MAEPAXI@Z 0065e670 f i LIBCMTD:TaskCollection.obj
  0001:0025d6a0       ??_E_RefCounter@details@Concurrency@@UAEPAXI@Z 0065e6a0 f i LIBCMTD:TaskCollection.obj
  0001:0025d6a0       ??_G_RefCounter@details@Concurrency@@UAEPAXI@Z 0065e6a0 f i LIBCMTD:TaskCollection.obj
- 0001:0025d6d0       ??_E_RefCounterBase@details@Concurrency@@UAEPAXI@Z 0065e6d0 f i LIBCMTD:TaskCollection.obj
  0001:0025d6d0       ??_G_RefCounterBase@details@Concurrency@@UAEPAXI@Z 0065e6d0 f i LIBCMTD:TaskCollection.obj
+ 0001:0025d6d0       ??_E_RefCounterBase@details@Concurrency@@UAEPAXI@Z 0065e6d0 f i LIBCMTD:TaskCollection.obj
  0001:0025d700       ??_G_TaskCollection@details@Concurrency@@QAEPAXI@Z 0065e700 f i LIBCMTD:TaskCollection.obj
  0001:0025d730       ??_Gexception_ptr@std@@QAEPAXI@Z 0065e730 f i LIBCMTD:TaskCollection.obj
  0001:0025d760       ?AcquireRead@?$SafeRWList@UListEntry@details@Concurrency@@VNoCount@CollectionTypes@23@V_ReaderWriterLock@23@@details@Concurrency@@QBEXXZ 0065e760 f i LIBCMTD:TaskCollection.obj
@@ -6443,18 +6442,18 @@
  0001:00267db0       ??1ThreadProxyFactoryManager@details@Concurrency@@QAE@XZ 00668db0 f   LIBCMTD:ThreadProxyFactoryManager.obj
  0001:00267e50       ??1UMSFreeThreadProxy@details@Concurrency@@UAE@XZ 00668e50 f i LIBCMTD:ThreadProxyFactoryManager.obj
  0001:00267e80       ??1UMSFreeThreadProxyFactory@details@Concurrency@@UAE@XZ 00668e80 f i LIBCMTD:ThreadProxyFactoryManager.obj
- 0001:00267fa0       ??_E?$ThreadProxyFactory@VFreeThreadProxy@details@Concurrency@@@details@Concurrency@@UAEPAXI@Z 00668fa0 f i LIBCMTD:ThreadProxyFactoryManager.obj
  0001:00267fa0       ??_G?$ThreadProxyFactory@VFreeThreadProxy@details@Concurrency@@@details@Concurrency@@UAEPAXI@Z 00668fa0 f i LIBCMTD:ThreadProxyFactoryManager.obj
+ 0001:00267fa0       ??_E?$ThreadProxyFactory@VFreeThreadProxy@details@Concurrency@@@details@Concurrency@@UAEPAXI@Z 00668fa0 f i LIBCMTD:ThreadProxyFactoryManager.obj
  0001:00267fd0       ??_G?$ThreadProxyFactory@VUMSFreeThreadProxy@details@Concurrency@@@details@Concurrency@@UAEPAXI@Z 00668fd0 f i LIBCMTD:ThreadProxyFactoryManager.obj
  0001:00267fd0       ??_E?$ThreadProxyFactory@VUMSFreeThreadProxy@details@Concurrency@@@details@Concurrency@@UAEPAXI@Z 00668fd0 f i LIBCMTD:ThreadProxyFactoryManager.obj
- 0001:00268000       ??_EFreeThreadProxy@details@Concurrency@@UAEPAXI@Z 00669000 f i LIBCMTD:ThreadProxyFactoryManager.obj
  0001:00268000       ??_GFreeThreadProxy@details@Concurrency@@UAEPAXI@Z 00669000 f i LIBCMTD:ThreadProxyFactoryManager.obj
+ 0001:00268000       ??_EFreeThreadProxy@details@Concurrency@@UAEPAXI@Z 00669000 f i LIBCMTD:ThreadProxyFactoryManager.obj
  0001:00268030       ??_GFreeThreadProxyFactory@details@Concurrency@@UAEPAXI@Z 00669030 f i LIBCMTD:ThreadProxyFactoryManager.obj
  0001:00268030       ??_EFreeThreadProxyFactory@details@Concurrency@@UAEPAXI@Z 00669030 f i LIBCMTD:ThreadProxyFactoryManager.obj
- 0001:00268060       ??_GIThreadProxyFactory@details@Concurrency@@UAEPAXI@Z 00669060 f i LIBCMTD:ThreadProxyFactoryManager.obj
  0001:00268060       ??_EIThreadProxyFactory@details@Concurrency@@UAEPAXI@Z 00669060 f i LIBCMTD:ThreadProxyFactoryManager.obj
- 0001:00268090       ??_GUMSFreeThreadProxy@details@Concurrency@@UAEPAXI@Z 00669090 f i LIBCMTD:ThreadProxyFactoryManager.obj
+ 0001:00268060       ??_GIThreadProxyFactory@details@Concurrency@@UAEPAXI@Z 00669060 f i LIBCMTD:ThreadProxyFactoryManager.obj
  0001:00268090       ??_EUMSFreeThreadProxy@details@Concurrency@@UAEPAXI@Z 00669090 f i LIBCMTD:ThreadProxyFactoryManager.obj
+ 0001:00268090       ??_GUMSFreeThreadProxy@details@Concurrency@@UAEPAXI@Z 00669090 f i LIBCMTD:ThreadProxyFactoryManager.obj
  0001:002680c0       ??_EUMSFreeThreadProxyFactory@details@Concurrency@@UAEPAXI@Z 006690c0 f i LIBCMTD:ThreadProxyFactoryManager.obj
  0001:002680c0       ??_GUMSFreeThreadProxyFactory@details@Concurrency@@UAEPAXI@Z 006690c0 f i LIBCMTD:ThreadProxyFactoryManager.obj
  0001:002680f0       ?ClearCriticalRegion@UMSThreadProxy@details@Concurrency@@QAEXXZ 006690f0 f i LIBCMTD:ThreadProxyFactoryManager.obj
@@ -6541,8 +6540,8 @@
  0001:00269c60       ??9location@Concurrency@@QBE_NABV01@@Z 0066ac60 f i LIBCMTD:ContextBase.obj
  0001:00269ca0       ??ACancellationBeaconStack@ContextBase@details@Concurrency@@QAEPAUCancellationBeacon@123@J@Z 0066aca0 f i LIBCMTD:ContextBase.obj
  0001:00269df0       ??_GCancellationBeaconNode@CancellationBeaconStack@ContextBase@details@Concurrency@@QAEPAXI@Z 0066adf0 f i LIBCMTD:ContextBase.obj
- 0001:00269e20       ??_EContext@Concurrency@@MAEPAXI@Z 0066ae20 f i LIBCMTD:ContextBase.obj
  0001:00269e20       ??_GContext@Concurrency@@MAEPAXI@Z 0066ae20 f i LIBCMTD:ContextBase.obj
+ 0001:00269e20       ??_EContext@Concurrency@@MAEPAXI@Z 0066ae20 f i LIBCMTD:ContextBase.obj
  0001:00269e50       ??_EContextBase@details@Concurrency@@UAEPAXI@Z 0066ae50 f i LIBCMTD:ContextBase.obj
  0001:00269e50       ??_GContextBase@details@Concurrency@@UAEPAXI@Z 0066ae50 f i LIBCMTD:ContextBase.obj
  0001:00269e80       ??_GSegment@?$Mailbox@V_UnrealizedChore@details@Concurrency@@@details@Concurrency@@QAEPAXI@Z 0066ae80 f i LIBCMTD:ContextBase.obj
@@ -6798,8 +6797,8 @@
  0001:00272fe0       ??1VirtualProcessor@details@Concurrency@@UAE@XZ 00673fe0 f   LIBCMTD:VirtualProcessor.obj
  0001:002730c0       ??4location@Concurrency@@QAEAAV01@ABV01@@Z 006740c0 f i LIBCMTD:VirtualProcessor.obj
  0001:002731a0       ??_GSegment@?$Mailbox@VInternalContextBase@details@Concurrency@@@details@Concurrency@@QAEPAXI@Z 006741a0 f i LIBCMTD:VirtualProcessor.obj
- 0001:002731d0       ??_GVirtualProcessor@details@Concurrency@@UAEPAXI@Z 006741d0 f i LIBCMTD:VirtualProcessor.obj
  0001:002731d0       ??_EVirtualProcessor@details@Concurrency@@UAEPAXI@Z 006741d0 f i LIBCMTD:VirtualProcessor.obj
+ 0001:002731d0       ??_GVirtualProcessor@details@Concurrency@@UAEPAXI@Z 006741d0 f i LIBCMTD:VirtualProcessor.obj
  0001:00273200       ?AcknowledgedAffinityMessage@SchedulerBase@details@Concurrency@@QAE_NI@Z 00674200 f i LIBCMTD:VirtualProcessor.obj
  0001:00273240       ?Activate@VirtualProcessor@details@Concurrency@@QAEXPAUIExecutionContext@3@@Z 00674240 f   LIBCMTD:VirtualProcessor.obj
  0001:00273270       ?Affinitize@VirtualProcessor@details@Concurrency@@MAEXPAVInternalContextBase@23@@Z 00674270 f   LIBCMTD:VirtualProcessor.obj
@@ -6923,8 +6922,8 @@
  0001:00277e80       ??4QuickBitSet@details@Concurrency@@QAEAAV012@$$QAV012@@Z 00678e80 f i LIBCMTD:ScheduleGroupBase.obj
  0001:00277ed0       ??A?$ListArray@U?$ListArrayInlineLink@VWorkQueue@details@Concurrency@@@details@Concurrency@@@details@Concurrency@@QBEPAU?$ListArrayInlineLink@VWorkQueue@details@Concurrency@@@12@H@Z 00678ed0 f i LIBCMTD:ScheduleGroupBase.obj
  0001:00277f80       ??A?$ListArray@VWorkQueue@details@Concurrency@@@details@Concurrency@@QBEPAVWorkQueue@12@H@Z 00678f80 f i LIBCMTD:ScheduleGroupBase.obj
- 0001:002780f0       ??_GScheduleGroupSegmentBase@details@Concurrency@@UAEPAXI@Z 006790f0 f i LIBCMTD:ScheduleGroupBase.obj
  0001:002780f0       ??_EScheduleGroupSegmentBase@details@Concurrency@@UAEPAXI@Z 006790f0 f i LIBCMTD:ScheduleGroupBase.obj
+ 0001:002780f0       ??_GScheduleGroupSegmentBase@details@Concurrency@@UAEPAXI@Z 006790f0 f i LIBCMTD:ScheduleGroupBase.obj
  0001:00278120       ?Add@?$ListArray@U?$ListArrayInlineLink@VWorkQueue@details@Concurrency@@@details@Concurrency@@@details@Concurrency@@QAEHPAU?$ListArrayInlineLink@VWorkQueue@details@Concurrency@@@23@@Z 00679120 f i LIBCMTD:ScheduleGroupBase.obj
  0001:00278450       ?Add@?$ListArray@VExternalStatistics@details@Concurrency@@@details@Concurrency@@QAEHPAVExternalStatistics@23@@Z 00679450 f i LIBCMTD:ScheduleGroupBase.obj
  0001:00278780       ?Add@?$ListArray@VScheduleGroupSegmentBase@details@Concurrency@@@details@Concurrency@@QAEHPAVScheduleGroupSegmentBase@23@@Z 00679780 f i LIBCMTD:ScheduleGroupBase.obj
@@ -7037,8 +7036,8 @@
  0001:0027c25d       ??_EThreadScheduler@details@Concurrency@@W7AEPAXI@Z 0067d25d f i LIBCMTD:ThreadScheduler.obj
  0001:0027c270       ??_GThreadInternalContext@details@Concurrency@@UAEPAXI@Z 0067d270 f i LIBCMTD:ThreadScheduler.obj
  0001:0027c270       ??_EThreadInternalContext@details@Concurrency@@UAEPAXI@Z 0067d270 f i LIBCMTD:ThreadScheduler.obj
- 0001:0027c2a0       ??_GThreadScheduler@details@Concurrency@@UAEPAXI@Z 0067d2a0 f i LIBCMTD:ThreadScheduler.obj
  0001:0027c2a0       ??_EThreadScheduler@details@Concurrency@@UAEPAXI@Z 0067d2a0 f i LIBCMTD:ThreadScheduler.obj
+ 0001:0027c2a0       ??_GThreadScheduler@details@Concurrency@@UAEPAXI@Z 0067d2a0 f i LIBCMTD:ThreadScheduler.obj
  0001:0027c2d0       ?AddVirtualProcessors@ThreadScheduler@details@Concurrency@@UAEXPAPAUIVirtualProcessorRoot@3@I@Z 0067d2d0 f i LIBCMTD:ThreadScheduler.obj
  0001:0027c2f0       ?Create@ThreadScheduler@details@Concurrency@@SAPAV123@ABVSchedulerPolicy@3@@Z 0067d2f0 f   LIBCMTD:ThreadScheduler.obj
  0001:0027c390       ?CreateInternalContext@ThreadScheduler@details@Concurrency@@MAEPAVInternalContextBase@23@XZ 0067d390 f   LIBCMTD:ThreadScheduler.obj
@@ -7057,8 +7056,8 @@
  0001:0027c700       ??0UMSThreadScheduler@details@Concurrency@@QAE@ABVSchedulerPolicy@2@@Z 0067d700 f   LIBCMTD:UMSThreadScheduler.obj
  0001:0027c750       ??1UMSThreadScheduler@details@Concurrency@@UAE@XZ 0067d750 f   LIBCMTD:UMSThreadScheduler.obj
  0001:0027c83f       ??_EUMSThreadScheduler@details@Concurrency@@W7AEPAXI@Z 0067d83f f i LIBCMTD:UMSThreadScheduler.obj
- 0001:0027c850       ??_GUMSThreadScheduler@details@Concurrency@@UAEPAXI@Z 0067d850 f i LIBCMTD:UMSThreadScheduler.obj
  0001:0027c850       ??_EUMSThreadScheduler@details@Concurrency@@UAEPAXI@Z 0067d850 f i LIBCMTD:UMSThreadScheduler.obj
+ 0001:0027c850       ??_GUMSThreadScheduler@details@Concurrency@@UAEPAXI@Z 0067d850 f i LIBCMTD:UMSThreadScheduler.obj
  0001:0027c880       ?AddVirtualProcessors@UMSThreadScheduler@details@Concurrency@@UAEXPAPAUIVirtualProcessorRoot@3@I@Z 0067d880 f i LIBCMTD:UMSThreadScheduler.obj
  0001:0027c8a0       ?AllowGeneralFetchOfReservedContexts@UMSThreadScheduler@details@Concurrency@@MAE_NXZ 0067d8a0 f i LIBCMTD:UMSThreadScheduler.obj
  0001:0027c8b0       ?Create@UMSThreadScheduler@details@Concurrency@@SAPAV123@ABVSchedulerPolicy@3@@Z 0067d8b0 f   LIBCMTD:UMSThreadScheduler.obj
@@ -7220,8 +7219,8 @@
  0001:002885f0       ??_E?$_Ref_count_del_alloc@V__ExceptionPtr@@P6AXPAV1@@ZV?$_DebugMallocator@H@@@std@@UAEPAXI@Z 006895f0 f i LIBCMTD:excptptr.obj
  0001:002885f0       ??_G?$_Ref_count_del_alloc@V__ExceptionPtr@@P6AXPAV1@@ZV?$_DebugMallocator@H@@@std@@UAEPAXI@Z 006895f0 f i LIBCMTD:excptptr.obj
  0001:00288620       ??_G?$shared_ptr@V__ExceptionPtr@@@std@@QAEPAXI@Z 00689620 f i LIBCMTD:excptptr.obj
- 0001:00288650       ??_G_Ref_count_base@std@@UAEPAXI@Z 00689650 f i LIBCMTD:excptptr.obj
  0001:00288650       ??_E_Ref_count_base@std@@UAEPAXI@Z 00689650 f i LIBCMTD:excptptr.obj
+ 0001:00288650       ??_G_Ref_count_base@std@@UAEPAXI@Z 00689650 f i LIBCMTD:excptptr.obj
  0001:00288680       ??_G__ExceptionPtr@@QAEPAXI@Z 00689680 f i LIBCMTD:excptptr.obj
  0001:002886b0       ?_Assign_rv@?$_Ptr_base@V__ExceptionPtr@@@std@@QAEX$$QAV12@@Z 006896b0 f i LIBCMTD:excptptr.obj
  0001:002886e0       ?_BadAllocException@__ExceptionPtr@@SA?AV?$shared_ptr@V__ExceptionPtr@@@std@@XZ 006896e0 f   LIBCMTD:excptptr.obj
@@ -7379,8 +7378,8 @@
  0001:0028dd00       ??$for_each@V<lambda_0cb5d881bcf47953acd3701e03ce69ac>@@@TokenRegistrationContainer@_CancellationTokenState@details@Concurrency@@QAEXV<lambda_0cb5d881bcf47953acd3701e03ce69ac>@@@Z 0068ed00 f i LIBCMTD:ThreadProxy.obj
  0001:0028dd60       ??0ThreadProxy@details@Concurrency@@QAE@PAUIThreadProxyFactory@12@I@Z 0068ed60 f   LIBCMTD:ThreadProxy.obj
  0001:0028de70       ??1ThreadProxy@details@Concurrency@@UAE@XZ 0068ee70 f   LIBCMTD:ThreadProxy.obj
- 0001:0028df80       ??_GThreadProxy@details@Concurrency@@UAEPAXI@Z 0068ef80 f i LIBCMTD:ThreadProxy.obj
  0001:0028df80       ??_EThreadProxy@details@Concurrency@@UAEPAXI@Z 0068ef80 f i LIBCMTD:ThreadProxy.obj
+ 0001:0028df80       ??_GThreadProxy@details@Concurrency@@UAEPAXI@Z 0068ef80 f i LIBCMTD:ThreadProxy.obj
  0001:0028dfb0       ?Cancel@ThreadProxy@details@Concurrency@@QAEXXZ 0068efb0 f   LIBCMTD:ThreadProxy.obj
  0001:0028e010       ?GetId@ThreadProxy@details@Concurrency@@UBEIXZ 0068f010 f   LIBCMTD:ThreadProxy.obj
  0001:0028e030       ?ResumeExecution@ThreadProxy@details@Concurrency@@QAEXXZ 0068f030 f   LIBCMTD:ThreadProxy.obj
@@ -7607,8 +7606,8 @@
  0001:00298610       ??1ScopedCriticalRegion@UMSThreadProxy@details@Concurrency@@QAE@XZ 00699610 f i LIBCMTD:UMSFreeVirtualProcessorRoot.obj
  0001:00298640       ??1UMSFreeVirtualProcessorRoot@details@Concurrency@@UAE@XZ 00699640 f   LIBCMTD:UMSFreeVirtualProcessorRoot.obj
  0001:0029875f       ??_EUMSFreeVirtualProcessorRoot@details@Concurrency@@W7AEPAXI@Z 0069975f f i LIBCMTD:UMSFreeVirtualProcessorRoot.obj
- 0001:00298770       ??_GUMSFreeVirtualProcessorRoot@details@Concurrency@@UAEPAXI@Z 00699770 f i LIBCMTD:UMSFreeVirtualProcessorRoot.obj
  0001:00298770       ??_EUMSFreeVirtualProcessorRoot@details@Concurrency@@UAEPAXI@Z 00699770 f i LIBCMTD:UMSFreeVirtualProcessorRoot.obj
+ 0001:00298770       ??_GUMSFreeVirtualProcessorRoot@details@Concurrency@@UAEPAXI@Z 00699770 f i LIBCMTD:UMSFreeVirtualProcessorRoot.obj
  0001:002987a0       ?Activate@UMSFreeVirtualProcessorRoot@details@Concurrency@@UAEXPAUIExecutionContext@3@@Z 006997a0 f   LIBCMTD:UMSFreeVirtualProcessorRoot.obj
  0001:002989c0       ?Affinitize@UMSFreeVirtualProcessorRoot@details@Concurrency@@AAEXPAVUMSFreeThreadProxy@23@_N@Z 006999c0 f   LIBCMTD:UMSFreeVirtualProcessorRoot.obj
  0001:00298b50       ?CreatePrimary@UMSFreeVirtualProcessorRoot@details@Concurrency@@AAEXXZ 00699b50 f   LIBCMTD:UMSFreeVirtualProcessorRoot.obj
@@ -7766,11 +7765,12 @@
  0001:0029b126       _SetEndOfFile@4            0069c126 f   kernel32:KERNEL32.dll
  0001:0029b12c       _SetEnvironmentVariableA@8 0069c12c f   kernel32:KERNEL32.dll
  0001:0029b240       __i64toa                   0069c240 f   LIBCMTD:xtoa.obj
- 0001:0029b290       __itoa                     0069c290 f   LIBCMTD:xtoa.obj
  0001:0029b290       _itoa                      0069c290 f   LIBCMTD:xtoa.obj
+ 0001:0029b290       __itoa                     0069c290 f   LIBCMTD:xtoa.obj
  0001:0029b2d0       __ltoa                     0069c2d0 f   LIBCMTD:xtoa.obj
  0001:0029b310       __ui64toa                  0069c310 f   LIBCMTD:xtoa.obj
  0001:0029b330       __ultoa                    0069c330 f   LIBCMTD:xtoa.obj
+ 0001:0029b420       ?DeleteNpc@CMapServer@@QAEXHHH@Z 0069c420 f   Drops.obj
  0002:00000000       ___xc_a                    006f3000     LIBCMTD:crt0init.obj
  0002:00000938       ___xc_z                    006f3938     LIBCMTD:crt0init.obj
  0002:00000a3c       ___xi_a                    006f3a3c     LIBCMTD:crt0init.obj

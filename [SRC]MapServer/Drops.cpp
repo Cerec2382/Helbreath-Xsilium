@@ -49,7 +49,7 @@ int CMapServer::RollByProbabilityTable(const int* chances, int size) {
 		acc += chances[i];
 		if (roll <= acc){
 			
-			if (i + 1 >= 5){
+			if (i + 1 >= 6){
 				std::cout << "Multiplicador: " << (i + 1) << std::endl;
 			}
 
@@ -1729,37 +1729,56 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 			case 121: // GhostAba
 				if (Drop)
 				{
-					switch (iDice(1, 20)) {
-						//		case 1: iItemID = 616; break;		//	"DemonSlayer"
-						//		case 2: iItemID = 863; break;		//  "KlonessWand(MS.30)"
-						//		case 3: iItemID = 4966; break;		//	"NeckPower(MS.30)"	
-						//		case 4: iItemID = 3107; break;		// "Coins(+1000)"
-						//		case 5: iItemID = 643; break;		// "KnecklaceOfIceEle"
-						//		case 6: iItemID = 762; break;		// "GiantBattleHammer"
-						//		case 7: iItemID = 848; break;		//	"LightingBlade"
-						//		case 8: iItemID = 620;	break;		// "MerienShield"
-					case 1: iItemID = 4964; break;		//	RingofPowerWar
-					case 2: iItemID = 4965; break;		//	RingofPowerMage	
-					case 3: iItemID = 4967; break;		//	NeckPowerMerien
-					case 4: iItemID = 4968; break;		//	NeckPowerXelima
-					case 5: iItemID = CONTRIB_SMALL; break;		// "Coins(+500)"
-					case 6: iItemID = 847; break;		// "DarkExecutor"
-					case 7: iItemID = 860; break;		// "NecklaceOfXelima"
-					case 8: iItemID = 858; break;		// "NecklaceOfMerien"
-					default:
-						switch (iDice(1, 8))
-						{
-						case 1: iItemID = 4964; break;		//	RingofPowerWar
-						case 2: iItemID = 4965; break;		//	RingofPowerMage	
-						case 3: iItemID = 4967; break;		//	NeckPowerMerien
-						case 4: iItemID = 4968; break;		//	NeckPowerXelima
-						case 5: iItemID = CONTRIB_SMALL; break;		// "Coins(+500)"
-						case 6: iItemID = 847; break;		// "DarkExecutor"
-						case 7: iItemID = 860; break;		// "NecklaceOfXelima"
-						case 8: iItemID = 858; break;		// "NecklaceOfMerien"
+					
+					switch (iDice(1, 1000)) {
+					case 1: // 0.1% chance – Legendario
+						switch (iDice(1, 200)) {
+						case 1: iItemID = 849;  break; // KlonessBlade
+						case 2: iItemID = 850; break; // KlonessAxe
+						case 3: iItemID = 863;  break; // KlonessWand(MS.30)
+						default:
+							// Resto de legendarios dentro del mismo 0.1%
+							switch (iDice(1, 2)) {
+							case 1: iItemID = 866; break; // ResurWand(MS.10)
+							case 2: iItemID = 857; break; // I.M.CManual
+							}
+							break;
 						}
 						break;
+
+					default: {
+						int roll = iDice(1, 1000);
+						if (roll <= 10) { // 1.0% chance – Raro
+							switch (iDice(1, 4)) {
+							case 1: iItemID = 3083; break; // PowerBarbarian
+							case 2: iItemID = 3084; break; // PowerRapier
+							case 3: iItemID = 3102; break; // Coins(+20)
+							case 4: iItemID = 3109; break; // RepPotion(+1000)
+							}
+						}
+						else if (roll > 10 && roll < 300) { // 8.9% chance – Poco común
+							switch (iDice(1, 3)) {
+							case 1: iItemID = 4967; break; // NeckPowerMerien
+							case 2: iItemID = 4968; break; // NeckPowerXelima
+							case 3: iItemID = 4966; break; // NeckPower(MS.30)
+							}
+						}
+						else { // ~90.1% chance – Común
+							switch (iDice(1, 6)) {
+							case 1: iItemID = 860;         break; // NecklaceOfXelima
+							case 2: iItemID = 612;         break; // XelimaRapier
+							case 3: iItemID = 611;         break; // XelimaAxe
+							case 4: iItemID = 614;         break; // SwordofIceElemental
+							case 5: iItemID = COIN_SMALL;  break; // Coins (1–3)
+							case 6: iItemID = 858;         break; // NecklaceOfMerien
+							}
+						}
 					}
+						   break;
+
+					}
+
+
 				}
 				break;
 
