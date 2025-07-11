@@ -13,7 +13,7 @@
 #include <thread>
 #include <iomanip>  // Para std::fixed y std::setprecision
 
-#define SERVER_IP "207.246.116.137"
+#define SERVER_IP "192.168.8.5"
 #define SERVER_PORT 8888
 #define UDP_BUFFER_SIZE 1 // Tamaño mínimo
 

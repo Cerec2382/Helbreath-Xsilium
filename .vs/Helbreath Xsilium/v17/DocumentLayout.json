@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "[SRC]MapServer\\Drops.cpp",
               "ToolTip": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]MapServer\\Drops.cpp",
               "RelativeToolTip": "[SRC]MapServer\\Drops.cpp",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAD8AAAAGAAAA",
+              "ViewState": "AQIAAPcIAAAAAAAAAAASwBEJAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-10T17:43:34.549Z",
               "IsPinned": true,
@@ -74,7 +74,7 @@
               "RelativeDocumentMoniker": "[SRC]Client Version 13\\classes\\Game.cpp",
               "ToolTip": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\classes\\Game.cpp",
               "RelativeToolTip": "[SRC]Client Version 13\\classes\\Game.cpp",
-              "ViewState": "AQIAAEaPAAAAAAAAAAAlwFaPAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-11T02:54:06.185Z",
               "EditorCaption": ""
@@ -89,8 +89,7 @@
               "RelativeToolTip": "[SRC]MapServer\\Header\\Game.h",
               "ViewState": "AQIAAPYAAAAAAAAAAAAAAA4BAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-10T23:58:43.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T23:58:43.454Z"
             },
             {
               "$type": "Document",
@@ -102,8 +101,7 @@
               "RelativeToolTip": "[SRC]MapServer\\Source\\deathmatch.cpp",
               "ViewState": "AQIAABUAAAAAAAAAAAAAACcAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-10T23:57:54.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T23:57:54.756Z"
             },
             {
               "$type": "Document",
@@ -115,8 +113,7 @@
               "RelativeToolTip": "[SRC]MapServer\\Source\\QuestList.cpp",
               "ViewState": "AQIAAHgAAAAAAAAAAAAAACYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-10T23:57:30.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T23:57:30.122Z"
             },
             {
               "$type": "Document",
@@ -128,8 +125,7 @@
               "RelativeToolTip": "[SRC]MapServer\\Source\\Quest.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-10T23:57:27.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T23:57:27.467Z"
             },
             {
               "$type": "Document",
@@ -141,8 +137,7 @@
               "RelativeToolTip": "[SRC]MapServer\\Source\\MapServer.cpp",
               "ViewState": "AQIAAOnpAAAAAAAAAAAlwP3pAABtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-10T18:45:03.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T18:45:03.443Z"
             },
             {
               "$type": "Document",
@@ -154,8 +149,7 @@
               "RelativeToolTip": "[SRC]MapServer\\Source\\Event.cpp",
               "ViewState": "AQIAAIQAAAAAAAAAAAAAAJgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-10T18:16:51.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T18:16:51.848Z"
             },
             {
               "$type": "Document",
@@ -167,8 +161,7 @@
               "RelativeToolTip": "[SRC]MapServer\\Source\\OccupyFlag.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-10T18:16:46.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T18:16:46.477Z"
             }
           ]
         }

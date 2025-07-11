@@ -50,10 +50,7 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 ## 🗃️ Tabla de Drops
 
 # Abaddon DROP
-
 ---
-
-
 | Ítem                           | ID    | Probabilidad (%) | Tipo        |
 |--------------------------------|-------|------------------|-------------|
 | BerserkWand (MS.30)           | 861   | 0.0005%          | Legendario  |
@@ -71,8 +68,6 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | ContribBall (+100000)         | 3081  | ~11.19%          | Común       |
 | Tinta Mágica Roja             | 3090  | ~11.19%          | Común       |
 | Tinta Mágica Azul             | 3089  | ~11.19%          | Común       |
-
-
 ---
 
 
@@ -130,6 +125,38 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | Coins (1–3)                   | COIN_SMALL | ~15.00%    | Común       |
 ---
 
+# BlackWyvern DROP
+---
+| Ítem                       | ID            | Probabilidad (%) | Tipo         |
+|----------------------------|---------------|------------------|--------------|
+| KlonessAxe                 | 850           | 0.0005%          | Legendario   |
+| KlonessBlade               | 849           | 0.0005%          | Legendario   |
+| LightingBlade              | 848           | 0.0099%          | Legendario   |
+| KlonessWand (MS.30)        | 863           | 0.0099%          | Legendario   |
+| GiantBattleHammer          | 762           | 0.0099%          | Legendario   |
+| MerienPlateMailW           | 621           | 0.05%            | Raro         |
+| MerienPlateMailM           | 622           | 0.05%            | Raro         |
+| MerienChainMailM           | 3243          | 0.05%            | Raro         |
+| MerienChainMailW           | 3244          | 0.05%            | Raro         |
+| RingofPowerWar             | 4964          | 0.05%            | Raro         |
+| RingofPowerMage            | 4965          | 0.05%            | Raro         |
+| NeckPower (MS.30)          | 4966          | 0.05%            | Raro         |
+| NeckPowerMerien            | 4967          | 0.05%            | Raro         |
+| NeckPowerXelima            | 4968          | 0.05%            | Raro         |
+| MerienShield               | 620           | 0.0398%          | Raro         |
+| DemonSlayer                | 616           | 0.0398%          | Raro         |
+| KnecklaceOfIceEle          | 643           | 0.0398%          | Raro         |
+| MagicNecklace (MS10)       | 308           | 9.945%           | Común        |
+| MagicNecklace (DM+1)       | 305           | 9.945%           | Común        |
+| RingofWizard               | 634           | 9.945%           | Común        |
+| RubyRing                   | 337           | 9.945%           | Común        |
+| RingofGrandMage            | 636           | 9.945%           | Común        |
+| StoneOfXelima              | 656           | 9.945%           | Común        |
+| XelimaBlade                | 610           | 9.945%           | Común        |
+| XelimaAxe                  | 611           | 9.945%           | Común        |
+| Coin Medium                | COIN_MEDIUM   | 9.8257%          | Común         |
+| Custom Coin                | CUSTOM_COIN   | 10.0142%         | Común        |
+---
 
 # Unicorn DROP
 ---

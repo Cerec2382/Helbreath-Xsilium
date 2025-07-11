@@ -2293,7 +2293,7 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 
 
 					case 9: 
-						switch (iDice(1,250))
+						switch (iDice(1,60))
 						{
 						case 1: iItemID = 620; break;		//	MerienShield
 						case 2: iItemID = 616; break;		//	"DemonSlayer"
@@ -2304,7 +2304,7 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 						}
 						break;
 					case 10:
-						switch (iDice(1, 2000)) {
+						switch (iDice(1, 1000)) {
 						case 1: iItemID = 848; break;		//	"LightingBlade"
 						case 2: iItemID = 863; break;		//  "KlonessWand(MS.30)"
 						case 3: iItemID = 762; break;		// "GiantBattleHammer"
