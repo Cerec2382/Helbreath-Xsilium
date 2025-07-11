@@ -392,7 +392,11 @@
 #define	CLIENT_NOTIFY_PINGPLAYERS												0xDE09
 #define CLIENT_NOTIFY_CHANGEPLAYMODE											0xDE26
 
-#define CLIENT_NOTIFY_TPFAST													0xDE67			
+#define CLIENT_NOTIFY_TPFAST													0xDE67	
+
+#define CLIENT_NOTIFY_LEGENDARY_DROP 0xDE99
+
+
 
 //Enemy Kills -> Data Reduction
 #define CLIENT_NOTIFY_ENEMYKILLS1												0xDE10
@@ -410,6 +414,9 @@
 // * Happy Hour
 #define CLIENT_NOTIFY_HAPPYHOURSTAR												0xDE18
 #define CLIENT_NOTIFY_HAPPYHOUREND												0xDE19
+
+#define CLIENT_NOTIFY_LEGENDARY_DROP											0xDE99
+
 
 // * HappyDay LaloRamos
 #define CLIENT_NOTIFY_HAPPYDAYSTAR												0xDE20

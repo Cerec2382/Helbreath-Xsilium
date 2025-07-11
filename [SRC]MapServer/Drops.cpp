@@ -51,25 +51,26 @@ int CMapServer::RollByProbabilityTable(const int* chances, int size) {
 			int multiplier = i + 1;
 
 			if (multiplier == 6) {
-				std::cout << "Solicitud de drop x6" << std::endl;
+				//std::cout << "Solicitud de drop x6" << std::endl;
 				if (iDice(1, 30) != 1) {
 					multiplier = 5; // baja a x5 (35%)
-					std::cout << "Solicitud denegada" << std::endl;
+					//std::cout << "Solicitud denegada" << std::endl;
 				}
 				else {
-					std::cout << "Solicitud aprobada para x" << multiplier << std::endl;
+					//std::cout << "Solicitud aprobada para x" << multiplier << std::endl;
 				}
 
 			}else if(multiplier >= 7) {
-				std::cout << "Solicitud de drop x" << multiplier << std::endl;
+				//std::cout << "Solicitud de drop x" << multiplier << std::endl;
 				if (iDice(1, 500) != 1) {
-					multiplier = 6; // baja a x6 (35%)
-					std::cout << "Solicitud denegada" << std::endl;
+					multiplier = 5; // baja a x5 (35%)
+					//std::cout << "Solicitud denegada" << std::endl;
 				}
 				else {
 					std::cout << "Solicitud aprobada para x" << multiplier << std::endl;
 				}
 			}
+
 			return multiplier;
 		}
 	}

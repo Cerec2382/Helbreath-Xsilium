@@ -36692,6 +36692,11 @@ void CGame::NotifyMsgHandler(char * pData)
 
 				break;*/
 
+		case CLIENT_NOTIFY_LEGENDARY_DROP:
+			SetTopMsg("Ha caido un item legendario", 10);
+		break;
+
+
 		case CLIENT_NOTIFY_CRAFTING_SUCCESS:	//reversed by Snoopy: 0x0BF0:
 			m_iContribution = (m_iContribution - DecriptInt(m_iContributionPrice));
 			m_iContributionPrice = EncriptInt(0);
@@ -38839,6 +38844,7 @@ void CGame::NotifyMsgHandler(char * pData)
 			else AresdenFlagStatus = FALSE;
 			break;
 
+		
 		case CLIENT_NOTIFY_RUSH:
 			cp = (char *)(pData + DEF_INDEX2_MSGTYPE + 2);
 
