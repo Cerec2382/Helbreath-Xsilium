@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91B364CE-2BE3-4681-B1E5-4A0908AA27F8}|[SRC]Client Version 13\\Client.vcxproj|C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\classes\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{91B364CE-2BE3-4681-B1E5-4A0908AA27F8}|[SRC]Client Version 13\\Client.vcxproj|solutionrelative:[SRC]Client Version 13\\classes\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8832C46-2BB7-467F-83BF-CFFD519B96DF}|[SRC]MapServer\\MapServer.vcxproj|C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]MapServer\\Drops.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E8832C46-2BB7-467F-83BF-CFFD519B96DF}|[SRC]MapServer\\MapServer.vcxproj|solutionrelative:[SRC]MapServer\\Drops.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B364CE-2BE3-4681-B1E5-4A0908AA27F8}|[SRC]Client Version 13\\Client.vcxproj|C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\classes\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{91B364CE-2BE3-4681-B1E5-4A0908AA27F8}|[SRC]Client Version 13\\Client.vcxproj|solutionrelative:[SRC]Client Version 13\\classes\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8832C46-2BB7-467F-83BF-CFFD519B96DF}|[SRC]MapServer\\MapServer.vcxproj|C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]MapServer\\Source\\MapServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -46,21 +46,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Drops.cpp",
+              "DocumentMoniker": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]MapServer\\Drops.cpp",
+              "RelativeDocumentMoniker": "[SRC]MapServer\\Drops.cpp",
+              "ToolTip": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]MapServer\\Drops.cpp",
+              "RelativeToolTip": "[SRC]MapServer\\Drops.cpp",
+              "ViewState": "AQIAACgAAAAAAAAAAAAYwDsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-10T17:43:34.549Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Game.cpp",
               "DocumentMoniker": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\classes\\Game.cpp",
               "RelativeDocumentMoniker": "[SRC]Client Version 13\\classes\\Game.cpp",
               "ToolTip": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]Client Version 13\\classes\\Game.cpp",
               "RelativeToolTip": "[SRC]Client Version 13\\classes\\Game.cpp",
-              "ViewState": "AQIAAA4yAAAAAAAAAAAAwC8yAAAAAAAA",
+              "ViewState": "AQIAAA4yAAAAAAAAAAAAwCQyAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-11T02:54:06.185Z",
               "EditorCaption": ""
@@ -154,19 +168,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-10T18:16:46.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Drops.cpp",
-              "DocumentMoniker": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]MapServer\\Drops.cpp",
-              "RelativeDocumentMoniker": "[SRC]MapServer\\Drops.cpp",
-              "ToolTip": "C:\\Users\\irwin\\Documents\\CursedV1 (Arg Version)\\[SRC]MapServer\\Drops.cpp",
-              "RelativeToolTip": "[SRC]MapServer\\Drops.cpp",
-              "ViewState": "AQIAACAAAAAAAAAAAAAiwDsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-10T17:43:34.549Z",
               "EditorCaption": ""
             }
           ]
