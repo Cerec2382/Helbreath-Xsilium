@@ -50,9 +50,13 @@ int CMapServer::RollByProbabilityTable(const int* chances, int size) {
 		if (roll <= acc) {
 			int multiplier = i + 1;
 
-			if (multiplier >= 6) {
-				if (iDice(1, 500) != 1) {
+			if (multiplier == 6 ) {
+				if (iDice(1, 10) != 1) {
 					multiplier = 5; // baja a x5 (35%)
+				}
+			}else if(multiplier >= 7) {
+				if (iDice(1, 500) != 1) {
+					multiplier = 6; // baja a x6 (35%)
 				}
 			}
 			return multiplier;

@@ -8540,13 +8540,39 @@ BOOL CGame::DrawObject_OnAttack(int indexX, int indexY, int sX, int sY, BOOL bTr
 		default: break;
 	}
 
-	if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+	int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+	if (spriteIndex >= 0) {
+		__try {
+			CSprite* pSpr = m_pSprite[spriteIndex];
+
+			if (pSpr != nullptr) {
+				RECT& r = pSpr->m_rcBound;
+
+				if ((r.top != -1) &&
+					(r.top < msY) &&
+					(r.bottom > msY) &&
+					(r.left < msX) &&
+					(r.right > msX)) {
+					return TRUE;
+				}
+			}
+			else {
+				char msg[128];
+				sprintf(msg, "Sprite NULL en index=%d (BodyIndex=%d Dir=%d)", spriteIndex, iBodyIndex, _tmp_cDir);
+				SetTopMsg(msg, 5);
+			}
+		}
+		__except (EXCEPTION_EXECUTE_HANDLER) {
+			char msg[128];
+			sprintf(msg, "Excepción atrapada en sprite index=%d (BodyIndex=%d Dir=%d)", spriteIndex, iBodyIndex, _tmp_cDir);
+			SetTopMsg(msg, 5);
+		}
+	}
 
 	return FALSE;
+
+
 }
 
 void CGame::ConnectionEstablishHandler(char cWhere)
@@ -9465,13 +9491,38 @@ BOOL CGame::DrawObject_OnAttackMove(int indexX, int indexY, int sX, int sY, BOOL
 		default: break;
 	}
 
-	if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+	int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+	if (spriteIndex >= 0) {
+		__try {
+			CSprite* pSpr = m_pSprite[spriteIndex];
+
+			if (pSpr != nullptr) {
+				RECT& r = pSpr->m_rcBound;
+
+				if ((r.top != -1) &&
+					(r.top < msY) &&
+					(r.bottom > msY) &&
+					(r.left < msX) &&
+					(r.right > msX)) {
+					return TRUE;
+				}
+			}
+			else {
+				char msg[128];
+				sprintf(msg, "Sprite NULL en index=%d (BodyIndex=%d Dir=%d)", spriteIndex, iBodyIndex, _tmp_cDir);
+				SetTopMsg(msg, 5);
+			}
+		}
+		__except (EXCEPTION_EXECUTE_HANDLER) {
+			char msg[128];
+			sprintf(msg, "Excepción atrapada en sprite index=%d (BodyIndex=%d Dir=%d)", spriteIndex, iBodyIndex, _tmp_cDir);
+			SetTopMsg(msg, 5);
+		}
+	}
 
 	return FALSE;
+
 }
 
 
@@ -9922,12 +9973,38 @@ BOOL   CGame::DrawObject_OnMagic(int indexX, int indexY, int sX, int sY, BOOL bT
 		default: break;
 	}
 
-	if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+	int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+	if (spriteIndex >= 0) {
+		__try {
+			CSprite* pSpr = m_pSprite[spriteIndex];
+
+			if (pSpr != nullptr) {
+				RECT& r = pSpr->m_rcBound;
+
+				if ((r.top != -1) &&
+					(r.top < msY) &&
+					(r.bottom > msY) &&
+					(r.left < msX) &&
+					(r.right > msX)) {
+					return TRUE;
+				}
+			}
+			else {
+				char msg[128];
+				sprintf(msg, "Sprite NULL en index=%d (BodyIndex=%d Dir=%d)", spriteIndex, iBodyIndex, _tmp_cDir);
+				SetTopMsg(msg, 5);
+			}
+		}
+		__except (EXCEPTION_EXECUTE_HANDLER) {
+			char msg[128];
+			sprintf(msg, "Excepción atrapada en sprite index=%d (BodyIndex=%d Dir=%d)", spriteIndex, iBodyIndex, _tmp_cDir);
+			SetTopMsg(msg, 5);
+		}
+	}
+
 	return FALSE;
+
 }
 
 
@@ -10360,12 +10437,38 @@ BOOL   CGame::DrawObject_OnGetItem(int indexX, int indexY, int sX, int sY, BOOL 
 			m_pMapData->ClearChatMsg(indexX, indexY);
 		}
 	}
-	if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+	int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+	if (spriteIndex >= 0) {
+		__try {
+			CSprite* pSpr = m_pSprite[spriteIndex];
+
+			if (pSpr != nullptr) {
+				RECT& r = pSpr->m_rcBound;
+
+				if ((r.top != -1) &&
+					(r.top < msY) &&
+					(r.bottom > msY) &&
+					(r.left < msX) &&
+					(r.right > msX)) {
+					return TRUE;
+				}
+			}
+			else {
+				char msg[128];
+				sprintf(msg, "Sprite NULL en index=%d (BodyIndex=%d Dir=%d)", spriteIndex, iBodyIndex, _tmp_cDir);
+				SetTopMsg(msg, 5);
+			}
+		}
+		__except (EXCEPTION_EXECUTE_HANDLER) {
+			char msg[128];
+			sprintf(msg, "Excepción atrapada en sprite index=%d (BodyIndex=%d Dir=%d)", spriteIndex, iBodyIndex, _tmp_cDir);
+			SetTopMsg(msg, 5);
+		}
+	}
+
 	return FALSE;
+
 }
 
 BOOL CGame::DrawObject_OnDamage(int indexX, int indexY, int sX, int sY, BOOL bTrans, DWORD dwTime, int msX, int msY, int ObjectID)
@@ -11759,11 +11862,38 @@ BOOL CGame::DrawObject_OnDamage(int indexX, int indexY, int sX, int sY, BOOL bTr
 		default: break;
 	}
 
-	if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+	int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+	if (spriteIndex >= 0) {
+		__try {
+			CSprite* pSpr = m_pSprite[spriteIndex];
+
+			if (pSpr != nullptr) {
+				RECT& r = pSpr->m_rcBound;
+
+				if ((r.top != -1) &&
+					(r.top < msY) &&
+					(r.bottom > msY) &&
+					(r.left < msX) &&
+					(r.right > msX)) {
+					return TRUE;
+				}
+			}
+			else {
+				char msg[128];
+				sprintf(msg, "Sprite NULL en index=%d (BodyIndex=%d Dir=%d)", spriteIndex, iBodyIndex, _tmp_cDir);
+				SetTopMsg(msg, 5);
+			}
+		}
+		__except (EXCEPTION_EXECUTE_HANDLER) {
+			char msg[128];
+			sprintf(msg, "Excepción atrapada en sprite index=%d (BodyIndex=%d Dir=%d)", spriteIndex, iBodyIndex, _tmp_cDir);
+			SetTopMsg(msg, 5);
+		}
+	}
+
+	return FALSE;
+
 
 	return FALSE;
 }
@@ -12380,12 +12510,38 @@ BOOL CGame::DrawObject_OnDying(int indexX, int indexY, int sX, int sY, BOOL bTra
 		default: break;
 	}
 
-	if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+	int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+	if (spriteIndex >= 0) {
+		__try {
+			CSprite* pSpr = m_pSprite[spriteIndex];
+
+			if (pSpr != nullptr) {
+				RECT& r = pSpr->m_rcBound;
+
+				if ((r.top != -1) &&
+					(r.top < msY) &&
+					(r.bottom > msY) &&
+					(r.left < msX) &&
+					(r.right > msX)) {
+					return TRUE;
+				}
+			}
+			else {
+				char msg[128];
+				sprintf(msg, "Sprite NULL en index=%d (BodyIndex=%d Dir=%d)", spriteIndex, iBodyIndex, _tmp_cDir);
+				SetTopMsg(msg, 5);
+			}
+		}
+		__except (EXCEPTION_EXECUTE_HANDLER) {
+			char msg[128];
+			sprintf(msg, "Excepción atrapada en sprite index=%d (BodyIndex=%d Dir=%d)", spriteIndex, iBodyIndex, _tmp_cDir);
+			SetTopMsg(msg, 5);
+		}
+	}
+
 	return FALSE;
+
 }
 
 BOOL   CGame::DrawObject_OnDead(int indexX, int indexY, int sX, int sY, BOOL bTrans, DWORD dwTime, int msX, int msY, int ObjectID)
@@ -12668,8 +12824,28 @@ BOOL   CGame::DrawObject_OnDead(int indexX, int indexY, int sX, int sY, BOOL bTr
 				m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->PutSpriteRGB(sX, sY, iFrame, m_wR[10] - m_wR[0] / 2, m_wG[10] - m_wG[0] / 2, m_wB[10] - m_wB[0] / 2, dwTime);
 			else m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->PutSpriteFast(sX, sY, iFrame, dwTime);
 
-			SetRect(&m_rcBodyRect, m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left, m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top,
-				m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right, m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom);
+			int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+			if (spriteIndex >= 0) {
+				__try {
+					CSprite* pSpr = m_pSprite[spriteIndex];
+					if (pSpr != nullptr) {
+						RECT& r = pSpr->m_rcBound;
+						SetRect(&m_rcBodyRect, r.left, r.top, r.right, r.bottom);
+					}
+					else {
+						char msg[128];
+						sprintf(msg, "Sprite NULL en SetRect (index=%d)", spriteIndex);
+						SetTopMsg(msg, 5);
+					}
+				}
+				__except (EXCEPTION_EXECUTE_HANDLER) {
+					char msg[128];
+					sprintf(msg, "Excepción en SetRect (index=%d)", spriteIndex);
+					SetTopMsg(msg, 5);
+				}
+			}
+
 
 			if (iUndiesIndex != -1) m_pSprite[iUndiesIndex]->PutSpriteFast(sX, sY, (_tmp_cDir - 1) * 8 + _tmp_cFrame, dwTime);
 
@@ -14041,12 +14217,36 @@ BOOL CGame::DrawObject_OnMove(int indexX, int indexY, int sX, int sY, BOOL bTran
 		default: break;
 	}
 
-	if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+	int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+	if (spriteIndex >= 0) {
+		__try {
+			CSprite* pSpr = m_pSprite[spriteIndex];
+			if (pSpr != nullptr) {
+				RECT& r = pSpr->m_rcBound;
+				if ((r.top != -1) &&
+					(r.top < msY) &&
+					(r.bottom > msY) &&
+					(r.left < msX) &&
+					(r.right > msX)) {
+					return TRUE;
+				}
+			}
+			else {
+				char msg[128];
+				sprintf(msg, "Sprite NULL en index=%d", spriteIndex);
+				SetTopMsg(msg, 5);
+			}
+		}
+		__except (EXCEPTION_EXECUTE_HANDLER) {
+			char msg[128];
+			sprintf(msg, "Excepción atrapada en index=%d", spriteIndex);
+			SetTopMsg(msg, 5);
+		}
+	}
+
 	return FALSE;
+
 }
 
 
@@ -14871,12 +15071,36 @@ BOOL CGame::DrawObject_OnDamageMove(int indexX, int indexY, int sX, int sY, BOOL
 		default: break;
 	}
 
-	if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+	int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+	if (spriteIndex >= 0) {
+		__try {
+			CSprite* pSpr = m_pSprite[spriteIndex];
+			if (pSpr != nullptr) {
+				RECT& r = pSpr->m_rcBound;
+				if ((r.top != -1) &&
+					(r.top < msY) &&
+					(r.bottom > msY) &&
+					(r.left < msX) &&
+					(r.right > msX)) {
+					return TRUE;
+				}
+			}
+			else {
+				char msg[128];
+				sprintf(msg, "Sprite NULL en index=%d", spriteIndex);
+				SetTopMsg(msg, 5);
+			}
+		}
+		__except (EXCEPTION_EXECUTE_HANDLER) {
+			char msg[128];
+			sprintf(msg, "Excepción atrapada en index=%d", spriteIndex);
+			SetTopMsg(msg, 5);
+		}
+	}
+
 	return FALSE;
+
 }
 
 BOOL CGame::DrawObject_OnMove_ForMenu(int indexX, int indexY, int sX, int sY, BOOL bTrans, DWORD dwTime, int msX, int msY)
@@ -15450,12 +15674,36 @@ BOOL CGame::DrawObject_OnMove_ForMenu(int indexX, int indexY, int sX, int sY, BO
 	}
 	_tmp_dx = dx;
 	_tmp_dy = dy;
-	if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX) &&
-		(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+	int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+	if (spriteIndex >= 0) {
+		__try {
+			CSprite* pSpr = m_pSprite[spriteIndex];
+			if (pSpr != nullptr) {
+				RECT& r = pSpr->m_rcBound;
+				if ((r.top != -1) &&
+					(r.top < msY) &&
+					(r.bottom > msY) &&
+					(r.left < msX) &&
+					(r.right > msX)) {
+					return TRUE;
+				}
+			}
+			else {
+				char msg[128];
+				sprintf(msg, "Sprite NULL en index=%d", spriteIndex);
+				SetTopMsg(msg, 5);
+			}
+		}
+		__except (EXCEPTION_EXECUTE_HANDLER) {
+			char msg[128];
+			sprintf(msg, "Excepción atrapada en index=%d", spriteIndex);
+			SetTopMsg(msg, 5);
+		}
+	}
+
 	return FALSE;
+
 }
 
 
@@ -19942,12 +20190,36 @@ BOOL   CGame::DrawObject_OnRun(int indexX, int indexY, int sX, int sY, BOOL bTra
 		default: break;
 	}
 
-	if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1)
-		&& (m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY)
-		&& (m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY)
-		&& (m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX)
-		&& (m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+	int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+	if (spriteIndex >= 0) {
+		__try {
+			CSprite* pSpr = m_pSprite[spriteIndex];
+			if (pSpr != nullptr) {
+				RECT& r = pSpr->m_rcBound;
+				if ((r.top != -1) &&
+					(r.top < msY) &&
+					(r.bottom > msY) &&
+					(r.left < msX) &&
+					(r.right > msX)) {
+					return TRUE;
+				}
+			}
+			else {
+				char msg[128];
+				sprintf(msg, "Sprite NULL en index=%d", spriteIndex);
+				SetTopMsg(msg, 5);
+			}
+		}
+		__except (EXCEPTION_EXECUTE_HANDLER) {
+			char msg[128];
+			sprintf(msg, "Excepción atrapada en index=%d", spriteIndex);
+			SetTopMsg(msg, 5);
+		}
+	}
+
 	return FALSE;
+
 }
 
 
@@ -76648,12 +76920,36 @@ BOOL   CGame::DrawObject(int indexX, int indexY, int sX, int sY, BOOL bTrans, DW
 		default: break;
 		}
 
-		if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+		int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+		if (spriteIndex >= 0) {
+			__try {
+				CSprite* pSpr = m_pSprite[spriteIndex];
+				if (pSpr != nullptr) {
+					RECT& r = pSpr->m_rcBound;
+					if ((r.top != -1) &&
+						(r.top < msY) &&
+						(r.bottom > msY) &&
+						(r.left < msX) &&
+						(r.right > msX)) {
+						return TRUE;
+					}
+				}
+				else {
+					char msg[128];
+					sprintf(msg, "Sprite NULL en index=%d", spriteIndex);
+					SetTopMsg(msg, 5);
+				}
+			}
+			__except (EXCEPTION_EXECUTE_HANDLER) {
+				char msg[128];
+				sprintf(msg, "Excepción atrapada en index=%d", spriteIndex);
+				SetTopMsg(msg, 5);
+			}
+		}
+
 		return FALSE;
+
 		break;
 	}
 	case DEF_OBJECTRUN:
@@ -77552,12 +77848,41 @@ BOOL   CGame::DrawObject(int indexX, int indexY, int sX, int sY, BOOL bTrans, DW
 		default: break;
 		}
 
-		if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1)
-			&& (m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY)
-			&& (m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY)
-			&& (m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX)
-			&& (m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+		int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+		if (spriteIndex >= 0) {
+			__try {
+				CSprite* pSpr = m_pSprite[spriteIndex];
+
+				// Validar que el puntero exista
+				if (pSpr != nullptr) {
+					RECT& r = pSpr->m_rcBound;
+
+					// Validar que el rectángulo tiene datos razonables (opcional pero útil)
+					if ((r.left != 0 || r.right != 0 || r.top != 0 || r.bottom != 0) &&
+						(r.top != -1) &&
+						(r.top < msY) &&
+						(r.bottom > msY) &&
+						(r.left < msX) &&
+						(r.right > msX)) {
+						return TRUE;
+					}
+				}
+				else {
+					char dbg[128];
+					sprintf(dbg, "Sprite nulo en index=%d", spriteIndex);
+					SetTopMsg(dbg, 5);
+				}
+			}
+			__except (EXCEPTION_EXECUTE_HANDLER) {
+				char dbg[128];
+				sprintf(dbg, "EXCEPCIÓN atrapada en sprite index=%d", spriteIndex);
+				SetTopMsg(dbg, 5);
+			}
+		}
 		return FALSE;
+
+
 		break;
 	}
 	case DEF_OBJECTSTOP:
@@ -79440,13 +79765,36 @@ BOOL   CGame::DrawObject(int indexX, int indexY, int sX, int sY, BOOL bTrans, DW
 		default: break;
 		}
 
-		if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
-		
+		int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+		if (spriteIndex >= 0) {
+			__try {
+				CSprite* pSpr = m_pSprite[spriteIndex];
+				if (pSpr != nullptr) {
+					RECT& r = pSpr->m_rcBound;
+					if ((r.top != -1) &&
+						(r.top < msY) &&
+						(r.bottom > msY) &&
+						(r.left < msX) &&
+						(r.right > msX)) {
+						return TRUE;
+					}
+				}
+				else {
+					char dbg[128];
+					sprintf(dbg, "Sprite nulo en index=%d", spriteIndex);
+					SetTopMsg(dbg, 5);
+				}
+			}
+			__except (EXCEPTION_EXECUTE_HANDLER) {
+				char dbg[128];
+				sprintf(dbg, "EXCEPCIÓN atrapada en m_rcBound index=%d", spriteIndex);
+				SetTopMsg(dbg, 5);
+			}
+		}
+
 		return FALSE;
+
 		break;
 	}
 	case DEF_OBJECTATTACK:
@@ -80292,13 +80640,37 @@ BOOL   CGame::DrawObject(int indexX, int indexY, int sX, int sY, BOOL bTrans, DW
 		default: break;
 		}
 
-		if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+		int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+		if (spriteIndex >= 0) {
+			__try {
+				CSprite* pSpr = m_pSprite[spriteIndex];
+				if (pSpr != nullptr) {
+					RECT& r = pSpr->m_rcBound;
+
+					if ((r.top != -1) &&
+						(r.top < msY) &&
+						(r.bottom > msY) &&
+						(r.left < msX) &&
+						(r.right > msX)) {
+						return TRUE;
+					}
+				}
+				else {
+					char msg[128];
+					sprintf(msg, "Sprite nulo en index=%d", spriteIndex);
+					SetTopMsg(msg, 5);
+				}
+			}
+			__except (EXCEPTION_EXECUTE_HANDLER) {
+				char msg[128];
+				sprintf(msg, "Excepción en sprite index=%d (BodyIndex=%d, Dir=%d)", spriteIndex, iBodyIndex, _tmp_cDir);
+				SetTopMsg(msg, 5);
+			}
+		}
 
 		return FALSE;
+
 		break;
 	}
 	case DEF_OBJECTATTACKMOVE:
@@ -81179,13 +81551,38 @@ BOOL   CGame::DrawObject(int indexX, int indexY, int sX, int sY, BOOL bTrans, DW
 		default: break;
 		}
 
-		if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+		int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+		if (spriteIndex >= 0) {
+			__try {
+				CSprite* pSpr = m_pSprite[spriteIndex];
+
+				if (pSpr != nullptr) {
+					RECT& r = pSpr->m_rcBound;
+
+					if ((r.top != -1) &&
+						(r.top < msY) &&
+						(r.bottom > msY) &&
+						(r.left < msX) &&
+						(r.right > msX)) {
+						return TRUE;
+					}
+				}
+				else {
+					char msg[128];
+					sprintf(msg, "Sprite NULL en index=%d (BodyIndex=%d Dir=%d)", spriteIndex, iBodyIndex, _tmp_cDir);
+					SetTopMsg(msg, 5);
+				}
+			}
+			__except (EXCEPTION_EXECUTE_HANDLER) {
+				char msg[128];
+				sprintf(msg, "Excepción atrapada en sprite index=%d (BodyIndex=%d Dir=%d)", spriteIndex, iBodyIndex, _tmp_cDir);
+				SetTopMsg(msg, 5);
+			}
+		}
 
 		return FALSE;
+
 		break;
 	}
 	case DEF_OBJECTMAGIC:
@@ -81626,12 +82023,36 @@ BOOL   CGame::DrawObject(int indexX, int indexY, int sX, int sY, BOOL bTrans, DW
 		default: break;
 		}
 
-		if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+		int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+		if (spriteIndex >= 0) {
+			__try {
+				CSprite* pSpr = m_pSprite[spriteIndex];
+				if (pSpr != nullptr) {
+					RECT& r = pSpr->m_rcBound;
+					if ((r.top != -1) &&
+						(r.top < msY) &&
+						(r.bottom > msY) &&
+						(r.left < msX) &&
+						(r.right > msX)) {
+						return TRUE;
+					}
+				}
+				else {
+					char msg[128];
+					sprintf(msg, "Sprite NULL en index=%d", spriteIndex);
+					SetTopMsg(msg, 5);
+				}
+			}
+			__except (EXCEPTION_EXECUTE_HANDLER) {
+				char msg[128];
+				sprintf(msg, "Excepción atrapada en index=%d", spriteIndex);
+				SetTopMsg(msg, 5);
+			}
+		}
+
 		return FALSE;
+
 		break;
 	}
 	case DEF_OBJECTDAMAGE:
@@ -83017,13 +83438,36 @@ BOOL   CGame::DrawObject(int indexX, int indexY, int sX, int sY, BOOL bTrans, DW
 		default: break;
 		}
 
-		if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+		int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+		if (spriteIndex >= 0) {
+			__try {
+				CSprite* pSpr = m_pSprite[spriteIndex];
+				if (pSpr != nullptr) {
+					RECT& r = pSpr->m_rcBound;
+					if ((r.top != -1) &&
+						(r.top < msY) &&
+						(r.bottom > msY) &&
+						(r.left < msX) &&
+						(r.right > msX)) {
+						return TRUE;
+					}
+				}
+				else {
+					char msg[128];
+					sprintf(msg, "Sprite NULL en index=%d", spriteIndex);
+					SetTopMsg(msg, 5);
+				}
+			}
+			__except (EXCEPTION_EXECUTE_HANDLER) {
+				char msg[128];
+				sprintf(msg, "Excepción atrapada en index=%d", spriteIndex);
+				SetTopMsg(msg, 5);
+			}
+		}
 
 		return FALSE;
+
 	}
 	case DEF_OBJECTGETITEM:
 	{
@@ -83447,12 +83891,36 @@ BOOL   CGame::DrawObject(int indexX, int indexY, int sX, int sY, BOOL bTrans, DW
 				m_pMapData->ClearChatMsg(indexX, indexY);
 			}
 		}
-		if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+		int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+		if (spriteIndex >= 0) {
+			__try {
+				CSprite* pSpr = m_pSprite[spriteIndex];
+				if (pSpr != nullptr) {
+					RECT& r = pSpr->m_rcBound;
+					if ((r.top != -1) &&
+						(r.top < msY) &&
+						(r.bottom > msY) &&
+						(r.left < msX) &&
+						(r.right > msX)) {
+						return TRUE;
+					}
+				}
+				else {
+					char msg[128];
+					sprintf(msg, "Sprite NULL en index=%d", spriteIndex);
+					SetTopMsg(msg, 5);
+				}
+			}
+			__except (EXCEPTION_EXECUTE_HANDLER) {
+				char msg[128];
+				sprintf(msg, "Excepción atrapada en index=%d", spriteIndex);
+				SetTopMsg(msg, 5);
+			}
+		}
+
 		return FALSE;
+
 
 		break;
 	}
@@ -83857,8 +84325,6 @@ BOOL   CGame::DrawObject(int indexX, int indexY, int sX, int sY, BOOL bTrans, DW
 				else m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->PutSpriteFast(sX, sY, cFrame, dwTime);
 			}
 
-			SetRect(&m_rcBodyRect, m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left, m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top,
-				m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right, m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom);
 			
 
 			int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
@@ -84078,12 +84544,36 @@ BOOL   CGame::DrawObject(int indexX, int indexY, int sX, int sY, BOOL bTrans, DW
 		default: break;
 		}
 
-		if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX) &&
-			(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+		int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+
+		if (spriteIndex >= 0) {
+			__try {
+				CSprite* pSpr = m_pSprite[spriteIndex];
+				if (pSpr != nullptr) {
+					RECT& r = pSpr->m_rcBound;
+					if ((r.top != -1) &&
+						(r.top < msY) &&
+						(r.bottom > msY) &&
+						(r.left < msX) &&
+						(r.right > msX)) {
+						return TRUE;
+					}
+				}
+				else {
+					char msg[128];
+					sprintf(msg, "Sprite NULL en index=%d", spriteIndex);
+					SetTopMsg(msg, 5);
+				}
+			}
+			__except (EXCEPTION_EXECUTE_HANDLER) {
+				char msg[128];
+				sprintf(msg, "Excepción atrapada en index=%d", spriteIndex);
+				SetTopMsg(msg, 5);
+			}
+		}
+
 		return FALSE;
+
 		break;
 	}
 	case DEF_OBJECTDEAD:
@@ -84558,15 +85048,26 @@ BOOL   CGame::DrawObject(int indexX, int indexY, int sX, int sY, BOOL bTrans, DW
 		default: break;
 		}
 
+
 		if (strlen(_tmp_cName) > 0)
 		{
+
+
 			if ((_tmp_sOwnerType >= 1) && (_tmp_sOwnerType <= 6))
 			{
-				if ((m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top != -1) &&
-					(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top < msY) &&
-					(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom > msY) &&
-					(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left < msX) &&
-					(m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right > msX)) return TRUE;
+
+				int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+				if (spriteIndex >= 0 && m_pSprite[spriteIndex] != nullptr) {
+					RECT& r = m_pSprite[spriteIndex]->m_rcBound;
+					if ((r.top != -1) && (r.top < msY) && (r.bottom > msY) && (r.left < msX) && (r.right > msX))
+						return TRUE;
+				}
+				else {
+					char msg[128];
+					sprintf(msg, "Sprite NULL en index=%d (BodyIndex=%d, Dir=%d)", spriteIndex, iBodyIndex, _tmp_cDir);
+					SetTopMsg(msg, 5);
+
+				}
 			}
 		}
 		return FALSE;
