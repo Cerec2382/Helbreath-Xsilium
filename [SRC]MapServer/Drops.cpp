@@ -23,22 +23,22 @@ int ITEMSPREAD_FIEXD_COORD[25][2] = { { 0, 0 }, { 1, 0 }, { 1, 1 }, { 0, 1 }, { 
 //Sistema de drop mejorado.
 static const int kNumMultipliers = 15;
 static const int kMultiplierProbabilities[15] = {
-	12800, // x1 ( 7% / 3%)  → 40.00%
-	8000,  // x2 (14% / 6%)  → 25.00%
-	4800,  // x3 (21% / 9%)  → 15.00%
-	2880,  // x4 (28% / 12%) → 9.00%
-	1600,  // x5 (35% / 15%) → 5.00%
-	800,   // x6 (42% / 18%) → 2.50%
-	480,   // x7 (49% / 21%) → 1.50%
-	320,   // x8 (56% / 24%) → 1.00%
-	160,   // x9 (63% / 27%) → 0.50%
-	80,    // x10 (70% / 30%)→ 0.25%
-	40,    // x11 (77% / 33%)→ 0.125%
-	24,    // x12 (84% / 36%)→ 0.075%
-	10,    // x13 (91% / 39%)→ 0.030%
-	5,     // x14 (98% / 42%)→ 0.015%
+	12000, // x1 ( 7% / 3%)  → 40.00%
+	7500,  // x2 (14% / 6%)  → 25.00%
+	4500,  // x3 (21% / 9%)  → 15.00%
+	2100,  // x4 (28% / 12%) → 9.00%
+	900,  // x5 (35% / 15%) → 5.00%
+	300,   // x6 (42% / 18%) → 2.50%
+	60,   // x7 (49% / 21%) → 1.50%
+	30,   // x8 (56% / 24%) → 1.00%
+	15,   // x9 (63% / 27%) → 0.50%
+	9,    // x10 (70% / 30%)→ 0.25%
+	6,    // x11 (77% / 33%)→ 0.125%
+	4,    // x12 (84% / 36%)→ 0.075%
+	3,    // x13 (91% / 39%)→ 0.030%
+	2,     // x14 (98% / 42%)→ 0.015%
 	1      // x15 (105% / 45%)→ 0.005%
-}; // Total: 31999 (99.996875%)
+}; 
 
 
 
@@ -47,17 +47,20 @@ int CMapServer::RollByProbabilityTable(const int* chances, int size) {
 	int acc = 0;
 	for (int i = 0; i < size; ++i) {
 		acc += chances[i];
-		if (roll <= acc){
-			
-			if (i + 1 >= 6){
-				std::cout << "Multiplicador: " << (i + 1) << std::endl;
-			}
+		if (roll <= acc) {
+			int multiplier = i + 1;
 
-			return i + 1; // retorna el multiplicador (1-based)
+			if (multiplier >= 6) {
+				if (iDice(1, 500) != 1) {
+					multiplier = 5; // baja a x5 (35%)
+				}
+			}
+			return multiplier;
 		}
 	}
-	return 1; // fallback: si no cae en ninguno, devuelve x1
+	return 1; 
 }
+
 
 
 
@@ -858,17 +861,17 @@ void CMapServer::NpcDeadItemGenerator(int iNpcH, short sAttackerH, char cAttacke
 							case 2: /*if (dwValue <= 3) dwValue = 3;*/ break;
 							case 10: /*if (dwValue > 7) dwValue = 7;*/ break;
 							case 11:
-								dwValue = 2;
+								//dwValue = 2;
 								//	if (dwValue <= 2) dwValue = 2; 
 								//	if (dwValue >= 10) dwValue = 10;
 								break;
 							case 12:
-								dwValue = 5;
+								//dwValue = 5;
 								//	if (dwValue <= 5) dwValue = 5;
 								//	if (dwValue >= 10) dwValue = 10;
 								break;
 							}
-							if ((iGenLevel <= 2) && (dwValue > 7)) dwValue = 7;
+							//if ((iGenLevel <= 2) && (dwValue > 7)) dwValue = 7;
 
 							dwType = dwType << 12;
 							dwValue = dwValue << 8;
@@ -906,8 +909,8 @@ void CMapServer::NpcDeadItemGenerator(int iNpcH, short sAttackerH, char cAttacke
 							int dwValue = RollByProbabilityTable(kMultiplierProbabilities, 15);
 							if ((iGenLevel <= 2) && (dwValue > 7)) dwValue = 7;
 							switch (dwType) {
-							case 2: if (dwValue <= 3) dwValue = 3; break;
-							case 10: if (dwValue > 7) dwValue = 7; break;
+							//case 2: if (dwValue <= 3) dwValue = 3; break;
+							//case 10: if (dwValue > 7) dwValue = 7; break;
 							case 11:
 								dwValue = 2;
 								//	if (dwValue <= 2) dwValue = 2;
@@ -1372,7 +1375,7 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 				case 7: if (iDice(1, 1000) == 50) iItemID = 650; break;		// "ZemstoneofSacrifice"
 				case 8: if (iDice(1, 500) == 10) iItemID = 633; break;		// "RingofDemonpower"
 				case 9: if (iDice(1, 222) == 1) iItemID = 382; break;		// "BloodyShoWaveManual"
-				case 10: if (iDice(1, 222) == 1) iItemID = 616; break; //Demon Slayer
+				case 10: if (iDice(1, 10000) == 1) iItemID = 616; break; //Demon Slayer
 
 				default: break;
 				}
@@ -1388,9 +1391,9 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 				case 6: if (iDice(1, 50) == 50) iItemID = 657; break;		// "StoneOfMerien"
 				case 7: if (iDice(1, 50) == 50) iItemID = 650; break;		// "ZemstoneofSacrifice"
 				case 8: if (iDice(1, 1000) == 20) iItemID = 851; break;		// "KlonessEsterk"
-				case 9: if (iDice(1, 2000) == 20) iItemID = 864; break;		// "KlonessWand"
-				case 10: if (iDice(1, 2000) == 100) iItemID = 849; break;	// "KlonessBlade"
-				case 11: if (iDice(1, 2000) == 100) iItemID = 850; break;	// "KlonessAxe"
+				case 9: if (iDice(1, 30000) == 1) iItemID = 864; break;		// "KlonessWand"
+				case 10: if (iDice(1, 30000) == 1) iItemID = 849; break;	// "KlonessBlade"
+				case 11: if (iDice(1, 30000) == 1) iItemID = 850; break;	// "KlonessAxe"
 				default: break;
 				}
 				break;
@@ -1456,7 +1459,7 @@ void CMapServer::DeleteNpc(int iNpcH, BOOL bHeld, BOOL Drop)
 				case 1: if (iDice(1, 1000) == 30) iItemID = 650; break;		// "ZemstoneOfSacrifice"	
 				case 2: if (iDice(1, 1000) == 30) iItemID = 656; break;		// "StoneOfXelima"	
 				case 3: if (iDice(1, 1000) == 30) iItemID = 657; break;		// "StoneOfMerien"
-				case 4: if (iDice(1, 1250) == 1) iItemID = 848; break;		// LightningBlade
+				case 4: if (iDice(1, 25000) == 1) iItemID = 848; break;		// LightningBlade
 				default: break;
 				}
 				break;

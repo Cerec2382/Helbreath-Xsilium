@@ -1,37 +1,4 @@
-﻿  BuildItem.cpp
-  CharInfo.cpp
-  Curse.cpp
-  Effect.cpp
-  Event.cpp
-  Game.cpp
-  GameMonitor.cpp
-  Helbreath.cpp
-  Item.cpp
-  ItemName.cpp
-  Magic.cpp
-  MapData.cpp
-  Misc.cpp
-  MouseInterface.cpp
-  Msg.cpp
-  Mydib.cpp
-  Skill.cpp
-  SoundBuffer.cpp
-  Sprite.cpp
-  StrTok.cpp
-  Generating Code...
-  Compiling...
-  Tile.cpp
-  TileSpr.cpp
-  Wmain.cpp
-  XSocket.cpp
-  XSocketUDP.cpp
-  ClientUDP.cpp
-  YWSound.cpp
-  DXC_ddraw.cpp
-  DXC_dinput.cpp
-  DXC_dsound.cpp
-  Resolution.cpp
-  Generating Code...
+﻿  Game.cpp
      Creating library .\Archive\Helbreath Xsilium.lib and object .\Archive\Helbreath Xsilium.exp
 Jpeg.lib(Jcapimin.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'Jpeg.lib(Jcapimin.obj)' or at 'C:\Users\irwin\Documents\CursedV1 (Arg Version)\[SRC]Client Version 13\Archive\vc60.pdb'; linking object as if no debug info
 Jpeg.lib(Jcapistd.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'Jpeg.lib(Jcapistd.obj)' or at 'C:\Users\irwin\Documents\CursedV1 (Arg Version)\[SRC]Client Version 13\Archive\vc60.pdb'; linking object as if no debug info

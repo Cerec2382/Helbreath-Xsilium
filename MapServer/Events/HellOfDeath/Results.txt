@@ -1,4 +1,4 @@
-Aresden-Win = 6
-Elvine-Win = 2
-Draw = 2
-Last-Win = 2
+Aresden-Win = 0
+Elvine-Win = 0
+Draw = 0
+Last-Win = 0

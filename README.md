@@ -59,14 +59,14 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | BerserkWand (MS.30)           | 861   | 0.0005%          | Legendario  |
 | The_Devastator                | 846   | 0.0005%          | Legendario  |
 | StormBringer                  | 845   | 0.0005%          | Legendario  |
-| KlonessBlade                  | 849   | 0.249%           | Raro        |
+| KlonessBlade                  | 849   | 0.2004925%           | Raro        |
 | KlonessAxe                    | 850   | 0.20%            | Raro        |
-| KlonessWand (MS.30)           | 863   | 0.249%           | Raro         |
+| KlonessWand (MS.30)           | 863   | 0.2004925%           | Raro         |
 | KlonessWand (MS.10)           | 864   | 0.20%            | Raro        |
 | KlonessEsterk                 | 851   | 0.20%            | Raro        |
 | Demon Slayer                  | 616   | 0.50%            | Raro         |
 | Coin Medium (5 a 10)          | 99908 | 8.90%            | Poco común  |
-| Coin Small (1 a 3)            | 99907 | ~11.19%          | Común       |
+| Coin Small (1 a 3)            | 99907 | ~33.6%          | Común       |
 | RepPotion (+100)             | 3087  | ~11.19%          | Común       |
 | ContribBall (+100000)         | 3081  | ~11.19%          | Común       |
 | Tinta Mágica Roja             | 3090  | ~11.19%          | Común       |
@@ -143,9 +143,9 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | StoneOfMerien             | 657  | ~0.182%          | Poco común  |
 | ZemstoneofSacrifice       | 650  | ~0.182%          | Poco común  |
 | KlonessEsterk             | 851  | ~0.0091%         | Raro        |
-| KlonessWand (MS.10)       | 864  | ~0.0045%         | Legendario  |
-| KlonessBlade              | 849  | ~0.0045%         | Legendario  |
-| KlonessAxe                | 850  | ~0.0045%         | Legendario  |
+| KlonessWand (MS.10)       | 864  | ~0.000303%         | Legendario  |
+| KlonessBlade              | 849  | ~0.000303%         | Legendario  |
+| KlonessAxe                | 850  | ~0.000303%         | Legendario  |
 ---
 
 # Demon DROP
@@ -160,8 +160,8 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | StoneOfMerien             | 657  | ~0.0100%         | Raro        |
 | ZemstoneofSacrifice       | 650  | ~0.0100%         | Raro        |
 | RingofDemonpower          | 633  | ~0.0200%         | Raro        |
-| BloodyShoWaveManual       | 382  | ~0.0045%         | Legendario  |
-| DemonSlayer               | 616  | ~0.0045%         | Legendario  |
+| BloodyShoWaveManual       | 382  | ~0.0450%         | Legendario  |
+| DemonSlayer               | 616  | ~0.0010%         | Legendario  |
 ---
 
 
@@ -383,12 +383,12 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 # Ettin DROP
 | Ítem               | ID   | Probabilidad (%) | Tipo        |
 |--------------------|------|------------------|-------------|
-| StoneOfXelima      | 656  | ~0.8333%         | Raro        |
-| StoneOfMerien      | 657  | ~0.8333%         | Raro        |
-| ZemstoneofSacrifice| 650  | ~0.8333%         | Raro        |
-| RepPotion(+1)      | -    | ~2.0000%         | Común       |
-| GiantBattleHammer  | 762  | ~0.0067%         | Legendario  |
-| BlackHammer        | 4905 | ~0.0040%         | Legendario  |
+| StoneOfXelima      | 656  | ~0.0167%         | Raro        |
+| StoneOfMerien      | 657  | ~0.0167%         | Raro        |
+| ZemstoneofSacrifice| 650  | ~0.0167%         | Raro        |
+| RepPotion(+1)      | -    | ~0.0333%         | Común       |
+| GiantBattleHammer  | 762  | ~0.000667%         | Legendario  |
+| BlackHammer        | 4905 | ~0.000333%         | Legendario  |
 
 ---
 # Centaurus DROP
@@ -397,7 +397,7 @@ Todos los drops están habilitados con probabilidades configuradas con una tabla
 | ZemstoneOfSacrifice    | 650  | ~0.7500%         | Raro    |
 | StoneOfXelima          | 656  | ~0.7500%         | Raro    |
 | StoneOfMerien          | 657  | ~0.7500%         | Raro    |
-| LightningBlade         | 848  | ~0.0200%         | Legendario  |
+| LightningBlade         | 848  | ~0.001%         | Legendario  |
 
 ---
 # Rudolph DROP

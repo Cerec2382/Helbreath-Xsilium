@@ -9718,6 +9718,25 @@ void CMapServer::ChatMsgHandler(int iClientH, char * pData, DWORD dwMsgSize)
 								return;
 							}
 
+							if (memcmp(cp, "/startdm", 8) == 0) {
+								if (!g_ev.Is(EventID::Deathmatch)) {
+									g_ev.Activate(EventID::Deathmatch);
+									PutLogList("Deathmatch activado manualmente.");
+								}
+								return;
+							}
+
+							if(memcmp(cp, "/closedm", 8) == 0) {
+								if (g_ev.Is(EventID::Deathmatch)) {
+									g_ev.Deactivate(EventID::Deathmatch);
+									PutLogList("Deathmatch finalizado manualmente.");
+								}
+								return;
+							}
+
+
+
+
 							if (memcmp(cp, "/endcrusade ", 11) == 0) {
 								ManualEndCrusadeMode(0);
 								return;

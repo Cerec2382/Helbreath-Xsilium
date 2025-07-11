@@ -83859,6 +83859,22 @@ BOOL   CGame::DrawObject(int indexX, int indexY, int sX, int sY, BOOL bTrans, DW
 
 			SetRect(&m_rcBodyRect, m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.left, m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.top,
 				m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.right, m_pSprite[iBodyIndex + (_tmp_cDir - 1)]->m_rcBound.bottom);
+			
+
+			int spriteIndex = iBodyIndex + (_tmp_cDir - 1);
+			if (m_pSprite[spriteIndex] != nullptr) {
+				SetRect(&m_rcBodyRect,
+					m_pSprite[spriteIndex]->m_rcBound.left,
+					m_pSprite[spriteIndex]->m_rcBound.top,
+					m_pSprite[spriteIndex]->m_rcBound.right,
+					m_pSprite[spriteIndex]->m_rcBound.bottom);
+			}
+			else {
+				char szMsg[128];
+				sprintf(szMsg, "Sprite inválido: index=%d (BodyIndex=%d, Dir=%d)", spriteIndex, iBodyIndex, _tmp_cDir);
+				SetTopMsg(szMsg, 5);
+			}
+
 
 			if (iUndiesIndex != -1) m_pSprite[iUndiesIndex]->PutSpriteFast(sX, sY, (_tmp_cDir - 1) * 8 + cFrame, dwTime);
 
