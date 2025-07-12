@@ -13,6 +13,8 @@ extern CMapServer * c_map;
 extern char            G_cTxt[512];
 #pragma warning(disable : 4996)
 
+
+
 CClient::CClient(HWND hWnd, int handle)  {
 	client = handle;
 	m_pXSock = nullptr;
@@ -40,7 +42,7 @@ CClient::CClient(HWND hWnd, int handle)  {
 	strcpy(m_cProfile, "__________");
 	m_bUdpSocket = false;
 	//sResolution = C800x600;
-	sResolution = C1024x768;
+	sResolution = C1024x768; //Cambio de resolucion xsilium?
 
 	//heaton fake limbo
 	m_bForceDisconnect = false;

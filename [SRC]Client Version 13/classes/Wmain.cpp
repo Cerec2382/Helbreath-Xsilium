@@ -108,6 +108,10 @@ bool Init()
 			}
 		}
 	}
+
+
+
+	G_pGame->b1024x768 = true;
 	return true;
 }
 

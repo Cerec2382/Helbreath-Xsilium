@@ -2244,7 +2244,7 @@ BOOL CMapServer::bGetMultipleItemNamesWhenDeleteNpc(short sNpcType, int iProbabi
 				case 7: iItemID = 657; break;		// "StoneOfMerien"	
 				case 8: iItemID = 735; break;		// "RingofDragonpower"
 				case 9: iItemID = 630; break;		// "RingoftheXelima"
-				case 10: iItemID = 3106; break;	// "Coins(+100)"
+				case 10: iItemID = CUSTOM_COIN; break;	// "Coins(+100)"
 				default:
 					switch (iDice(1, 5))
 					{

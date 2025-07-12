@@ -30134,7 +30134,7 @@ void CMapServer::UseItemHandler(int iClientH, short sItemIndex, short dX, short 
 					//LaloRamos ContribBall
 				case DEF_ITEMEFFECTTYPE_CONTRIBUTION:
 				case DEF_ITEMEFFECTTYPE_ADDCOINS:
-					/*iMax = 3000000;//
+					iMax = 3000000;//
 					if (DEF_ITEMEFFECTTYPE_CONTRIBUTION == m_pClientList[iClientH]->m_pItemList[sItemIndex]->m_sItemEffectType) {
 						if (m_pClientList[iClientH]->m_iContribution > iMax) return;
 					}
@@ -30172,8 +30172,8 @@ void CMapServer::UseItemHandler(int iClientH, short sItemIndex, short dX, short 
 						if ((m_pClientList[iClientH]->m_iCoins >= 500) && (!m_pClientList[iClientH]->Achivements[12].Complete))
 							CheckCompleteAchivement(iClientH, 12, TRUE);
 						SendNotifyMsg(iClientH, NULL, CLIENT_NOTIFY_COINS, m_pClientList[iClientH]->m_iCoins, NULL, NULL, NULL);
-						ShowClientMsg(iClientH, "Coins Obteined");*/
-					//}
+						ShowClientMsg(iClientH, "Coins Obteined");
+					}
 					break;
 
 				case DEF_ITEMEFFECTTYPE_SUMMONBALL:

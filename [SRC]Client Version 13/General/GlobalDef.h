@@ -13,10 +13,10 @@
 #define DEF_SERVER_PORT			9735
 #define NAME_WORLDNAME1			"SEB"
 #define MSG_WORLDNAME1			"Helbreath Xsilium"
-#define MSG_HOMEPAGE			"https://github.com/Cerec2382/Xsilium/"
-#define MSG_FORUMPAGE			"https://github.com/Cerec2382/Xsilium/"
-#define MSG_CREATEACC			"https://github.com/Cerec2382/Xsilium/"
-#define MSG_CHANGEPASS			"https://github.com/Cerec2382/Xsilium/"
+#define MSG_HOMEPAGE			"https://github.com/Cerec2382/Helbreath-Xsilium/"
+#define MSG_FORUMPAGE			"https://github.com/Cerec2382/Helbreath-Xsilium/"
+#define MSG_CREATEACC			"https://github.com/Cerec2382/Helbreath-Xsilium/"
+#define MSG_CHANGEPASS			"https://github.com/Cerec2382/Helbreath-Xsilium/"
 
 #define DEF_UPPERVERSION			111111111
 #define DEF_LOWERVERSION			333333333

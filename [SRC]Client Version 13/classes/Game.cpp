@@ -44093,6 +44093,15 @@ void CGame::PointCommandHandler(int indexX, int indexY, char cItemID)
 	//	EncriptString(m_cPlayerName);
 	}
 }
+static const char* ResolutionToString(int code) {
+	switch (code) {
+	case C640x480:  return "640x480";
+	case C800x600:  return "800x600";
+	case C1024x768: return "1024x768";
+	default:        return "Unknown";
+	}
+}
+
 
 void CGame::UpdateScreen_OnGame()
 {
@@ -45683,6 +45692,16 @@ void CGame::UpdateScreen_OnGame()
 				PutString(685 - 1, 22 - 1 + 15, G_cTxt, RGB(0, 0, 0));
 				PutString(685, 22 + 15, G_cTxt, RGB(250, 250, 250));
 
+
+				const int yRes = 22 + 15 * 2;  // 15px por línea
+				int resCode = c_reso->IsResolution();
+				wsprintf(G_cTxt, "Res: %s", ResolutionToString(resCode));
+				// sombra
+				PutString(685 - 1, yRes - 1, G_cTxt, RGB(0, 0, 0));
+				// texto principal
+				PutString(685, yRes, G_cTxt, RGB(250, 250, 250));
+
+
 				/*if (m_bQuestHelper) {
 					if (m_stQuest[QuestShow].sQuestType != NULL)
 					{
@@ -45737,6 +45756,15 @@ void CGame::UpdateScreen_OnGame()
 				PutString(909 - 1, 22 - 1 + 15, G_cTxt, RGB(0, 0, 0));
 				PutString(909, 22 + 15, G_cTxt, RGB(250, 250, 250));
 
+				const int yRes = 22 + 15 * 2;      // misma separación vertical
+				int resCode = c_reso->IsResolution();
+				wsprintf(G_cTxt, "Res: %s", ResolutionToString(resCode));
+				// sombra
+				PutString(909 - 1, yRes - 1, G_cTxt, RGB(0, 0, 0));
+				// texto principal
+				PutString(909, yRes, G_cTxt, RGB(250, 250, 250));
+
+
 				/*if (m_bQuestHelper) {
 					if (m_stQuest[QuestShow].sQuestType != NULL)
 					{
@@ -45790,6 +45818,15 @@ void CGame::UpdateScreen_OnGame()
 				wsprintf(G_cTxt, "Ping: %s", pingValue);
 				PutString(580 - 1, 22 - 1 + 15, G_cTxt, RGB(0, 0, 0));
 				PutString(580, 22 + 15, G_cTxt, RGB(250, 250, 250));
+
+				const int yRes = 22 + 15 * 2;  // dos líneas de separación
+				int resCode = c_reso->IsResolution();
+				wsprintf(G_cTxt, "Res: %s", ResolutionToString(resCode));
+				// sombra
+				PutString(580 - 1, yRes - 1, G_cTxt, RGB(0, 0, 0));
+				// texto principal
+				PutString(580, yRes, G_cTxt, RGB(250, 250, 250));
+
 
 				/*if (m_bQuestHelper) {
 					if (m_stQuest[QuestShow].sQuestType != NULL)
@@ -58037,7 +58074,7 @@ void CGame::NotifyMsg_MagicEffectOn(char * pData)
 				case 1:
 					AddEventList(NOTIFYMSG_MAGICEFFECT_ON11, 10);
 					bZerk = TRUE;
-					m_sZerk = 40;
+					m_sZerk = 60;
 					break;
 
 				case 2:

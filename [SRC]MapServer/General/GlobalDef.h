@@ -13,7 +13,7 @@ typedef signed char int8;
 
 /***********************************************/
 
-#define	DEF_ACTIVE_ANTILAM			true // false -> Anti Lam OFF / true -> Anti Lam ON
+#define	DEF_ACTIVE_ANTILAM			false // false -> Anti Lam OFF / true -> Anti Lam ON
 
 /***********************************************/
 
@@ -23,7 +23,7 @@ typedef signed char int8;
 
 #define DEF_LIMIT_MAX_FAKE_USERS		300 // numero maximo que se desea
 #define DEF_LIMIT_STATSTONE				1 //numero max stones
-#define DEF_LIMIT_REP					2 // * 1k 
+#define DEF_LIMIT_REP					10 // * 1k 
 #define DEF_LIMIT_ENCHANTING_UPGRADE    8
 #define DEF_EXP_DIVIDER_PER_REBIRTH     0.85f // Reduce la experiencia en un 5% por cada nivel de renacimiento 0.95f
 #define DEF_MAXMARKETCOINS              999999

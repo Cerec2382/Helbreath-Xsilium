@@ -3,6 +3,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Desbug|Win32'">
     <LocalDebuggerWorkingDirectory>.\Archive</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>2</LocalDebuggerCommandArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Desbug|x64'">
     <LocalDebuggerWorkingDirectory>.\Archive\</LocalDebuggerWorkingDirectory>

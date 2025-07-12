@@ -12,3 +12,10 @@
 **/Nucleo/Character/
 **/ServerLogs/
 *.ipch
+**/.vs/
+.vs/
+**/enc_temp_folder
+/ServerLogs/*.log
+**/ServerLogs/**/*.log
+/Accounts/*.log
+Xsilium.zip 
