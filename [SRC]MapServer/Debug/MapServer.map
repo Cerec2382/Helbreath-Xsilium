@@ -1,6 +1,6 @@
  MapServer
 
- Timestamp is 6871ba38 (Fri Jul 11 19:28:24 2025)
+ Timestamp is 6871bad7 (Fri Jul 11 19:31:03 2025)
 
  Preferred load address is 00400000
 
@@ -8255,68 +8255,68 @@
  0002:00004564       ??_C@_0CD@MFFEMBGK@Can?8t?5teleport?0?5event?5is?5disable@ 006f7564     Event.obj
  0002:00004590       ??_C@_0BM@DPGDLNFL@Can?8t?5teleport?5on?5this?5map?$CB?$AA@ 006f7590     Event.obj
  0002:000045b8       ??_7CFish@@6B@             006f75b8     Fish.obj
- 0002:000045c0       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f75c0     MapServer.obj
- 0002:000045d0       ?_N1@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f75d0     MapServer.obj
- 0002:000045e0       ?_D1@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f75e0     MapServer.obj
- 0002:000045f0       ?value@?$_Gcd@$0DLJKMKAA@$00@std@@2_JB 006f75f0     MapServer.obj
- 0002:00004600       ?num@?$ratio@$0DLJKMKAA@$00@std@@2_JB 006f7600     MapServer.obj
- 0002:00004610       ?den@?$ratio@$0DLJKMKAA@$00@std@@2_JB 006f7610     MapServer.obj
+ 0002:000045c0       ?_D1@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f75c0     MapServer.obj
+ 0002:000045d0       ?_N2@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f75d0     MapServer.obj
+ 0002:000045e0       ?_D2@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f75e0     MapServer.obj
+ 0002:000045f0       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f75f0     MapServer.obj
+ 0002:00004600       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7600     MapServer.obj
+ 0002:00004610       ?_N1@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7610     MapServer.obj
  0002:0000461c       ?_Mysize@?$tuple@ABF@std@@2IB 006f761c     MapServer.obj
- 0002:00004620       ?_N2@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7620     MapServer.obj
- 0002:00004630       ?_D2@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7630     MapServer.obj
- 0002:00004640       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7640     MapServer.obj
- 0002:00004650       ?value@?$_GcdX@$0DLJKMKAA@$0JIJGIA@@std@@2_JB 006f7650     MapServer.obj
- 0002:00004660       ?value@?$_Gcd@$0DLJKMKAA@$0JIJGIA@@std@@2_JB 006f7660     MapServer.obj
- 0002:00004670       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7670     MapServer.obj
- 0002:00004680       ?value@?$_Safe_multX@$00$0GE@$00@std@@2_JB 006f7680     MapServer.obj
- 0002:00004690       ?value@?$_Safe_mult@$00$0GE@@std@@2_JB 006f7690     MapServer.obj
- 0002:000046a0       ?_N2@?$_Ratio_divide@U?$ratio@$00$00@std@@U?$ratio@$00$0DLJKMKAA@@2@@std@@2_JB 006f76a0     MapServer.obj
- 0002:000046b0       ?_D2@?$_Ratio_divide@U?$ratio@$00$00@std@@U?$ratio@$00$0DLJKMKAA@@2@@std@@2_JB 006f76b0     MapServer.obj
- 0002:000046c0       ?_N1@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f76c0     MapServer.obj
- 0002:000046d0       ?_D1@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f76d0     MapServer.obj
- 0002:000046e0       ?_N2@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f76e0     MapServer.obj
- 0002:000046f0       ?_D2@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f76f0     MapServer.obj
- 0002:00004700       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7700     MapServer.obj
- 0002:00004710       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7710     MapServer.obj
- 0002:00004720       ?value@?$_Safe_multX@$00$0DLJKMKAA@$00@std@@2_JB 006f7720     MapServer.obj
+ 0002:00004620       ?_D1@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7620     MapServer.obj
+ 0002:00004630       ?value@?$_Gcd@$0DLJKMKAA@$00@std@@2_JB 006f7630     MapServer.obj
+ 0002:00004640       ?num@?$ratio@$0DLJKMKAA@$00@std@@2_JB 006f7640     MapServer.obj
+ 0002:00004650       ?den@?$ratio@$0DLJKMKAA@$00@std@@2_JB 006f7650     MapServer.obj
+ 0002:00004660       ?_N2@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7660     MapServer.obj
+ 0002:00004670       ?_D2@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7670     MapServer.obj
+ 0002:00004680       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7680     MapServer.obj
+ 0002:00004690       ?value@?$_GcdX@$0DLJKMKAA@$0JIJGIA@@std@@2_JB 006f7690     MapServer.obj
+ 0002:000046a0       ?value@?$_Gcd@$0DLJKMKAA@$0JIJGIA@@std@@2_JB 006f76a0     MapServer.obj
+ 0002:000046b0       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f76b0     MapServer.obj
+ 0002:000046c0       ?value@?$_Safe_multX@$00$0GE@$00@std@@2_JB 006f76c0     MapServer.obj
+ 0002:000046d0       ?value@?$_Safe_mult@$00$0GE@@std@@2_JB 006f76d0     MapServer.obj
+ 0002:000046e0       ?_N2@?$_Ratio_divide@U?$ratio@$00$00@std@@U?$ratio@$00$0DLJKMKAA@@2@@std@@2_JB 006f76e0     MapServer.obj
+ 0002:000046f0       ?_D2@?$_Ratio_divide@U?$ratio@$00$00@std@@U?$ratio@$00$0DLJKMKAA@@2@@std@@2_JB 006f76f0     MapServer.obj
+ 0002:00004700       ?_N1@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7700     MapServer.obj
+ 0002:00004710       ?_D1@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7710     MapServer.obj
+ 0002:00004720       ?_N2@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7720     MapServer.obj
  0002:00004729       ?value@?$_Is_duration@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@@chrono@std@@2_NB 006f7729     MapServer.obj
- 0002:00004730       ?value@?$_Safe_mult@$00$0DLJKMKAA@@std@@2_JB 006f7730     MapServer.obj
+ 0002:00004730       ?_D2@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7730     MapServer.obj
  0002:00004739       ?value@?$_Is_ratio@U?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@2_NB 006f7739     MapServer.obj
  0002:0000473a       ?value@?$_Is_duration@V?$duration@_JU?$ratio@$00$00@std@@@chrono@std@@@chrono@std@@2_NB 006f773a     MapServer.obj
- 0002:00004740       ?_N2@?$_Ratio_divide@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f7740     MapServer.obj
- 0002:00004750       ?_D2@?$_Ratio_divide@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f7750     MapServer.obj
- 0002:00004760       ?_N1@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f7760     MapServer.obj
- 0002:00004770       ?_D1@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f7770     MapServer.obj
- 0002:00004780       ?_N2@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f7780     MapServer.obj
- 0002:00004790       ?_D2@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f7790     MapServer.obj
- 0002:000047a0       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f77a0     MapServer.obj
- 0002:000047b0       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f77b0     MapServer.obj
- 0002:000047c0       ?_Gx@?$_Lcm@$00$00@std@@2_JB 006f77c0     MapServer.obj
- 0002:000047d0       ?value@?$_Lcm@$00$00@std@@2_JB 006f77d0     MapServer.obj
- 0002:000047e0       ?value@?$_Safe_multX@$0DLJKMKAA@$00$00@std@@2_JB 006f77e0     MapServer.obj
- 0002:000047f0       ?value@?$_Safe_mult@$0DLJKMKAA@$00@std@@2_JB 006f77f0     MapServer.obj
+ 0002:00004740       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7740     MapServer.obj
+ 0002:00004750       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$00@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7750     MapServer.obj
+ 0002:00004760       ?value@?$_Safe_multX@$00$0DLJKMKAA@$00@std@@2_JB 006f7760     MapServer.obj
+ 0002:00004770       ?value@?$_Safe_mult@$00$0DLJKMKAA@@std@@2_JB 006f7770     MapServer.obj
+ 0002:00004780       ?_N2@?$_Ratio_divide@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f7780     MapServer.obj
+ 0002:00004790       ?_D2@?$_Ratio_divide@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f7790     MapServer.obj
+ 0002:000047a0       ?_N1@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f77a0     MapServer.obj
+ 0002:000047b0       ?_D1@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f77b0     MapServer.obj
+ 0002:000047c0       ?_N2@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f77c0     MapServer.obj
+ 0002:000047d0       ?_D2@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f77d0     MapServer.obj
+ 0002:000047e0       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f77e0     MapServer.obj
+ 0002:000047f0       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$00$00@2@@std@@2_JB 006f77f0     MapServer.obj
  0002:000047f9       ?value@?$_Always_false@_J@std@@2_NB 006f77f9     MapServer.obj
- 0002:00004800       ?_N2@?$_Ratio_divide@U?$ratio@$00$0DLJKMKAA@@std@@U12@@std@@2_JB 006f7800     MapServer.obj
- 0002:00004810       ?_D2@?$_Ratio_divide@U?$ratio@$00$0DLJKMKAA@@std@@U12@@std@@2_JB 006f7810     MapServer.obj
- 0002:00004820       ?_N1@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7820     MapServer.obj
- 0002:00004830       ?_D1@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7830     MapServer.obj
- 0002:00004840       ?_N2@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7840     MapServer.obj
- 0002:00004850       ?_D2@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7850     MapServer.obj
- 0002:00004860       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7860     MapServer.obj
- 0002:00004870       ?value@?$_GcdX@$0DLJKMKAA@$0A@@std@@2_JB 006f7870     MapServer.obj
- 0002:00004880       ?value@?$_GcdX@$0DLJKMKAA@$0DLJKMKAA@@std@@2_JB 006f7880     MapServer.obj
- 0002:00004890       ?value@?$_Gcd@$0DLJKMKAA@$0DLJKMKAA@@std@@2_JB 006f7890     MapServer.obj
- 0002:000048a0       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f78a0     MapServer.obj
+ 0002:00004800       ?_Gx@?$_Lcm@$00$00@std@@2_JB 006f7800     MapServer.obj
+ 0002:00004810       ?value@?$_Lcm@$00$00@std@@2_JB 006f7810     MapServer.obj
+ 0002:00004820       ?value@?$_Safe_multX@$0DLJKMKAA@$00$00@std@@2_JB 006f7820     MapServer.obj
+ 0002:00004830       ?value@?$_Safe_mult@$0DLJKMKAA@$00@std@@2_JB 006f7830     MapServer.obj
+ 0002:00004840       ?_N2@?$_Ratio_divide@U?$ratio@$00$0DLJKMKAA@@std@@U12@@std@@2_JB 006f7840     MapServer.obj
+ 0002:00004850       ?_D2@?$_Ratio_divide@U?$ratio@$00$0DLJKMKAA@@std@@U12@@std@@2_JB 006f7850     MapServer.obj
+ 0002:00004860       ?_N1@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7860     MapServer.obj
+ 0002:00004870       ?_D1@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7870     MapServer.obj
+ 0002:00004880       ?_N2@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7880     MapServer.obj
+ 0002:00004890       ?_D2@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f7890     MapServer.obj
+ 0002:000048a0       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f78a0     MapServer.obj
  0002:000048a9       ?value@?$_Is_ratio@U?$ratio@$00$00@std@@@chrono@std@@2_NB 006f78a9     MapServer.obj
- 0002:000048b0       ?_N2@?$_Ratio_divide@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f78b0     MapServer.obj
- 0002:000048c0       ?_D2@?$_Ratio_divide@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f78c0     MapServer.obj
- 0002:000048d0       ?_N2@?$_Ratio_divide@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$00$0DLJKMKAA@@2@@std@@2_JB 006f78d0     MapServer.obj
- 0002:000048e0       ?_D2@?$_Ratio_divide@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$00$0DLJKMKAA@@2@@std@@2_JB 006f78e0     MapServer.obj
- 0002:000048f0       ?_N1@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f78f0     MapServer.obj
- 0002:00004900       ?_D1@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7900     MapServer.obj
- 0002:00004910       ?_N2@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7910     MapServer.obj
- 0002:00004920       ?_D2@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7920     MapServer.obj
- 0002:00004930       ?_Gx@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7930     MapServer.obj
+ 0002:000048b0       ?value@?$_GcdX@$0DLJKMKAA@$0A@@std@@2_JB 006f78b0     MapServer.obj
+ 0002:000048c0       ?value@?$_GcdX@$0DLJKMKAA@$0DLJKMKAA@@std@@2_JB 006f78c0     MapServer.obj
+ 0002:000048d0       ?value@?$_Gcd@$0DLJKMKAA@$0DLJKMKAA@@std@@2_JB 006f78d0     MapServer.obj
+ 0002:000048e0       ?_Gy@?$_Ratio_multiply@U?$ratio@$00$0DLJKMKAA@@std@@U?$ratio@$0DLJKMKAA@$00@2@@std@@2_JB 006f78e0     MapServer.obj
+ 0002:000048f0       ?_N2@?$_Ratio_divide@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f78f0     MapServer.obj
+ 0002:00004900       ?_D2@?$_Ratio_divide@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7900     MapServer.obj
+ 0002:00004910       ?_N2@?$_Ratio_divide@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$00$0DLJKMKAA@@2@@std@@2_JB 006f7910     MapServer.obj
+ 0002:00004920       ?_D2@?$_Ratio_divide@U?$ratio@$00$0JIJGIA@@std@@U?$ratio@$00$0DLJKMKAA@@2@@std@@2_JB 006f7920     MapServer.obj
+ 0002:00004930       ?_N1@?$_Ratio_multiply@U?$ratio@$00$00@std@@U12@@std@@2_JB 006f7930     MapServer.obj
  0002:0000493c       ??_C@_03FKNCMABI@?$CFlu?$AA@ 006f793c     MapServer.obj
  0002:00004940       ??_C@_05OINFJHGD@?$CFI64u?$AA@ 006f7940     MapServer.obj
  0002:0000494c       ??_7CMapServer@@6B@        006f794c     MapServer.obj
@@ -14701,20 +14701,20 @@
  0003:000001b8       ?enable_log_cl@@3_NA       0075e1b8     MapServer.obj
  0003:000001c0       ?_tmp_cCorpseX@@3PADA      0075e1c0     MapServer.obj
  0003:000001cc       ?_tmp_cCorpseY@@3PADA      0075e1cc     MapServer.obj
- 0003:000001f0       ?_tmp_1024_iMoveLocX@@3PAY0DK@HA 0075e1f0     MapServer.obj
- 0003:00000a30       ?_tmp_1024_iMoveLocY@@3PAY0DK@HA 0075ea30     MapServer.obj
- 0003:00001280       ?_tmp_cMoveLocX@@3PAY0CP@HA 0075f280     MapServer.obj
- 0003:00001930       ?_tmp_cMoveLocY@@3PAY0CP@HA 0075f930     MapServer.obj
- 0003:00001fd0       ?_tmp_iMoveLocX@@3PAY0CF@HA 0075ffd0     MapServer.obj
- 0003:00002508       ?_tmp_iMoveLocY@@3PAY0CF@HA 00760508     MapServer.obj
- 0003:00002a3c       ?_tmp_cTmpDirX@@3PADA      00760a3c     MapServer.obj
- 0003:00002a48       ?_tmp_cTmpDirY@@3PADA      00760a48     MapServer.obj
- 0003:00002a54       ?_tmp_cEmptyPosX@@3PADA    00760a54     MapServer.obj
- 0003:00002a70       ?_tmp_cEmptyPosY@@3PADA    00760a70     MapServer.obj
- 0003:00002a8c       ?_tmp_iMCProb@@3PAHA       00760a8c     MapServer.obj
- 0003:00002ab8       ?_tmp_iMLevelPenalty@@3PAHA 00760ab8     MapServer.obj
- 0003:00002ae8       ?SKILLCROPSTABLE@@3PAY08HA 00760ae8     MapServer.obj
- 0003:00002c30       ?CROPSDROPTABLE@@3PAY08HA  00760c30     MapServer.obj
+ 0003:000001d8       ?_tmp_1024_iMoveLocX@@3PAY0DK@HA 0075e1d8     MapServer.obj
+ 0003:00000a00       ?_tmp_1024_iMoveLocY@@3PAY0DK@HA 0075ea00     MapServer.obj
+ 0003:00001228       ?_tmp_cMoveLocX@@3PAY0CP@HA 0075f228     MapServer.obj
+ 0003:000018c8       ?_tmp_cMoveLocY@@3PAY0CP@HA 0075f8c8     MapServer.obj
+ 0003:00001f68       ?_tmp_iMoveLocX@@3PAY0CF@HA 0075ff68     MapServer.obj
+ 0003:000024a0       ?_tmp_iMoveLocY@@3PAY0CF@HA 007604a0     MapServer.obj
+ 0003:000029d4       ?_tmp_cTmpDirX@@3PADA      007609d4     MapServer.obj
+ 0003:000029f4       ?_tmp_cTmpDirY@@3PADA      007609f4     MapServer.obj
+ 0003:00002a50       ?_tmp_cEmptyPosX@@3PADA    00760a50     MapServer.obj
+ 0003:00002a6c       ?_tmp_cEmptyPosY@@3PADA    00760a6c     MapServer.obj
+ 0003:00002a88       ?_tmp_iMCProb@@3PAHA       00760a88     MapServer.obj
+ 0003:00002ab4       ?_tmp_iMLevelPenalty@@3PAHA 00760ab4     MapServer.obj
+ 0003:00002ae0       ?SKILLCROPSTABLE@@3PAY08HA 00760ae0     MapServer.obj
+ 0003:00002c28       ?CROPSDROPTABLE@@3PAY08HA  00760c28     MapServer.obj
  0003:00003638       ?_tmp_cEmptyAreaX@@3PADA   00761638     Map.obj
  0003:00003654       ?_tmp_cEmptyAreaY@@3PADA   00761654     Map.obj
  0003:00003670       ?_tmp_cMoveDirX@@3PADA     00761670     Map.obj

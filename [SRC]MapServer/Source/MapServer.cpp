@@ -29960,21 +29960,21 @@ void CMapServer::UseItemHandler(int iClientH, short sItemIndex, short dX, short 
 					break;
 					//RepPotions+
 				case DEF_ITEMEFFECTTYPE_ADDREPUTATION:
-					/*if ((m_pClientList[iClientH]->m_pItemList[sItemIndex]->m_sItemEffectValue1 == 0) && (m_pClientList[iClientH]->m_iRating < 0))
+					if ((m_pClientList[iClientH]->m_pItemList[sItemIndex]->m_sItemEffectValue1 == 0) && (m_pClientList[iClientH]->m_iRating < 0))
 						m_pClientList[iClientH]->m_iRating = 0;
 					else m_pClientList[iClientH]->m_iRating += m_pClientList[iClientH]->m_pItemList[sItemIndex]->m_sItemEffectValue1;
 					if (m_pClientList[iClientH]->m_iRating > (DEF_LIMIT_REP * 1000))  m_pClientList[iClientH]->m_iRating = (DEF_LIMIT_REP * 1000);
 					if (m_pClientList[iClientH]->m_iRating < -(DEF_LIMIT_REP * 1000)) m_pClientList[iClientH]->m_iRating = -(DEF_LIMIT_REP * 1000);
-					SendNotifyMsg(NULL, iClientH, CLIENT_REPONSE_PLAYERREP, m_pClientList[iClientH]->m_iRating, NULL, NULL, NULL);*/
+					SendNotifyMsg(NULL, iClientH, CLIENT_REPONSE_PLAYERREP, m_pClientList[iClientH]->m_iRating, NULL, NULL, NULL);
 					break;
 					//RepPotion-
 				case DEF_ITEMEFFECTTYPE_DEDUCTREPUTATION:
-					/*if ((m_pClientList[iClientH]->m_pItemList[sItemIndex]->m_sItemEffectValue1 == 0) && (m_pClientList[iClientH]->m_iRating > 0))
+					if ((m_pClientList[iClientH]->m_pItemList[sItemIndex]->m_sItemEffectValue1 == 0) && (m_pClientList[iClientH]->m_iRating > 0))
 						m_pClientList[iClientH]->m_iRating = 0;
 					else m_pClientList[iClientH]->m_iRating -= m_pClientList[iClientH]->m_pItemList[sItemIndex]->m_sItemEffectValue1;
 					if (m_pClientList[iClientH]->m_iRating > (DEF_LIMIT_REP * 1000))  m_pClientList[iClientH]->m_iRating = (DEF_LIMIT_REP * 1000);
 					if (m_pClientList[iClientH]->m_iRating < -(DEF_LIMIT_REP * 1000)) m_pClientList[iClientH]->m_iRating = -(DEF_LIMIT_REP * 1000);
-					SendNotifyMsg(NULL, iClientH, CLIENT_REPONSE_PLAYERREP, m_pClientList[iClientH]->m_iRating, NULL, NULL, NULL);*/
+					SendNotifyMsg(NULL, iClientH, CLIENT_REPONSE_PLAYERREP, m_pClientList[iClientH]->m_iRating, NULL, NULL, NULL);
 					break;
 					//ticket Rankup+1
 				case DEF_ITEMEFFECTTYPE_RANKUPDIEZ:
